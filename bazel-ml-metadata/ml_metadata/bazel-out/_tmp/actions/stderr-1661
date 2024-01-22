@@ -1,0 +1,708 @@
+1705851810.457327971: src/main/tools/linux-sandbox.cc:152: calling pipe(2)...
+1705851810.457377685: src/main/tools/linux-sandbox.cc:171: calling clone(2)...
+1705851810.457696016: src/main/tools/linux-sandbox.cc:180: linux-sandbox-pid1 has PID 337114
+1705851810.457738328: src/main/tools/linux-sandbox-pid1.cc:650: Pid1Main started
+1705851810.457849216: src/main/tools/linux-sandbox.cc:197: done manipulating pipes
+1705851810.457966243: src/main/tools/linux-sandbox-pid1.cc:269: working dir: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3088/execroot/ml_metadata
+1705851810.457994412: src/main/tools/linux-sandbox-pid1.cc:301: writable: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3088/execroot/ml_metadata
+1705851810.458006958: src/main/tools/linux-sandbox-pid1.cc:301: writable: /tmp
+1705851810.458015604: src/main/tools/linux-sandbox-pid1.cc:301: writable: /dev/shm
+1705851810.458107650: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /
+1705851810.458117869: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev
+1705851810.458125232: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705851810.458133021: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/pts
+1705851810.458140437: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/hugepages
+1705851810.458147936: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/mqueue
+1705851810.458154452: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys
+1705851810.458161071: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/security
+1705851810.458172431: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/cgroup
+1705851810.458180310: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/pstore
+1705851810.458187639: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/firmware/efi/efivars
+1705851810.458224702: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/bpf
+1705851810.458232206: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/config
+1705851810.458253361: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/selinux
+1705851810.458261566: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/debug
+1705851810.458268934: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/tracing
+1705851810.458276845: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/fuse/connections
+1705851810.458285527: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc
+1705851810.458292920: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705851810.458302418: src/main/tools/linux-sandbox-pid1.cc:391: remount(nullptr, /proc/sys/fs/binfmt_misc, nullptr, 2101281, nullptr) failure (Operation not permitted) ignored
+1705851810.458312450: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705851810.458320170: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run
+1705851810.458327514: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000
+1705851810.458336013: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/gvfs
+1705851810.458378736: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/doc
+1705851810.458387473: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/media/rmartine/TOSHIBA EXT
+1705851810.458397669: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /home
+1705851810.458403735: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot
+1705851810.458410533: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot/efi
+1705851810.458418241: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705851810.458423952: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /var/lib/nfs/rpc_pipefs
+1705851810.458435196: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /mnt/WdMyCloud
+1705851810.458451999: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3088/execroot/ml_metadata
+1705851810.458478459: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3088/execroot/ml_metadata
+1705851810.458489908: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705851810.458496438: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705851810.458555987: src/main/tools/linux-sandbox-pid1.cc:460: calling fork...
+1705851810.458720081: src/main/tools/linux-sandbox-pid1.cc:490: child started with PID 2
+In file included from external/com_google_zetasql/zetasql/parser/parse_tree.h:27,
+                 from external/com_google_zetasql/zetasql/analyzer/analytic_function_resolver.h:25,
+                 from external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:39:
+external/com_google_zetasql/zetasql/parser/ast_node.h: In member function 'int zetasql::ASTNode::find_child_index(zetasql::ASTNodeKind) const':
+external/com_google_zetasql/zetasql/parser/ast_node.h:105:23: warning: comparison of integer expressions of different signedness: 'int' and 'absl::lts_20230802::InlinedVector<zetasql::ASTNode*, 4>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+  105 |     for (int i = 0; i < children_.size(); i++) {
+      |                     ~~^~~~~~~~~~~~~~~~~~
+In file included from bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/parser/parse_tree_generated.h:27,
+                 from external/com_google_zetasql/zetasql/parser/parse_tree.h:28:
+external/com_google_zetasql/zetasql/public/id_string.h: In member function 'const zetasql::IdString::Shared* zetasql::IdStringPool::MakeShared(absl::lts_20230802::string_view)':
+external/com_google_zetasql/zetasql/public/id_string.h:462:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::basic_string_view<char>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+  462 |     for (int i = 0; i < str.size(); ++i) {
+      |                     ~~^~~~~~~~~~~~
+In file included from external/com_google_zetasql/zetasql/public/types/type_factory.h:35,
+                 from external/com_google_zetasql/zetasql/public/type.h:26,
+                 from external/com_google_zetasql/zetasql/analyzer/analytic_function_resolver.h:27:
+external/com_google_zetasql/zetasql/public/types/proto_type.h: In member function 'absl::lts_20230802::Status zetasql::ProtoType::GetFieldTypeByTagNumber(int, zetasql::TypeFactory*, const zetasql::Type**, std::string*) const':
+external/com_google_zetasql/zetasql/public/types/proto_type.h:117:35: warning: 'absl::lts_20230802::Status zetasql::ProtoType::GetFieldTypeByTagNumber(int, zetasql::TypeFactory*, bool, const zetasql::Type**, std::string*) const' is deprecated: Use overload without 'use_obsolete_timestamp' argument. [-Wdeprecated-declarations]
+  117 |     return GetFieldTypeByTagNumber(
+      |            ~~~~~~~~~~~~~~~~~~~~~~~^
+  118 |         number, factory, /*use_obsolete_timestamp=*/false, type, name);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/proto_type.h:130:16: note: declared here
+  130 |   absl::Status GetFieldTypeByTagNumber(int number, TypeFactory* factory,
+      |                ^~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/proto_type.h: In member function 'absl::lts_20230802::Status zetasql::ProtoType::GetFieldTypeByName(const std::string&, zetasql::TypeFactory*, const zetasql::Type**, int*) const':
+external/com_google_zetasql/zetasql/public/types/proto_type.h:123:30: warning: 'absl::lts_20230802::Status zetasql::ProtoType::GetFieldTypeByName(const std::string&, zetasql::TypeFactory*, bool, const zetasql::Type**, int*) const' is deprecated: Use overload without 'use_obsolete_timestamp' argument. [-Wdeprecated-declarations]
+  123 |     return GetFieldTypeByName(name, factory,
+      |            ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+  124 |                               /*use_obsolete_timestamp=*/false, type, number);
+      |                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/proto_type.h:135:16: note: declared here
+  135 |   absl::Status GetFieldTypeByName(const std::string& name, TypeFactory* factory,
+      |                ^~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/proto_type.h: In static member function 'static absl::lts_20230802::Status zetasql::ProtoType::FieldDescriptorToTypeKindBase(bool, const google::protobuf::FieldDescriptor*, zetasql::TypeKind*)':
+external/com_google_zetasql/zetasql/public/types/proto_type.h:172:42: warning: 'static absl::lts_20230802::Status zetasql::ProtoType::GetTypeKindFromFieldDescriptor(const google::protobuf::FieldDescriptor*, bool, bool, zetasql::TypeKind*)' is deprecated: Use overload without 'use_obsolete_timestamp' argument. [-Wdeprecated-declarations]
+  172 |     return GetTypeKindFromFieldDescriptor(field, ignore_annotations,
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+  173 |                                           /*use_obsolete_timestamp=*/false,
+      |                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  174 |                                           kind);
+      |                                           ~~~~~
+external/com_google_zetasql/zetasql/public/types/proto_type.h:315:23: note: declared here
+  315 |   static absl::Status GetTypeKindFromFieldDescriptor(
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/proto_type.h: In static member function 'static absl::lts_20230802::Status zetasql::ProtoType::FieldDescriptorToTypeKindBase(const google::protobuf::FieldDescriptor*, bool, zetasql::TypeKind*)':
+external/com_google_zetasql/zetasql/public/types/proto_type.h:188:42: warning: 'static absl::lts_20230802::Status zetasql::ProtoType::GetTypeKindFromFieldDescriptor(const google::protobuf::FieldDescriptor*, bool, bool, zetasql::TypeKind*)' is deprecated: Use overload without 'use_obsolete_timestamp' argument. [-Wdeprecated-declarations]
+  188 |     return GetTypeKindFromFieldDescriptor(field,
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+  189 |                                           /*ignore_format_annotations=*/false,
+      |                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  190 |                                           use_obsolete_timestamp, kind);
+      |                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/proto_type.h:315:23: note: declared here
+  315 |   static absl::Status GetTypeKindFromFieldDescriptor(
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/type_factory.h: In member function 'absl::lts_20230802::Status zetasql::TypeFactory::MakeUnwrappedTypeFromProto(const google::protobuf::Descriptor*, const zetasql::Type**)':
+external/com_google_zetasql/zetasql/public/types/type_factory.h:272:38: warning: 'absl::lts_20230802::Status zetasql::TypeFactory::MakeUnwrappedTypeFromProto(const google::protobuf::Descriptor*, bool, const zetasql::Type**)' is deprecated: Obsolete timestamp types are deprecated [-Wdeprecated-declarations]
+  272 |     return MakeUnwrappedTypeFromProto(message, /*use_obsolete_timestamp=*/false,
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  273 |                                       result_type);
+      |                                       ~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/type_factory.h:278:16: note: declared here
+  278 |   absl::Status MakeUnwrappedTypeFromProto(const google::protobuf::Descriptor* message,
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/type_factory.h: In member function 'absl::lts_20230802::Status zetasql::TypeFactory::UnwrapTypeIfAnnotatedProto(const zetasql::Type*, const zetasql::Type**)':
+external/com_google_zetasql/zetasql/public/types/type_factory.h:286:38: warning: 'absl::lts_20230802::Status zetasql::TypeFactory::UnwrapTypeIfAnnotatedProto(const zetasql::Type*, bool, const zetasql::Type**)' is deprecated: Obsolete timestamp types are deprecated [-Wdeprecated-declarations]
+  286 |     return UnwrapTypeIfAnnotatedProto(
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+  287 |         input_type, /*use_obsolete_timestamp=*/false, result_type);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/type_factory.h:292:16: note: declared here
+  292 |   absl::Status UnwrapTypeIfAnnotatedProto(const Type* input_type,
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from external/com_google_zetasql/zetasql/public/value.h:1110,
+                 from external/com_google_zetasql/zetasql/public/evaluator_table_iterator.h:26,
+                 from external/com_google_zetasql/zetasql/public/catalog.h:28,
+                 from bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/resolved_ast/resolved_ast.h:26,
+                 from external/com_google_zetasql/zetasql/analyzer/analytic_function_resolver.h:28:
+external/com_google_zetasql/zetasql/public/value_inl.h: In constructor 'constexpr zetasql::Value::Metadata::Metadata(zetasql::TypeKind, bool, bool, int32_t)':
+external/com_google_zetasql/zetasql/public/value_inl.h:788:11: warning: call to non-'constexpr' function 'zetasql::Value::Metadata::Content* zetasql::Value::Metadata::content()' [-Winvalid-constexpr]
+  788 |   *content() = Content(kind, is_null, preserves_order, value_extended_content);
+      |    ~~~~~~~^~
+external/com_google_zetasql/zetasql/public/value.h:962:14: note: 'zetasql::Value::Metadata::Content* zetasql::Value::Metadata::content()' declared here
+  962 |     Content* content();
+      |              ^~~~~~~
+external/com_google_zetasql/zetasql/public/value_inl.h: In function 'zetasql::Value zetasql::values::Struct(const zetasql::StructType*, absl::lts_20230802::Span<const zetasql::Value>)':
+external/com_google_zetasql/zetasql/public/value_inl.h:850:23: warning: 'static zetasql::Value zetasql::Value::Struct(const zetasql::StructType*, absl::lts_20230802::Span<const zetasql::Value>)' is deprecated: Please use MakeStruct() instead. [-Wdeprecated-declarations]
+  850 |   return Value::Struct(type, values);
+      |          ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/value.h:581:16: note: declared here
+  581 |   static Value Struct(const StructType* type, absl::Span<const Value> values) {
+      |                ^~~~~~
+external/com_google_zetasql/zetasql/public/value_inl.h: In function 'zetasql::Value zetasql::values::UnsafeStruct(const zetasql::StructType*, std::vector<zetasql::Value>&&)':
+external/com_google_zetasql/zetasql/public/value_inl.h:853:29: warning: 'static zetasql::Value zetasql::Value::UnsafeStruct(const zetasql::StructType*, std::vector<zetasql::Value>&&)' is deprecated: Please use MakeStructFromValidatedInputs() instead. [-Wdeprecated-declarations]
+  853 |   return Value::UnsafeStruct(type, std::move(values));
+      |          ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/value.h:592:16: note: declared here
+  592 |   static Value UnsafeStruct(const StructType* type,
+      |                ^~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/value_inl.h: In function 'zetasql::Value zetasql::values::EmptyArray(const zetasql::ArrayType*)':
+external/com_google_zetasql/zetasql/public/value_inl.h:865:22: warning: 'static zetasql::Value zetasql::Value::Array(const zetasql::ArrayType*, absl::lts_20230802::Span<const zetasql::Value>)' is deprecated: Please use MakeArray() instead. [-Wdeprecated-declarations]
+  865 |   return Value::Array(type, {});
+      |          ~~~~~~~~~~~~^~~~~~~~~~
+external/com_google_zetasql/zetasql/public/value.h:632:16: note: declared here
+  632 |   static Value Array(const ArrayType* array_type,
+      |                ^~~~~
+external/com_google_zetasql/zetasql/public/value_inl.h: In function 'zetasql::Value zetasql::values::Array(const zetasql::ArrayType*, absl::lts_20230802::Span<const zetasql::Value>)':
+external/com_google_zetasql/zetasql/public/value_inl.h:868:22: warning: 'static zetasql::Value zetasql::Value::Array(const zetasql::ArrayType*, absl::lts_20230802::Span<const zetasql::Value>)' is deprecated: Please use MakeArray() instead. [-Wdeprecated-declarations]
+  868 |   return Value::Array(type, values);
+      |          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/value.h:632:16: note: declared here
+  632 |   static Value Array(const ArrayType* array_type,
+      |                ^~~~~
+external/com_google_zetasql/zetasql/public/value_inl.h: In function 'zetasql::Value zetasql::values::UnsafeArray(const zetasql::ArrayType*, std::vector<zetasql::Value>&&)':
+external/com_google_zetasql/zetasql/public/value_inl.h:871:28: warning: 'static zetasql::Value zetasql::Value::UnsafeArray(const zetasql::ArrayType*, std::vector<zetasql::Value>&&)' is deprecated: Please use MakeArrayFromValidatedInputs() instead. [-Wdeprecated-declarations]
+  871 |   return Value::UnsafeArray(type, std::move(values));
+      |          ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/value.h:644:16: note: declared here
+  644 |   static Value UnsafeArray(const ArrayType* array_type,
+      |                ^~~~~~~~~~~
+In file included from external/com_google_zetasql/zetasql/analyzer/resolver.h:39,
+                 from external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:49:
+external/com_google_zetasql/zetasql/public/analyzer_output_properties.h: In member function 'void zetasql::AnalyzerOutputProperties::MarkRelevant(zetasql::ResolvedASTRewrite)':
+external/com_google_zetasql/zetasql/public/analyzer_output_properties.h:50:7: warning: 'zetasql::AnalyzerOutputProperties::has_flatten' is deprecated: Client code should consider this struct internal. It doesn't mean what you think it means. [-Wdeprecated-declarations]
+   50 |       has_flatten = true;
+      |       ^~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/analyzer_output_properties.h:33:8: note: declared here
+   33 |   bool has_flatten = false;  // NOLINT
+      |        ^~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/analyzer_output_properties.h:50:7: warning: 'zetasql::AnalyzerOutputProperties::has_flatten' is deprecated: Client code should consider this struct internal. It doesn't mean what you think it means. [-Wdeprecated-declarations]
+   50 |       has_flatten = true;
+      |       ^~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/analyzer_output_properties.h:33:8: note: declared here
+   33 |   bool has_flatten = false;  // NOLINT
+      |        ^~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/analyzer_output_properties.h:53:7: warning: 'zetasql::AnalyzerOutputProperties::has_anonymization' is deprecated: Client code should consider this struct internal. It doesn't mean what you think it means. [-Wdeprecated-declarations]
+   53 |       has_anonymization = true;
+      |       ^~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/analyzer_output_properties.h:39:8: note: declared here
+   39 |   bool has_anonymization = false;  // NOLINT
+      |        ^~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/analyzer_output_properties.h:53:7: warning: 'zetasql::AnalyzerOutputProperties::has_anonymization' is deprecated: Client code should consider this struct internal. It doesn't mean what you think it means. [-Wdeprecated-declarations]
+   53 |       has_anonymization = true;
+      |       ^~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/analyzer_output_properties.h:39:8: note: declared here
+   39 |   bool has_anonymization = false;  // NOLINT
+      |        ^~~~~~~~~~~~~~~~~
+In file included from external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:84:
+external/com_google_zetasql/zetasql/public/simple_catalog.h: In member function 'virtual const zetasql::Column* zetasql::SimpleTable::GetColumn(int) const':
+external/com_google_zetasql/zetasql/public/simple_catalog.h:583:20: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<const zetasql::Column*>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+  583 |     if (i < 0 || i >= columns_.size()) {
+      |                  ~~^~~~~~~~~~~~~~~~~~
+In file included from external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:120:
+external/com_google_zetasql/zetasql/base/general_trie.h: In member function 'const T& zetasql_base::GeneralTrieImpl<T, NullValuePolicy>::GetDataForMaximalPrefix(absl::lts_20230802::string_view, int*, const bool*) const':
+external/com_google_zetasql/zetasql/base/general_trie.h:568:38: warning: array subscript has type 'char' [-Wchar-subscripts]
+  568 |          (is_terminator[key[next_pos]]))) {
+      |                                      ^
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'absl::lts_20230802::Status zetasql::Resolver::ResolveBuildProto(const zetasql::ASTNode*, const zetasql::ProtoType*, const zetasql::ResolvedScan*, const std::string&, const std::string&, std::vector<ResolvedBuildProtoArg>*, std::unique_ptr<const zetasql::ResolvedExpr>*)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:248:21: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<zetasql::Resolver::ResolvedBuildProtoArg>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+  248 |   for (int i = 0; i < arguments->size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:313:56: warning: 'absl::lts_20230802::Status zetasql::FunctionResolver::AddCastOrConvertLiteral(const zetasql::ASTNode*, const zetasql::Type*, std::unique_ptr<const zetasql::ResolvedExpr>, std::unique_ptr<const zetasql::ResolvedExpr>, const zetasql::TypeParameters&, const zetasql::ResolvedScan*, bool, bool, std::unique_ptr<const zetasql::ResolvedExpr>*) const' is deprecated: Use AddCastOrConvertLiteral function with <annotated_target_type> argument. [-Wdeprecated-declarations]
+  313 |             function_resolver_->AddCastOrConvertLiteral(
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+  314 |                 argument.ast_location, proto_field_type, /*format=*/nullptr,
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  315 |                 /*time_zone=*/nullptr, TypeParameters(), input_scan,
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  316 |                 /*set_has_explicit_type=*/false,
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~        
+  317 |                 /*return_null_on_error=*/false, &expr);
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+In file included from external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:44:
+external/com_google_zetasql/zetasql/analyzer/function_resolver.h:174:16: note: declared here
+  174 |   absl::Status AddCastOrConvertLiteral(
+      |                ^~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'absl::lts_20230802::Status zetasql::Resolver::ResolveParameterExpr(const zetasql::ASTParameterExpr*, std::unique_ptr<const zetasql::ResolvedExpr>*)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:1651:24: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<const zetasql::Type*>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 1651 |       if (position - 1 >=
+      |           ~~~~~~~~~~~~~^~
+ 1652 |           analyzer_options_.positional_query_parameters().size()) {
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'absl::lts_20230802::Status zetasql::Resolver::FindFieldDescriptors(absl::lts_20230802::Span<const zetasql::ASTIdentifier* const>, const google::protobuf::Descriptor*, std::vector<const google::protobuf::FieldDescriptor*>*)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:2131:39: warning: comparison of integer expressions of different signedness: 'int' and 'absl::lts_20230802::Span<const zetasql::ASTIdentifier* const>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 2131 |   for (int path_index = 0; path_index < path_vector.size(); ++path_index) {
+      |                            ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'absl::lts_20230802::Status zetasql::Resolver::FindFieldsFromPathExpression(absl::lts_20230802::string_view, const zetasql::ASTGeneralizedPathExpression*, const zetasql::Type*, bool, std::vector<std::pair<int, const zetasql::StructField*> >*, std::vector<const google::protobuf::FieldDescriptor*>*)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:2221:42: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::pair<int, const zetasql::StructField*> >::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 2221 |             path_expression->num_names() != struct_path->size()) {
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In function 'absl::lts_20230802::Status zetasql::AddToFieldPathTrie(const ASTNode*, const std::vector<std::pair<int, const StructField*> >&, const std::vector<const google::protobuf::FieldDescriptor*>&, absl::lts_20230802::flat_hash_map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >*, zetasql_base::GeneralTrie<const ASTNode*, 0>*)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:2386:28: warning: comparison of integer expressions of different signedness: 'std::__cxx11::basic_string<char>::size_type' {aka 'long unsigned int'} and 'int' [-Wsign-compare]
+ 2386 |         path_string.size() == match_length
+      |         ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'absl::lts_20230802::Status zetasql::Resolver::ResolveFilterFieldsFunctionCall(const zetasql::ASTFunctionCall*, const std::vector<const zetasql::ASTExpression*>&, zetasql::ExprResolutionInfo*, std::unique_ptr<const zetasql::ResolvedExpr>*)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:2569:21: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<const zetasql::ASTExpression*>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 2569 |   for (int i = 1; i < function_arguments.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:2573:44: warning: 'const NodeType* zetasql::ASTNode::GetAs() const [with NodeType = zetasql::ASTNamedArgument]' is deprecated: Use GetAsOrDie or GetAsOrNull [-Wdeprecated-declarations]
+ 2573 |           argument->GetAs<ASTNamedArgument>();
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+external/com_google_zetasql/zetasql/parser/ast_node.h:124:19: note: declared here
+  124 |   const NodeType* GetAs() const {
+      |                   ^~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:2589:69: warning: 'const NodeType* zetasql::ASTNode::GetAs() const [with NodeType = zetasql::ASTBooleanLiteral]' is deprecated: Use GetAsOrDie or GetAsOrNull [-Wdeprecated-declarations]
+ 2589 |       reset_cleared_required_fields = expr->GetAs<ASTBooleanLiteral>()->value();
+      |                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+external/com_google_zetasql/zetasql/parser/ast_node.h:124:19: note: declared here
+  124 |   const NodeType* GetAs() const {
+      |                   ^~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:2593:45: warning: 'const NodeType* zetasql::ASTNode::GetAs() const [with NodeType = zetasql::ASTUnaryExpression]' is deprecated: Use GetAsOrDie or GetAsOrNull [-Wdeprecated-declarations]
+ 2593 |         (argument->GetAs<ASTUnaryExpression>()->op() !=
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+external/com_google_zetasql/zetasql/parser/ast_node.h:124:19: note: declared here
+  124 |   const NodeType* GetAs() const {
+      |                   ^~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:2595:45: warning: 'const NodeType* zetasql::ASTNode::GetAs() const [with NodeType = zetasql::ASTUnaryExpression]' is deprecated: Use GetAsOrDie or GetAsOrNull [-Wdeprecated-declarations]
+ 2595 |          argument->GetAs<ASTUnaryExpression>()->op() !=
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+external/com_google_zetasql/zetasql/parser/ast_node.h:124:19: note: declared here
+  124 |   const NodeType* GetAs() const {
+      |                   ^~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:2600:74: warning: 'const NodeType* zetasql::ASTNode::GetAs() const [with NodeType = zetasql::ASTUnaryExpression]' is deprecated: Use GetAsOrDie or GetAsOrNull [-Wdeprecated-declarations]
+ 2600 |     const ASTUnaryExpression* unary = argument->GetAs<ASTUnaryExpression>();
+      |                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+external/com_google_zetasql/zetasql/parser/ast_node.h:124:19: note: declared here
+  124 |   const NodeType* GetAs() const {
+      |                   ^~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:2613:62: warning: 'const NodeType* zetasql::ASTNode::GetAs() const [with NodeType = zetasql::ASTGeneralizedPathExpression]' is deprecated: Use GetAsOrDie or GetAsOrNull [-Wdeprecated-declarations]
+ 2613 |         unary->operand()->GetAs<ASTGeneralizedPathExpression>();
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+external/com_google_zetasql/zetasql/parser/ast_node.h:124:19: note: declared here
+  124 |   const NodeType* GetAs() const {
+      |                   ^~~~~
+In file included from external/com_google_zetasql/zetasql/base/ret_check.h:47,
+                 from external/com_google_zetasql/zetasql/public/parse_location.h:32,
+                 from external/com_google_zetasql/zetasql/parser/ast_node.h:31:
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'absl::lts_20230802::Status zetasql::Resolver::ResolveReplaceFieldsExpression(const zetasql::ASTReplaceFieldsExpression*, zetasql::ExprResolutionInfo*, std::unique_ptr<const zetasql::ResolvedExpr>*)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:2705:45: warning: 'absl::lts_20230802::Status zetasql::Resolver::CoerceExprToType(const zetasql::ASTNode*, const zetasql::Type*, CoercionMode, absl::lts_20230802::string_view, std::unique_ptr<const zetasql::ResolvedExpr>*) const' is deprecated: Use CoerceExprToType function with <annotated_target_type> argument. [-Wdeprecated-declarations]
+ 2705 |     ZETASQL_RETURN_IF_ERROR(CoerceExprToType(
+      |                             ~~~~~~~~~~~~~~~~^
+ 2706 |         replace_arg->expression(), field_type, kImplicitAssignment,
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 2707 |         "Cannot replace field of type $0 with value of type $1",
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 2708 |         &replaced_field_expr));
+      |         ~~~~~~~~~~~~~~~~~~~~~                
+external/com_google_zetasql/zetasql/base/status_macros.h:61:45: note: in definition of macro 'ZETASQL_RETURN_IF_ERROR'
+   61 |           status_macro_internal_adaptor = {(expr), ZETASQL_LOC}) {  \
+      |                                             ^~~~
+external/com_google_zetasql/zetasql/analyzer/resolver.h:243:16: note: declared here
+  243 |   absl::Status CoerceExprToType(
+      |                ^~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In function 'absl::lts_20230802::Status zetasql::ReturnErrorOnLiteralNullArg(const std::string&, const std::vector<const ASTNode*>&, const ResolvedExpr*)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:2737:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::unique_ptr<const zetasql::ResolvedExpr> >::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 2737 |     for (int i = 0; i < function_call->argument_list().size(); ++i) {
+      |                     ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'absl::lts_20230802::Status zetasql::Resolver::ResolveUnaryExpr(const zetasql::ASTUnaryExpression*, zetasql::ExprResolutionInfo*, std::unique_ptr<const zetasql::ResolvedExpr>*)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:2838:25: warning: 'absl::lts_20230802::Status zetasql::Resolver::CoerceExprToType(const zetasql::ASTNode*, const zetasql::Type*, CoercionMode, absl::lts_20230802::string_view, std::unique_ptr<const zetasql::ResolvedExpr>*) const' is deprecated: Use CoerceExprToType function with <annotated_target_type> argument. [-Wdeprecated-declarations]
+ 2838 |         CoerceExprToType(unary_expr->operand(), type_factory_->get_bool(),
+      |         ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 2839 |                          kImplicitCoercion, coerce_msg, &resolved_operand));
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/base/status_macros.h:61:45: note: in definition of macro 'ZETASQL_RETURN_IF_ERROR'
+   61 |           status_macro_internal_adaptor = {(expr), ZETASQL_LOC}) {  \
+      |                                             ^~~~
+external/com_google_zetasql/zetasql/analyzer/resolver.h:243:16: note: declared here
+  243 |   absl::Status CoerceExprToType(
+      |                ^~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'absl::lts_20230802::Status zetasql::Resolver::ResolveInSubquery(const zetasql::ASTInExpression*, zetasql::ExprResolutionInfo*, std::unique_ptr<const zetasql::ResolvedExpr>*)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:3124:47: warning: 'absl::lts_20230802::Status zetasql::Resolver::CoerceExprToType(const zetasql::ASTNode*, const zetasql::Type*, CoercionMode, std::unique_ptr<const zetasql::ResolvedExpr>*) const' is deprecated: Use CoerceExprToType function with <annotated_target_type> argument. [-Wdeprecated-declarations]
+ 3124 |       ZETASQL_RETURN_IF_ERROR(CoerceExprToType(in_expr, in_expr_cast_type,
+      |                               ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 3125 |                                        kExplicitCoercion, &resolved_in_expr));
+      |                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/base/status_macros.h:61:45: note: in definition of macro 'ZETASQL_RETURN_IF_ERROR'
+   61 |           status_macro_internal_adaptor = {(expr), ZETASQL_LOC}) {  \
+      |                                             ^~~~
+external/com_google_zetasql/zetasql/analyzer/resolver.h:259:16: note: declared here
+  259 |   absl::Status CoerceExprToType(
+      |                ^~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'absl::lts_20230802::Status zetasql::Resolver::ResolveIntervalArgument(const zetasql::ASTExpression*, zetasql::ExprResolutionInfo*, std::vector<std::unique_ptr<const zetasql::ResolvedExpr> >*, std::vector<const zetasql::ASTExpression*>*)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:3898:27: warning: 'bool zetasql::Coercer::CoercesTo(const zetasql::InputArgumentType&, const zetasql::Type*, bool, zetasql::SignatureMatchResult*) const' is deprecated: use CoercesTo(from_argument, to_type, is_explicit, result, extended_conversion) instead [-Wdeprecated-declarations]
+ 3898 |         coercer_.CoercesTo(
+      |         ~~~~~~~~~~~~~~~~~~^
+ 3899 |             GetInputArgumentTypeForExpr(resolved_interval_value_arg.get()),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 3900 |             type_factory_->get_int64(), /*is_explicit=*/false, &result)) {
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from external/com_google_zetasql/zetasql/analyzer/function_signature_matcher.h:25,
+                 from external/com_google_zetasql/zetasql/analyzer/function_resolver.h:26:
+external/com_google_zetasql/zetasql/public/coercer.h:116:8: note: declared here
+  116 |   bool CoercesTo(const InputArgumentType& from_argument, const Type* to_type,
+      |        ^~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:3901:47: warning: 'absl::lts_20230802::Status zetasql::Resolver::CoerceExprToType(const zetasql::ASTNode*, const zetasql::Type*, CoercionMode, std::unique_ptr<const zetasql::ResolvedExpr>*) const' is deprecated: Use CoerceExprToType function with <annotated_target_type> argument. [-Wdeprecated-declarations]
+ 3901 |       ZETASQL_RETURN_IF_ERROR(CoerceExprToType(
+      |                               ~~~~~~~~~~~~~~~~^
+ 3902 |           interval_expr->interval_value(), type_factory_->get_int64(),
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 3903 |           kExplicitCoercion, &resolved_interval_value_arg));
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/base/status_macros.h:61:45: note: in definition of macro 'ZETASQL_RETURN_IF_ERROR'
+   61 |           status_macro_internal_adaptor = {(expr), ZETASQL_LOC}) {  \
+      |                                             ^~~~
+external/com_google_zetasql/zetasql/analyzer/resolver.h:259:16: note: declared here
+  259 |   absl::Status CoerceExprToType(
+      |                ^~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'absl::lts_20230802::Status zetasql::Resolver::ResolveLambda(const zetasql::ASTLambda*, absl::lts_20230802::Span<const zetasql::IdString>, absl::lts_20230802::Span<const zetasql::Type* const>, const zetasql::Type*, bool, const zetasql::NameScope*, std::unique_ptr<const zetasql::ResolvedInlineLambda>*)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:4255:21: warning: comparison of integer expressions of different signedness: 'int' and 'absl::lts_20230802::Span<const zetasql::IdString>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 4255 |   for (int i = 0; i < arg_names.size(); i++) {
+      |                   ~~^~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:4286:45: warning: 'absl::lts_20230802::Status zetasql::Resolver::CoerceExprToType(const zetasql::ASTNode*, const zetasql::Type*, CoercionMode, absl::lts_20230802::string_view, std::unique_ptr<const zetasql::ResolvedExpr>*) const' is deprecated: Use CoerceExprToType function with <annotated_target_type> argument. [-Wdeprecated-declarations]
+ 4286 |     ZETASQL_RETURN_IF_ERROR(CoerceExprToType(
+      |                             ~~~~~~~~~~~~~~~~^
+ 4287 |         ast_lambda->body(), body_result_type, kImplicitCoercion,
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 4288 |         "Lambda should return type $0, but returns $1", &resolved_body));
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/base/status_macros.h:61:45: note: in definition of macro 'ZETASQL_RETURN_IF_ERROR'
+   61 |           status_macro_internal_adaptor = {(expr), ZETASQL_LOC}) {  \
+      |                                             ^~~~
+external/com_google_zetasql/zetasql/analyzer/resolver.h:243:16: note: declared here
+  243 |   absl::Status CoerceExprToType(
+      |                ^~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'absl::lts_20230802::Status zetasql::Resolver::ResolveFormatOrTimeZoneExpr(const zetasql::ASTExpression*, zetasql::ExprResolutionInfo*, const char*, std::unique_ptr<const zetasql::ResolvedExpr>*)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:4690:23: warning: 'absl::lts_20230802::Status zetasql::Resolver::CoerceExprToType(const zetasql::ASTNode*, const zetasql::Type*, CoercionMode, CoercionErrorMessageFunction, std::unique_ptr<const zetasql::ResolvedExpr>*) const' is deprecated: Use CoerceExprToType function with <annotated_target_type> argument. [-Wdeprecated-declarations]
+ 4690 |       CoerceExprToType(expr, type_factory_->get_string(), kImplicitCoercion,
+      |       ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 4691 |                        make_error_msg, resolved_expr);
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver.h:223:16: note: declared here
+  223 |   absl::Status CoerceExprToType(
+      |                ^~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'absl::lts_20230802::Status zetasql::Resolver::ResolveExplicitCast(const zetasql::ASTCastExpression*, zetasql::ExprResolutionInfo*, std::unique_ptr<const zetasql::ResolvedExpr>*)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:4874:25: warning: 'static zetasql::Value zetasql::Value::Array(const zetasql::ArrayType*, absl::lts_20230802::Span<const zetasql::Value>)' is deprecated: Please use MakeArray() instead. [-Wdeprecated-declarations]
+ 4874 |             Value::Array(resolved_cast_type->AsArray(), /*values=*/{}),
+      |             ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/value.h:632:16: note: declared here
+  632 |   static Value Array(const ArrayType* array_type,
+      |                ^~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:4891:78: warning: 'absl::lts_20230802::Status zetasql::FunctionResolver::AddCastOrConvertLiteral(const zetasql::ASTNode*, const zetasql::Type*, std::unique_ptr<const zetasql::ResolvedExpr>, std::unique_ptr<const zetasql::ResolvedExpr>, const zetasql::TypeParameters&, const zetasql::ResolvedScan*, bool, bool, std::unique_ptr<const zetasql::ResolvedExpr>*) const' is deprecated: Use AddCastOrConvertLiteral function with <annotated_target_type> argument. [-Wdeprecated-declarations]
+ 4891 |     absl::Status folding_result = function_resolver_->AddCastOrConvertLiteral(
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+ 4892 |         cast->expr(), resolved_cast_type, std::move(resolved_format),
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         
+ 4893 |         std::move(resolved_time_zone), resolved_type_params,
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                  
+ 4894 |         /*scan=*/nullptr, /*set_has_explicit_type=*/true, return_null_on_error,
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 4895 |         &resolved_argument);
+      |         ~~~~~~~~~~~~~~~~~~~                                                   
+external/com_google_zetasql/zetasql/analyzer/function_resolver.h:174:16: note: declared here
+  174 |   absl::Status AddCastOrConvertLiteral(
+      |                ^~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'absl::lts_20230802::Status zetasql::Resolver::ResolveArrayElementAccess(const zetasql::ResolvedExpr*, const zetasql::ASTExpression*, zetasql::ExprResolutionInfo*, absl::lts_20230802::string_view*, const zetasql::ASTExpression**, std::unique_ptr<const zetasql::ResolvedExpr>*, std::string*)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:5372:45: warning: 'absl::lts_20230802::Status zetasql::Resolver::CoerceExprToType(const zetasql::ASTNode*, const zetasql::Type*, CoercionMode, absl::lts_20230802::string_view, std::unique_ptr<const zetasql::ResolvedExpr>*) const' is deprecated: Use CoerceExprToType function with <annotated_target_type> argument. [-Wdeprecated-declarations]
+ 5372 |     ZETASQL_RETURN_IF_ERROR(CoerceExprToType(
+      |                             ~~~~~~~~~~~~~~~~^
+ 5373 |         *unwrapped_ast_position_expr, types::Int64Type(), kImplicitCoercion,
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 5374 |         "Array position in [] must be coercible to $0 type, but has type $1",
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 5375 |         resolved_expr_out));
+      |         ~~~~~~~~~~~~~~~~~~                   
+external/com_google_zetasql/zetasql/base/status_macros.h:61:45: note: in definition of macro 'ZETASQL_RETURN_IF_ERROR'
+   61 |           status_macro_internal_adaptor = {(expr), ZETASQL_LOC}) {  \
+      |                                             ^~~~
+external/com_google_zetasql/zetasql/analyzer/resolver.h:243:16: note: declared here
+  243 |   absl::Status CoerceExprToType(
+      |                ^~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:5392:45: warning: 'absl::lts_20230802::Status zetasql::Resolver::CoerceExprToType(const zetasql::ASTNode*, const zetasql::Type*, CoercionMode, absl::lts_20230802::string_view, std::unique_ptr<const zetasql::ResolvedExpr>*) const' is deprecated: Use CoerceExprToType function with <annotated_target_type> argument. [-Wdeprecated-declarations]
+ 5392 |     ZETASQL_RETURN_IF_ERROR(CoerceExprToType(
+      |                             ~~~~~~~~~~~~~~~~^
+ 5393 |         *unwrapped_ast_position_expr, key_type, kImplicitCoercion,
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 5394 |         "Map key in [] must be coercible to type $0, but has type $1",
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 5395 |         resolved_expr_out));
+      |         ~~~~~~~~~~~~~~~~~~                   
+external/com_google_zetasql/zetasql/base/status_macros.h:61:45: note: in definition of macro 'ZETASQL_RETURN_IF_ERROR'
+   61 |           status_macro_internal_adaptor = {(expr), ZETASQL_LOC}) {  \
+      |                                             ^~~~
+external/com_google_zetasql/zetasql/analyzer/resolver.h:243:16: note: declared here
+  243 |   absl::Status CoerceExprToType(
+      |                ^~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'absl::lts_20230802::Status zetasql::Resolver::ResolveNewConstructor(const zetasql::ASTNewConstructor*, zetasql::ExprResolutionInfo*, std::unique_ptr<const zetasql::ResolvedExpr>*)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:5645:21: warning: comparison of integer expressions of different signedness: 'int' and 'absl::lts_20230802::Span<const zetasql::ASTNewConstructorArg* const>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 5645 |   for (int i = 0; i < ast_new_constructor->arguments().size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'absl::lts_20230802::Status zetasql::Resolver::ResolveBracedConstructor(const zetasql::ASTBracedConstructor*, const zetasql::Type*, zetasql::ExprResolutionInfo*, std::unique_ptr<const zetasql::ResolvedExpr>*)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:5774:21: warning: comparison of integer expressions of different signedness: 'int' and 'absl::lts_20230802::Span<const zetasql::ASTBracedConstructorField* const>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 5774 |   for (int i = 0; i < ast_braced_constructor->fields().size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'absl::lts_20230802::Status zetasql::Resolver::ResolveArrayConstructor(const zetasql::ASTArrayConstructor*, const zetasql::Type*, zetasql::ExprResolutionInfo*, std::unique_ptr<const zetasql::ResolvedExpr>*)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:5930:21: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::unique_ptr<const zetasql::ResolvedExpr> >::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 5930 |   for (int i = 0; i < resolved_elements.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:5947:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::unique_ptr<const zetasql::ResolvedExpr> >::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 5947 |     for (int i = 0; i < resolved_elements.size(); ++i) {
+      |                     ~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:5955:21: warning: 'static zetasql::Value zetasql::Value::Array(const zetasql::ArrayType*, absl::lts_20230802::Span<const zetasql::Value>)' is deprecated: Please use MakeArray() instead. [-Wdeprecated-declarations]
+ 5955 |         Value::Array(array_type, element_values), has_explicit_type);
+      |         ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/value.h:632:16: note: declared here
+  632 |   static Value Array(const ArrayType* array_type,
+      |                ^~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'void zetasql::Resolver::TryCollapsingExpressionsAsLiterals(const zetasql::ASTNode*, std::unique_ptr<const zetasql::ResolvedNode>*)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:5979:19: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::unique_ptr<const zetasql::ResolvedNode>*>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 5979 |   while (consumed < mutable_child_node_ptrs.size()) {
+      |          ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:6021:26: warning: 'static zetasql::Value zetasql::Value::Struct(const zetasql::StructType*, absl::lts_20230802::Span<const zetasql::Value>)' is deprecated: Please use MakeStruct() instead. [-Wdeprecated-declarations]
+ 6021 |             Value::Struct(make_struct->type()->AsStruct(), literal_values),
+      |             ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/value.h:581:16: note: declared here
+  581 |   static Value Struct(const StructType* type, absl::Span<const Value> values) {
+      |                ^~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:6035:25: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::unique_ptr<const zetasql::ResolvedExpr> >::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 6035 |       for (int i = 0; i < make_array->argument_list().size(); ++i) {
+      |                       ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:6052:25: warning: 'static zetasql::Value zetasql::Value::Array(const zetasql::ArrayType*, absl::lts_20230802::Span<const zetasql::Value>)' is deprecated: Please use MakeArray() instead. [-Wdeprecated-declarations]
+ 6052 |             Value::Array(make_array->type()->AsArray(), literal_values),
+      |             ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/value.h:632:16: note: declared here
+  632 |   static Value Array(const ArrayType* array_type,
+      |                ^~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'absl::lts_20230802::Status zetasql::Resolver::ResolveStructConstructorImpl(const zetasql::ASTNode*, const zetasql::ASTStructType*, absl::lts_20230802::Span<const zetasql::ASTExpression* const>, absl::lts_20230802::Span<const zetasql::ASTAlias* const>, const zetasql::Type*, zetasql::ExprResolutionInfo*, std::unique_ptr<const zetasql::ResolvedExpr>*)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:6128:35: warning: comparison of integer expressions of different signedness: 'int' and 'absl::lts_20230802::Span<const zetasql::ASTExpression* const>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 6128 |     if (struct_type->num_fields() != ast_field_expressions.size()) {
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:6169:21: warning: comparison of integer expressions of different signedness: 'int' and 'absl::lts_20230802::Span<const zetasql::ASTExpression* const>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 6169 |   for (int i = 0; i < ast_field_expressions.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:6190:32: warning: 'bool zetasql::Coercer::CoercesTo(const zetasql::InputArgumentType&, const zetasql::Type*, bool, zetasql::SignatureMatchResult*) const' is deprecated: use CoercesTo(from_argument, to_type, is_explicit, result, extended_conversion) instead [-Wdeprecated-declarations]
+ 6190 |         if (!coercer_.CoercesTo(input_argument_type, target_field_type,
+      |              ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 6191 |                                 /*is_explicit=*/false, &result)) {
+      |                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/coercer.h:116:8: note: declared here
+  116 |   bool CoercesTo(const InputArgumentType& from_argument, const Type* to_type,
+      |        ^~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:6202:76: warning: 'absl::lts_20230802::Status zetasql::FunctionResolver::AddCastOrConvertLiteral(const zetasql::ASTNode*, const zetasql::Type*, std::unique_ptr<const zetasql::ResolvedExpr>, std::unique_ptr<const zetasql::ResolvedExpr>, const zetasql::TypeParameters&, const zetasql::ResolvedScan*, bool, bool, std::unique_ptr<const zetasql::ResolvedExpr>*) const' is deprecated: Use AddCastOrConvertLiteral function with <annotated_target_type> argument. [-Wdeprecated-declarations]
+ 6202 |         ZETASQL_RETURN_IF_ERROR(function_resolver_->AddCastOrConvertLiteral(
+      |                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+ 6203 |             ast_expression, target_field_type, /*format=*/nullptr,
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~          
+ 6204 |             /*time_zone=*/nullptr, TypeParameters(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                        
+ 6205 |             /*scan=*/nullptr, struct_has_explicit_type,
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                     
+ 6206 |             /*return_null_on_error=*/false, &resolved_expr));
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                 
+external/com_google_zetasql/zetasql/base/status_macros.h:61:45: note: in definition of macro 'ZETASQL_RETURN_IF_ERROR'
+   61 |           status_macro_internal_adaptor = {(expr), ZETASQL_LOC}) {  \
+      |                                             ^~~~
+external/com_google_zetasql/zetasql/analyzer/function_resolver.h:174:16: note: declared here
+  174 |   absl::Status AddCastOrConvertLiteral(
+      |                ^~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:6308:49: warning: 'static zetasql::Value zetasql::Value::Struct(const zetasql::StructType*, absl::lts_20230802::Span<const zetasql::Value>)' is deprecated: Please use MakeStruct() instead. [-Wdeprecated-declarations]
+ 6308 |         ast_location, struct_type, Value::Struct(struct_type, literal_values),
+      |                                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/value.h:581:16: note: declared here
+  581 |   static Value Struct(const StructType* type, absl::Span<const Value> values) {
+      |                ^~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'absl::lts_20230802::Status zetasql::Resolver::FinishResolvingAggregateFunction(const zetasql::ASTFunctionCall*, std::unique_ptr<zetasql::ResolvedFunctionCall>*, zetasql::ExprResolutionInfo*, std::unique_ptr<const zetasql::ResolvedScan>, std::vector<std::unique_ptr<const zetasql::ResolvedColumnRef> >, std::unique_ptr<const zetasql::ResolvedExpr>*)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:6471:37: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::unique_ptr<const zetasql::ResolvedExpr> >::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 6471 |       for (int arg_idx = 0; arg_idx < updated_args.size(); ++arg_idx) {
+      |                             ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'absl::lts_20230802::Status zetasql::Resolver::ResolveExpressionArguments(zetasql::ExprResolutionInfo*, absl::lts_20230802::Span<const zetasql::ASTExpression* const>, const std::map<int, SpecialArgumentType>&, std::vector<std::unique_ptr<const zetasql::ResolvedExpr> >*, std::vector<const zetasql::ASTExpression*>*)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:6722:25: warning: comparison of integer expressions of different signedness: 'int' and 'absl::lts_20230802::Span<const zetasql::ASTExpression* const>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 6722 |   for (int idx = 0; idx < arguments.size(); ++idx) {
+      |                     ~~~~^~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:6755:75: warning: 'const NodeType* zetasql::ASTNode::GetAs() const [with NodeType = zetasql::ASTLambda]' is deprecated: Use GetAsOrDie or GetAsOrNull [-Wdeprecated-declarations]
+ 6755 |           ValidateLambdaArgumentListIsIdentifierList(arg->GetAs<ASTLambda>()));
+      |                                                      ~~~~~~~~~~~~~~~~~~~~~^~
+external/com_google_zetasql/zetasql/base/status_macros.h:61:45: note: in definition of macro 'ZETASQL_RETURN_IF_ERROR'
+   61 |           status_macro_internal_adaptor = {(expr), ZETASQL_LOC}) {  \
+      |                                             ^~~~
+external/com_google_zetasql/zetasql/parser/ast_node.h:124:19: note: declared here
+  124 |   const NodeType* GetAs() const {
+      |                   ^~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'absl::lts_20230802::Status zetasql::Resolver::UpdateLiteralsToExplicit(absl::lts_20230802::Span<const zetasql::ASTExpression* const>, std::vector<std::unique_ptr<const zetasql::ResolvedExpr> >*)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:7238:21: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::unique_ptr<const zetasql::ResolvedExpr> >::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 7238 |   for (int i = 0; i < resolved_expr_list->size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:7248:72: warning: 'absl::lts_20230802::Status zetasql::FunctionResolver::AddCastOrConvertLiteral(const zetasql::ASTNode*, const zetasql::Type*, std::unique_ptr<const zetasql::ResolvedExpr>, std::unique_ptr<const zetasql::ResolvedExpr>, const zetasql::TypeParameters&, const zetasql::ResolvedScan*, bool, bool, std::unique_ptr<const zetasql::ResolvedExpr>*) const' is deprecated: Use AddCastOrConvertLiteral function with <annotated_target_type> argument. [-Wdeprecated-declarations]
+ 7248 |     ZETASQL_RETURN_IF_ERROR(function_resolver_->AddCastOrConvertLiteral(
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+ 7249 |         ast_arguments[i], expr->type(), /*format=*/nullptr,
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~             
+ 7250 |         /*time_zone=*/nullptr, TypeParameters(), /*scan=*/nullptr,
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~      
+ 7251 |         /*set_has_explicit_type=*/true,
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                 
+ 7252 |         /*return_null_on_error=*/false, &(*resolved_expr_list)[i]));
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~      
+external/com_google_zetasql/zetasql/base/status_macros.h:61:45: note: in definition of macro 'ZETASQL_RETURN_IF_ERROR'
+   61 |           status_macro_internal_adaptor = {(expr), ZETASQL_LOC}) {  \
+      |                                             ^~~~
+external/com_google_zetasql/zetasql/analyzer/function_resolver.h:174:16: note: declared here
+  174 |   absl::Status AddCastOrConvertLiteral(
+      |                ^~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'absl::lts_20230802::Status zetasql::Resolver::ResolveFunctionCallImpl(const zetasql::ASTNode*, const zetasql::Function*, zetasql::ResolvedFunctionCallBase::ErrorMode, absl::lts_20230802::Span<const zetasql::ASTExpression* const>, const std::map<int, SpecialArgumentType>&, zetasql::ExprResolutionInfo*, std::unique_ptr<const zetasql::ResolvedScan>, std::vector<std::unique_ptr<const zetasql::ResolvedColumnRef> >, std::unique_ptr<const zetasql::ResolvedExpr>*)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:7270:21: warning: comparison of integer expressions of different signedness: 'int' and 'absl::lts_20230802::Span<const zetasql::ASTExpression* const>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 7270 |   for (int i = 0; i < arguments.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:7273:64: warning: 'const NodeType* zetasql::ASTNode::GetAs() const [with NodeType = zetasql::ASTNamedArgument]' is deprecated: Use GetAsOrDie or GetAsOrNull [-Wdeprecated-declarations]
+ 7273 |       named_arguments.emplace_back(arg->GetAs<ASTNamedArgument>(), i);
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+external/com_google_zetasql/zetasql/parser/ast_node.h:124:19: note: declared here
+  124 |   const NodeType* GetAs() const {
+      |                   ^~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'absl::lts_20230802::Status zetasql::Resolver::CoerceExprToBool(const zetasql::ASTNode*, absl::lts_20230802::string_view, std::unique_ptr<const zetasql::ResolvedExpr>*) const':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:7351:26: warning: 'absl::lts_20230802::Status zetasql::Resolver::CoerceExprToType(const zetasql::ASTNode*, const zetasql::Type*, CoercionMode, CoercionErrorMessageFunction, std::unique_ptr<const zetasql::ResolvedExpr>*) const' is deprecated: Use CoerceExprToType function with <annotated_target_type> argument. [-Wdeprecated-declarations]
+ 7351 |   return CoerceExprToType(ast_location, type_factory_->get_bool(),
+      |          ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 7352 |                           kImplicitCoercion, make_error_msg, resolved_expr);
+      |                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver.h:223:16: note: declared here
+  223 |   absl::Status CoerceExprToType(
+      |                ^~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'absl::lts_20230802::Status zetasql::Resolver::CoerceExprToType(const zetasql::ASTNode*, zetasql::AnnotatedType, CoercionMode, CoercionErrorMessageFunction, std::unique_ptr<const zetasql::ResolvedExpr>*) const':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:7391:34: warning: 'bool zetasql::Coercer::CoercesTo(const zetasql::InputArgumentType&, const zetasql::Type*, bool, zetasql::SignatureMatchResult*) const' is deprecated: use CoercesTo(from_argument, to_type, is_explicit, result, extended_conversion) instead [-Wdeprecated-declarations]
+ 7391 |       success = coercer.CoercesTo(expr_arg_type, target_type,
+      |                 ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 7392 |                                   /*is_explicit=*/false, &sig_match_result);
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/coercer.h:116:8: note: declared here
+  116 |   bool CoercesTo(const InputArgumentType& from_argument, const Type* to_type,
+      |        ^~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:7395:34: warning: 'bool zetasql::Coercer::CoercesTo(const zetasql::InputArgumentType&, const zetasql::Type*, bool, zetasql::SignatureMatchResult*) const' is deprecated: use CoercesTo(from_argument, to_type, is_explicit, result, extended_conversion) instead [-Wdeprecated-declarations]
+ 7395 |       success = coercer.CoercesTo(expr_arg_type, target_type,
+      |                 ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 7396 |                                   /*is_explicit=*/true, &sig_match_result);
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/coercer.h:116:8: note: declared here
+  116 |   bool CoercesTo(const InputArgumentType& from_argument, const Type* to_type,
+      |        ^~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'absl::lts_20230802::Status zetasql::Resolver::ResolveWithExpr(const zetasql::ASTWithExpression*, zetasql::ExprResolutionInfo*, std::unique_ptr<const zetasql::ResolvedExpr>*, const zetasql::Type*)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:7630:21: warning: comparison of integer expressions of different signedness: 'int' and 'absl::lts_20230802::Span<const zetasql::ASTSelectColumn* const>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 7630 |   for (int i = 0; i < with_expr->variables()->columns().size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:36:
+external/com_google_zetasql/zetasql/base/logging.h: In instantiation of 'std::string* zetasql_base::Check_EQImpl(const T1&, const T2&, const char*) [with T1 = long unsigned int; T2 = int; std::string = std::__cxx11::basic_string<char>]':
+external/com_google_zetasql/zetasql/public/numeric_value.h:1462:3:   required from here
+external/com_google_zetasql/zetasql/base/logging.h:186:32: warning: comparison of integer expressions of different signedness: 'const long unsigned int' and 'const int' [-Wsign-compare]
+  186 | DEFINE_CHECK_OP_IMPL(Check_EQ, ==)
+      |                                ^
+external/com_google_zetasql/zetasql/base/logging.h:174:12: note: in definition of macro 'DEFINE_CHECK_OP_IMPL'
+  174 |     if (v1 op v2) return nullptr;                                        \
+      |            ^~
+external/com_google_zetasql/zetasql/base/logging.h: In instantiation of 'std::string* zetasql_base::Check_LEImpl(const T1&, const T2&, const char*) [with T1 = int; T2 = long unsigned int; std::string = std::__cxx11::basic_string<char>]':
+external/com_google_zetasql/zetasql/public/parse_resume_location.h:134:5:   required from here
+external/com_google_zetasql/zetasql/base/logging.h:188:32: warning: comparison of integer expressions of different signedness: 'const int' and 'const long unsigned int' [-Wsign-compare]
+  188 | DEFINE_CHECK_OP_IMPL(Check_LE, <=)
+      |                                ^
+external/com_google_zetasql/zetasql/base/logging.h:174:12: note: in definition of macro 'DEFINE_CHECK_OP_IMPL'
+  174 |     if (v1 op v2) return nullptr;                                        \
+      |            ^~
+external/com_google_zetasql/zetasql/base/logging.h: In instantiation of 'std::string* zetasql_base::Check_EQImpl(const T1&, const T2&, const char*) [with T1 = long int; T2 = long unsigned int; std::string = std::__cxx11::basic_string<char>]':
+external/com_google_zetasql/zetasql/common/simple_evaluator_table_iterator.h:77:7:   required from here
+external/com_google_zetasql/zetasql/base/logging.h:186:32: warning: comparison of integer expressions of different signedness: 'const long int' and 'const long unsigned int' [-Wsign-compare]
+  186 | DEFINE_CHECK_OP_IMPL(Check_EQ, ==)
+      |                                ^
+external/com_google_zetasql/zetasql/base/logging.h:174:12: note: in definition of macro 'DEFINE_CHECK_OP_IMPL'
+  174 |     if (v1 op v2) return nullptr;                                        \
+      |            ^~
+external/com_google_zetasql/zetasql/base/general_trie.h: In instantiation of 'const T& zetasql_base::GeneralTrieImpl<T, NullValuePolicy>::GetDataForMaximalPrefix(absl::lts_20230802::string_view, int*, const bool*) const [with T = const zetasql::ASTNode*; NullValuePolicy = zetasql_base::IntegralNullValuePolicy<const zetasql::ASTNode*, 0>; absl::lts_20230802::string_view = std::basic_string_view<char>]':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:2377:47:   required from here
+external/com_google_zetasql/zetasql/base/general_trie.h:567:20: warning: comparison of integer expressions of different signedness: 'int' and 'std::basic_string_view<char>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+  567 |         ((next_pos >= key.length()) || (is_terminator == nullptr) ||
+      |          ~~~~~~~~~~^~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/base/general_trie.h:568:38: warning: array subscript has type 'char' [-Wchar-subscripts]
+  568 |          (is_terminator[key[next_pos]]))) {
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+external/com_google_zetasql/zetasql/base/general_trie.h:574:18: warning: comparison of integer expressions of different signedness: 'int' and 'std::basic_string_view<char>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+  574 |     if (next_pos >= key.length()) {
+      |         ~~~~~~~~~^~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/base/general_trie.h: In instantiation of 'void zetasql_base::GeneralTrieImpl<T, NullValuePolicy>::Insert(absl::lts_20230802::string_view, const T&) [with T = const zetasql::ASTNode*; NullValuePolicy = zetasql_base::IntegralNullValuePolicy<const zetasql::ASTNode*, 0>; absl::lts_20230802::string_view = std::basic_string_view<char>]':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:2401:26:   required from here
+external/com_google_zetasql/zetasql/base/general_trie.h:380:24: warning: comparison of integer expressions of different signedness: 'std::__cxx11::basic_string<char>::size_type' {aka 'long unsigned int'} and 'int' [-Wsign-compare]
+  380 |   if (comppath_.size() >= slen ||                // compression too long
+      |       ~~~~~~~~~~~~~~~~~^~~~~~~
+external/com_google_zetasql/zetasql/base/general_trie.h:382:25: warning: comparison of integer expressions of different signedness: 'int' and 'std::basic_string_view<char>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+  382 |     for (diff = 0; diff < key.length(); diff++)  // pos of mismatch
+      |                    ~~~~~^~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/base/logging.h: In instantiation of 'std::string* zetasql_base::Check_EQImpl(const T1&, const T2&, const char*) [with T1 = int; T2 = long unsigned int; std::string = std::__cxx11::basic_string<char>]':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:6306:5:   required from here
+external/com_google_zetasql/zetasql/base/logging.h:186:32: warning: comparison of integer expressions of different signedness: 'const int' and 'const long unsigned int' [-Wsign-compare]
+  186 | DEFINE_CHECK_OP_IMPL(Check_EQ, ==)
+      |                                ^
+external/com_google_zetasql/zetasql/base/logging.h:174:12: note: in definition of macro 'DEFINE_CHECK_OP_IMPL'
+  174 |     if (v1 op v2) return nullptr;                                        \
+      |            ^~
+In file included from external/com_google_absl/absl/base/macros.h:36,
+                 from external/com_google_zetasql/zetasql/base/arena_allocator.h:56,
+                 from external/com_google_zetasql/zetasql/parser/ast_node.h:28:
+external/com_google_zetasql/zetasql/common/multiprecision_int_impl.h: In instantiation of 'void zetasql::multiprecision_int_impl::ShiftRight(Filler, Word*, int, uint) [with Filler = long unsigned int; Word = long unsigned int; uint = unsigned int]':
+external/com_google_zetasql/zetasql/common/multiprecision_int.h:321:42:   required from 'zetasql::FixedUint<kNumBitsPerWord, kNumWords>& zetasql::FixedUint<kNumBitsPerWord, kNumWords>::operator>>=(uint) [with int kNumBitsPerWord = 64; int kNumWords = 3; uint = unsigned int]'
+external/com_google_zetasql/zetasql/public/numeric_value.h:1467:23:   required from here
+external/com_google_zetasql/zetasql/common/multiprecision_int_impl.h:209:31: warning: comparison of integer expressions of different signedness: 'uint' {aka 'unsigned int'} and 'int' [-Wsign-compare]
+  209 |   if (ABSL_PREDICT_FALSE(bits >= num_words * kNumBitsPerWord)) {
+external/com_google_absl/absl/base/optimization.h:177:59: note: in definition of macro 'ABSL_PREDICT_FALSE'
+  177 | #define ABSL_PREDICT_FALSE(x) (__builtin_expect(false || (x), false))
+      |                                                           ^
+external/com_google_zetasql/zetasql/base/logging.h: In instantiation of 'std::string* zetasql_base::Check_GTImpl(const T1&, const T2&, const char*) [with T1 = unsigned int; T2 = int; std::string = std::__cxx11::basic_string<char>]':
+external/com_google_zetasql/zetasql/common/multiprecision_int_impl.h:197:3:   required from 'void zetasql::multiprecision_int_impl::ShiftRightFast(Word*, int, uint) [with LastWord = long unsigned int; Word = long unsigned int; uint = unsigned int]'
+external/com_google_zetasql/zetasql/common/multiprecision_int.h:317:54:   required from 'zetasql::FixedUint<kNumBitsPerWord, kNumWords>& zetasql::FixedUint<kNumBitsPerWord, kNumWords>::operator>>=(uint) [with int kNumBitsPerWord = 64; int kNumWords = 3; uint = unsigned int]'
+external/com_google_zetasql/zetasql/public/numeric_value.h:1467:23:   required from here
+external/com_google_zetasql/zetasql/base/logging.h:191:32: warning: comparison of integer expressions of different signedness: 'const unsigned int' and 'const int' [-Wsign-compare]
+  191 | DEFINE_CHECK_OP_IMPL(Check_GT, >)
+      |                                ^
+external/com_google_zetasql/zetasql/base/logging.h:174:12: note: in definition of macro 'DEFINE_CHECK_OP_IMPL'
+  174 |     if (v1 op v2) return nullptr;                                        \
+      |            ^~
+external/com_google_zetasql/zetasql/base/logging.h: In instantiation of 'std::string* zetasql_base::Check_LTImpl(const T1&, const T2&, const char*) [with T1 = unsigned int; T2 = int; std::string = std::__cxx11::basic_string<char>]':
+external/com_google_zetasql/zetasql/common/multiprecision_int_impl.h:198:3:   required from 'void zetasql::multiprecision_int_impl::ShiftRightFast(Word*, int, uint) [with LastWord = long unsigned int; Word = long unsigned int; uint = unsigned int]'
+external/com_google_zetasql/zetasql/common/multiprecision_int.h:317:54:   required from 'zetasql::FixedUint<kNumBitsPerWord, kNumWords>& zetasql::FixedUint<kNumBitsPerWord, kNumWords>::operator>>=(uint) [with int kNumBitsPerWord = 64; int kNumWords = 3; uint = unsigned int]'
+external/com_google_zetasql/zetasql/public/numeric_value.h:1467:23:   required from here
+external/com_google_zetasql/zetasql/base/logging.h:189:32: warning: comparison of integer expressions of different signedness: 'const unsigned int' and 'const int' [-Wsign-compare]
+  189 | DEFINE_CHECK_OP_IMPL(Check_LT, <)
+      |                                ^
+external/com_google_zetasql/zetasql/base/logging.h:174:12: note: in definition of macro 'DEFINE_CHECK_OP_IMPL'
+  174 |     if (v1 op v2) return nullptr;                                        \
+      |            ^~
+external/com_google_zetasql/zetasql/base/general_trie.h: In instantiation of 'void zetasql_base::GeneralTrieImpl<T, NullValuePolicy>::TraverseAllMatchingStrings(absl::lts_20230802::string_view, Traverser*, int, bool) const [with T = const zetasql::ASTNode*; NullValuePolicy = zetasql_base::IntegralNullValuePolicy<const zetasql::ASTNode*, 0>; absl::lts_20230802::string_view = std::basic_string_view<char>]':
+external/com_google_zetasql/zetasql/base/general_trie.h:141:5:   required from 'void zetasql_base::GeneralTrieImpl<T, NullValuePolicy>::PreorderTraverseAllMatchingStringsDepth(absl::lts_20230802::string_view, Traverser*, int) const [with T = const zetasql::ASTNode*; NullValuePolicy = zetasql_base::IntegralNullValuePolicy<const zetasql::ASTNode*, 0>; absl::lts_20230802::string_view = std::basic_string_view<char>]'
+external/com_google_zetasql/zetasql/base/general_trie.h:615:3:   required from 'void zetasql_base::GeneralTrieImpl<T, NullValuePolicy>::GetAllMatchingStrings(absl::lts_20230802::string_view, std::vector<std::pair<std::__cxx11::basic_string<char>, T> >*) const [with T = const zetasql::ASTNode*; NullValuePolicy = zetasql_base::IntegralNullValuePolicy<const zetasql::ASTNode*, 0>; absl::lts_20230802::string_view = std::basic_string_view<char>]'
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:2391:43:   required from here
+external/com_google_zetasql/zetasql/base/general_trie.h:632:18: warning: comparison of integer expressions of different signedness: 'int' and 'std::basic_string_view<char>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+  632 |     if (next_pos >= key.length()) {
+      |         ~~~~~~~~~^~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In static member function 'static std::string zetasql::Resolver::ProtoExtractionTypeName(ProtoExtractionType)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:3681:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 3681 | }
+      | ^
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'zetasql::ResolvedNonScalarFunctionCallBase::NullHandlingModifier zetasql::Resolver::ResolveNullHandlingModifier(zetasql::ASTFunctionCall::NullHandlingModifier)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:6336:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 6336 | }
+      | ^
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'absl::lts_20230802::Status zetasql::Resolver::CoerceExprToType(const zetasql::ASTNode*, zetasql::AnnotatedType, CoercionMode, CoercionErrorMessageFunction, std::unique_ptr<const zetasql::ResolvedExpr>*) const':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:7399:3: warning: 'success' may be used uninitialized [-Wmaybe-uninitialized]
+ 7399 |   if (!success) {
+      |   ^~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:7384:8: note: 'success' was declared here
+ 7384 |   bool success;
+      |        ^~~~~~~
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc: In member function 'absl::lts_20230802::Status zetasql::Resolver::ResolveIntervalExpr(const zetasql::ASTIntervalExpr*, zetasql::ExprResolutionInfo*, std::unique_ptr<const zetasql::ResolvedExpr>*)':
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:7561:62: warning: 'date_part_to' may be used uninitialized [-Wmaybe-uninitialized]
+ 7561 |     interval_value_or_status = IntervalValue::ParseFromString(
+      |                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+ 7562 |         interval_value_literal->value().string_value(), date_part,
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 7563 |         date_part_to);
+      |         ~~~~~~~~~~~~~                                         
+external/com_google_zetasql/zetasql/analyzer/resolver_expr.cc:7509:32: note: 'date_part_to' was declared here
+ 7509 |   functions::DateTimestampPart date_part_to;
+      |                                ^~~~~~~~~~~~
+1705851862.807382276: src/main/tools/linux-sandbox-pid1.cc:507: wait returned pid=2, status=0x00
+1705851862.807442805: src/main/tools/linux-sandbox-pid1.cc:525: child exited normally with code 0
+1705851862.807797274: src/main/tools/linux-sandbox.cc:233: child exited normally with code 0

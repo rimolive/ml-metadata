@@ -1,0 +1,8 @@
+rcsD
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_absl/absl/strings/libstr_format_internal.a
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_absl/absl/strings/_objs/str_format_internal/arg.o
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_absl/absl/strings/_objs/str_format_internal/bind.o
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_absl/absl/strings/_objs/str_format_internal/extension.o
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_absl/absl/strings/_objs/str_format_internal/float_conversion.o
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_absl/absl/strings/_objs/str_format_internal/output.o
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_absl/absl/strings/_objs/str_format_internal/parser.o

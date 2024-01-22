@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/base/libret_check.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/base/_objs/ret_check/ret_check.o

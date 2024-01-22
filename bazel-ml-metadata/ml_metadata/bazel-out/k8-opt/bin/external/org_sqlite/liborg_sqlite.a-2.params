@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/org_sqlite/liborg_sqlite.a
+bazel-out/k8-opt/bin/external/org_sqlite/_objs/org_sqlite/sqlite3.o

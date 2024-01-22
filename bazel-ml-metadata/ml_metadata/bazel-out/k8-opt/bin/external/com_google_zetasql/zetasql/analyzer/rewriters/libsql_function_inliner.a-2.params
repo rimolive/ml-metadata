@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/rewriters/libsql_function_inliner.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/rewriters/_objs/sql_function_inliner/sql_function_inliner.o

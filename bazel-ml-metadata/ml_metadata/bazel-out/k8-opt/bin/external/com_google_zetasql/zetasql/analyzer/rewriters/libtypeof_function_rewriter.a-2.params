@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/rewriters/libtypeof_function_rewriter.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/rewriters/_objs/typeof_function_rewriter/typeof_function_rewriter.o

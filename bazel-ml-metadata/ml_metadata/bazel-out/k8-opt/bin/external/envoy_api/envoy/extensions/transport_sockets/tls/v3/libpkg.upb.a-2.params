@@ -1,0 +1,7 @@
+rcsD
+bazel-out/k8-opt/bin/external/envoy_api/envoy/extensions/transport_sockets/tls/v3/libpkg.upb.a
+bazel-out/k8-opt/bin/external/envoy_api/envoy/extensions/transport_sockets/tls/v3/_objs/pkg.upb/cert.upb.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/extensions/transport_sockets/tls/v3/_objs/pkg.upb/common.upb.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/extensions/transport_sockets/tls/v3/_objs/pkg.upb/secret.upb.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/extensions/transport_sockets/tls/v3/_objs/pkg.upb/tls.upb.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/extensions/transport_sockets/tls/v3/_objs/pkg.upb/tls_spiffe_validator_config.upb.o

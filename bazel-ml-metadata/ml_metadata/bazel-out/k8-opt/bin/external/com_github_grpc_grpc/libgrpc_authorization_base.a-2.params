@@ -1,0 +1,5 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/libgrpc_authorization_base.a
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_authorization_base/authorization_policy_provider_vtable.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_authorization_base/evaluate_args.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_authorization_base/grpc_server_authz_filter.o

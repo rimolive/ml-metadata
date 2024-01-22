@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/upb/libcollections.a
+bazel-out/k8-opt/bin/external/upb/_objs/collections/collections.o

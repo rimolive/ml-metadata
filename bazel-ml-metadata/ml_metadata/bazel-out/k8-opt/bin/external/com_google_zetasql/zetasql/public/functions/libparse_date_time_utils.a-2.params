@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/functions/libparse_date_time_utils.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/functions/_objs/parse_date_time_utils/parse_date_time_utils.o

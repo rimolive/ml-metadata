@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/ml_metadata/metadata_store/libsqlite_metadata_source.a
+bazel-out/k8-opt/bin/ml_metadata/metadata_store/_objs/sqlite_metadata_source/sqlite_metadata_source.o

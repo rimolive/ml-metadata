@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/upb/libtextformat.a
+bazel-out/k8-opt/bin/external/upb/_objs/textformat/text_encode.o

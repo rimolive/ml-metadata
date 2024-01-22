@@ -1,0 +1,7 @@
+rcsD
+bazel-out/k8-opt/bin/external/upb/libupb.a
+bazel-out/k8-opt/bin/external/upb/_objs/upb/decode.o
+bazel-out/k8-opt/bin/external/upb/_objs/upb/encode.o
+bazel-out/k8-opt/bin/external/upb/_objs/upb/msg.o
+bazel-out/k8-opt/bin/external/upb/_objs/upb/table.o
+bazel-out/k8-opt/bin/external/upb/_objs/upb/upb.o

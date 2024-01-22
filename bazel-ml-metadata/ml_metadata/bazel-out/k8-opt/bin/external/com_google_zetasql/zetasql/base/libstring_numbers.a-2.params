@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/base/libstring_numbers.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/base/_objs/string_numbers/string_numbers.o

@@ -1,0 +1,4 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/libgrpc_rbac_filter.a
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_rbac_filter/rbac_filter.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_rbac_filter/rbac_service_config_parser.o

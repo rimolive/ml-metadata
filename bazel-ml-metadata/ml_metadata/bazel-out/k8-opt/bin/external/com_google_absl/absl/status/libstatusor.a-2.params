@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_absl/absl/status/libstatusor.a
+bazel-out/k8-opt/bin/external/com_google_absl/absl/status/_objs/statusor/statusor.o

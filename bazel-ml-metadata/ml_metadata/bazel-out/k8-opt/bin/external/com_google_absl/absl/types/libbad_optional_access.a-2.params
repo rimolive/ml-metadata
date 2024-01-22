@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_absl/absl/types/libbad_optional_access.a
+bazel-out/k8-opt/bin/external/com_google_absl/absl/types/_objs/bad_optional_access/bad_optional_access.o

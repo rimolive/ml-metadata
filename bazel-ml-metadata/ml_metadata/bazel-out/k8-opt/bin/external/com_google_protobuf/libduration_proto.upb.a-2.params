@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_protobuf/libduration_proto.upb.a
+bazel-out/k8-opt/bin/external/com_google_protobuf/_objs/duration_proto.upb/duration.upb.o

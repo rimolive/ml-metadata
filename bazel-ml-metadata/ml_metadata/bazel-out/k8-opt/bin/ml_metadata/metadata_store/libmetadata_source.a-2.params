@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/ml_metadata/metadata_store/libmetadata_source.a
+bazel-out/k8-opt/bin/ml_metadata/metadata_store/_objs/metadata_source/metadata_source.o

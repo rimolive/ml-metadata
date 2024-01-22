@@ -1,0 +1,7 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/libfunction.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/_objs/function/function.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/_objs/function/function_signature.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/_objs/function/input_argument_type.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/_objs/function/procedure.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/_objs/function/table_valued_function.o

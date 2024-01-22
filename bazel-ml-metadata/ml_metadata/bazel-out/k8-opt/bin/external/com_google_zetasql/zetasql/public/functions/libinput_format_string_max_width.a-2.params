@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/functions/libinput_format_string_max_width.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/functions/_objs/input_format_string_max_width/input_format_string_max_width.o

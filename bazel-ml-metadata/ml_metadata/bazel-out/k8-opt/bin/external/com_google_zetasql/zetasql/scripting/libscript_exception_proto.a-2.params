@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/scripting/libscript_exception_proto.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/scripting/_objs/script_exception_proto/script_exception.pb.o

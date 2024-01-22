@@ -1,0 +1,4 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/libparse_helpers.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/_objs/parse_helpers/parse_helpers.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/_objs/parse_helpers/parse_tokens.o

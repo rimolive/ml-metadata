@@ -1,0 +1,62 @@
+1705857079.580598819: src/main/tools/linux-sandbox.cc:152: calling pipe(2)...
+1705857079.580649041: src/main/tools/linux-sandbox.cc:171: calling clone(2)...
+1705857079.580962872: src/main/tools/linux-sandbox.cc:180: linux-sandbox-pid1 has PID 338758
+1705857079.580995749: src/main/tools/linux-sandbox-pid1.cc:650: Pid1Main started
+1705857079.581097834: src/main/tools/linux-sandbox.cc:197: done manipulating pipes
+1705857079.581183963: src/main/tools/linux-sandbox-pid1.cc:269: working dir: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3149/execroot/ml_metadata
+1705857079.581208455: src/main/tools/linux-sandbox-pid1.cc:301: writable: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3149/execroot/ml_metadata
+1705857079.581219594: src/main/tools/linux-sandbox-pid1.cc:301: writable: /tmp
+1705857079.581227296: src/main/tools/linux-sandbox-pid1.cc:301: writable: /dev/shm
+1705857079.581308353: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /
+1705857079.581316721: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev
+1705857079.581323164: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705857079.581329993: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/pts
+1705857079.581336654: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/hugepages
+1705857079.581343270: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/mqueue
+1705857079.581349279: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys
+1705857079.581355739: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/security
+1705857079.581365983: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/cgroup
+1705857079.581373711: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/pstore
+1705857079.581380557: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/firmware/efi/efivars
+1705857079.581448988: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/bpf
+1705857079.581455622: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/config
+1705857079.581469131: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/selinux
+1705857079.581475634: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/debug
+1705857079.581481592: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/tracing
+1705857079.581488232: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/fuse/connections
+1705857079.581496176: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc
+1705857079.581502467: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705857079.581511710: src/main/tools/linux-sandbox-pid1.cc:391: remount(nullptr, /proc/sys/fs/binfmt_misc, nullptr, 2101281, nullptr) failure (Operation not permitted) ignored
+1705857079.581520724: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705857079.581527900: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run
+1705857079.581534249: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000
+1705857079.581542316: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/gvfs
+1705857079.581585043: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/doc
+1705857079.581592159: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/media/rmartine/TOSHIBA EXT
+1705857079.581601184: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /home
+1705857079.581606692: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot
+1705857079.581612988: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot/efi
+1705857079.581619833: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705857079.581625474: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /var/lib/nfs/rpc_pipefs
+1705857079.581635827: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /mnt/WdMyCloud
+1705857079.581650058: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3149/execroot/ml_metadata
+1705857079.581673983: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3149/execroot/ml_metadata
+1705857079.581682908: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705857079.581687846: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705857079.581742690: src/main/tools/linux-sandbox-pid1.cc:460: calling fork...
+1705857079.581901847: src/main/tools/linux-sandbox-pid1.cc:490: child started with PID 2
+external/com_google_zetasql/zetasql/public/json_value.cc: In member function 'absl::lts_20230802::Status zetasql::{anonymous}::JSONValueBuilder::BeginObject()':
+external/com_google_zetasql/zetasql/public/json_value.cc:82:55: warning: comparison of integer expressions of different signedness: 'std::vector<nlohmann::basic_json<>*>::size_type' {aka 'long unsigned int'} and 'int' [-Wsign-compare]
+   82 |     if (max_nesting_.has_value() && ref_stack_.size() >= *max_nesting_) {
+      |                                     ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/json_value.cc: In member function 'absl::lts_20230802::Status zetasql::{anonymous}::JSONValueBuilder::BeginArray()':
+external/com_google_zetasql/zetasql/public/json_value.cc:120:55: warning: comparison of integer expressions of different signedness: 'std::vector<nlohmann::basic_json<>*>::size_type' {aka 'long unsigned int'} and 'int' [-Wsign-compare]
+  120 |     if (max_nesting_.has_value() && ref_stack_.size() >= *max_nesting_) {
+      |                                     ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/json_value.cc: In member function 'bool zetasql::JSONValueConstRef::NestingLevelExceedsMax(int64_t) const':
+external/com_google_zetasql/zetasql/public/json_value.cc:737:22: warning: comparison of integer expressions of different signedness: 'std::stack<std::pair<nlohmann::detail::iter_impl<const nlohmann::basic_json<> >, nlohmann::detail::iter_impl<const nlohmann::basic_json<> > > >::size_type' {aka 'long unsigned int'} and 'int64_t' {aka 'long int'} [-Wsign-compare]
+  737 |     if (stack.size() > max_nesting) {
+      |         ~~~~~~~~~~~~~^~~~~~~~~~~~~
+1705857087.614520511: src/main/tools/linux-sandbox-pid1.cc:507: wait returned pid=2, status=0x00
+1705857087.614531848: src/main/tools/linux-sandbox-pid1.cc:525: child exited normally with code 0
+1705857087.614740818: src/main/tools/linux-sandbox.cc:233: child exited normally with code 0

@@ -1,0 +1,4 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_absl/absl/status/libstatus.a
+bazel-out/k8-opt/bin/external/com_google_absl/absl/status/_objs/status/status.o
+bazel-out/k8-opt/bin/external/com_google_absl/absl/status/_objs/status/status_payload_printer.o

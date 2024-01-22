@@ -1,0 +1,4 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/base/libstatus.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/base/_objs/status/status_builder.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/base/_objs/status/status_payload.o

@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/ml_metadata/metadata_store/libpostgresql_query_executor.a
+bazel-out/k8-opt/bin/ml_metadata/metadata_store/_objs/postgresql_query_executor/postgresql_query_executor.o

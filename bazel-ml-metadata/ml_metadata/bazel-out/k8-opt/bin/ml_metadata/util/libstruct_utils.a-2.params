@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/ml_metadata/util/libstruct_utils.a
+bazel-out/k8-opt/bin/ml_metadata/util/_objs/struct_utils/struct_utils.o

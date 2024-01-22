@@ -1,0 +1,124 @@
+1705851510.456998022: src/main/tools/linux-sandbox.cc:152: calling pipe(2)...
+1705851510.457050355: src/main/tools/linux-sandbox.cc:171: calling clone(2)...
+1705851510.457402302: src/main/tools/linux-sandbox.cc:180: linux-sandbox-pid1 has PID 335734
+1705851510.457449584: src/main/tools/linux-sandbox-pid1.cc:650: Pid1Main started
+1705851510.457592579: src/main/tools/linux-sandbox.cc:197: done manipulating pipes
+1705851510.457707001: src/main/tools/linux-sandbox-pid1.cc:269: working dir: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2939/execroot/ml_metadata
+1705851510.457745292: src/main/tools/linux-sandbox-pid1.cc:301: writable: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2939/execroot/ml_metadata
+1705851510.457761379: src/main/tools/linux-sandbox-pid1.cc:301: writable: /tmp
+1705851510.457771197: src/main/tools/linux-sandbox-pid1.cc:301: writable: /dev/shm
+1705851510.457882658: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /
+1705851510.457894964: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev
+1705851510.457902927: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705851510.457911430: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/pts
+1705851510.457919371: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/hugepages
+1705851510.457927396: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/mqueue
+1705851510.457934394: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys
+1705851510.457941328: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/security
+1705851510.457953594: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/cgroup
+1705851510.457962062: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/pstore
+1705851510.457970032: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/firmware/efi/efivars
+1705851510.458009186: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/bpf
+1705851510.458017130: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/config
+1705851510.458025344: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/selinux
+1705851510.458033033: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/debug
+1705851510.458040841: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/tracing
+1705851510.458048927: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/fuse/connections
+1705851510.458057672: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc
+1705851510.458065605: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705851510.458076296: src/main/tools/linux-sandbox-pid1.cc:391: remount(nullptr, /proc/sys/fs/binfmt_misc, nullptr, 2101281, nullptr) failure (Operation not permitted) ignored
+1705851510.458087623: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705851510.458095904: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run
+1705851510.458103854: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000
+1705851510.458112832: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/gvfs
+1705851510.458158615: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/doc
+1705851510.458167235: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/media/rmartine/TOSHIBA EXT
+1705851510.458177300: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /home
+1705851510.458183671: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot
+1705851510.458190814: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot/efi
+1705851510.458198595: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705851510.458204859: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /var/lib/nfs/rpc_pipefs
+1705851510.458216268: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /mnt/WdMyCloud
+1705851510.458249651: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2939/execroot/ml_metadata
+1705851510.458279402: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2939/execroot/ml_metadata
+1705851510.458292096: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705851510.458299236: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705851510.458364886: src/main/tools/linux-sandbox-pid1.cc:460: calling fork...
+1705851510.458548454: src/main/tools/linux-sandbox-pid1.cc:490: child started with PID 2
+In file included from external/com_google_zetasql/zetasql/public/strings.h:23,
+                 from external/com_google_zetasql/zetasql/public/functions/string.cc:39:
+external/com_google_zetasql/zetasql/public/id_string.h: In member function 'const zetasql::IdString::Shared* zetasql::IdStringPool::MakeShared(absl::lts_20230802::string_view)':
+external/com_google_zetasql/zetasql/public/id_string.h:462:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::basic_string_view<char>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+  462 |     for (int i = 0; i < str.size(); ++i) {
+      |                     ~~^~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/functions/string.cc: In function 'bool zetasql::functions::{anonymous}::StrPositivePosUtf8(absl::lts_20230802::string_view, absl::lts_20230802::string_view, int64_t, int64_t, int64_t*, absl::lts_20230802::Status*)':
+external/com_google_zetasql/zetasql/public/functions/string.cc:660:23: warning: comparison of integer expressions of different signedness: 'int32_t' {aka 'int'} and 'const std::basic_string_view<char>::size_type' {aka 'const long unsigned int'} [-Wsign-compare]
+  660 |     if (string_offset == absl::string_view::npos) {
+      |         ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/functions/string.cc: In function 'bool zetasql::functions::{anonymous}::StrNegativePosUtf8(absl::lts_20230802::string_view, absl::lts_20230802::string_view, int64_t, int64_t, int64_t*, absl::lts_20230802::Status*)':
+external/com_google_zetasql/zetasql/public/functions/string.cc:735:23: warning: comparison of integer expressions of different signedness: 'int32_t' {aka 'int'} and 'const std::basic_string_view<char>::size_type' {aka 'const long unsigned int'} [-Wsign-compare]
+  735 |     if (string_offset == absl::string_view::npos) {
+      |         ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/functions/string.cc: In function 'bool zetasql::functions::SubstrWithLengthUtf8(absl::lts_20230802::string_view, int64_t, int64_t, absl::lts_20230802::string_view*, absl::lts_20230802::Status*)':
+external/com_google_zetasql/zetasql/public/functions/string.cc:902:62: warning: comparison of integer expressions of different signedness: 'int64_t' {aka 'long int'} and 'std::basic_string_view<char>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+  902 |     if (pos < std::numeric_limits<int32_t>::lowest() || -pos > str.length()) {
+      |                                                         ~~~~~^~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/functions/string.cc: In function 'bool zetasql::functions::UpperBytes(absl::lts_20230802::string_view, std::string*, absl::lts_20230802::Status*)':
+external/com_google_zetasql/zetasql/public/functions/string.cc:1034:21: warning: comparison of integer expressions of different signedness: 'int' and 'std::basic_string_view<char>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 1034 |   for (int i = 0; i < str.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/functions/string.cc: In function 'bool zetasql::functions::LowerBytes(absl::lts_20230802::string_view, std::string*, absl::lts_20230802::Status*)':
+external/com_google_zetasql/zetasql/public/functions/string.cc:1042:21: warning: comparison of integer expressions of different signedness: 'int' and 'std::basic_string_view<char>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 1042 |   for (int i = 0; i < str.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/functions/string.cc: In function 'bool zetasql::functions::FirstCharToCodePoint(absl::lts_20230802::string_view, int64_t*, absl::lts_20230802::Status*)':
+external/com_google_zetasql/zetasql/public/functions/string.cc:1325:25: warning: comparison of integer expressions of different signedness: 'int' and 'std::__cxx11::basic_string<char>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 1325 |       for (int i = 0; i < hexFirstChar.size(); i += 2) {
+      |                       ~~^~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/functions/string.cc: In function 'bool zetasql::functions::StringToCodePoints(absl::lts_20230802::string_view, std::vector<long int>*, absl::lts_20230802::Status*)':
+external/com_google_zetasql/zetasql/public/functions/string.cc:1354:24: warning: comparison of integer expressions of different signedness: 'size_t' {aka 'long unsigned int'} and 'int32_t' {aka 'int'} [-Wsign-compare]
+ 1354 |   for (size_t i = 0; i < str_length32; /* U8_NEXT increments i */) {
+      |                      ~~^~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/functions/string.cc: In function 'bool zetasql::functions::{anonymous}::VerifyPadInputs(absl::lts_20230802::string_view, absl::lts_20230802::string_view, int64_t, absl::lts_20230802::Status*)':
+external/com_google_zetasql/zetasql/public/functions/string.cc:1449:26: warning: comparison of integer expressions of different signedness: 'int64_t' {aka 'long int'} and 'const size_t' {aka 'const long unsigned int'} [-Wsign-compare]
+ 1449 |   } else if (output_size > kMaxOutputSize) {
+      |              ~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/functions/string.cc: In function 'bool zetasql::functions::Repeat(absl::lts_20230802::string_view, int64_t, std::string*, absl::lts_20230802::Status*)':
+external/com_google_zetasql/zetasql/public/functions/string.cc:1637:61: warning: comparison of integer expressions of different signedness: 'int64_t' {aka 'long int'} and 'const size_t' {aka 'const long unsigned int'} [-Wsign-compare]
+ 1637 |     if (input_str.length() > kMaxOutputSize || repeat_count > kMaxOutputSize ||
+      |                                                ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/functions/string.cc: In function 'zetasql::functions::LikeRewriteType zetasql::functions::GetRewriteForLikePattern(bool, absl::lts_20230802::string_view, absl::lts_20230802::string_view*)':
+external/com_google_zetasql/zetasql/public/functions/string.cc:1722:16: warning: comparison of integer expressions of different signedness: 'std::basic_string_view<char>::size_type' {aka 'long unsigned int'} and 'int64_t' {aka 'long int'} [-Wsign-compare]
+ 1722 |     while (pos < static_cast<int64_t>(pattern.size())) {
+      |            ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/functions/string.cc: In function 'bool zetasql::functions::Soundex(absl::lts_20230802::string_view, std::string*, absl::lts_20230802::Status*)':
+external/com_google_zetasql/zetasql/public/functions/string.cc:1853:57: warning: comparison of integer expressions of different signedness: 'size_t' {aka 'long unsigned int'} and 'int32_t' {aka 'int'} [-Wsign-compare]
+ 1853 |   for (size_t str_index = 0; res_index < 4 && str_index < str_length32;
+      |                                               ~~~~~~~~~~^~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/functions/string.cc: In member function 'bool zetasql::functions::Utf8Translator::Initialize(absl::lts_20230802::string_view, absl::lts_20230802::string_view, absl::lts_20230802::Status*)':
+external/com_google_zetasql/zetasql/public/functions/string.cc:1893:48: warning: comparison of integer expressions of different signedness: 'size_t' {aka 'long unsigned int'} and 'int32_t' {aka 'int'} [-Wsign-compare]
+ 1893 |   for (size_t source_offset = 0; source_offset < source_length32;
+      |                                  ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/functions/string.cc:1904:23: warning: comparison of integer expressions of different signedness: 'size_t' {aka 'long unsigned int'} and 'int32_t' {aka 'int'} [-Wsign-compare]
+ 1904 |     if (target_offset < target_length32) {
+      |         ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/functions/string.cc: In member function 'bool zetasql::functions::Utf8Translator::Translate(absl::lts_20230802::string_view, std::string*, absl::lts_20230802::Status*) const':
+external/com_google_zetasql/zetasql/public/functions/string.cc:1948:24: warning: comparison of integer expressions of different signedness: 'size_t' {aka 'long unsigned int'} and 'int32_t' {aka 'int'} [-Wsign-compare]
+ 1948 |   for (size_t i = 0; i < str_length32; /* U8_NEXT increments i */) {
+      |                      ~~^~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/functions/string.cc: In function 'bool zetasql::functions::FromBase2(absl::lts_20230802::string_view, std::string*, absl::lts_20230802::Status*)':
+external/com_google_zetasql/zetasql/public/functions/string.cc:2237:23: warning: comparison of integer expressions of different signedness: 'int' and 'size_t' {aka 'long unsigned int'} [-Wsign-compare]
+ 2237 |     for (int i = 0; i < num_src_chars_to_add; ++i) {
+      |                     ~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from external/com_google_zetasql/zetasql/public/functions/string.cc:35:
+external/com_google_zetasql/zetasql/base/logging.h: In instantiation of 'std::string* zetasql_base::Check_EQImpl(const T1&, const T2&, const char*) [with T1 = long unsigned int; T2 = int; std::string = std::__cxx11::basic_string<char>]':
+external/com_google_zetasql/zetasql/public/functions/string.cc:1321:7:   required from here
+external/com_google_zetasql/zetasql/base/logging.h:186:32: warning: comparison of integer expressions of different signedness: 'const long unsigned int' and 'const int' [-Wsign-compare]
+  186 | DEFINE_CHECK_OP_IMPL(Check_EQ, ==)
+      |                                ^
+external/com_google_zetasql/zetasql/base/logging.h:174:12: note: in definition of macro 'DEFINE_CHECK_OP_IMPL'
+  174 |     if (v1 op v2) return nullptr;                                        \
+      |            ^~
+1705851517.902913458: src/main/tools/linux-sandbox-pid1.cc:507: wait returned pid=2, status=0x00
+1705851517.902958690: src/main/tools/linux-sandbox-pid1.cc:525: child exited normally with code 0
+1705851517.903204909: src/main/tools/linux-sandbox.cc:233: child exited normally with code 0

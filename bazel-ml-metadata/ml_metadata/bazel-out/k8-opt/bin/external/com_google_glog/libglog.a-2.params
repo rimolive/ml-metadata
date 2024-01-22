@@ -1,0 +1,9 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_glog/libglog.a
+bazel-out/k8-opt/bin/external/com_google_glog/_objs/glog/demangle.o
+bazel-out/k8-opt/bin/external/com_google_glog/_objs/glog/logging.o
+bazel-out/k8-opt/bin/external/com_google_glog/_objs/glog/raw_logging.o
+bazel-out/k8-opt/bin/external/com_google_glog/_objs/glog/signalhandler.o
+bazel-out/k8-opt/bin/external/com_google_glog/_objs/glog/symbolize.o
+bazel-out/k8-opt/bin/external/com_google_glog/_objs/glog/utilities.o
+bazel-out/k8-opt/bin/external/com_google_glog/_objs/glog/vlog_is_on.o

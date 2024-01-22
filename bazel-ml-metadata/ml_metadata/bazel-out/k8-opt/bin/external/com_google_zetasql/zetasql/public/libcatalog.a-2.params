@@ -1,0 +1,4 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/libcatalog.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/_objs/catalog/catalog.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/_objs/catalog/catalog_helper.o

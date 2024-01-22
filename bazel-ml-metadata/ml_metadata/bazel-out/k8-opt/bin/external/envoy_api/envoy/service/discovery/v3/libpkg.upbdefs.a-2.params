@@ -1,0 +1,4 @@
+rcsD
+bazel-out/k8-opt/bin/external/envoy_api/envoy/service/discovery/v3/libpkg.upbdefs.a
+bazel-out/k8-opt/bin/external/envoy_api/envoy/service/discovery/v3/_objs/pkg.upbdefs/ads.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/service/discovery/v3/_objs/pkg.upbdefs/discovery.upbdefs.o

@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/ml_metadata/simple_types/libsimple_types_constants.a
+bazel-out/k8-opt/bin/ml_metadata/simple_types/_objs/simple_types_constants/simple_types_constants.o

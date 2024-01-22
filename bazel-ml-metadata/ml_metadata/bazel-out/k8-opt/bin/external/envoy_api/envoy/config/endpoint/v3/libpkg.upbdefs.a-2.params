@@ -1,0 +1,5 @@
+rcsD
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/endpoint/v3/libpkg.upbdefs.a
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/endpoint/v3/_objs/pkg.upbdefs/endpoint.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/endpoint/v3/_objs/pkg.upbdefs/endpoint_components.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/endpoint/v3/_objs/pkg.upbdefs/load_report.upbdefs.o

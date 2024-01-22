@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_protobuf/libstruct_proto.upbdefs.a
+bazel-out/k8-opt/bin/external/com_google_protobuf/_objs/struct_proto.upbdefs/struct.upbdefs.o

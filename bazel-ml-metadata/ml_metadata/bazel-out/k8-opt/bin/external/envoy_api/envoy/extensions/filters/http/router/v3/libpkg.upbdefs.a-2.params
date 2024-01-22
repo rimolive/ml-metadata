@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/envoy_api/envoy/extensions/filters/http/router/v3/libpkg.upbdefs.a
+bazel-out/k8-opt/bin/external/envoy_api/envoy/extensions/filters/http/router/v3/_objs/pkg.upbdefs/router.upbdefs.o

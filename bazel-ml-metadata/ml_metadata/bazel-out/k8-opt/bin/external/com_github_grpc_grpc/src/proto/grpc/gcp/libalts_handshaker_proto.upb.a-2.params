@@ -1,0 +1,5 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/src/proto/grpc/gcp/libalts_handshaker_proto.upb.a
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/src/proto/grpc/gcp/_objs/alts_handshaker_proto.upb/altscontext.upb.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/src/proto/grpc/gcp/_objs/alts_handshaker_proto.upb/handshaker.upb.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/src/proto/grpc/gcp/_objs/alts_handshaker_proto.upb/transport_security_common.upb.o

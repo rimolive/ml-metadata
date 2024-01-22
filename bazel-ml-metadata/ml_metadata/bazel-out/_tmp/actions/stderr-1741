@@ -1,0 +1,161 @@
+1705857067.466364338: src/main/tools/linux-sandbox.cc:152: calling pipe(2)...
+1705857067.466405081: src/main/tools/linux-sandbox.cc:171: calling clone(2)...
+1705857067.466717407: src/main/tools/linux-sandbox.cc:180: linux-sandbox-pid1 has PID 338678
+1705857067.466751398: src/main/tools/linux-sandbox-pid1.cc:650: Pid1Main started
+1705857067.466847952: src/main/tools/linux-sandbox.cc:197: done manipulating pipes
+1705857067.466936866: src/main/tools/linux-sandbox-pid1.cc:269: working dir: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3137/execroot/ml_metadata
+1705857067.466957778: src/main/tools/linux-sandbox-pid1.cc:301: writable: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3137/execroot/ml_metadata
+1705857067.466965627: src/main/tools/linux-sandbox-pid1.cc:301: writable: /tmp
+1705857067.466971664: src/main/tools/linux-sandbox-pid1.cc:301: writable: /dev/shm
+1705857067.467035573: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /
+1705857067.467041625: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev
+1705857067.467045889: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705857067.467050556: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/pts
+1705857067.467055054: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/hugepages
+1705857067.467059503: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/mqueue
+1705857067.467063607: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys
+1705857067.467067629: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/security
+1705857067.467075079: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/cgroup
+1705857067.467080271: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/pstore
+1705857067.467084828: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/firmware/efi/efivars
+1705857067.467111375: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/bpf
+1705857067.467116017: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/config
+1705857067.467121033: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/selinux
+1705857067.467125669: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/debug
+1705857067.467130163: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/tracing
+1705857067.467135230: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/fuse/connections
+1705857067.467140578: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc
+1705857067.467144861: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705857067.467151902: src/main/tools/linux-sandbox-pid1.cc:391: remount(nullptr, /proc/sys/fs/binfmt_misc, nullptr, 2101281, nullptr) failure (Operation not permitted) ignored
+1705857067.467158556: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705857067.467163336: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run
+1705857067.467167780: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000
+1705857067.467173503: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/gvfs
+1705857067.467202781: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/doc
+1705857067.467207657: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/media/rmartine/TOSHIBA EXT
+1705857067.467214015: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /home
+1705857067.467217495: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot
+1705857067.467221712: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot/efi
+1705857067.467226279: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705857067.467229842: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /var/lib/nfs/rpc_pipefs
+1705857067.467236528: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /mnt/WdMyCloud
+1705857067.467246389: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3137/execroot/ml_metadata
+1705857067.467263153: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3137/execroot/ml_metadata
+1705857067.467269948: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705857067.467273711: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705857067.467315615: src/main/tools/linux-sandbox-pid1.cc:460: calling fork...
+1705857067.467437014: src/main/tools/linux-sandbox-pid1.cc:490: child started with PID 2
+In file included from external/com_google_zetasql/zetasql/public/types/type_factory.h:35,
+                 from external/com_google_zetasql/zetasql/public/types/range_type.cc:29:
+external/com_google_zetasql/zetasql/public/types/proto_type.h: In member function 'absl::lts_20230802::Status zetasql::ProtoType::GetFieldTypeByTagNumber(int, zetasql::TypeFactory*, const zetasql::Type**, std::string*) const':
+external/com_google_zetasql/zetasql/public/types/proto_type.h:117:35: warning: 'absl::lts_20230802::Status zetasql::ProtoType::GetFieldTypeByTagNumber(int, zetasql::TypeFactory*, bool, const zetasql::Type**, std::string*) const' is deprecated: Use overload without 'use_obsolete_timestamp' argument. [-Wdeprecated-declarations]
+  117 |     return GetFieldTypeByTagNumber(
+      |            ~~~~~~~~~~~~~~~~~~~~~~~^
+  118 |         number, factory, /*use_obsolete_timestamp=*/false, type, name);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/proto_type.h:130:16: note: declared here
+  130 |   absl::Status GetFieldTypeByTagNumber(int number, TypeFactory* factory,
+      |                ^~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/proto_type.h: In member function 'absl::lts_20230802::Status zetasql::ProtoType::GetFieldTypeByName(const std::string&, zetasql::TypeFactory*, const zetasql::Type**, int*) const':
+external/com_google_zetasql/zetasql/public/types/proto_type.h:123:30: warning: 'absl::lts_20230802::Status zetasql::ProtoType::GetFieldTypeByName(const std::string&, zetasql::TypeFactory*, bool, const zetasql::Type**, int*) const' is deprecated: Use overload without 'use_obsolete_timestamp' argument. [-Wdeprecated-declarations]
+  123 |     return GetFieldTypeByName(name, factory,
+      |            ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+  124 |                               /*use_obsolete_timestamp=*/false, type, number);
+      |                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/proto_type.h:135:16: note: declared here
+  135 |   absl::Status GetFieldTypeByName(const std::string& name, TypeFactory* factory,
+      |                ^~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/proto_type.h: In static member function 'static absl::lts_20230802::Status zetasql::ProtoType::FieldDescriptorToTypeKindBase(bool, const google::protobuf::FieldDescriptor*, zetasql::TypeKind*)':
+external/com_google_zetasql/zetasql/public/types/proto_type.h:172:42: warning: 'static absl::lts_20230802::Status zetasql::ProtoType::GetTypeKindFromFieldDescriptor(const google::protobuf::FieldDescriptor*, bool, bool, zetasql::TypeKind*)' is deprecated: Use overload without 'use_obsolete_timestamp' argument. [-Wdeprecated-declarations]
+  172 |     return GetTypeKindFromFieldDescriptor(field, ignore_annotations,
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+  173 |                                           /*use_obsolete_timestamp=*/false,
+      |                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  174 |                                           kind);
+      |                                           ~~~~~
+external/com_google_zetasql/zetasql/public/types/proto_type.h:315:23: note: declared here
+  315 |   static absl::Status GetTypeKindFromFieldDescriptor(
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/proto_type.h: In static member function 'static absl::lts_20230802::Status zetasql::ProtoType::FieldDescriptorToTypeKindBase(const google::protobuf::FieldDescriptor*, bool, zetasql::TypeKind*)':
+external/com_google_zetasql/zetasql/public/types/proto_type.h:188:42: warning: 'static absl::lts_20230802::Status zetasql::ProtoType::GetTypeKindFromFieldDescriptor(const google::protobuf::FieldDescriptor*, bool, bool, zetasql::TypeKind*)' is deprecated: Use overload without 'use_obsolete_timestamp' argument. [-Wdeprecated-declarations]
+  188 |     return GetTypeKindFromFieldDescriptor(field,
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+  189 |                                           /*ignore_format_annotations=*/false,
+      |                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  190 |                                           use_obsolete_timestamp, kind);
+      |                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/proto_type.h:315:23: note: declared here
+  315 |   static absl::Status GetTypeKindFromFieldDescriptor(
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/type_factory.h: In member function 'absl::lts_20230802::Status zetasql::TypeFactory::MakeUnwrappedTypeFromProto(const google::protobuf::Descriptor*, const zetasql::Type**)':
+external/com_google_zetasql/zetasql/public/types/type_factory.h:272:38: warning: 'absl::lts_20230802::Status zetasql::TypeFactory::MakeUnwrappedTypeFromProto(const google::protobuf::Descriptor*, bool, const zetasql::Type**)' is deprecated: Obsolete timestamp types are deprecated [-Wdeprecated-declarations]
+  272 |     return MakeUnwrappedTypeFromProto(message, /*use_obsolete_timestamp=*/false,
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  273 |                                       result_type);
+      |                                       ~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/type_factory.h:278:16: note: declared here
+  278 |   absl::Status MakeUnwrappedTypeFromProto(const google::protobuf::Descriptor* message,
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/type_factory.h: In member function 'absl::lts_20230802::Status zetasql::TypeFactory::UnwrapTypeIfAnnotatedProto(const zetasql::Type*, const zetasql::Type**)':
+external/com_google_zetasql/zetasql/public/types/type_factory.h:286:38: warning: 'absl::lts_20230802::Status zetasql::TypeFactory::UnwrapTypeIfAnnotatedProto(const zetasql::Type*, bool, const zetasql::Type**)' is deprecated: Obsolete timestamp types are deprecated [-Wdeprecated-declarations]
+  286 |     return UnwrapTypeIfAnnotatedProto(
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+  287 |         input_type, /*use_obsolete_timestamp=*/false, result_type);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/type_factory.h:292:16: note: declared here
+  292 |   absl::Status UnwrapTypeIfAnnotatedProto(const Type* input_type,
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/range_type.cc: In static member function 'static bool zetasql::RangeType::IsValidElementType(const zetasql::Type*)':
+external/com_google_zetasql/zetasql/public/types/range_type.cc:91:38: warning: 'bool zetasql::Type::SupportsOrdering() const' is deprecated: use SupportsOrdering(language_options, type_description) instead [-Wdeprecated-declarations]
+   91 |   if (!element_type->SupportsOrdering() || !element_type->SupportsEquality()) {
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from external/com_google_zetasql/zetasql/public/types/range_type.h:26,
+                 from external/com_google_zetasql/zetasql/public/types/range_type.cc:17:
+external/com_google_zetasql/zetasql/public/types/type.h:260:8: note: declared here
+  260 |   bool SupportsOrdering() const;
+      |        ^~~~~~~~~~~~~~~~
+In file included from external/com_google_zetasql/zetasql/common/float_margin.h:26,
+                 from external/com_google_zetasql/zetasql/public/types/type.h:33:
+external/com_google_zetasql/zetasql/base/logging.h: In instantiation of 'std::string* zetasql_base::Check_EQImpl(const T1&, const T2&, const char*) [with T1 = long unsigned int; T2 = int; std::string = std::__cxx11::basic_string<char>]':
+external/com_google_zetasql/zetasql/public/numeric_value.h:1462:3:   required from here
+external/com_google_zetasql/zetasql/base/logging.h:186:32: warning: comparison of integer expressions of different signedness: 'const long unsigned int' and 'const int' [-Wsign-compare]
+  186 | DEFINE_CHECK_OP_IMPL(Check_EQ, ==)
+      |                                ^
+external/com_google_zetasql/zetasql/base/logging.h:174:12: note: in definition of macro 'DEFINE_CHECK_OP_IMPL'
+  174 |     if (v1 op v2) return nullptr;                                        \
+      |            ^~
+In file included from external/com_google_absl/absl/base/port.h:23,
+                 from external/com_google_absl/absl/strings/str_cat.h:100,
+                 from external/com_google_zetasql/zetasql/common/string_util.h:24,
+                 from external/com_google_zetasql/zetasql/common/float_margin.h:27:
+external/com_google_zetasql/zetasql/common/multiprecision_int_impl.h: In instantiation of 'void zetasql::multiprecision_int_impl::ShiftRight(Filler, Word*, int, uint) [with Filler = long unsigned int; Word = long unsigned int; uint = unsigned int]':
+external/com_google_zetasql/zetasql/common/multiprecision_int.h:321:42:   required from 'zetasql::FixedUint<kNumBitsPerWord, kNumWords>& zetasql::FixedUint<kNumBitsPerWord, kNumWords>::operator>>=(uint) [with int kNumBitsPerWord = 64; int kNumWords = 3; uint = unsigned int]'
+external/com_google_zetasql/zetasql/public/numeric_value.h:1467:23:   required from here
+external/com_google_zetasql/zetasql/common/multiprecision_int_impl.h:209:31: warning: comparison of integer expressions of different signedness: 'uint' {aka 'unsigned int'} and 'int' [-Wsign-compare]
+  209 |   if (ABSL_PREDICT_FALSE(bits >= num_words * kNumBitsPerWord)) {
+external/com_google_absl/absl/base/optimization.h:177:59: note: in definition of macro 'ABSL_PREDICT_FALSE'
+  177 | #define ABSL_PREDICT_FALSE(x) (__builtin_expect(false || (x), false))
+      |                                                           ^
+external/com_google_zetasql/zetasql/base/logging.h: In instantiation of 'std::string* zetasql_base::Check_GTImpl(const T1&, const T2&, const char*) [with T1 = unsigned int; T2 = int; std::string = std::__cxx11::basic_string<char>]':
+external/com_google_zetasql/zetasql/common/multiprecision_int_impl.h:197:3:   required from 'void zetasql::multiprecision_int_impl::ShiftRightFast(Word*, int, uint) [with LastWord = long unsigned int; Word = long unsigned int; uint = unsigned int]'
+external/com_google_zetasql/zetasql/common/multiprecision_int.h:317:54:   required from 'zetasql::FixedUint<kNumBitsPerWord, kNumWords>& zetasql::FixedUint<kNumBitsPerWord, kNumWords>::operator>>=(uint) [with int kNumBitsPerWord = 64; int kNumWords = 3; uint = unsigned int]'
+external/com_google_zetasql/zetasql/public/numeric_value.h:1467:23:   required from here
+external/com_google_zetasql/zetasql/base/logging.h:191:32: warning: comparison of integer expressions of different signedness: 'const unsigned int' and 'const int' [-Wsign-compare]
+  191 | DEFINE_CHECK_OP_IMPL(Check_GT, >)
+      |                                ^
+external/com_google_zetasql/zetasql/base/logging.h:174:12: note: in definition of macro 'DEFINE_CHECK_OP_IMPL'
+  174 |     if (v1 op v2) return nullptr;                                        \
+      |            ^~
+external/com_google_zetasql/zetasql/base/logging.h: In instantiation of 'std::string* zetasql_base::Check_LTImpl(const T1&, const T2&, const char*) [with T1 = unsigned int; T2 = int; std::string = std::__cxx11::basic_string<char>]':
+external/com_google_zetasql/zetasql/common/multiprecision_int_impl.h:198:3:   required from 'void zetasql::multiprecision_int_impl::ShiftRightFast(Word*, int, uint) [with LastWord = long unsigned int; Word = long unsigned int; uint = unsigned int]'
+external/com_google_zetasql/zetasql/common/multiprecision_int.h:317:54:   required from 'zetasql::FixedUint<kNumBitsPerWord, kNumWords>& zetasql::FixedUint<kNumBitsPerWord, kNumWords>::operator>>=(uint) [with int kNumBitsPerWord = 64; int kNumWords = 3; uint = unsigned int]'
+external/com_google_zetasql/zetasql/public/numeric_value.h:1467:23:   required from here
+external/com_google_zetasql/zetasql/base/logging.h:189:32: warning: comparison of integer expressions of different signedness: 'const unsigned int' and 'const int' [-Wsign-compare]
+  189 | DEFINE_CHECK_OP_IMPL(Check_LT, <)
+      |                                ^
+external/com_google_zetasql/zetasql/base/logging.h:174:12: note: in definition of macro 'DEFINE_CHECK_OP_IMPL'
+  174 |     if (v1 op v2) return nullptr;                                        \
+      |            ^~
+1705857071.338927806: src/main/tools/linux-sandbox-pid1.cc:507: wait returned pid=2, status=0x00
+1705857071.338936490: src/main/tools/linux-sandbox-pid1.cc:525: child exited normally with code 0
+1705857071.339168463: src/main/tools/linux-sandbox.cc:233: child exited normally with code 0

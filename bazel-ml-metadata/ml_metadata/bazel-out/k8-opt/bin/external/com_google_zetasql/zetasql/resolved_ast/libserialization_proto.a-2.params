@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/resolved_ast/libserialization_proto.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/resolved_ast/_objs/serialization_proto/serialization.pb.o

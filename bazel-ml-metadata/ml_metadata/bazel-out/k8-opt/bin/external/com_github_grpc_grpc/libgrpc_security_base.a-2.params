@@ -1,0 +1,13 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/libgrpc_security_base.a
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_security_base/security_context.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_security_base/call_creds_util.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_security_base/composite_credentials.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_security_base/credentials.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_security_base/plugin_credentials.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_security_base/security_connector.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_security_base/client_auth_filter.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_security_base/secure_endpoint.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_security_base/security_handshaker.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_security_base/server_auth_filter.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_security_base/tsi_error.o

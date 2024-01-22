@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_envoyproxy_protoc_gen_validate/validate/libvalidate_proto.upbdefs.a
+bazel-out/k8-opt/bin/external/com_envoyproxy_protoc_gen_validate/validate/_objs/validate_proto.upbdefs/validate.upbdefs.o

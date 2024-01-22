@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/ml_metadata/util/libfield_mask_utils.a
+bazel-out/k8-opt/bin/ml_metadata/util/_objs/field_mask_utils/field_mask_utils.o

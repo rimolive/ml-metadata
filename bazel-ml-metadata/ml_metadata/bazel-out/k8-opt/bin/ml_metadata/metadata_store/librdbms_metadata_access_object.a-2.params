@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/ml_metadata/metadata_store/librdbms_metadata_access_object.a
+bazel-out/k8-opt/bin/ml_metadata/metadata_store/_objs/rdbms_metadata_access_object/rdbms_metadata_access_object.o

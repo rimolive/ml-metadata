@@ -1,0 +1,10 @@
+rcsD
+bazel-out/k8-opt/bin/external/envoy_api/envoy/type/v3/libpkg.upbdefs.a
+bazel-out/k8-opt/bin/external/envoy_api/envoy/type/v3/_objs/pkg.upbdefs/hash_policy.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/type/v3/_objs/pkg.upbdefs/http.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/type/v3/_objs/pkg.upbdefs/http_status.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/type/v3/_objs/pkg.upbdefs/percent.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/type/v3/_objs/pkg.upbdefs/range.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/type/v3/_objs/pkg.upbdefs/ratelimit_unit.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/type/v3/_objs/pkg.upbdefs/semantic_version.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/type/v3/_objs/pkg.upbdefs/token_bucket.upbdefs.o

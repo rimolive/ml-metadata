@@ -1,0 +1,65 @@
+1705851134.107083949: src/main/tools/linux-sandbox.cc:152: calling pipe(2)...
+1705851134.107144348: src/main/tools/linux-sandbox.cc:171: calling clone(2)...
+1705851134.107647096: src/main/tools/linux-sandbox.cc:180: linux-sandbox-pid1 has PID 327085
+1705851134.107687216: src/main/tools/linux-sandbox-pid1.cc:650: Pid1Main started
+1705851134.107824096: src/main/tools/linux-sandbox.cc:197: done manipulating pipes
+1705851134.107927268: src/main/tools/linux-sandbox-pid1.cc:269: working dir: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2339/execroot/ml_metadata
+1705851134.107958731: src/main/tools/linux-sandbox-pid1.cc:301: writable: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2339/execroot/ml_metadata
+1705851134.107972427: src/main/tools/linux-sandbox-pid1.cc:301: writable: /tmp
+1705851134.107982001: src/main/tools/linux-sandbox-pid1.cc:301: writable: /dev/shm
+1705851134.108097625: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /
+1705851134.108112027: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev
+1705851134.108124269: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705851134.108136542: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/pts
+1705851134.108144818: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/hugepages
+1705851134.108152666: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/mqueue
+1705851134.108159456: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys
+1705851134.108166857: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/security
+1705851134.108178193: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/cgroup
+1705851134.108186827: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/pstore
+1705851134.108194778: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/firmware/efi/efivars
+1705851134.108253016: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/bpf
+1705851134.108263882: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/config
+1705851134.108273014: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/selinux
+1705851134.108281186: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/debug
+1705851134.108289142: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/tracing
+1705851134.108297095: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/fuse/connections
+1705851134.108305719: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc
+1705851134.108313657: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705851134.108323493: src/main/tools/linux-sandbox-pid1.cc:391: remount(nullptr, /proc/sys/fs/binfmt_misc, nullptr, 2101281, nullptr) failure (Operation not permitted) ignored
+1705851134.108334205: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705851134.108342774: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run
+1705851134.108351169: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000
+1705851134.108360436: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/gvfs
+1705851134.108406992: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/doc
+1705851134.108415712: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/media/rmartine/TOSHIBA EXT
+1705851134.108425617: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /home
+1705851134.108432101: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot
+1705851134.108439370: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot/efi
+1705851134.108447434: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705851134.108454079: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /var/lib/nfs/rpc_pipefs
+1705851134.108465639: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /mnt/WdMyCloud
+1705851134.108484018: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2339/execroot/ml_metadata
+1705851134.108512982: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2339/execroot/ml_metadata
+1705851134.108525489: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705851134.108532471: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705851134.108602858: src/main/tools/linux-sandbox-pid1.cc:460: calling fork...
+1705851134.108790099: src/main/tools/linux-sandbox-pid1.cc:490: child started with PID 2
+In file included from external/com_github_grpc_grpc/src/core/lib/iomgr/executor.cc:33:
+In static member function 'static void grpc_core::ApplicationCallbackExecCtx::Set(grpc_core::ApplicationCallbackExecCtx*, uintptr_t)',
+    inlined from 'static void grpc_core::ApplicationCallbackExecCtx::Set(grpc_core::ApplicationCallbackExecCtx*, uintptr_t)' at external/com_github_grpc_grpc/src/core/lib/iomgr/exec_ctx.h:318:15,
+    inlined from 'grpc_core::ApplicationCallbackExecCtx::ApplicationCallbackExecCtx(uintptr_t)' at external/com_github_grpc_grpc/src/core/lib/iomgr/exec_ctx.h:291:8,
+    inlined from 'static size_t grpc_core::Executor::RunClosures(const char*, grpc_closure_list)' at external/com_github_grpc_grpc/src/core/lib/iomgr/executor.cc:112:57:
+external/com_github_grpc_grpc/src/core/lib/iomgr/exec_ctx.h:323:26: warning: storing the address of local variable 'callback_exec_ctx' in 'grpc_core::ApplicationCallbackExecCtx::callback_exec_ctx_' [-Wdangling-pointer=]
+  323 |       callback_exec_ctx_ = exec_ctx;
+      |       ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+external/com_github_grpc_grpc/src/core/lib/iomgr/executor.cc: In static member function 'static size_t grpc_core::Executor::RunClosures(const char*, grpc_closure_list)':
+external/com_github_grpc_grpc/src/core/lib/iomgr/executor.cc:111:30: note: 'callback_exec_ctx' declared here
+  111 |   ApplicationCallbackExecCtx callback_exec_ctx(
+      |                              ^~~~~~~~~~~~~~~~~
+external/com_github_grpc_grpc/src/core/lib/iomgr/exec_ctx.h:354:56: note: 'grpc_core::ApplicationCallbackExecCtx::callback_exec_ctx_' declared here
+  354 |   static GPR_THREAD_LOCAL(ApplicationCallbackExecCtx*) callback_exec_ctx_;
+      |                                                        ^~~~~~~~~~~~~~~~~~
+1705851136.353611072: src/main/tools/linux-sandbox-pid1.cc:507: wait returned pid=2, status=0x00
+1705851136.353629896: src/main/tools/linux-sandbox-pid1.cc:525: child exited normally with code 0
+1705851136.353978741: src/main/tools/linux-sandbox.cc:233: child exited normally with code 0

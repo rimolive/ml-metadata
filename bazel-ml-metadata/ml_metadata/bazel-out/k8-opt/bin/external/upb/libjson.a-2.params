@@ -1,0 +1,4 @@
+rcsD
+bazel-out/k8-opt/bin/external/upb/libjson.a
+bazel-out/k8-opt/bin/external/upb/_objs/json/json_decode.o
+bazel-out/k8-opt/bin/external/upb/_objs/json/json_encode.o

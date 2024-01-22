@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/scripting/liberror_helpers.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/scripting/_objs/error_helpers/error_helpers.o

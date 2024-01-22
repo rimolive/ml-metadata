@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/functions/libstring_format.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/functions/_objs/string_format/string_format.o

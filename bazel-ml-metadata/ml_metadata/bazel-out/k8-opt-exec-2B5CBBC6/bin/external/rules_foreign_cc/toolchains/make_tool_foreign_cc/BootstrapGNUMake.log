@@ -1,0 +1,529 @@
++ AR=/usr/bin/ar
++ ARFLAGS=rcsD
++ CC=/usr/bin/gcc
++ CFLAGS='-U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted'
++ LD=/usr/bin/gcc
++ LDFLAGS='-Wl,-no-as-needed -Wl,-z,relro,-z,now -B/usr/bin -pass-exit-codes -Wl,--gc-sections -lstdc++ -lm'
++ ./configure --without-guile --with-guile=no --disable-dependency-tracking --prefix=/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports the include directive... yes (GNU style)
+checking for gcc... /usr/bin/gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /usr/bin/gcc accepts -g... yes
+checking for /usr/bin/gcc option to accept ISO C89... none needed
+checking whether /usr/bin/gcc understands -c and -o together... yes
+checking dependency style of /usr/bin/gcc... none
+checking how to run the C preprocessor... /usr/bin/gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for gcc... (cached) /usr/bin/gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether /usr/bin/gcc accepts -g... (cached) yes
+checking for /usr/bin/gcc option to accept ISO C89... (cached) none needed
+checking whether /usr/bin/gcc understands -c and -o together... (cached) yes
+checking dependency style of /usr/bin/gcc... (cached) none
+checking for Minix Amsterdam compiler... no
+checking for ar... /usr/bin/ar
+checking for ranlib... ranlib
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for _set_invalid_parameter_handler... no
+checking for fcntl... yes
+checking for symlink... yes
+checking for getdtablesize... yes
+checking for getprogname... no
+checking for getexecname... no
+checking for sys/socket.h... yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... yes
+checking for limits.h... yes
+checking for wchar.h... yes
+checking for stdint.h... (cached) yes
+checking whether // is distinct from /... no
+checking whether the preprocessor supports include_next... yes
+checking whether system header files limit the line length... no
+checking for complete errno.h... yes
+checking whether strerror_r is declared... yes
+checking for strerror_r... yes
+checking whether strerror_r returns char *... yes
+checking for working fcntl.h... yes
+checking for pid_t... yes
+checking for mode_t... yes
+checking for eaccess... yes
+checking whether getdtablesize is declared... yes
+checking host CPU and C ABI... x86_64
+checking whether limits.h has LLONG_MAX, WORD_BIT, ULLONG_WIDTH etc.... yes
+checking whether malloc, realloc, calloc are POSIX compliant... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for wchar_t... yes
+checking for wint_t... yes
+checking whether wint_t is too small... no
+checking whether stdint.h conforms to C99... yes
+checking whether stdint.h predates C++11... no
+checking whether stdint.h has UINTMAX_WIDTH etc.... yes
+checking for C/C++ restrict keyword... __restrict
+checking whether strerror(0) succeeds... yes
+checking for alloca as a compiler built-in... yes
+checking whether // is distinct from /... (cached) no
+checking whether dup2 works... yes
+checking for error_at_line... yes
+checking whether fcntl handles F_DUPFD correctly... yes
+checking whether fcntl understands F_DUPFD_CLOEXEC... needs runtime check
+checking whether getdtablesize works... yes
+checking for getloadavg... yes
+checking sys/loadavg.h usability... no
+checking sys/loadavg.h presence... no
+checking for sys/loadavg.h... no
+checking whether getloadavg is declared... yes
+checking whether program_invocation_name is declared... yes
+checking whether program_invocation_short_name is declared... yes
+checking whether __argv is declared... no
+checking if system libc has GNU glob... yes
+checking for ssize_t... yes
+checking for good max_align_t... yes
+checking whether NULL can be used in arbitrary expressions... yes
+checking which flavor of printf attribute matches inttypes macros... system
+checking for stpcpy... yes
+checking for working strerror function... yes
+checking for ranlib... (cached) ranlib
+checking how to run the C preprocessor... /usr/bin/gcc -E
+checking for ar... /usr/bin/ar
+checking for perl... perl
+checking for library containing strerror... none required
+checking whether byte ordering is bigendian... no
+checking for a sed that does not truncate output... /usr/bin/sed
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for ld used by /usr/bin/gcc... /usr/bin/gcc
+checking if the linker (/usr/bin/gcc) is GNU ld... no
+checking for shared library run path origin... done
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for library containing getpwnam... none required
+checking for ANSI C header files... (cached) yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking whether stat file-mode macros are broken... no
+checking whether time.h and sys/time.h may both be included... yes
+checking for stdlib.h... (cached) yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for unistd.h... (cached) yes
+checking for limits.h... (cached) yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for string.h... (cached) yes
+checking for memory.h... (cached) yes
+checking for sys/param.h... (cached) yes
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/timeb.h usability... yes
+checking sys/timeb.h presence... yes
+checking for sys/timeb.h... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking spawn.h usability... yes
+checking spawn.h presence... yes
+checking for spawn.h... yes
+checking for an ANSI C-conforming const... yes
+checking return type of signal handlers... void
+checking for uid_t in sys/types.h... yes
+checking for pid_t... (cached) yes
+checking for off_t... yes
+checking for size_t... (cached) yes
+checking for ssize_t... yes
+checking for unsigned long long int... yes
+checking for uintmax_t... yes
+checking for nanoseconds field of struct stat... st_mtim.tv_nsec
+checking whether to use high resolution file timestamps... yes
+checking for library containing clock_gettime... none required
+checking whether system uses MSDOS-style paths... no
+checking for standard gettimeofday... yes
+checking for strdup... yes
+checking for strndup... yes
+checking for memrchr... yes
+checking for umask... yes
+checking for mkstemp... yes
+checking for mktemp... yes
+checking for fdopen... yes
+checking for dup... yes
+checking for dup2... yes
+checking for getcwd... yes
+checking for realpath... yes
+checking for sigsetmask... yes
+checking for sigaction... yes
+checking for getgroups... yes
+checking for seteuid... yes
+checking for setegid... yes
+checking for setlinebuf... yes
+checking for setreuid... yes
+checking for setregid... yes
+checking for getrlimit... yes
+checking for setrlimit... yes
+checking for setvbuf... yes
+checking for pipe... yes
+checking for strsignal... yes
+checking for lstat... yes
+checking for readlink... yes
+checking for atexit... yes
+checking for isatty... yes
+checking for ttyname... yes
+checking for pselect... yes
+checking for posix_spawn... yes
+checking for posix_spawnattr_setsigmask... yes
+checking whether bsd_signal is declared... no
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for strcasecmp... yes
+checking for strncasecmp... yes
+checking for strcmpi... no
+checking for strncmpi... no
+checking for stricmp... no
+checking for strnicmp... no
+checking for working strcoll... yes
+checking whether closedir returns void... no
+checking for struct dirent.d_type... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking whether sys_siglist is declared... no
+checking whether _sys_siglist is declared... no
+checking whether __sys_siglist is declared... no
+checking for sys/wait.h... yes
+checking for waitpid... yes
+checking for wait3... yes
+checking for union wait... no
+checking for SA_RESTART... yes
+checking whether dlopen is declared... yes
+checking whether dlsym is declared... yes
+checking whether dlerror is declared... yes
+checking for library containing dlopen... none required
+checking If the linker accepts -Wl,--export-dynamic... yes
+checking for posix_spawn that fails synchronously... yes
+checking for location of SCCS get command... get
+checking if malloc debugging is wanted... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating build.cfg
+config.status: creating lib/Makefile
+config.status: creating po/Makefile.in
+config.status: creating doc/Makefile
+config.status: creating tests/config-flags.pm
+config.status: creating src/config.h
+config.status: executing depfiles commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
++ cat build.cfg
+# Configuration for building GNU Make in the absence of any 'make' program.
+# build.cfg.  Generated from build.cfg.in by configure.
+
+# Copyright (C) 1993-2020 Free Software Foundation, Inc.
+# This file is part of GNU Make.
+#
+# GNU Make is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 3 of the License, or (at your option) any later
+# version.
+#
+# GNU Make is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program.  If not, see <http://www.gnu.org/licenses/>.
+
+# See Makefile.in for comments describing these variables.
+
+top_srcdir='.'
+
+prefix='/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make'
+exec_prefix=`eval echo ${prefix}`
+
+CC='/usr/bin/gcc'
+AR='/usr/bin/ar'
+CFLAGS='-U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted '
+CPPFLAGS=''
+DEFS='-DHAVE_CONFIG_H'
+ARFLAGS='rcsD'
+LDFLAGS='-Wl,--export-dynamic -Wl,-no-as-needed -Wl,-z,relro,-z,now -B/usr/bin -pass-exit-codes -Wl,--gc-sections -lstdc++ -lm'
+ALLOCA=''
+LOADLIBES='  '
+REMOTE='stub'
+OBJEXT='o'
+EXEEXT=''
++ ./build.sh
+config.status: creating ./lib/alloca.h__
+config.status: creating ./lib/fcntl.h__
+config.status: creating ./lib/limits.h__
+config.status: creating ./lib/stdio.h__
+config.status: creating ./lib/stdlib.h__
+config.status: creating ./lib/string.h__
+config.status: creating ./lib/sys/types.h__
+config.status: creating ./lib/unistd.h__
+compiling lib/concat-filename.c...
+compiling lib/dirname-lgpl.c...
+compiling lib/basename-lgpl.c...
+compiling lib/stripslash.c...
+compiling lib/exitfail.c...
+compiling lib/fd-hook.c...
+compiling lib/findprog-in.c...
+compiling lib/getprogname.c...
+compiling lib/unistd.c...
+compiling lib/xmalloc.c...
+compiling lib/xalloc-die.c...
+compiling lib/xconcat-filename.c...
+compiling lib/fcntl.c...
+creating libgnu.a...
+compiling src/ar.c...
+compiling src/arscan.c...
+compiling src/commands.c...
+compiling src/default.c...
+compiling src/dir.c...
+compiling src/expand.c...
+compiling src/file.c...
+compiling src/function.c...
+compiling src/getopt.c...
+compiling src/getopt1.c...
+compiling src/guile.c...
+compiling src/hash.c...
+compiling src/implicit.c...
+compiling src/job.c...
+compiling src/load.c...
+compiling src/loadapi.c...
+compiling src/main.c...
+compiling src/misc.c...
+compiling src/output.c...
+compiling src/read.c...
+In file included from ./src/makeint.h:31,
+                 from ./src/read.c:17:
+./src/read.c: In function 'eval_makefile':
+./lib/alloca.h:45:18: warning: ignoring return value of '__builtin_alloca' declared with attribute 'warn_unused_result' [-Wunused-result]
+   45 | #  define alloca __builtin_alloca
+./src/read.c:443:3: note: in expansion of macro 'alloca'
+  443 |   alloca (0);
+      |   ^~~~~~
+./src/read.c: In function 'eval_buffer':
+./lib/alloca.h:45:18: warning: ignoring return value of '__builtin_alloca' declared with attribute 'warn_unused_result' [-Wunused-result]
+   45 | #  define alloca __builtin_alloca
+./src/read.c:485:3: note: in expansion of macro 'alloca'
+  485 |   alloca (0);
+      |   ^~~~~~
+./src/read.c: In function 'find_percent_cached':
+./src/read.c:2542:1: warning: function may return address of local variable [-Wreturn-local-addr]
+ 2542 | }
+      | ^
+./lib/alloca.h:45:18: note: declared here
+   45 | #  define alloca __builtin_alloca
+./src/read.c:2511:19: note: in expansion of macro 'alloca'
+ 2511 |             new = alloca (slen + 1);
+      |                   ^~~~~~
+compiling src/remake.c...
+In file included from ./src/makeint.h:31,
+                 from ./src/remake.c:17:
+./src/remake.c: In function 'update_file':
+./lib/alloca.h:45:18: warning: ignoring return value of '__builtin_alloca' declared with attribute 'warn_unused_result' [-Wunused-result]
+   45 | #  define alloca __builtin_alloca
+./src/remake.c:340:7: note: in expansion of macro 'alloca'
+  340 |       alloca (0);
+      |       ^~~~~~
+compiling src/rule.c...
+compiling src/signame.c...
+compiling src/strcache.c...
+compiling src/variable.c...
+compiling src/version.c...
+compiling src/vpath.c...
+compiling src/posixos.c...
+compiling src/remote-stub.c...
+linking make...
+done.
++ ./make install
+Making install in lib
+make[1]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make.build_tmpdir/lib'
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make.build_tmpdir/./make  install-recursive
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make.build_tmpdir/lib'
+make[3]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make.build_tmpdir/lib'
+make[4]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make.build_tmpdir/lib'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make.build_tmpdir/lib'
+make[3]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make.build_tmpdir/lib'
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make.build_tmpdir/lib'
+make[1]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make.build_tmpdir/lib'
+Making install in po
+make[1]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make.build_tmpdir/po'
+installing be.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/be/LC_MESSAGES/make.mo
+installing bg.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/bg/LC_MESSAGES/make.mo
+installing cs.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/cs/LC_MESSAGES/make.mo
+installing da.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/da/LC_MESSAGES/make.mo
+installing de.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/de/LC_MESSAGES/make.mo
+installing es.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/es/LC_MESSAGES/make.mo
+installing fi.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/fi/LC_MESSAGES/make.mo
+installing fr.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/fr/LC_MESSAGES/make.mo
+installing ga.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/ga/LC_MESSAGES/make.mo
+installing gl.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/gl/LC_MESSAGES/make.mo
+installing he.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/he/LC_MESSAGES/make.mo
+installing hr.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/hr/LC_MESSAGES/make.mo
+installing id.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/id/LC_MESSAGES/make.mo
+installing it.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/it/LC_MESSAGES/make.mo
+installing ja.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/ja/LC_MESSAGES/make.mo
+installing ko.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/ko/LC_MESSAGES/make.mo
+installing lt.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/lt/LC_MESSAGES/make.mo
+installing nl.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/nl/LC_MESSAGES/make.mo
+installing pl.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/pl/LC_MESSAGES/make.mo
+installing pt.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/pt/LC_MESSAGES/make.mo
+installing pt_BR.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/pt_BR/LC_MESSAGES/make.mo
+installing ru.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/ru/LC_MESSAGES/make.mo
+installing sr.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/sr/LC_MESSAGES/make.mo
+installing sv.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/sv/LC_MESSAGES/make.mo
+installing tr.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/tr/LC_MESSAGES/make.mo
+installing uk.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/uk/LC_MESSAGES/make.mo
+installing vi.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/vi/LC_MESSAGES/make.mo
+installing zh_CN.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/zh_CN/LC_MESSAGES/make.mo
+installing zh_TW.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/locale/zh_TW/LC_MESSAGES/make.mo
+if test "make" = "gettext-tools"; then \
+  /usr/bin/mkdir -p /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make.build_tmpdir/po'
+Making install in doc
+make[1]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make.build_tmpdir/doc'
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make.build_tmpdir/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/info'
+ /usr/bin/install -c -m 644 ./make.info ./make.info-1 ./make.info-2 '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/info'
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make.build_tmpdir/doc'
+make[1]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make.build_tmpdir/doc'
+make[1]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make.build_tmpdir'
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/ar.o src/ar.c
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/arscan.o src/arscan.c
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/commands.o src/commands.c
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/default.o src/default.c
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/dir.o src/dir.c
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/expand.o src/expand.c
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/file.o src/file.c
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/function.o src/function.c
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/getopt.o src/getopt.c
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/getopt1.o src/getopt1.c
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/guile.o src/guile.c
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/hash.o src/hash.c
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/implicit.o src/implicit.c
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/job.o src/job.c
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/load.o src/load.c
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/loadapi.o src/loadapi.c
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/main.o src/main.c
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/misc.o src/misc.c
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/output.o src/output.c
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/read.o src/read.c
+In file included from src/makeint.h:31,
+                 from src/read.c:17:
+src/read.c: In function 'eval_makefile':
+lib/alloca.h:45:18: warning: ignoring return value of '__builtin_alloca' declared with attribute 'warn_unused_result' [-Wunused-result]
+   45 | #  define alloca __builtin_alloca
+src/read.c:443:3: note: in expansion of macro 'alloca'
+  443 |   alloca (0);
+      |   ^~~~~~
+src/read.c: In function 'eval_buffer':
+lib/alloca.h:45:18: warning: ignoring return value of '__builtin_alloca' declared with attribute 'warn_unused_result' [-Wunused-result]
+   45 | #  define alloca __builtin_alloca
+src/read.c:485:3: note: in expansion of macro 'alloca'
+  485 |   alloca (0);
+      |   ^~~~~~
+src/read.c: In function 'find_percent_cached':
+src/read.c:2542:1: warning: function may return address of local variable [-Wreturn-local-addr]
+ 2542 | }
+      | ^
+lib/alloca.h:45:18: note: declared here
+   45 | #  define alloca __builtin_alloca
+src/read.c:2511:19: note: in expansion of macro 'alloca'
+ 2511 |             new = alloca (slen + 1);
+      |                   ^~~~~~
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/remake.o src/remake.c
+In file included from src/makeint.h:31,
+                 from src/remake.c:17:
+src/remake.c: In function 'update_file':
+lib/alloca.h:45:18: warning: ignoring return value of '__builtin_alloca' declared with attribute 'warn_unused_result' [-Wunused-result]
+   45 | #  define alloca __builtin_alloca
+src/remake.c:340:7: note: in expansion of macro 'alloca'
+  340 |       alloca (0);
+      |       ^~~~~~
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/rule.o src/rule.c
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/signame.o src/signame.c
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/strcache.o src/strcache.c
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/variable.o src/variable.c
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/version.o src/version.c
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/vpath.o src/vpath.c
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/posixos.o src/posixos.c
+/usr/bin/gcc -DHAVE_CONFIG_H   -Isrc -I./src -Ilib -I./lib -DLIBDIR=\".\" -DINCLUDEDIR=\"external/rules_foreign_cc/toolchains/make/include\" -DLOCALEDIR=\"external/rules_foreign_cc/toolchains/make/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -c -o src/remote-stub.o src/remote-stub.c
+/usr/bin/gcc  -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -Wl,--export-dynamic -Wl,-no-as-needed -Wl,-z,relro,-z,now -B/usr/bin -pass-exit-codes -Wl,--gc-sections -lstdc++ -lm -o make src/ar.o src/arscan.o src/commands.o src/default.o src/dir.o src/expand.o src/file.o src/function.o src/getopt.o src/getopt1.o src/guile.o src/hash.o src/implicit.o src/job.o src/load.o src/loadapi.o src/main.o src/misc.o src/output.o src/read.o src/remake.o src/rule.o src/signame.o src/strcache.o src/variable.o src/version.o src/vpath.o  src/posixos.o  src/remote-stub.o   lib/libgnu.a   
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make.build_tmpdir'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/bin'
+  /usr/bin/install -c make '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/bin'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/include'
+ /usr/bin/install -c -m 644 src/gnumake.h '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/include'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/man/man1'
+ /usr/bin/install -c -m 644 doc/make.1 '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make/share/man/man1'
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make.build_tmpdir'
+make[1]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/539/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/rules_foreign_cc/toolchains/make.build_tmpdir'
++ set +x

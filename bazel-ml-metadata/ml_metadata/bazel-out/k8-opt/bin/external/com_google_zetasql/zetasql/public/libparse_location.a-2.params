@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/libparse_location.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/_objs/parse_location/parse_location.o

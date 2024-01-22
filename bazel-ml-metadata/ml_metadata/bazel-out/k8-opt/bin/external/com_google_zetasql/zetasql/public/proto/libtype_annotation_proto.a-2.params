@@ -1,0 +1,4 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/proto/libtype_annotation_proto.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/proto/_objs/type_annotation_proto/type_annotation.pb.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/proto/_objs/type_annotation_proto/wire_format_annotation.pb.o

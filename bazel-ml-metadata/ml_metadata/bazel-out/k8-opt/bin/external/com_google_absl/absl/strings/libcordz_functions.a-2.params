@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_absl/absl/strings/libcordz_functions.a
+bazel-out/k8-opt/bin/external/com_google_absl/absl/strings/_objs/cordz_functions/cordz_functions.o

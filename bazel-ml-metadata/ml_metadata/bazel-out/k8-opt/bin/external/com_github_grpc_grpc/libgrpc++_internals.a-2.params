@@ -1,0 +1,13 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/libgrpc++_internals.a
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc++_internals/insecure_credentials.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc++_internals/secure_credentials.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc++_internals/auth_property_iterator.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc++_internals/secure_auth_context.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc++_internals/secure_channel_arguments.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc++_internals/secure_create_auth_context.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc++_internals/tls_certificate_provider.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc++_internals/tls_certificate_verifier.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc++_internals/tls_credentials_options.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc++_internals/insecure_server_credentials.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc++_internals/secure_server_credentials.o

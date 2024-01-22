@@ -1,0 +1,5 @@
+rcsD
+bazel-out/k8-opt/bin/external/upb/third_party/utf8_range/libutf8_range.a
+bazel-out/k8-opt/bin/external/upb/third_party/utf8_range/_objs/utf8_range/naive.o
+bazel-out/k8-opt/bin/external/upb/third_party/utf8_range/_objs/utf8_range/range2-neon.o
+bazel-out/k8-opt/bin/external/upb/third_party/utf8_range/_objs/utf8_range/range2-sse.o

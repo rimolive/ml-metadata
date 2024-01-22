@@ -1,0 +1,74 @@
+1705851531.363483470: src/main/tools/linux-sandbox.cc:152: calling pipe(2)...
+1705851531.363518371: src/main/tools/linux-sandbox.cc:171: calling clone(2)...
+1705851531.363736387: src/main/tools/linux-sandbox.cc:180: linux-sandbox-pid1 has PID 335878
+1705851531.363761428: src/main/tools/linux-sandbox-pid1.cc:650: Pid1Main started
+1705851531.363834625: src/main/tools/linux-sandbox.cc:197: done manipulating pipes
+1705851531.363910384: src/main/tools/linux-sandbox-pid1.cc:269: working dir: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2966/execroot/ml_metadata
+1705851531.363928668: src/main/tools/linux-sandbox-pid1.cc:301: writable: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2966/execroot/ml_metadata
+1705851531.363936408: src/main/tools/linux-sandbox-pid1.cc:301: writable: /tmp
+1705851531.363941809: src/main/tools/linux-sandbox-pid1.cc:301: writable: /dev/shm
+1705851531.364003647: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /
+1705851531.364009826: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev
+1705851531.364014000: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705851531.364018600: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/pts
+1705851531.364022914: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/hugepages
+1705851531.364027227: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/mqueue
+1705851531.364030838: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys
+1705851531.364034646: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/security
+1705851531.364042046: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/cgroup
+1705851531.364046874: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/pstore
+1705851531.364051364: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/firmware/efi/efivars
+1705851531.364075856: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/bpf
+1705851531.364080278: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/config
+1705851531.364084895: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/selinux
+1705851531.364089205: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/debug
+1705851531.364093467: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/tracing
+1705851531.364098167: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/fuse/connections
+1705851531.364103444: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc
+1705851531.364107664: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705851531.364113989: src/main/tools/linux-sandbox-pid1.cc:391: remount(nullptr, /proc/sys/fs/binfmt_misc, nullptr, 2101281, nullptr) failure (Operation not permitted) ignored
+1705851531.364120553: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705851531.364125168: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run
+1705851531.364129436: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000
+1705851531.364134665: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/gvfs
+1705851531.364162783: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/doc
+1705851531.364167410: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/media/rmartine/TOSHIBA EXT
+1705851531.364173618: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /home
+1705851531.364177224: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot
+1705851531.364181202: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot/efi
+1705851531.364185397: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705851531.364188851: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /var/lib/nfs/rpc_pipefs
+1705851531.364196108: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /mnt/WdMyCloud
+1705851531.364205856: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2966/execroot/ml_metadata
+1705851531.364222301: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2966/execroot/ml_metadata
+1705851531.364228652: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705851531.364232424: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705851531.364287589: src/main/tools/linux-sandbox-pid1.cc:460: calling fork...
+1705851531.364404397: src/main/tools/linux-sandbox-pid1.cc:490: child started with PID 2
+In file included from external/com_google_zetasql/zetasql/public/strings.h:23,
+                 from external/com_google_zetasql/zetasql/public/catalog_helper.cc:25:
+external/com_google_zetasql/zetasql/public/id_string.h: In member function 'const zetasql::IdString::Shared* zetasql::IdStringPool::MakeShared(absl::lts_20230802::string_view)':
+external/com_google_zetasql/zetasql/public/id_string.h:462:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::basic_string_view<char>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+  462 |     for (int i = 0; i < str.size(); ++i) {
+      |                     ~~^~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/catalog_helper.cc: In function 'std::string zetasql::ClosestName(const std::string&, const std::vector<std::__cxx11::basic_string<char> >&)':
+external/com_google_zetasql/zetasql/public/catalog_helper.cc:37:28: warning: comparison of integer expressions of different signedness: 'std::__cxx11::basic_string<char>::size_type' {aka 'long unsigned int'} and 'long int' [-Wsign-compare]
+   37 |   if (mistyped_name.size() <
+      |       ~~~~~~~~~~~~~~~~~~~~~^
+   38 |       absl::GetFlag(FLAGS_zetasql_min_length_required_for_edit_distance)) {
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/catalog_helper.cc:49:21: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::__cxx11::basic_string<char> >::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+   49 |   for (int i = 0; i < possible_names.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~~~~~
+In file included from external/com_google_zetasql/zetasql/public/catalog_helper.cc:24:
+external/com_google_zetasql/zetasql/base/logging.h: In instantiation of 'std::string* zetasql_base::Check_LTImpl(const T1&, const T2&, const char*) [with T1 = int; T2 = long unsigned int; std::string = std::__cxx11::basic_string<char>]':
+external/com_google_zetasql/zetasql/public/catalog_helper.cc:74:3:   required from here
+external/com_google_zetasql/zetasql/base/logging.h:189:32: warning: comparison of integer expressions of different signedness: 'const int' and 'const long unsigned int' [-Wsign-compare]
+  189 | DEFINE_CHECK_OP_IMPL(Check_LT, <)
+      |                                ^
+external/com_google_zetasql/zetasql/base/logging.h:174:12: note: in definition of macro 'DEFINE_CHECK_OP_IMPL'
+  174 |     if (v1 op v2) return nullptr;                                        \
+      |            ^~
+1705851533.446661358: src/main/tools/linux-sandbox-pid1.cc:507: wait returned pid=2, status=0x00
+1705851533.446671787: src/main/tools/linux-sandbox-pid1.cc:525: child exited normally with code 0
+1705851533.446872908: src/main/tools/linux-sandbox.cc:233: child exited normally with code 0

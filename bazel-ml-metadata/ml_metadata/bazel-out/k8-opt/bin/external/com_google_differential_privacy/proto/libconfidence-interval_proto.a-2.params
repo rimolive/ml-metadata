@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_differential_privacy/proto/libconfidence-interval_proto.a
+bazel-out/k8-opt/bin/external/com_google_differential_privacy/proto/_objs/confidence-interval_proto/confidence-interval.pb.o

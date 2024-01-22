@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/rewriters/libflatten_rewriter.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/rewriters/_objs/flatten_rewriter/flatten_rewriter.o

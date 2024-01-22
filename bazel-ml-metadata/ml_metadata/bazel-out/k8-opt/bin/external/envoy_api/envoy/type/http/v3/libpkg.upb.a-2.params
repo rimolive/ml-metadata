@@ -1,0 +1,4 @@
+rcsD
+bazel-out/k8-opt/bin/external/envoy_api/envoy/type/http/v3/libpkg.upb.a
+bazel-out/k8-opt/bin/external/envoy_api/envoy/type/http/v3/_objs/pkg.upb/cookie.upb.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/type/http/v3/_objs/pkg.upb/path_transformation.upb.o

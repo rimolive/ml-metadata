@@ -1,0 +1,11 @@
+
+­
+google/api/httpbody.proto
+google.apigoogle/protobuf/any.proto"w
+HttpBody!
+content_type (	RcontentType
+data (Rdata4
+
+extensions (2.google.protobuf.AnyR
+extensionsBh
+com.google.apiBHttpBodyProtoPZ;google.golang.org/genproto/googleapis/api/httpbody;httpbodyø¢GAPIbproto3

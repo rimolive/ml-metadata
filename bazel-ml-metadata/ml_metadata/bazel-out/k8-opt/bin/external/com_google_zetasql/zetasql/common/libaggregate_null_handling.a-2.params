@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/common/libaggregate_null_handling.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/common/_objs/aggregate_null_handling/aggregate_null_handling.o

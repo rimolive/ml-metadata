@@ -1,0 +1,108 @@
+1705857078.635437037: src/main/tools/linux-sandbox.cc:152: calling pipe(2)...
+1705857078.635471820: src/main/tools/linux-sandbox.cc:171: calling clone(2)...
+1705857078.635667645: src/main/tools/linux-sandbox.cc:180: linux-sandbox-pid1 has PID 338746
+1705857078.635696264: src/main/tools/linux-sandbox-pid1.cc:650: Pid1Main started
+1705857078.635768106: src/main/tools/linux-sandbox.cc:197: done manipulating pipes
+1705857078.635837248: src/main/tools/linux-sandbox-pid1.cc:269: working dir: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3147/execroot/ml_metadata
+1705857078.635852717: src/main/tools/linux-sandbox-pid1.cc:301: writable: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3147/execroot/ml_metadata
+1705857078.635860014: src/main/tools/linux-sandbox-pid1.cc:301: writable: /tmp
+1705857078.635865441: src/main/tools/linux-sandbox-pid1.cc:301: writable: /dev/shm
+1705857078.635924038: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /
+1705857078.635929792: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev
+1705857078.635934052: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705857078.635938562: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/pts
+1705857078.635942742: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/hugepages
+1705857078.635946940: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/mqueue
+1705857078.635950570: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys
+1705857078.635954430: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/security
+1705857078.635961768: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/cgroup
+1705857078.635966645: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/pstore
+1705857078.635970835: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/firmware/efi/efivars
+1705857078.635996147: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/bpf
+1705857078.636000494: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/config
+1705857078.636005554: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/selinux
+1705857078.636009811: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/debug
+1705857078.636014055: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/tracing
+1705857078.636018783: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/fuse/connections
+1705857078.636023674: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc
+1705857078.636028063: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705857078.636034382: src/main/tools/linux-sandbox-pid1.cc:391: remount(nullptr, /proc/sys/fs/binfmt_misc, nullptr, 2101281, nullptr) failure (Operation not permitted) ignored
+1705857078.636040087: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705857078.636044609: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run
+1705857078.636048868: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000
+1705857078.636053930: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/gvfs
+1705857078.636081476: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/doc
+1705857078.636086108: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/media/rmartine/TOSHIBA EXT
+1705857078.636092173: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /home
+1705857078.636095575: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot
+1705857078.636099443: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot/efi
+1705857078.636103722: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705857078.636107127: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /var/lib/nfs/rpc_pipefs
+1705857078.636113256: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /mnt/WdMyCloud
+1705857078.636122808: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3147/execroot/ml_metadata
+1705857078.636138139: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3147/execroot/ml_metadata
+1705857078.636144501: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705857078.636148125: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705857078.636187334: src/main/tools/linux-sandbox-pid1.cc:460: calling fork...
+1705857078.636298213: src/main/tools/linux-sandbox-pid1.cc:490: child started with PID 2
+external/com_google_zetasql/zetasql/public/types/collation.cc: In member function 'absl::lts_20230802::Status zetasql::Collation::Serialize(zetasql::CollationProto*) const':
+external/com_google_zetasql/zetasql/public/types/collation.cc:108:21: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<zetasql::Collation>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+  108 |   for (int i = 0; i < child_list_.size(); i++) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/collation.cc: In member function 'bool zetasql::Collation::HasCompatibleStructure(const zetasql::Type*) const':
+external/com_google_zetasql/zetasql/public/types/collation.cc:153:40: warning: comparison of integer expressions of different signedness: 'int' and 'uint64_t' {aka 'long unsigned int'} [-Wsign-compare]
+  153 |     if (type->AsStruct()->num_fields() != num_children()) {
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/collation.cc:156:23: warning: comparison of integer expressions of different signedness: 'int' and 'uint64_t' {aka 'long unsigned int'} [-Wsign-compare]
+  156 |     for (int i = 0; i < num_children(); i++) {
+      |                     ~~^~~~~~~~~~~~~~~~
+In file included from external/com_google_zetasql/zetasql/public/types/annotation.h:39,
+                 from external/com_google_zetasql/zetasql/public/types/collation.h:25,
+                 from external/com_google_zetasql/zetasql/public/types/collation.cc:17:
+external/com_google_zetasql/zetasql/base/logging.h: In instantiation of 'std::string* zetasql_base::Check_EQImpl(const T1&, const T2&, const char*) [with T1 = long unsigned int; T2 = int; std::string = std::__cxx11::basic_string<char>]':
+external/com_google_zetasql/zetasql/public/numeric_value.h:1462:3:   required from here
+external/com_google_zetasql/zetasql/base/logging.h:186:32: warning: comparison of integer expressions of different signedness: 'const long unsigned int' and 'const int' [-Wsign-compare]
+  186 | DEFINE_CHECK_OP_IMPL(Check_EQ, ==)
+      |                                ^
+external/com_google_zetasql/zetasql/base/logging.h:174:12: note: in definition of macro 'DEFINE_CHECK_OP_IMPL'
+  174 |     if (v1 op v2) return nullptr;                                        \
+      |            ^~
+In file included from external/com_google_absl/absl/base/macros.h:36,
+                 from external/com_google_absl/absl/strings/string_view.h:42,
+                 from external/com_google_zetasql/zetasql/public/error_helpers.h:23,
+                 from external/com_google_zetasql/zetasql/common/errors.h:64,
+                 from external/com_google_zetasql/zetasql/public/interval_value.h:24,
+                 from external/com_google_zetasql/zetasql/public/types/value_representations.h:28,
+                 from external/com_google_zetasql/zetasql/public/types/simple_value.h:25,
+                 from external/com_google_zetasql/zetasql/public/types/annotation.h:41:
+external/com_google_zetasql/zetasql/common/multiprecision_int_impl.h: In instantiation of 'void zetasql::multiprecision_int_impl::ShiftRight(Filler, Word*, int, uint) [with Filler = long unsigned int; Word = long unsigned int; uint = unsigned int]':
+external/com_google_zetasql/zetasql/common/multiprecision_int.h:321:42:   required from 'zetasql::FixedUint<kNumBitsPerWord, kNumWords>& zetasql::FixedUint<kNumBitsPerWord, kNumWords>::operator>>=(uint) [with int kNumBitsPerWord = 64; int kNumWords = 3; uint = unsigned int]'
+external/com_google_zetasql/zetasql/public/numeric_value.h:1467:23:   required from here
+external/com_google_zetasql/zetasql/common/multiprecision_int_impl.h:209:31: warning: comparison of integer expressions of different signedness: 'uint' {aka 'unsigned int'} and 'int' [-Wsign-compare]
+  209 |   if (ABSL_PREDICT_FALSE(bits >= num_words * kNumBitsPerWord)) {
+external/com_google_absl/absl/base/optimization.h:177:59: note: in definition of macro 'ABSL_PREDICT_FALSE'
+  177 | #define ABSL_PREDICT_FALSE(x) (__builtin_expect(false || (x), false))
+      |                                                           ^
+external/com_google_zetasql/zetasql/base/logging.h: In instantiation of 'std::string* zetasql_base::Check_GTImpl(const T1&, const T2&, const char*) [with T1 = unsigned int; T2 = int; std::string = std::__cxx11::basic_string<char>]':
+external/com_google_zetasql/zetasql/common/multiprecision_int_impl.h:197:3:   required from 'void zetasql::multiprecision_int_impl::ShiftRightFast(Word*, int, uint) [with LastWord = long unsigned int; Word = long unsigned int; uint = unsigned int]'
+external/com_google_zetasql/zetasql/common/multiprecision_int.h:317:54:   required from 'zetasql::FixedUint<kNumBitsPerWord, kNumWords>& zetasql::FixedUint<kNumBitsPerWord, kNumWords>::operator>>=(uint) [with int kNumBitsPerWord = 64; int kNumWords = 3; uint = unsigned int]'
+external/com_google_zetasql/zetasql/public/numeric_value.h:1467:23:   required from here
+external/com_google_zetasql/zetasql/base/logging.h:191:32: warning: comparison of integer expressions of different signedness: 'const unsigned int' and 'const int' [-Wsign-compare]
+  191 | DEFINE_CHECK_OP_IMPL(Check_GT, >)
+      |                                ^
+external/com_google_zetasql/zetasql/base/logging.h:174:12: note: in definition of macro 'DEFINE_CHECK_OP_IMPL'
+  174 |     if (v1 op v2) return nullptr;                                        \
+      |            ^~
+external/com_google_zetasql/zetasql/base/logging.h: In instantiation of 'std::string* zetasql_base::Check_LTImpl(const T1&, const T2&, const char*) [with T1 = unsigned int; T2 = int; std::string = std::__cxx11::basic_string<char>]':
+external/com_google_zetasql/zetasql/common/multiprecision_int_impl.h:198:3:   required from 'void zetasql::multiprecision_int_impl::ShiftRightFast(Word*, int, uint) [with LastWord = long unsigned int; Word = long unsigned int; uint = unsigned int]'
+external/com_google_zetasql/zetasql/common/multiprecision_int.h:317:54:   required from 'zetasql::FixedUint<kNumBitsPerWord, kNumWords>& zetasql::FixedUint<kNumBitsPerWord, kNumWords>::operator>>=(uint) [with int kNumBitsPerWord = 64; int kNumWords = 3; uint = unsigned int]'
+external/com_google_zetasql/zetasql/public/numeric_value.h:1467:23:   required from here
+external/com_google_zetasql/zetasql/base/logging.h:189:32: warning: comparison of integer expressions of different signedness: 'const unsigned int' and 'const int' [-Wsign-compare]
+  189 | DEFINE_CHECK_OP_IMPL(Check_LT, <)
+      |                                ^
+external/com_google_zetasql/zetasql/base/logging.h:174:12: note: in definition of macro 'DEFINE_CHECK_OP_IMPL'
+  174 |     if (v1 op v2) return nullptr;                                        \
+      |            ^~
+1705857082.291813459: src/main/tools/linux-sandbox-pid1.cc:507: wait returned pid=2, status=0x00
+1705857082.291823901: src/main/tools/linux-sandbox-pid1.cc:525: child exited normally with code 0
+1705857082.292042507: src/main/tools/linux-sandbox.cc:233: child exited normally with code 0

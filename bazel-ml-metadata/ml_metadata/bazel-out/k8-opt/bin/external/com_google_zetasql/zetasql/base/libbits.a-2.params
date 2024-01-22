@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/base/libbits.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/base/_objs/bits/bits.o

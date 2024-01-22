@@ -1,0 +1,68 @@
+1705851278.722333383: src/main/tools/linux-sandbox.cc:152: calling pipe(2)...
+1705851278.722387229: src/main/tools/linux-sandbox.cc:171: calling clone(2)...
+1705851278.722706654: src/main/tools/linux-sandbox.cc:180: linux-sandbox-pid1 has PID 330531
+1705851278.722746973: src/main/tools/linux-sandbox-pid1.cc:650: Pid1Main started
+1705851278.722863625: src/main/tools/linux-sandbox.cc:197: done manipulating pipes
+1705851278.722982009: src/main/tools/linux-sandbox-pid1.cc:269: working dir: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2661/execroot/ml_metadata
+1705851278.723008165: src/main/tools/linux-sandbox-pid1.cc:301: writable: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2661/execroot/ml_metadata
+1705851278.723021572: src/main/tools/linux-sandbox-pid1.cc:301: writable: /tmp
+1705851278.723030580: src/main/tools/linux-sandbox-pid1.cc:301: writable: /dev/shm
+1705851278.723120986: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /
+1705851278.723131322: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev
+1705851278.723138996: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705851278.723147092: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/pts
+1705851278.723154386: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/hugepages
+1705851278.723161720: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/mqueue
+1705851278.723168195: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys
+1705851278.723174974: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/security
+1705851278.723186263: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/cgroup
+1705851278.723198770: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/pstore
+1705851278.723206604: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/firmware/efi/efivars
+1705851278.723258421: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/bpf
+1705851278.723269533: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/config
+1705851278.723281299: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/selinux
+1705851278.723292670: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/debug
+1705851278.723303617: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/tracing
+1705851278.723311190: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/fuse/connections
+1705851278.723319552: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc
+1705851278.723326952: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705851278.723336577: src/main/tools/linux-sandbox-pid1.cc:391: remount(nullptr, /proc/sys/fs/binfmt_misc, nullptr, 2101281, nullptr) failure (Operation not permitted) ignored
+1705851278.723346808: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705851278.723354638: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run
+1705851278.723361950: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000
+1705851278.723372865: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/gvfs
+1705851278.723426410: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/doc
+1705851278.723435922: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/media/rmartine/TOSHIBA EXT
+1705851278.723445750: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /home
+1705851278.723451835: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot
+1705851278.723458561: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot/efi
+1705851278.723465800: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705851278.723472107: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /var/lib/nfs/rpc_pipefs
+1705851278.723483515: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /mnt/WdMyCloud
+1705851278.723504391: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2661/execroot/ml_metadata
+1705851278.723540943: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2661/execroot/ml_metadata
+1705851278.723553984: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705851278.723560527: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705851278.723623025: src/main/tools/linux-sandbox-pid1.cc:460: calling fork...
+1705851278.723839475: src/main/tools/linux-sandbox-pid1.cc:490: child started with PID 2
+In file included from external/com_google_absl/absl/container/inlined_vector.h:53,
+                 from external/com_google_absl/absl/status/internal/status_internal.h:22,
+                 from external/com_google_absl/absl/status/status.h:59,
+                 from external/com_github_grpc_grpc/src/core/ext/filters/client_channel/client_channel.h:27,
+                 from external/com_github_grpc_grpc/src/core/ext/filters/client_channel/client_channel.cc:19:
+In member function 'absl::lts_20230802::inlined_vector_internal::SizeType<A> absl::lts_20230802::inlined_vector_internal::Storage<T, N, A>::GetAllocatedCapacity() const [with T = const char*; long unsigned int N = 3; A = std::allocator<const char*>]',
+    inlined from 'absl::lts_20230802::inlined_vector_internal::StorageView<A> absl::lts_20230802::inlined_vector_internal::Storage<T, N, A>::MakeStorageView() [with T = const char*; long unsigned int N = 3; A = std::allocator<const char*>]' at external/com_google_absl/absl/container/internal/inlined_vector.h:417:66,
+    inlined from 'absl::lts_20230802::inlined_vector_internal::ValueType<A>& absl::lts_20230802::inlined_vector_internal::Storage<T, N, A>::EmplaceBack(Args&& ...) [with Args = {const char*}; T = const char*; long unsigned int N = 3; A = std::allocator<const char*>]' at external/com_google_absl/absl/container/internal/inlined_vector.h:828:48,
+    inlined from 'absl::lts_20230802::inlined_vector_internal::ValueType<A>& absl::lts_20230802::InlinedVector<T, N, A>::emplace_back(Args&& ...) [with Args = {const char*}; T = const char*; long unsigned int N = 3; A = std::allocator<const char*>]' at external/com_google_absl/absl/container/inlined_vector.h:744:32,
+    inlined from 'void absl::lts_20230802::InlinedVector<T, N, A>::push_back(value_type&&) [with T = const char*; long unsigned int N = 3; A = std::allocator<const char*>]' at external/com_google_absl/absl/container/inlined_vector.h:755:35,
+    inlined from 'void grpc_core::ClientChannel::OnResolverResultChangedLocked(grpc_core::Resolver::Result)' at external/com_github_grpc_grpc/src/core/ext/filters/client_channel/client_channel.cc:1232:28:
+external/com_google_absl/absl/container/internal/inlined_vector.h:408:28: warning: 'trace_strings.absl::lts_20230802::InlinedVector<const char*, 3, std::allocator<const char*> >::storage_.absl::lts_20230802::inlined_vector_internal::Storage<const char*, 3, std::allocator<const char*> >::data_.absl::lts_20230802::inlined_vector_internal::Storage<const char*, 3, std::allocator<const char*> >::Data::allocated.absl::lts_20230802::inlined_vector_internal::Storage<const char*, 3, std::allocator<const char*> >::Allocated::allocated_capacity' may be used uninitialized [-Wmaybe-uninitialized]
+  408 |     return data_.allocated.allocated_capacity;
+      |                            ^~~~~~~~~~~~~~~~~~
+external/com_github_grpc_grpc/src/core/ext/filters/client_channel/client_channel.cc: In member function 'void grpc_core::ClientChannel::OnResolverResultChangedLocked(grpc_core::Resolver::Result)':
+external/com_github_grpc_grpc/src/core/ext/filters/client_channel/client_channel.cc:1217:39: note: 'trace_strings' declared here
+ 1217 |   absl::InlinedVector<const char*, 3> trace_strings;
+      |                                       ^~~~~~~~~~~~~
+1705851288.268939260: src/main/tools/linux-sandbox-pid1.cc:507: wait returned pid=2, status=0x00
+1705851288.268975291: src/main/tools/linux-sandbox-pid1.cc:525: child exited normally with code 0
+1705851288.269398441: src/main/tools/linux-sandbox.cc:233: child exited normally with code 0

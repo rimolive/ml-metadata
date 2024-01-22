@@ -1,0 +1,951 @@
+
+Bazel external C/C++ Rules. Building library bison
+
+Environment:______________
+M4=/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4/bin/m4
+BUILD_SCRIPT=bazel-out/host/bin/external/com_google_zetasql/bazel/bison_foreign_cc/build_script.sh
+EXT_BUILD_ROOT=/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata
+BUILD_LOG=bazel-out/host/bin/external/com_google_zetasql/bazel/bison_foreign_cc/Configure.log
+PWD=/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata
+BUILD_WRAPPER_SCRIPT=bazel-out/host/bin/external/com_google_zetasql/bazel/bison_foreign_cc/wrapper_build_script.sh
+TMPDIR=/tmp
+EXT_BUILD_DEPS=/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.ext_build_deps
+BUILD_TMPDIR=/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir
+SHLVL=2
+INSTALLDIR=/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison
+PATH=/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata:/home/rmartine/.cache/bazelisk/downloads/sha256/3d144b890b85d95fb13df941bfd010fc3628e9afaa4c85e7d1a002e4fd02b249/bin:/opt/powerview:/home/rmartine/.local/bin:/home/rmartine/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin
+_=/usr/bin/env
+__________________________
++ mkdir -p /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison
++ ARFLAGS=rcsD
++ AR_FLAGS=rcsD
++ ASFLAGS='-U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted'
++ CFLAGS='-U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted'
++ CXXFLAGS='-U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -std=c++0x -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -std=c++17'
++ LDFLAGS='-Wl,-no-as-needed -Wl,-z,relro,-z,now -B/usr/bin -pass-exit-codes -Wl,--gc-sections -lstdc++ -lm'
++ AR=/usr/bin/ar
++ CC=/usr/bin/gcc
++ CXX=/usr/bin/g++
++ RANLIB=:
++ CPPFLAGS=
++ /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/configure --prefix=/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/rules_foreign_cc/toolchains/make/bin/make sets $(MAKE)... yes
+checking whether /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/rules_foreign_cc/toolchains/make/bin/make supports nested variables... yes
+checking whether /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/rules_foreign_cc/toolchains/make/bin/make supports nested variables... (cached) yes
+checking whether /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/rules_foreign_cc/toolchains/make/bin/make supports the include directive... yes (GNU style)
+checking for gcc... /usr/bin/gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /usr/bin/gcc accepts -g... yes
+checking for /usr/bin/gcc option to enable C11 features... none needed
+checking whether the compiler is clang... no
+checking for compiler option needed when checking for declarations... none
+checking dependency style of /usr/bin/gcc... gcc3
+checking whether we are using the GNU C++ compiler... yes
+checking whether /usr/bin/g++ accepts -g... yes
+checking for /usr/bin/g++ option to enable C++11 features... none needed
+checking dependency style of /usr/bin/g++... gcc3
+checking how to run the C preprocessor... /usr/bin/gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for Minix Amsterdam compiler... no
+checking for ar... /usr/bin/ar
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking whether pragma GCC diagnostic push works... yes
+checking whether C++ compiler handles -Werror -Wunknown-warning-option... no
+checking whether C++ compiler handles -fno-exceptions... yes
+checking whether C++ compiler accepts -std=c++98... yes
+checking whether C++ compiler accepts -std=c++03... yes
+checking whether C++ compiler accepts -std=c++11... yes
+checking whether C++ compiler accepts -std=c++14... yes
+checking whether C++ compiler accepts -std=c++17... yes
+checking whether C++ compiler accepts -std=c++2a... yes
+checking whether /usr/bin/gcc supports POSIXLY_CORRECT=1... yes
+checking whether /usr/bin/g++ builds executables that work... yes
+checking whether /usr/bin/g++ supports POSIXLY_CORRECT=1... yes
+checking for dmd... no
+checking for -g... no
+checking for Java compiler... no
+checking for Java virtual machine... java
+checking for flex... no
+checking for lex... no
+configure: WARNING: bypassing lex because flex is required
+checking for bison... bison -y
+checking for ranlib... :
+checking for GNU M4 that supports accurate traces... /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4/bin/m4
+checking whether /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4/bin/m4 accepts --gnu... yes
+checking how m4 supports trace files... --debugfile
+checking for perl... /usr/bin/perl
+checking for xsltproc... /usr/bin/xsltproc
+checking for locale.h... yes
+checking for sys/param.h... yes
+checking for sys/socket.h... yes
+checking for unistd.h... (cached) yes
+checking for stdio_ext.h... yes
+checking for features.h... yes
+checking for getopt.h... yes
+checking for sys/cdefs.h... yes
+checking for sys/time.h... yes
+checking for limits.h... yes
+checking for wchar.h... yes
+checking for stdint.h... (cached) yes
+checking for inttypes.h... (cached) yes
+checking for crtdefs.h... no
+checking for wctype.h... yes
+checking for threads.h... yes
+checking for math.h... yes
+checking for sys/mman.h... yes
+checking for spawn.h... yes
+checking for sys/resource.h... yes
+checking for sys/times.h... yes
+checking for sys/wait.h... yes
+checking for sys/stat.h... (cached) yes
+checking for xlocale.h... no
+checking for inline... inline
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking whether malloc, realloc, calloc are POSIX compliant... yes
+checking for canonicalize_file_name... yes
+checking for getcwd... yes
+checking for readlink... yes
+checking for realpath... yes
+checking for readlinkat... yes
+checking for _set_invalid_parameter_handler... no
+checking for fcntl... yes
+checking for symlink... yes
+checking for vasnprintf... no
+checking for snprintf... yes
+checking for fsync... yes
+checking for microuptime... no
+checking for nanouptime... no
+checking for getprogname... no
+checking for getexecname... no
+checking for getrusage... yes
+checking for gettimeofday... yes
+checking for iswcntrl... yes
+checking for iswblank... yes
+checking for tcdrain... yes
+checking for mbsinit... yes
+checking for mbrtowc... yes
+checking for isascii... yes
+checking for mprotect... yes
+checking for obstack_printf... yes
+checking for lstat... yes
+checking for strerror_r... yes
+checking for __xpg_strerror_r... yes
+checking for pipe2... yes
+checking for setenv... yes
+checking for link... yes
+checking for sigaction... yes
+checking for sigaltstack... yes
+checking for siginterrupt... yes
+checking for strdup... yes
+checking for strndup... yes
+checking for pipe... yes
+checking for wcwidth... yes
+checking for __fseterr... no
+checking for getdelim... yes
+checking for getdtablesize... yes
+checking for catgets... yes
+checking for setlocale... yes
+checking whether // is distinct from /... no
+checking whether realpath works... yes
+checking for C/C++ restrict keyword... __restrict
+checking if environ is properly declared... yes
+checking whether the preprocessor supports include_next... yes
+checking whether system header files limit the line length... no
+checking for complete errno.h... yes
+checking whether strerror_r is declared... yes
+checking for strerror_r... (cached) yes
+checking whether strerror_r returns char *... yes
+checking for sig_atomic_t... yes
+checking for working fcntl.h... yes
+checking for pid_t... yes
+checking for mode_t... yes
+checking for stdint.h... yes
+checking for inttypes.h... yes
+checking whether printf supports size specifiers as in C99... yes
+checking whether printf supports 'long double' arguments... yes
+checking whether printf supports infinite 'double' arguments... yes
+checking whether byte ordering is bigendian... no
+checking whether long double and double are the same... no
+checking whether printf supports infinite 'long double' arguments... yes
+checking whether printf supports the 'a' and 'A' directives... yes
+checking whether printf supports the 'F' directive... yes
+checking whether printf supports the 'n' directive... yes
+checking whether printf supports the 'ls' directive... yes
+checking whether printf supports POSIX/XSI format strings with positions... yes
+checking whether printf supports the grouping flag... yes
+checking whether printf supports the left-adjust flag correctly... yes
+checking whether printf supports the zero flag correctly... yes
+checking whether printf supports large precisions... yes
+checking whether printf survives out-of-memory conditions... yes
+checking for wchar_t... yes
+checking for wint_t... yes
+checking whether wint_t is too small... no
+checking for intmax_t... yes
+checking where to find the exponent in a 'double'... word 1 bit 20
+checking whether snprintf returns a byte count as in C99... yes
+checking for snprintf... (cached) yes
+checking for strnlen... yes
+checking for wcslen... yes
+checking for wcsnlen... yes
+checking for mbrtowc... (cached) yes
+checking for wcrtomb... yes
+checking whether _snprintf is declared... no
+checking whether frexp() can be used without linking with libm... yes
+checking whether alarm is declared... yes
+checking for arithmetic hrtime_t... no
+checking for getopt.h... (cached) yes
+checking for getopt_long_only... yes
+checking whether getopt is POSIX compatible... yes
+checking for working GNU getopt function... yes
+checking for working GNU getopt_long function... yes
+checking for struct timeval... yes
+checking for wide-enough struct timeval.tv_sec member... yes
+checking whether limits.h has LLONG_MAX, WORD_BIT, ULLONG_WIDTH etc.... yes
+checking whether stdint.h conforms to C99... yes
+checking whether stdint.h predates C++11... no
+checking whether stdint.h has UINTMAX_WIDTH etc.... yes
+checking for inttypes.h... (cached) yes
+checking whether the inttypes.h PRIxNN macros are broken... no
+checking where to find the exponent in a 'float'... word 0 bit 23
+checking whether isnan(float) can be used without linking with libm... yes
+checking whether isnan(float) works... yes
+checking whether isnan(double) can be used without linking with libm... yes
+checking whether isnan(long double) can be used without linking with libm... yes
+checking whether isnanl works... yes
+checking whether iswcntrl works... yes
+checking for towlower... yes
+checking for wctype_t... yes
+checking for wctrans_t... yes
+checking for nl_langinfo and CODESET... yes
+checking for a traditional french locale... fr_FR
+checking for a traditional japanese locale... ja_JP
+checking for a french Unicode locale... fr_FR.UTF-8
+checking for a transitional chinese locale... zh_CN.GB18030
+checking whether ldexp() can be used without linking with libm... yes
+checking for ld used by /usr/bin/gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking 32-bit host C ABI... no
+checking for ELF binary format... yes
+checking for the common suffixes of directories in the library search path... lib,lib,lib64
+checking whether imported symbols can be declared weak... yes
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for pthread_kill in -lpthread... yes
+checking whether POSIX threads API is available... yes
+checking for multithread API to use... posix
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for mbstate_t... yes
+checking for mmap... yes
+checking for MAP_ANONYMOUS... yes
+checking whether memchr works... yes
+checking whether <limits.h> defines MIN and MAX... no
+checking whether <sys/param.h> defines MIN and MAX... yes
+checking whether obstack_printf is declared... yes
+checking for O_CLOEXEC... yes
+checking for promoted mode_t type... mode_t
+checking whether strerror(0) succeeds... yes
+checking for strerror_r with POSIX signature... no
+checking whether __xpg_strerror_r works... yes
+checking whether strerror_r is declared... (cached) yes
+checking for library containing posix_spawn... none required
+checking for posix_spawn... yes
+checking whether posix_spawn works... yes
+checking whether posix_spawnattr_setschedpolicy is supported... yes
+checking whether posix_spawnattr_setschedparam is supported... yes
+checking whether C symbols are prefixed with underscore at the linker level... no
+checking for sigset_t... yes
+checking for shared library path variable... LD_LIBRARY_PATH
+checking whether to activate relocatable installation... no
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking whether setenv is declared... yes
+checking for uid_t in sys/types.h... yes
+checking whether snprintf is declared... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking whether strdup is declared... yes
+checking whether strndup is declared... yes
+checking for struct timespec in <time.h>... yes
+checking whether clearerr_unlocked is declared... yes
+checking whether feof_unlocked is declared... yes
+checking whether ferror_unlocked is declared... yes
+checking whether fflush_unlocked is declared... yes
+checking whether fgets_unlocked is declared... yes
+checking whether fputc_unlocked is declared... yes
+checking whether fputs_unlocked is declared... yes
+checking whether fread_unlocked is declared... yes
+checking whether fwrite_unlocked is declared... yes
+checking whether getc_unlocked is declared... yes
+checking whether getchar_unlocked is declared... yes
+checking whether putc_unlocked is declared... yes
+checking whether putchar_unlocked is declared... yes
+checking whether unsetenv is declared... yes
+checking whether vsnprintf is declared... yes
+checking whether <wchar.h> uses 'inline' correctly... yes
+checking POSIX termios... yes
+checking whether use of TIOCGWINSZ requires termios.h... no
+checking whether stat file-mode macros are broken... no
+checking for nlink_t... yes
+checking whether getdelim is declared... yes
+checking whether getdtablesize is declared... yes
+checking whether getline is declared... yes
+checking whether setlocale (LC_ALL, NULL) is multithread-safe... yes
+checking whether setlocale (category, NULL) is multithread-safe... yes
+checking whether locale.h defines locale_t... yes
+checking whether lstat correctly handles trailing slash... yes
+checking whether strnlen is declared... yes
+checking for alloca as a compiler built-in... yes
+checking whether to enable assertions... yes
+checking for library containing clock_gettime... none required
+checking for clock_gettime... yes
+checking for clock_settime... yes
+checking whether // is distinct from /... (cached) no
+checking whether dup2 works... yes
+checking for error_at_line... yes
+checking whether fcntl handles F_DUPFD correctly... yes
+checking whether fcntl understands F_DUPFD_CLOEXEC... needs runtime check
+checking whether conversion from 'int' to 'long double' works... yes
+checking whether fopen recognizes a trailing slash... yes
+checking for __fpending... yes
+checking whether __fpending is declared... yes
+checking whether frexp works... yes
+checking whether frexpl is declared... yes
+checking whether frexpl() can be used without linking with libm... yes
+checking whether frexpl works... yes
+checking whether gethrtime is declared... no
+checking whether CLOCK_MONOTONIC or CLOCK_REALTIME is defined... yes
+checking whether program_invocation_name is declared... yes
+checking whether program_invocation_short_name is declared... yes
+checking whether __argv is declared... no
+checking whether gettimeofday clobbers localtime buffer... no
+checking for gettimeofday with POSIX signature... yes
+checking whether INT32_MAX < INTMAX_MAX... yes
+checking whether INT64_MAX == LONG_MAX... yes
+checking whether UINT32_MAX < UINTMAX_MAX... yes
+checking whether UINT64_MAX == ULONG_MAX... yes
+checking whether isnan macro works... yes
+checking whether isnan(double) can be used without linking with libm... (cached) yes
+checking whether isnan(double) can be used without linking with libm... (cached) yes
+checking whether isnan(float) can be used without linking with libm... (cached) yes
+checking whether isnan(float) works... (cached) yes
+checking whether isnan(long double) can be used without linking with libm... (cached) yes
+checking whether isnanl works... (cached) yes
+checking whether isnan(long double) can be used without linking with libm... (cached) yes
+checking whether isnanl works... (cached) yes
+checking whether iswblank is declared... yes
+checking whether iswdigit is ISO C compliant... yes
+checking whether iswxdigit is ISO C compliant... yes
+checking whether ldexpl is declared... yes
+checking whether ldexpl() can be used without linking with libm... yes
+checking whether ldexpl works... yes
+checking for libtextstyle... no
+checking for pthread_rwlock_t... yes
+checking whether pthread_rwlock_rdlock prefers a writer to a reader... no
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... (cached) yes
+checking whether NAN macro works... yes
+checking whether HUGE_VAL works... yes
+checking whether mbrtowc handles incomplete characters... yes
+checking whether mbrtowc works as well as mbtowc... yes
+checking whether mbrtowc handles a NULL pwc argument... yes
+checking whether mbrtowc handles a NULL string argument... yes
+checking whether mbrtowc has a correct return value... yes
+checking whether mbrtowc returns 0 when parsing a NUL character... yes
+checking whether mbrtowc stores incomplete characters... no
+checking whether mbrtowc works on empty input... yes
+checking whether the C locale is free of encoding errors... no
+checking whether mbrtowc handles incomplete characters... (cached) yes
+checking whether mbrtowc works as well as mbtowc... (cached) yes
+checking whether mbswidth is declared in <wchar.h>... no
+checking for mbstate_t... (cached) yes
+checking for obstacks that work with any size object... no
+checking whether open recognizes a trailing slash... yes
+checking whether perror matches strerror... yes
+checking whether posix_spawn_file_actions_addclose works... yes
+checking whether posix_spawn_file_actions_adddup2 works... yes
+checking whether posix_spawn_file_actions_addopen works... yes
+checking whether frexp works... (cached) yes
+checking whether ldexp can be used without linking with libm... (cached) yes
+checking whether frexpl() can be used without linking with libm... (cached) yes
+checking whether frexpl works... (cached) yes
+checking whether frexpl is declared... (cached) yes
+checking whether ldexpl() can be used without linking with libm... (cached) yes
+checking whether ldexpl works... (cached) yes
+checking whether ldexpl is declared... (cached) yes
+checking whether program_invocation_name is declared... (cached) yes
+checking whether program_invocation_short_name is declared... (cached) yes
+checking for raise... yes
+checking for sigprocmask... yes
+checking for readline... no
+checking readline/readline.h usability... no
+checking readline/readline.h presence... no
+checking for readline/readline.h... no
+checking readline/history.h usability... no
+checking readline/history.h presence... no
+checking for readline/history.h... no
+checking whether readlink signature is correct... yes
+checking whether readlink handles trailing slash correctly... yes
+checking search.h usability... yes
+checking search.h presence... yes
+checking for search.h... yes
+checking for tsearch... yes
+checking whether rename honors trailing slash on destination... yes
+checking whether rename honors trailing slash on source... yes
+checking whether rename manages hard links correctly... yes
+checking whether rename manages existing destinations correctly... yes
+checking for sched.h... yes
+checking for struct sched_param... yes
+checking for struct sigaction.sa_sigaction... yes
+checking for volatile sig_atomic_t... yes
+checking for sighandler_t... yes
+checking for signbit macro... yes
+checking for signbit compiler built-ins... yes
+checking for sigprocmask... (cached) yes
+checking for stdint.h... (cached) yes
+checking for SIZE_MAX... yes
+checking for snprintf... (cached) yes
+checking whether snprintf respects a size of 1... yes
+checking whether printf supports POSIX/XSI format strings with positions... (cached) yes
+checking for snprintf... (cached) yes
+checking whether snprintf truncates the result as in C99... yes
+checking whether snprintf fully supports the 'n' directive... yes
+checking whether snprintf respects a size of 1... (cached) yes
+checking whether vsnprintf respects a zero size as in C99... yes
+checking for posix_spawnattr_t... yes
+checking for posix_spawn_file_actions_t... yes
+checking for ssize_t... yes
+checking for good max_align_t... yes
+checking whether NULL can be used in arbitrary expressions... yes
+checking which flavor of printf attribute matches inttypes macros... system
+checking for stpcpy... yes
+checking for working strerror function... yes
+checking for working strndup... yes
+checking for strverscmp... yes
+checking for struct tms... yes
+checking whether unlink honors trailing slashes... yes
+checking whether unlink of a parent directory fails as it should... guessing yes
+checking for unsetenv... yes
+checking for unsetenv() return type... int
+checking whether unsetenv obeys POSIX... yes
+checking for ptrdiff_t... yes
+checking for vasprintf... yes
+checking for vasprintf... (cached) yes
+checking for vsnprintf... yes
+checking whether snprintf respects a size of 1... (cached) yes
+checking whether printf supports POSIX/XSI format strings with positions... (cached) yes
+checking for vsnprintf... (cached) yes
+checking whether snprintf truncates the result as in C99... (cached) yes
+checking whether snprintf fully supports the 'n' directive... (cached) yes
+checking whether snprintf respects a size of 1... (cached) yes
+checking whether vsnprintf respects a zero size as in C99... (cached) yes
+checking for waitid... yes
+checking whether iswcntrl works... (cached) yes
+checking for towlower... (cached) yes
+checking for wctype_t... (cached) yes
+checking for wctrans_t... (cached) yes
+checking whether wcwidth is declared... yes
+checking whether wcwidth works reasonably in UTF-8 locales... yes
+checking whether use of TIOCGWINSZ requires sys/ioctl.h... yes
+checking whether use of TIOCGWINSZ requires termios.h... (cached) no
+checking whether use of struct winsize requires sys/ptem.h... no
+checking for stdint.h... (cached) yes
+checking whether getdtablesize works... yes
+checking whether setlocale (LC_ALL, NULL) is multithread-safe... (cached) yes
+checking whether setlocale (category, NULL) is multithread-safe... (cached) yes
+checking whether locale.h conforms to POSIX:2001... yes
+checking whether struct lconv is properly defined... yes
+checking for getline... yes
+checking for working getline function... yes
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for valgrind... no
+checking Valgrind suppression file... 
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating src/yacc
+config.status: creating javacomp.sh
+config.status: creating javaexec.sh
+config.status: creating gnulib-po/Makefile.in
+config.status: creating runtime-po/Makefile.in
+config.status: creating etc/bench.pl
+config.status: creating tests/atlocal
+config.status: creating tests/bison
+config.status: creating Makefile
+config.status: creating po/Makefile.in
+config.status: creating doc/yacc.1
+config.status: creating lib/config.h
+config.status: linking /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/GNUmakefile to GNUmakefile
+config.status: executing depfiles commands
+config.status: executing po-directories commands
+config.status: creating gnulib-po/POTFILES
+config.status: creating gnulib-po/Makefile
+config.status: creating runtime-po/POTFILES
+config.status: creating runtime-po/Makefile
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: executing tests/atconfig commands
++ /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/rules_foreign_cc/toolchains/make/bin/make
+  GEN      lib/alloca.h
+  GEN      lib/configmake.h
+  GEN      lib/fcntl.h
+  GEN      lib/inttypes.h
+  GEN      lib/textstyle.h
+  GEN      lib/limits.h
+  GEN      lib/locale.h
+  GEN      lib/math.h
+  GEN      lib/sched.h
+  GEN      lib/signal.h
+  GEN      lib/spawn.h
+  GEN      lib/stdio.h
+  GEN      lib/stdlib.h
+  GEN      lib/string.h
+  GEN      lib/sys/resource.h
+  GEN      lib/sys/time.h
+  GEN      lib/sys/times.h
+  GEN      lib/sys/types.h
+  GEN      lib/sys/wait.h
+  GEN      lib/time.h
+  GEN      lib/unistd.h
+  GEN      lib/unitypes.h
+  GEN      lib/uniwidth.h
+  GEN      lib/wchar.h
+  GEN      lib/wctype.h
+  CC       src/bison-AnnotationList.o
+  CC       src/bison-InadequacyList.o
+  CC       src/bison-Sbitset.o
+  CC       src/bison-assoc.o
+  CC       src/bison-closure.o
+  CC       src/bison-complain.o
+  CC       src/bison-conflicts.o
+  CC       src/bison-derives.o
+  CC       src/bison-files.o
+  CC       src/bison-fixits.o
+  CC       src/bison-getargs.o
+  CC       src/bison-gram.o
+  CC       src/bison-graphviz.o
+  CC       src/bison-ielr.o
+  CC       src/bison-lalr.o
+  CC       src/bison-location.o
+  CC       src/bison-lr0.o
+  CC       src/bison-main.o
+  CC       src/bison-muscle-tab.o
+  CC       src/bison-named-ref.o
+  CC       src/bison-nullable.o
+  CC       src/bison-output.o
+  CC       src/bison-parse-gram.o
+  CC       src/bison-print-graph.o
+  CC       src/bison-print-xml.o
+  CC       src/bison-print.o
+  CC       src/bison-reader.o
+  CC       src/bison-reduce.o
+  CC       src/bison-relation.o
+  CC       src/bison-scan-code-c.o
+  CC       src/bison-scan-gram-c.o
+  CC       src/bison-scan-skel-c.o
+  CC       src/bison-state.o
+  CC       src/bison-symlist.o
+  CC       src/bison-symtab.o
+  CC       src/bison-tables.o
+  CC       src/bison-uniqstr.o
+  CC       lib/libbison_a-allocator.o
+  CC       lib/libbison_a-areadlink.o
+  CC       lib/libbison_a-argmatch.o
+  CC       lib/libbison_a-gl_array_list.o
+  CC       lib/libbison_a-binary-io.o
+  CC       lib/libbison_a-bitrotate.o
+  CC       lib/libbison_a-bitset.o
+  CC       lib/bitset/libbison_a-array.o
+  CC       lib/bitset/libbison_a-stats.o
+  CC       lib/bitset/libbison_a-table.o
+  CC       lib/bitset/libbison_a-list.o
+  CC       lib/bitset/libbison_a-vector.o
+  CC       lib/libbison_a-bitsetv.o
+  CC       lib/libbison_a-c-ctype.o
+  CC       lib/libbison_a-c-strcasecmp.o
+  CC       lib/libbison_a-c-strncasecmp.o
+  CC       lib/libbison_a-careadlinkat.o
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/lib/careadlinkat.c: In function 'careadlinkat':
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/lib/careadlinkat.c:174:1: warning: function may return address of local variable [-Wreturn-local-addr]
+  174 | }
+      | ^
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/lib/careadlinkat.c:73:8: note: declared here
+   73 |   char stack_buf[1024];
+      |        ^~~~~~~~~
+  CC       lib/libbison_a-cloexec.o
+  CC       lib/libbison_a-close-stream.o
+  CC       lib/libbison_a-closeout.o
+  CC       lib/libbison_a-concat-filename.o
+  CC       lib/libbison_a-dirname.o
+  CC       lib/libbison_a-basename.o
+  CC       lib/libbison_a-dirname-lgpl.o
+  CC       lib/libbison_a-basename-lgpl.o
+  CC       lib/libbison_a-stripslash.o
+  CC       lib/libbison_a-exitfail.o
+  CC       lib/libbison_a-fatal-signal.o
+  CC       lib/libbison_a-fd-safer-flag.o
+  CC       lib/libbison_a-dup-safer-flag.o
+  CC       lib/libbison_a-fopen-safer.o
+  CC       lib/libbison_a-fstrcmp.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/lib/fstrcmp.c:52:
+In function 'diag',
+    inlined from 'compareseq' at /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/lib/diffseq.h:507:7:
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/lib/diffseq.h:425:36: warning: 'fxbest' may be used uninitialized [-Wmaybe-uninitialized]
+  425 |               part->ymid = fxybest - fxbest;
+      |                            ~~~~~~~~^~~~~~~~
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/lib/diffseq.h: In function 'compareseq':
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/lib/diffseq.h:381:18: note: 'fxbest' was declared here
+  381 |           OFFSET fxbest IF_LINT (= 0);
+      |                  ^~~~~~
+In function 'diag',
+    inlined from 'compareseq' at /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/lib/diffseq.h:507:7:
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/lib/diffseq.h:432:36: warning: 'bxbest' may be used uninitialized [-Wmaybe-uninitialized]
+  432 |               part->ymid = bxybest - bxbest;
+      |                            ~~~~~~~~^~~~~~~~
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/lib/diffseq.h: In function 'compareseq':
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/lib/diffseq.h:383:18: note: 'bxbest' was declared here
+  383 |           OFFSET bxbest IF_LINT (= 0);
+      |                  ^~~~~~
+  CC       lib/libbison_a-gethrxtime.o
+  CC       lib/libbison_a-xtime.o
+  CC       lib/libbison_a-getprogname.o
+  CC       lib/libbison_a-gettime.o
+  CC       lib/libbison_a-hard-locale.o
+  CC       lib/libbison_a-hash.o
+  CC       lib/libbison_a-gl_list.o
+  CC       lib/libbison_a-localcharset.o
+  CC       lib/glthread/libbison_a-lock.o
+  CC       lib/libbison_a-math.o
+  CC       lib/libbison_a-mbchar.o
+  CC       lib/libbison_a-mbfile.o
+  CC       lib/libbison_a-mbswidth.o
+  CC       lib/libbison_a-pipe2.o
+  CC       lib/libbison_a-pipe2-safer.o
+  CC       lib/libbison_a-printf-frexp.o
+  CC       lib/libbison_a-printf-frexpl.o
+  CC       lib/libbison_a-progname.o
+  CC       lib/libbison_a-quotearg.o
+  CC       lib/libbison_a-setlocale_null.o
+  CC       lib/libbison_a-sig-handler.o
+  CC       lib/libbison_a-spawn-pipe.o
+  CC       lib/glthread/libbison_a-threadlib.o
+  CC       lib/libbison_a-timespec.o
+  CC       lib/libbison_a-timevar.o
+  CC       lib/glthread/libbison_a-tls.o
+  CC       lib/libbison_a-unistd.o
+  CC       lib/libbison_a-dup-safer.o
+  CC       lib/libbison_a-fd-safer.o
+  CC       lib/libbison_a-pipe-safer.o
+  CC       lib/uniwidth/libbison_a-width.o
+  CC       lib/libbison_a-wait-process.o
+  CC       lib/libbison_a-wctype-h.o
+  CC       lib/libbison_a-xmalloc.o
+  CC       lib/libbison_a-xalloc-die.o
+  CC       lib/libbison_a-xconcat-filename.o
+  CC       lib/libbison_a-xhash.o
+  CC       lib/libbison_a-gl_xlist.o
+  CC       lib/libbison_a-xmemdup0.o
+  CC       lib/libbison_a-xreadlink.o
+  CC       lib/libbison_a-xsize.o
+  CC       lib/libbison_a-xstrndup.o
+  CC       lib/libbison_a-get-errno.o
+  CC       lib/libbison_a-path-join.o
+  CC       lib/libbison_a-asnprintf.o
+  CC       lib/libbison_a-fcntl.o
+  CC       lib/libbison_a-mbrtowc.o
+  CC       lib/libbison_a-obstack.o
+  CC       lib/libbison_a-printf-args.o
+  CC       lib/libbison_a-printf-parse.o
+  CC       lib/libbison_a-readline.o
+  CC       lib/libbison_a-vasnprintf.o
+  AR       lib/libbison.a
+  CCLD     src/bison
+  GEN      /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/doc/bison.help
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/rules_foreign_cc/toolchains/make/bin/make  all-recursive
+make[1]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir'
+Making all in po
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/po'
+Making all in runtime-po
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/runtime-po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/runtime-po'
+Making all in gnulib-po
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/gnulib-po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/gnulib-po'
+Making all in .
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir'
+  GEN      /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/doc/bison.help
+  CC       lib/main.o
+  CC       lib/yyerror.o
+  AR       lib/liby.a
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir'
+make[1]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir'
++ /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/rules_foreign_cc/toolchains/make/bin/make install
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/rules_foreign_cc/toolchains/make/bin/make  install-recursive
+make[1]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir'
+Making install in po
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/po'
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/bg.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/bg/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/ca.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/ca/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/da.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/da/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/de.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/de/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/el.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/el/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/eo.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/eo/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/es.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/es/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/et.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/et/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/fi.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/fi/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/fr.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/fr/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/ga.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/ga/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/hr.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/hr/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/id.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/id/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/it.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/it/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/ja.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/ja/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/ms.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/ms/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/nb.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/nb/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/nl.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/nl/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/pl.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/pl/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/pt.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/pt/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/pt_BR.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/pt_BR/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/ro.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/ro/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/ru.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/ru/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/sr.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/sr/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/sv.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/sv/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/tr.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/tr/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/uk.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/uk/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/vi.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/vi/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/zh_CN.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/zh_CN/LC_MESSAGES/bison.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/zh_TW.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/zh_TW/LC_MESSAGES/bison.mo
+if test "bison" = "gettext-tools"; then \
+  /usr/bin/mkdir -p /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/po/$file \
+		    /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/po'
+Making install in runtime-po
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/runtime-po'
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/ast.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/ast/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/bg.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/bg/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/ca.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/ca/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/da.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/da/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/de.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/de/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/el.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/el/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/eo.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/eo/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/es.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/es/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/et.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/et/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/fi.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/fi/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/fr.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/fr/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/ga.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/ga/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/gl.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/gl/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/hr.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/hr/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/hu.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/hu/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/ia.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/ia/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/id.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/id/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/it.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/it/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/ja.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/ja/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/ky.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/ky/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/lt.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/lt/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/lv.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/lv/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/ms.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/ms/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/nb.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/nb/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/nl.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/nl/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/pl.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/pl/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/pt.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/pt/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/pt_BR.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/pt_BR/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/ro.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/ro/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/ru.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/ru/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/sl.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/sl/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/sq.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/sq/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/sr.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/sr/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/sv.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/sv/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/ta.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/ta/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/th.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/th/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/tr.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/tr/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/uk.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/uk/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/vi.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/vi/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/zh_CN.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/zh_CN/LC_MESSAGES/bison-runtime.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/zh_TW.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/zh_TW/LC_MESSAGES/bison-runtime.mo
+if test "bison" = "gettext-tools"; then \
+  /usr/bin/mkdir -p /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/runtime-po/$file \
+		    /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/runtime-po'
+Making install in gnulib-po
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/gnulib-po'
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/af.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/af/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/be.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/be/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/bg.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/bg/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/ca.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/ca/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/cs.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/cs/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/da.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/da/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/de.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/de/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/el.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/el/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/eo.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/eo/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/es.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/es/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/et.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/et/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/eu.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/eu/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/fi.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/fi/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/fr.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/fr/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/ga.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/ga/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/gl.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/gl/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/hu.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/hu/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/it.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/it/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/ja.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/ja/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/ko.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/ko/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/ms.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/ms/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/nb.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/nb/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/nl.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/nl/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/pl.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/pl/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/pt.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/pt/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/pt_BR.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/pt_BR/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/ro.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/ro/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/ru.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/ru/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/rw.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/rw/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/sk.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/sk/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/sl.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/sl/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/sr.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/sr/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/sv.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/sv/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/tr.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/tr/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/uk.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/uk/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/vi.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/vi/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/zh_CN.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/zh_CN/LC_MESSAGES/bison-gnulib.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/zh_TW.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/locale/zh_TW/LC_MESSAGES/bison-gnulib.mo
+if test "bison" = "gettext-tools"; then \
+  /usr/bin/mkdir -p /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/gnulib-po/$file \
+		    /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/gnulib-po'
+Making install in .
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir'
+  GEN      /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/doc/bison.help
+make[3]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/bin'
+  /usr/bin/install -c src/bison '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/bin'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/lib'
+ /usr/bin/install -c -m 644  lib/liby.a '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/lib'
+ ( cd '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/lib' && : liby.a )
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/bin'
+ /usr/bin/install -c src/yacc '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/bin'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/aclocal'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/m4/bison-i18n.m4 '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/aclocal'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c++/calc++'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c++/calc++/driver.cc /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c++/calc++/driver.hh /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c++/calc++/scanner.ll /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c++/calc++/calc++.cc /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c++/calc++/parser.yy '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c++/calc++'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c++'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c++/simple.yy '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c++'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c/bistromathic'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c/bistromathic/parse.y /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c/bistromathic/Makefile /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c/bistromathic/README.md '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c/bistromathic'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c/README.md '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c/calc'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c/calc/calc.y /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c/calc/Makefile /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c/calc/README.md '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c/calc'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c++/calc++'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c++/calc++/README.md /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c++/calc++/Makefile '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c++/calc++'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c++'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c++/README.md /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c++/Makefile /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c++/variant.yy /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c++/variant-11.yy '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c++'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/d'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/d/calc.y /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/d/Makefile /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/d/README.md '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/d'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/AUTHORS /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/COPYING /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/NEWS /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/README /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/THANKS /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/TODO '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/README.md '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/java'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/java/README.md '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/java'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/java/calc'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/java/calc/Calc.y /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/java/calc/Makefile '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/java/calc'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/java/simple'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/java/simple/Calc.y /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/java/simple/Makefile '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/java/simple'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c/lexcalc'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c/lexcalc/parse.y /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c/lexcalc/scan.l /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c/lexcalc/Makefile /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c/lexcalc/README.md '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c/lexcalc'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/bison/m4sugar'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/m4sugar/foreach.m4 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/m4sugar/m4sugar.m4 '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/bison/m4sugar'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c/mfcalc'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c/mfcalc/Makefile '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c/mfcalc'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/bison'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/README.md /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/bison-default.css '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/bison'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c/pushcalc'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c/pushcalc/calc.y /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c/pushcalc/Makefile /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c/pushcalc/README.md '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c/pushcalc'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c/reccalc'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c/reccalc/parse.y /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c/reccalc/scan.l /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c/reccalc/Makefile /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c/reccalc/README.md '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c/reccalc'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c/rpcalc'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c/rpcalc/Makefile '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c/rpcalc'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/bison/skeletons'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/skeletons/bison.m4 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/skeletons/c++-skel.m4 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/skeletons/c++.m4 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/skeletons/c-like.m4 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/skeletons/c-skel.m4 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/skeletons/c.m4 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/skeletons/glr.c /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/skeletons/glr.cc /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/skeletons/java-skel.m4 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/skeletons/java.m4 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/skeletons/lalr1.cc /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/skeletons/lalr1.java /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/skeletons/location.cc /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/skeletons/stack.hh /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/skeletons/variant.hh /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/skeletons/yacc.c /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/skeletons/README-D.txt /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/skeletons/d-skel.m4 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/skeletons/d.m4 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/skeletons/lalr1.d '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/bison/skeletons'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/bison/xslt'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/xslt/bison.xsl /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/xslt/xml2dot.xsl /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/xslt/xml2text.xsl /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/data/xslt/xml2xhtml.xsl '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/bison/xslt'
+  GEN      /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/doc/bison.help
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/info'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/doc/bison.info '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/info'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/man/man1'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/doc/bison.1 doc/yacc.1 '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/man/man1'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c/mfcalc'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c/mfcalc/calc.h /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c/mfcalc/mfcalc.y '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c/mfcalc'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c/rpcalc'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/external/bison/examples/c/rpcalc/rpcalc.y '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir/bison/share/doc/bison/examples/c/rpcalc'
+make[3]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir'
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir'
+make[1]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2148/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/bison.build_tmpdir'
++ set +x

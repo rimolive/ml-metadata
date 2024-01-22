@@ -1,0 +1,4 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/libgrpc_fault_injection_filter.a
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_fault_injection_filter/fault_injection_filter.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_fault_injection_filter/service_config_parser.o

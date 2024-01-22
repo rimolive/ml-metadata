@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/base/libarena_allocator.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/base/_objs/arena_allocator/arena_allocator.o

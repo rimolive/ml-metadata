@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/functions/libconvert.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/functions/_objs/convert/convert.o

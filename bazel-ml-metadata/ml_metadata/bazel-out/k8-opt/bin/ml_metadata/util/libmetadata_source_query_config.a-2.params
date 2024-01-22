@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/ml_metadata/util/libmetadata_source_query_config.a
+bazel-out/k8-opt/bin/ml_metadata/util/_objs/metadata_source_query_config/metadata_source_query_config.o

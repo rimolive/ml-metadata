@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/ml_metadata/metadata_store/libmysql_metadata_source.a
+bazel-out/k8-opt/bin/ml_metadata/metadata_store/_objs/mysql_metadata_source/mysql_metadata_source.o

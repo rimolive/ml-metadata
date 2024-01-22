@@ -1,0 +1,11 @@
+rcsD
+bazel-out/k8-opt/bin/external/envoy_api/envoy/type/matcher/v3/libpkg.upbdefs.a
+bazel-out/k8-opt/bin/external/envoy_api/envoy/type/matcher/v3/_objs/pkg.upbdefs/http_inputs.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/type/matcher/v3/_objs/pkg.upbdefs/metadata.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/type/matcher/v3/_objs/pkg.upbdefs/node.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/type/matcher/v3/_objs/pkg.upbdefs/number.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/type/matcher/v3/_objs/pkg.upbdefs/path.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/type/matcher/v3/_objs/pkg.upbdefs/regex.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/type/matcher/v3/_objs/pkg.upbdefs/string.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/type/matcher/v3/_objs/pkg.upbdefs/struct.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/type/matcher/v3/_objs/pkg.upbdefs/value.upbdefs.o

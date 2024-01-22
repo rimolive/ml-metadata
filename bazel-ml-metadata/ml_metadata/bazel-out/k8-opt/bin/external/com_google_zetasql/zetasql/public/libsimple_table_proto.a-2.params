@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/libsimple_table_proto.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/_objs/simple_table_proto/simple_table.pb.o

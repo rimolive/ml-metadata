@@ -1,0 +1,4 @@
+rcsD
+bazel-out/k8-opt/bin/external/envoy_api/envoy/annotations/libpkg.upbdefs.a
+bazel-out/k8-opt/bin/external/envoy_api/envoy/annotations/_objs/pkg.upbdefs/deprecation.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/annotations/_objs/pkg.upbdefs/resource.upbdefs.o

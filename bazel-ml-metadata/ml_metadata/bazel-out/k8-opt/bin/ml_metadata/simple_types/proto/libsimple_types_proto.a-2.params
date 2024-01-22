@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/ml_metadata/simple_types/proto/libsimple_types_proto.a
+bazel-out/k8-opt/bin/ml_metadata/simple_types/proto/_objs/simple_types_proto/simple_types.pb.o

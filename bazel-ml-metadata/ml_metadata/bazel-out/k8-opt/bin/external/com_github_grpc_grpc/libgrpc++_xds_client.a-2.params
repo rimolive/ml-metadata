@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/libgrpc++_xds_client.a
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc++_xds_client/xds_credentials.o

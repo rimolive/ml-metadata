@@ -1,0 +1,4 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/libanalyzer.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/_objs/analyzer/analyzer.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/_objs/analyzer/table_name_resolver.o

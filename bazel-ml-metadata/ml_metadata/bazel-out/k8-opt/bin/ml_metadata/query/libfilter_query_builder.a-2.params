@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/ml_metadata/query/libfilter_query_builder.a
+bazel-out/k8-opt/bin/ml_metadata/query/_objs/filter_query_builder/filter_query_builder.o

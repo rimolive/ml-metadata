@@ -1,0 +1,177 @@
+1705851500.027134024: src/main/tools/linux-sandbox.cc:152: calling pipe(2)...
+1705851500.027178404: src/main/tools/linux-sandbox.cc:171: calling clone(2)...
+1705851500.027510723: src/main/tools/linux-sandbox.cc:180: linux-sandbox-pid1 has PID 335674
+1705851500.027553014: src/main/tools/linux-sandbox-pid1.cc:650: Pid1Main started
+1705851500.027664633: src/main/tools/linux-sandbox.cc:197: done manipulating pipes
+1705851500.027783403: src/main/tools/linux-sandbox-pid1.cc:269: working dir: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2930/execroot/ml_metadata
+1705851500.027809493: src/main/tools/linux-sandbox-pid1.cc:301: writable: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2930/execroot/ml_metadata
+1705851500.027821612: src/main/tools/linux-sandbox-pid1.cc:301: writable: /tmp
+1705851500.027830798: src/main/tools/linux-sandbox-pid1.cc:301: writable: /dev/shm
+1705851500.027921769: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /
+1705851500.027932547: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev
+1705851500.027940164: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705851500.027948147: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/pts
+1705851500.027955625: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/hugepages
+1705851500.027962900: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/mqueue
+1705851500.027969259: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys
+1705851500.027975919: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/security
+1705851500.027987421: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/cgroup
+1705851500.027995303: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/pstore
+1705851500.028002803: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/firmware/efi/efivars
+1705851500.028039047: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/bpf
+1705851500.028046623: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/config
+1705851500.028054478: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/selinux
+1705851500.028062057: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/debug
+1705851500.028069468: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/tracing
+1705851500.028077062: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/fuse/connections
+1705851500.028085167: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc
+1705851500.028092509: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705851500.028101952: src/main/tools/linux-sandbox-pid1.cc:391: remount(nullptr, /proc/sys/fs/binfmt_misc, nullptr, 2101281, nullptr) failure (Operation not permitted) ignored
+1705851500.028111993: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705851500.028120069: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run
+1705851500.028127753: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000
+1705851500.028136489: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/gvfs
+1705851500.028178850: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/doc
+1705851500.028187086: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/media/rmartine/TOSHIBA EXT
+1705851500.028197002: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /home
+1705851500.028203214: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot
+1705851500.028210378: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot/efi
+1705851500.028217958: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705851500.028224007: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /var/lib/nfs/rpc_pipefs
+1705851500.028248753: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /mnt/WdMyCloud
+1705851500.028268311: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2930/execroot/ml_metadata
+1705851500.028293981: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2930/execroot/ml_metadata
+1705851500.028305429: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705851500.028311847: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705851500.028372443: src/main/tools/linux-sandbox-pid1.cc:460: calling fork...
+1705851500.028560908: src/main/tools/linux-sandbox-pid1.cc:490: child started with PID 2
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc: In function 'absl::lts_20230802::flat_hash_map<long int, std::vector<long int> > ml_metadata::{anonymous}::MapKeyIdToValueIds(absl::lts_20230802::Span<const long int>, absl::lts_20230802::Span<const long int>)':
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:151:21: warning: comparison of integer expressions of different signedness: 'int' and 'absl::lts_20230802::Span<const long int>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+  151 |   for (int i = 0; i < key_ids.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc: In member function 'absl::lts_20230802::Status ml_metadata::RDBMSMetadataAccessObject::FindEventsFromRecordSet(const ml_metadata::RecordSet&, std::vector<ml_metadata::Event>*)':
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:1440:21: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<ml_metadata::Event>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 1440 |   for (int i = 0; i < events->size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc: In member function 'absl::lts_20230802::Status ml_metadata::RDBMSMetadataAccessObject::ExpandLineageGraphImpl(const std::vector<ml_metadata::Artifact>&, int64_t, std::optional<std::__cxx11::basic_string<char> >, const absl::lts_20230802::flat_hash_set<long int>&, absl::lts_20230802::flat_hash_set<long int>&, std::vector<ml_metadata::Execution>&, ml_metadata::LineageGraph&)':
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:2836:21: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<ml_metadata::Artifact>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 2836 |   for (int i = 0; i < input_artifacts.size(); i++) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~~~~~~
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:2857:41: warning: comparison of integer expressions of different signedness: 'size_t' {aka 'long unsigned int'} and 'int64_t' {aka 'long int'} [-Wsign-compare]
+ 2857 |   while (unvisited_execution_ids.size() > max_nodes) {
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc: In member function 'absl::lts_20230802::Status ml_metadata::RDBMSMetadataAccessObject::ExpandLineageGraphImpl(const std::vector<ml_metadata::Execution>&, int64_t, std::optional<std::__cxx11::basic_string<char> >, const absl::lts_20230802::flat_hash_set<long int>&, absl::lts_20230802::flat_hash_set<long int>&, std::vector<ml_metadata::Artifact>&, ml_metadata::LineageGraph&)':
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:2978:21: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<ml_metadata::Execution>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 2978 |   for (int i = 0; i < input_executions.size(); i++) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~~~~~~~
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:2999:40: warning: comparison of integer expressions of different signedness: 'size_t' {aka 'long unsigned int'} and 'int64_t' {aka 'long int'} [-Wsign-compare]
+ 2999 |   while (unvisited_artifact_ids.size() > max_nodes) {
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc: In instantiation of 'absl::lts_20230802::Status ml_metadata::RDBMSMetadataAccessObject::FindParentTypesByTypeIdImpl(absl::lts_20230802::Span<const long int>, absl::lts_20230802::flat_hash_map<long int, Type>&) [with Type = ml_metadata::ArtifactType]':
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:1715:37:   required from here
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:1136:21: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<long int>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 1136 |   for (int i = 0; i < type_ids_with_parent.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc: In instantiation of 'absl::lts_20230802::Status ml_metadata::RDBMSMetadataAccessObject::FindParentTypesByTypeIdImpl(absl::lts_20230802::Span<const long int>, absl::lts_20230802::flat_hash_map<long int, Type>&) [with Type = ml_metadata::ExecutionType]':
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:1721:37:   required from here
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:1136:21: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<long int>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc: In instantiation of 'absl::lts_20230802::Status ml_metadata::RDBMSMetadataAccessObject::FindParentTypesByTypeIdImpl(absl::lts_20230802::Span<const long int>, absl::lts_20230802::flat_hash_map<long int, Type>&) [with Type = ml_metadata::ContextType]':
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:1727:37:   required from here
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:1136:21: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<long int>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc: In instantiation of 'absl::lts_20230802::Status ml_metadata::RDBMSMetadataAccessObject::CreateNodeImpl(const Node&, bool, absl::lts_20230802::Time, int64_t*) [with Node = ml_metadata::Artifact; NodeType = ml_metadata::ArtifactType; int64_t = long int]':
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:1733:70:   required from here
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:1178:7: warning: variable 'num_changed_properties' set but not used [-Wunused-but-set-variable]
+ 1178 |   int num_changed_properties = 0;
+      |       ^~~~~~~~~~~~~~~~~~~~~~
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:1183:7: warning: variable 'num_changed_custom_properties' set but not used [-Wunused-but-set-variable]
+ 1183 |   int num_changed_custom_properties = 0;
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc: In instantiation of 'absl::lts_20230802::Status ml_metadata::RDBMSMetadataAccessObject::CreateNodeImpl(const Node&, bool, absl::lts_20230802::Time, int64_t*) [with Node = ml_metadata::Execution; NodeType = ml_metadata::ExecutionType; int64_t = long int]':
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:1766:72:   required from here
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:1178:7: warning: variable 'num_changed_properties' set but not used [-Wunused-but-set-variable]
+ 1178 |   int num_changed_properties = 0;
+      |       ^~~~~~~~~~~~~~~~~~~~~~
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:1183:7: warning: variable 'num_changed_custom_properties' set but not used [-Wunused-but-set-variable]
+ 1183 |   int num_changed_custom_properties = 0;
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc: In instantiation of 'absl::lts_20230802::Status ml_metadata::RDBMSMetadataAccessObject::CreateNodeImpl(const Node&, bool, absl::lts_20230802::Time, int64_t*) [with Node = ml_metadata::Context; NodeType = ml_metadata::ContextType; int64_t = long int]':
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:1799:68:   required from here
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:1178:7: warning: variable 'num_changed_properties' set but not used [-Wunused-but-set-variable]
+ 1178 |   int num_changed_properties = 0;
+      |       ^~~~~~~~~~~~~~~~~~~~~~
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:1183:7: warning: variable 'num_changed_custom_properties' set but not used [-Wunused-but-set-variable]
+ 1183 |   int num_changed_custom_properties = 0;
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc: In instantiation of 'absl::lts_20230802::Status ml_metadata::RDBMSMetadataAccessObject::ListNodes(const ml_metadata::ListOperationOptions&, std::optional<absl::lts_20230802::Span<const long int> >, std::vector<MessageType>*, std::string*) [with Node = ml_metadata::Execution; std::string = std::__cxx11::basic_string<char>]':
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:2241:32:   required from here
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:2564:21: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<long int>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 2564 |   for (int i = 0; i < ids.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:2576:21: warning: comparison of integer expressions of different signedness: 'std::vector<ml_metadata::Execution>::size_type' {aka 'long unsigned int'} and 'int32_t' {aka 'int'} [-Wsign-compare]
+ 2576 |   if (nodes->size() > options.max_result_size()) {
+      |       ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc: In instantiation of 'absl::lts_20230802::Status ml_metadata::RDBMSMetadataAccessObject::ListNodes(const ml_metadata::ListOperationOptions&, std::optional<absl::lts_20230802::Span<const long int> >, std::vector<MessageType>*, std::string*) [with Node = ml_metadata::Artifact; std::string = std::__cxx11::basic_string<char>]':
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:2322:31:   required from here
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:2564:21: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<long int>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 2564 |   for (int i = 0; i < ids.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:2576:21: warning: comparison of integer expressions of different signedness: 'std::vector<ml_metadata::Artifact>::size_type' {aka 'long unsigned int'} and 'int32_t' {aka 'int'} [-Wsign-compare]
+ 2576 |   if (nodes->size() > options.max_result_size()) {
+      |       ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc: In instantiation of 'absl::lts_20230802::Status ml_metadata::RDBMSMetadataAccessObject::ListNodes(const ml_metadata::ListOperationOptions&, std::optional<absl::lts_20230802::Span<const long int> >, std::vector<MessageType>*, std::string*) [with Node = ml_metadata::Context; std::string = std::__cxx11::basic_string<char>]':
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:2604:28:   required from here
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:2564:21: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<long int>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 2564 |   for (int i = 0; i < ids.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:2576:21: warning: comparison of integer expressions of different signedness: 'std::vector<ml_metadata::Context>::size_type' {aka 'long unsigned int'} and 'int32_t' {aka 'int'} [-Wsign-compare]
+ 2576 |   if (nodes->size() > options.max_result_size()) {
+      |       ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ml_metadata/metadata_store/rdbms_metadata_access_object.cc:29:
+bazel-out/k8-opt/bin/external/com_google_glog/_virtual_includes/glog/glog/logging.h: In instantiation of 'std::string* google::Check_EQImpl(const T1&, const T2&, const char*) [with T1 = long unsigned int; T2 = int; std::string = std::__cxx11::basic_string<char>]':
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:2621:3:   required from here
+bazel-out/k8-opt/bin/external/com_google_glog/_virtual_includes/glog/glog/logging.h:719:32: warning: comparison of integer expressions of different signedness: 'const long unsigned int' and 'const int' [-Wsign-compare]
+  719 | DEFINE_CHECK_OP_IMPL(Check_EQ, ==)  // Compilation error with CHECK_EQ(NULL, x)?
+      |                                ^
+bazel-out/k8-opt/bin/external/com_google_glog/_virtual_includes/glog/glog/logging.h:148:53: note: in definition of macro 'GOOGLE_PREDICT_TRUE'
+  148 | #define GOOGLE_PREDICT_TRUE(x) (__builtin_expect(!!(x), 1))
+      |                                                     ^
+bazel-out/k8-opt/bin/external/com_google_glog/_virtual_includes/glog/glog/logging.h:719:1: note: in expansion of macro 'DEFINE_CHECK_OP_IMPL'
+  719 | DEFINE_CHECK_OP_IMPL(Check_EQ, ==)  // Compilation error with CHECK_EQ(NULL, x)?
+      | ^~~~~~~~~~~~~~~~~~~~
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc: In instantiation of 'absl::lts_20230802::Status ml_metadata::RDBMSMetadataAccessObject::FilterBoundaryNodesImpl(std::optional<std::basic_string_view<char> >, absl::lts_20230802::flat_hash_set<long int>&) [with Node = ml_metadata::Execution]':
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:2853:3:   required from here
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:2781:34: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<long int>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 2781 |   for (int i = 0; i * kBatchSize < candidate_ids.size(); i++) {
+      |                   ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc: In instantiation of 'absl::lts_20230802::StatusOr<absl::lts_20230802::flat_hash_set<long int> > ml_metadata::RDBMSMetadataAccessObject::FindEndingNodeIdsIfExists(ml_metadata::LineageSubgraphQueryOptions::EndingNodes, const absl::lts_20230802::flat_hash_set<long int>&) [with Node = ml_metadata::Execution; ml_metadata::LineageSubgraphQueryOptions::EndingNodes = ml_metadata::LineageSubgraphQueryOptions_EndingNodes]':
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:2916:3:   required from here
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:2811:31: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<long int>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 2811 |   for (int offset = 0; offset < candidate_ids.size(); offset += batch_size) {
+      |                        ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc: In instantiation of 'absl::lts_20230802::StatusOr<absl::lts_20230802::flat_hash_set<long int> > ml_metadata::RDBMSMetadataAccessObject::FindEndingNodeIdsIfExists(ml_metadata::LineageSubgraphQueryOptions::EndingNodes, const absl::lts_20230802::flat_hash_set<long int>&) [with Node = ml_metadata::Artifact; ml_metadata::LineageSubgraphQueryOptions::EndingNodes = ml_metadata::LineageSubgraphQueryOptions_EndingNodes]':
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:2916:3:   required from here
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:2811:31: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<long int>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc: In instantiation of 'absl::lts_20230802::Status ml_metadata::RDBMSMetadataAccessObject::FilterBoundaryNodesImpl(std::optional<std::basic_string_view<char> >, absl::lts_20230802::flat_hash_set<long int>&) [with Node = ml_metadata::Artifact]':
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:2995:3:   required from here
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:2781:34: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<long int>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ 2781 |   for (int i = 0; i * kBatchSize < candidate_ids.size(); i++) {
+      |                   ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc: In instantiation of 'absl::lts_20230802::Status ml_metadata::{anonymous}::PopulateTypeProperties(ml_metadata::QueryExecutor&, std::vector<MessageType>&) [with NodeType = ml_metadata::ArtifactType]':
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:1330:3:   required from 'absl::lts_20230802::Status ml_metadata::RDBMSMetadataAccessObject::FindNodesWithTypesImpl(absl::lts_20230802::Span<const long int>, std::vector<MessageType>&, std::vector<NodeType>&) [with Node = ml_metadata::Artifact; NodeType = ml_metadata::ArtifactType]'
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:1842:32:   required from here
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:369:21: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<ml_metadata::ArtifactType>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+  369 |   for (int i = 0; i < node_types.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc: In instantiation of 'absl::lts_20230802::Status ml_metadata::{anonymous}::PopulateTypeProperties(ml_metadata::QueryExecutor&, std::vector<MessageType>&) [with NodeType = ml_metadata::ExecutionType]':
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:895:5:   required from 'absl::lts_20230802::Status ml_metadata::RDBMSMetadataAccessObject::FindTypesFromRecordSet(const ml_metadata::RecordSet&, std::vector<MessageType>*, bool) [with MessageType = ml_metadata::ExecutionType]'
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:947:3:   required from 'absl::lts_20230802::Status ml_metadata::RDBMSMetadataAccessObject::FindTypeImpl(int64_t, MessageType*) [with MessageType = ml_metadata::ExecutionType; int64_t = long int]'
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:1519:22:   required from here
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:369:21: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<ml_metadata::ExecutionType>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc: In instantiation of 'absl::lts_20230802::Status ml_metadata::{anonymous}::PopulateTypeProperties(ml_metadata::QueryExecutor&, std::vector<MessageType>&) [with NodeType = ml_metadata::ContextType]':
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:895:5:   required from 'absl::lts_20230802::Status ml_metadata::RDBMSMetadataAccessObject::FindTypesFromRecordSet(const ml_metadata::RecordSet&, std::vector<MessageType>*, bool) [with MessageType = ml_metadata::ContextType]'
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:947:3:   required from 'absl::lts_20230802::Status ml_metadata::RDBMSMetadataAccessObject::FindTypeImpl(int64_t, MessageType*) [with MessageType = ml_metadata::ContextType; int64_t = long int]'
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:1529:22:   required from here
+ml_metadata/metadata_store/rdbms_metadata_access_object.cc:369:21: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<ml_metadata::ContextType>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+1705851520.364705299: src/main/tools/linux-sandbox-pid1.cc:507: wait returned pid=2, status=0x00
+1705851520.364769523: src/main/tools/linux-sandbox-pid1.cc:525: child exited normally with code 0
+1705851520.365006844: src/main/tools/linux-sandbox.cc:233: child exited normally with code 0

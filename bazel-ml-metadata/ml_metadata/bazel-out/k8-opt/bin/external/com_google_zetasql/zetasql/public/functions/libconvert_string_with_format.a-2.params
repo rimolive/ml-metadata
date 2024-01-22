@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/functions/libconvert_string_with_format.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/functions/_objs/convert_string_with_format/convert_string_with_format.o

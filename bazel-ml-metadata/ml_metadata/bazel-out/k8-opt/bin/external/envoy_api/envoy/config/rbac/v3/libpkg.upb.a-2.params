@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/rbac/v3/libpkg.upb.a
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/rbac/v3/_objs/pkg.upb/rbac.upb.o

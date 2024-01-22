@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_protobuf/libany_proto.upb.a
+bazel-out/k8-opt/bin/external/com_google_protobuf/_objs/any_proto.upb/any.upb.o

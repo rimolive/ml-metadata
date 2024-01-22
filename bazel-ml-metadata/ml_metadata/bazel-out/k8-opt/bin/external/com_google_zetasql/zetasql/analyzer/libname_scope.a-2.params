@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/libname_scope.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/_objs/name_scope/name_scope.o

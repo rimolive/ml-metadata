@@ -1,0 +1,7 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/libgrpc_http_filters.a
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_http_filters/http_client_filter.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_http_filters/http_filters_plugin.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_http_filters/message_compress_filter.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_http_filters/message_decompress_filter.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_http_filters/http_server_filter.o

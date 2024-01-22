@@ -1,0 +1,7 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_absl/absl/base/libbase.a
+bazel-out/k8-opt/bin/external/com_google_absl/absl/base/_objs/base/cycleclock.o
+bazel-out/k8-opt/bin/external/com_google_absl/absl/base/_objs/base/spinlock.o
+bazel-out/k8-opt/bin/external/com_google_absl/absl/base/_objs/base/sysinfo.o
+bazel-out/k8-opt/bin/external/com_google_absl/absl/base/_objs/base/thread_identity.o
+bazel-out/k8-opt/bin/external/com_google_absl/absl/base/_objs/base/unscaledcycleclock.o

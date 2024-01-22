@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/rewriters/librewriter_relevance_checker.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/rewriters/_objs/rewriter_relevance_checker/rewriter_relevance_checker.o

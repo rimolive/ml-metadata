@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/scripting/libscript_segment.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/scripting/_objs/script_segment/script_segment.o

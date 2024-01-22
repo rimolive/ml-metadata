@@ -1,0 +1,182 @@
+1705851504.221395912: src/main/tools/linux-sandbox.cc:152: calling pipe(2)...
+1705851504.221444226: src/main/tools/linux-sandbox.cc:171: calling clone(2)...
+1705851504.221763137: src/main/tools/linux-sandbox.cc:180: linux-sandbox-pid1 has PID 335712
+1705851504.221802306: src/main/tools/linux-sandbox-pid1.cc:650: Pid1Main started
+1705851504.221916176: src/main/tools/linux-sandbox.cc:197: done manipulating pipes
+1705851504.222033554: src/main/tools/linux-sandbox-pid1.cc:269: working dir: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2936/execroot/ml_metadata
+1705851504.222060422: src/main/tools/linux-sandbox-pid1.cc:301: writable: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2936/execroot/ml_metadata
+1705851504.222073130: src/main/tools/linux-sandbox-pid1.cc:301: writable: /tmp
+1705851504.222082174: src/main/tools/linux-sandbox-pid1.cc:301: writable: /dev/shm
+1705851504.222211260: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /
+1705851504.222222144: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev
+1705851504.222229433: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705851504.222248591: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/pts
+1705851504.222258015: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/hugepages
+1705851504.222265561: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/mqueue
+1705851504.222272366: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys
+1705851504.222279189: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/security
+1705851504.222291189: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/cgroup
+1705851504.222299271: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/pstore
+1705851504.222306902: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/firmware/efi/efivars
+1705851504.222344523: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/bpf
+1705851504.222351883: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/config
+1705851504.222359530: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/selinux
+1705851504.222366883: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/debug
+1705851504.222374182: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/tracing
+1705851504.222381569: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/fuse/connections
+1705851504.222389785: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc
+1705851504.222397012: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705851504.222406768: src/main/tools/linux-sandbox-pid1.cc:391: remount(nullptr, /proc/sys/fs/binfmt_misc, nullptr, 2101281, nullptr) failure (Operation not permitted) ignored
+1705851504.222417499: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705851504.222425414: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run
+1705851504.222433121: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000
+1705851504.222441599: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/gvfs
+1705851504.222489584: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/doc
+1705851504.222497808: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/media/rmartine/TOSHIBA EXT
+1705851504.222507193: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /home
+1705851504.222513372: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot
+1705851504.222520088: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot/efi
+1705851504.222527659: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705851504.222533638: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /var/lib/nfs/rpc_pipefs
+1705851504.222545027: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /mnt/WdMyCloud
+1705851504.222561795: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2936/execroot/ml_metadata
+1705851504.222588982: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2936/execroot/ml_metadata
+1705851504.222600421: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705851504.222606752: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705851504.222673511: src/main/tools/linux-sandbox-pid1.cc:460: calling fork...
+1705851504.222841234: src/main/tools/linux-sandbox-pid1.cc:490: child started with PID 2
+In file included from external/com_google_zetasql/zetasql/parser/parse_tree.h:27,
+                 from external/com_google_zetasql/zetasql/parser/parse_tree.cc:17:
+external/com_google_zetasql/zetasql/parser/ast_node.h: In member function 'int zetasql::ASTNode::find_child_index(zetasql::ASTNodeKind) const':
+external/com_google_zetasql/zetasql/parser/ast_node.h:105:23: warning: comparison of integer expressions of different signedness: 'int' and 'absl::lts_20230802::InlinedVector<zetasql::ASTNode*, 4>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+  105 |     for (int i = 0; i < children_.size(); i++) {
+      |                     ~~^~~~~~~~~~~~~~~~~~
+In file included from bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/parser/parse_tree_generated.h:27,
+                 from external/com_google_zetasql/zetasql/parser/parse_tree.h:28:
+external/com_google_zetasql/zetasql/public/id_string.h: In member function 'const zetasql::IdString::Shared* zetasql::IdStringPool::MakeShared(absl::lts_20230802::string_view)':
+external/com_google_zetasql/zetasql/public/id_string.h:462:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::basic_string_view<char>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+  462 |     for (int i = 0; i < str.size(); ++i) {
+      |                     ~~^~~~~~~~~~~~
+external/com_google_zetasql/zetasql/parser/parse_tree.cc: In member function 'void zetasql::ASTNode::ChildrenAccept(zetasql::ParseTreeVisitor*, void*) const':
+external/com_google_zetasql/zetasql/parser/parse_tree.cc:501:21: warning: comparison of integer expressions of different signedness: 'int' and 'absl::lts_20230802::InlinedVector<zetasql::ASTNode*, 4>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+  501 |   for (int i = 0; i < children_.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/parser/parse_tree.cc: In member function 'bool zetasql::ASTNode::Dumper::DumpNode()':
+external/com_google_zetasql/zetasql/parser/parse_tree.cc:533:35: warning: comparison of integer expressions of different signedness: 'int' and 'std::basic_string_view<char>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+  533 |       range.end().GetByteOffset() <= sql_->size()) {
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/parser/parse_tree.cc: In static member function 'static absl::lts_20230802::Status zetasql::ASTGeneralizedPathExpression::VerifyIsPureGeneralizedPathExpression(const zetasql::ASTExpression*)':
+external/com_google_zetasql/zetasql/parser/parse_tree.cc:798:51: warning: 'const NodeType* zetasql::ASTNode::GetAs() const [with NodeType = zetasql::ASTDotGeneralizedField]' is deprecated: Use GetAsOrDie or GetAsOrNull [-Wdeprecated-declarations]
+  798 |         path = path->GetAs<ASTDotGeneralizedField>()->expr();
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+external/com_google_zetasql/zetasql/parser/ast_node.h:124:19: note: declared here
+  124 |   const NodeType* GetAs() const {
+      |                   ^~~~~
+external/com_google_zetasql/zetasql/parser/parse_tree.cc:801:45: warning: 'const NodeType* zetasql::ASTNode::GetAs() const [with NodeType = zetasql::ASTDotIdentifier]' is deprecated: Use GetAsOrDie or GetAsOrNull [-Wdeprecated-declarations]
+  801 |         path = path->GetAs<ASTDotIdentifier>()->expr();
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+external/com_google_zetasql/zetasql/parser/ast_node.h:124:19: note: declared here
+  124 |   const NodeType* GetAs() const {
+      |                   ^~~~~
+external/com_google_zetasql/zetasql/parser/parse_tree.cc:804:44: warning: 'const NodeType* zetasql::ASTNode::GetAs() const [with NodeType = zetasql::ASTArrayElement]' is deprecated: Use GetAsOrDie or GetAsOrNull [-Wdeprecated-declarations]
+  804 |         path = path->GetAs<ASTArrayElement>()->array();
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+external/com_google_zetasql/zetasql/parser/ast_node.h:124:19: note: declared here
+  124 |   const NodeType* GetAs() const {
+      |                   ^~~~~
+external/com_google_zetasql/zetasql/parser/parse_tree.cc: In function 'absl::lts_20230802::StatusOr<const zetasql::ASTPathExpression*> zetasql::GetTargetPathForNonNestedDMLStatement(absl::lts_20230802::string_view, const ASTGeneralizedPathExpression*)':
+external/com_google_zetasql/zetasql/parser/parse_tree.cc:1356:49: warning: 'const NodeType* zetasql::ASTNode::GetAs() const [with NodeType = zetasql::ASTPathExpression]' is deprecated: Use GetAsOrDie or GetAsOrNull [-Wdeprecated-declarations]
+ 1356 |     return target_path->GetAs<ASTPathExpression>();
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+external/com_google_zetasql/zetasql/parser/ast_node.h:124:19: note: declared here
+  124 |   const NodeType* GetAs() const {
+      |                   ^~~~~
+external/com_google_zetasql/zetasql/parser/parse_tree.cc:1369:48: warning: 'const NodeType* zetasql::ASTNode::GetAs() const [with NodeType = zetasql::ASTDotGeneralizedField]' is deprecated: Use GetAsOrDie or GetAsOrNull [-Wdeprecated-declarations]
+ 1369 |             expr->GetAs<ASTDotGeneralizedField>();
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+external/com_google_zetasql/zetasql/parser/ast_node.h:124:19: note: declared here
+  124 |   const NodeType* GetAs() const {
+      |                   ^~~~~
+external/com_google_zetasql/zetasql/parser/parse_tree.cc:1375:67: warning: 'const NodeType* zetasql::ASTNode::GetAs() const [with NodeType = zetasql::ASTDotIdentifier]' is deprecated: Use GetAsOrDie or GetAsOrNull [-Wdeprecated-declarations]
+ 1375 |         const auto* dot_identifier = expr->GetAs<ASTDotIdentifier>();
+      |                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+external/com_google_zetasql/zetasql/parser/ast_node.h:124:19: note: declared here
+  124 |   const NodeType* GetAs() const {
+      |                   ^~~~~
+external/com_google_zetasql/zetasql/parser/parse_tree.cc:1381:65: warning: 'const NodeType* zetasql::ASTNode::GetAs() const [with NodeType = zetasql::ASTArrayElement]' is deprecated: Use GetAsOrDie or GetAsOrNull [-Wdeprecated-declarations]
+ 1381 |         const auto* array_element = expr->GetAs<ASTArrayElement>();
+      |                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+external/com_google_zetasql/zetasql/parser/ast_node.h:124:19: note: declared here
+  124 |   const NodeType* GetAs() const {
+      |                   ^~~~~
+external/com_google_zetasql/zetasql/parser/parse_tree.cc: In member function 'std::string zetasql::ASTUnpivotClause::GetSQLForNullFilter() const':
+external/com_google_zetasql/zetasql/parser/parse_tree.cc:703:1: warning: control reaches end of non-void function [-Wreturn-type]
+  703 | }
+      | ^
+external/com_google_zetasql/zetasql/parser/parse_tree.cc: In member function 'std::string zetasql::ASTJoin::GetSQLForJoinType() const':
+external/com_google_zetasql/zetasql/parser/parse_tree.cc:750:1: warning: control reaches end of non-void function [-Wreturn-type]
+  750 | }
+      | ^
+external/com_google_zetasql/zetasql/parser/parse_tree.cc: In member function 'std::string zetasql::ASTJoin::GetSQLForJoinHint() const':
+external/com_google_zetasql/zetasql/parser/parse_tree.cc:761:1: warning: control reaches end of non-void function [-Wreturn-type]
+  761 | }
+      | ^
+external/com_google_zetasql/zetasql/parser/parse_tree.cc: In member function 'std::string zetasql::ASTBinaryExpression::GetSQLForOperator() const':
+external/com_google_zetasql/zetasql/parser/parse_tree.cc:856:1: warning: control reaches end of non-void function [-Wreturn-type]
+  856 | }
+      | ^
+external/com_google_zetasql/zetasql/parser/parse_tree.cc: In member function 'std::string zetasql::ASTAnySomeAllOp::GetSQLForOperator() const':
+external/com_google_zetasql/zetasql/parser/parse_tree.cc:912:1: warning: control reaches end of non-void function [-Wreturn-type]
+  912 | }
+      | ^
+external/com_google_zetasql/zetasql/parser/parse_tree.cc: In member function 'std::string zetasql::ASTUnaryExpression::GetSQLForOperator() const':
+external/com_google_zetasql/zetasql/parser/parse_tree.cc:942:1: warning: control reaches end of non-void function [-Wreturn-type]
+  942 | }
+      | ^
+external/com_google_zetasql/zetasql/parser/parse_tree.cc: In static member function 'static std::string zetasql::ASTDropStatement::GetSQLForDropMode(DropMode)':
+external/com_google_zetasql/zetasql/parser/parse_tree.cc:976:1: warning: control reaches end of non-void function [-Wreturn-type]
+  976 | }
+      | ^
+external/com_google_zetasql/zetasql/parser/parse_tree.cc: In static member function 'static std::string zetasql::ASTExpressionSubquery::ModifierToString(Modifier)':
+external/com_google_zetasql/zetasql/parser/parse_tree.cc:1155:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 1155 | }
+      | ^
+external/com_google_zetasql/zetasql/parser/parse_tree.cc: In static member function 'static std::string zetasql::ASTFunctionParameter::ProcedureParameterModeToString(ProcedureParameterMode)':
+external/com_google_zetasql/zetasql/parser/parse_tree.cc:1251:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 1251 | }
+      | ^
+external/com_google_zetasql/zetasql/parser/parse_tree.cc: In function 'std::string zetasql::SqlForSqlSecurity(ASTCreateStatement::SqlSecurity)':
+external/com_google_zetasql/zetasql/parser/parse_tree.cc:1284:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 1284 | }
+      | ^
+external/com_google_zetasql/zetasql/parser/parse_tree.cc: In function 'std::string zetasql::SqlForDeterminismLevel(ASTCreateFunctionStmtBase::DeterminismLevel)':
+external/com_google_zetasql/zetasql/parser/parse_tree.cc:1302:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 1302 | }
+      | ^
+external/com_google_zetasql/zetasql/parser/parse_tree.cc: In member function 'std::string zetasql::ASTInsertStatement::GetSQLForInsertMode() const':
+external/com_google_zetasql/zetasql/parser/parse_tree.cc:1434:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 1434 | }
+      | ^
+external/com_google_zetasql/zetasql/parser/parse_tree.cc: In member function 'std::string zetasql::ASTMergeWhenClause::GetSQLForMatchType() const':
+external/com_google_zetasql/zetasql/parser/parse_tree.cc:1485:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 1485 | }
+      | ^
+external/com_google_zetasql/zetasql/parser/parse_tree.cc: In member function 'std::string zetasql::ASTGeneratedColumnInfo::GetSqlForStoredMode() const':
+external/com_google_zetasql/zetasql/parser/parse_tree.cc:1502:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 1502 | }
+      | ^
+external/com_google_zetasql/zetasql/parser/parse_tree.cc: In member function 'std::string zetasql::ASTForeignKeyReference::GetSQLForMatch() const':
+external/com_google_zetasql/zetasql/parser/parse_tree.cc:1585:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 1585 | }
+      | ^
+external/com_google_zetasql/zetasql/parser/parse_tree.cc: In static member function 'static std::string zetasql::ASTForeignKeyActions::GetSQLForAction(Action)':
+external/com_google_zetasql/zetasql/parser/parse_tree.cc:1605:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 1605 | }
+      | ^
+external/com_google_zetasql/zetasql/parser/parse_tree.cc: In member function 'std::string zetasql::ASTFilterFieldsArg::GetSQLForOperator() const':
+external/com_google_zetasql/zetasql/parser/parse_tree.cc:1830:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 1830 | }
+      | ^
+1705851523.414759229: src/main/tools/linux-sandbox-pid1.cc:507: wait returned pid=2, status=0x00
+1705851523.414777628: src/main/tools/linux-sandbox-pid1.cc:525: child exited normally with code 0
+1705851523.415020059: src/main/tools/linux-sandbox.cc:233: child exited normally with code 0

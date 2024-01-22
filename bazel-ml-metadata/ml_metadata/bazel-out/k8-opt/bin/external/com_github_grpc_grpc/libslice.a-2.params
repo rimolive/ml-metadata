@@ -1,0 +1,4 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/libslice.a
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/slice/slice.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/slice/slice_string_helpers.o

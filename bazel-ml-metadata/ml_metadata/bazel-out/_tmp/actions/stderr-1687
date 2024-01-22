@@ -1,0 +1,81 @@
+1705857014.731476444: src/main/tools/linux-sandbox.cc:152: calling pipe(2)...
+1705857014.731516338: src/main/tools/linux-sandbox.cc:171: calling clone(2)...
+1705857014.732593452: src/main/tools/linux-sandbox.cc:180: linux-sandbox-pid1 has PID 337987
+1705857014.732618363: src/main/tools/linux-sandbox-pid1.cc:650: Pid1Main started
+1705857014.732699371: src/main/tools/linux-sandbox.cc:197: done manipulating pipes
+1705857014.732779429: src/main/tools/linux-sandbox-pid1.cc:269: working dir: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3102/execroot/ml_metadata
+1705857014.732802364: src/main/tools/linux-sandbox-pid1.cc:301: writable: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3102/execroot/ml_metadata
+1705857014.732809911: src/main/tools/linux-sandbox-pid1.cc:301: writable: /tmp
+1705857014.732815985: src/main/tools/linux-sandbox-pid1.cc:301: writable: /dev/shm
+1705857014.732883371: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /
+1705857014.732890436: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev
+1705857014.732981923: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705857014.733020544: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/pts
+1705857014.733043760: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/hugepages
+1705857014.733066597: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/mqueue
+1705857014.733071638: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys
+1705857014.733094151: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/security
+1705857014.733142514: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/cgroup
+1705857014.733165412: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/pstore
+1705857014.733188218: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/firmware/efi/efivars
+1705857014.733246956: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/bpf
+1705857014.733272471: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/config
+1705857014.733291067: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/selinux
+1705857014.733296320: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/debug
+1705857014.733319877: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/tracing
+1705857014.733342220: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/fuse/connections
+1705857014.733368555: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc
+1705857014.733404146: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705857014.733502279: src/main/tools/linux-sandbox-pid1.cc:391: remount(nullptr, /proc/sys/fs/binfmt_misc, nullptr, 2101281, nullptr) failure (Operation not permitted) ignored
+1705857014.733511592: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705857014.733517885: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run
+1705857014.733523078: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000
+1705857014.733609414: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/gvfs
+1705857014.733666904: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/doc
+1705857014.733674115: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/media/rmartine/TOSHIBA EXT
+1705857014.733711815: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /home
+1705857014.733716851: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot
+1705857014.733721197: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot/efi
+1705857014.733787482: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705857014.733793057: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /var/lib/nfs/rpc_pipefs
+1705857014.733840100: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /mnt/WdMyCloud
+1705857014.733895599: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3102/execroot/ml_metadata
+1705857014.733922996: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3102/execroot/ml_metadata
+1705857014.733930484: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705857014.733934687: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705857014.733990507: src/main/tools/linux-sandbox-pid1.cc:460: calling fork...
+1705857014.734152736: src/main/tools/linux-sandbox-pid1.cc:490: child started with PID 2
+ml_metadata/metadata_store/metadata_store.cc: In member function 'virtual absl::lts_20230802::Status ml_metadata::MetadataStore::PutTypes(const ml_metadata::PutTypesRequest&, ml_metadata::PutTypesResponse*)':
+ml_metadata/metadata_store/metadata_store.cc:791:32: warning: 'bool ml_metadata::PutTypesRequest::all_fields_match() const' is deprecated [-Wdeprecated-declarations]
+  791 |   if (!request.all_fields_match()) {
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from ./ml_metadata/metadata_store/metadata_store_service_interface.h:19,
+                 from ./ml_metadata/metadata_store/metadata_store.h:23,
+                 from ml_metadata/metadata_store/metadata_store.cc:15:
+bazel-out/k8-opt/bin/ml_metadata/proto/metadata_store_service.pb.h:25504:13: note: declared here
+25504 | inline bool PutTypesRequest::all_fields_match() const {
+      |             ^~~~~~~~~~~~~~~
+ml_metadata/metadata_store/metadata_store.cc: In member function 'virtual absl::lts_20230802::Status ml_metadata::MetadataStore::PutArtifactType(const ml_metadata::PutArtifactTypeRequest&, ml_metadata::PutArtifactTypeResponse*)':
+ml_metadata/metadata_store/metadata_store.cc:807:32: warning: 'bool ml_metadata::PutArtifactTypeRequest::all_fields_match() const' is deprecated [-Wdeprecated-declarations]
+  807 |   if (!request.all_fields_match()) {
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~^~
+bazel-out/k8-opt/bin/ml_metadata/proto/metadata_store_service.pb.h:22989:13: note: declared here
+22989 | inline bool PutArtifactTypeRequest::all_fields_match() const {
+      |             ^~~~~~~~~~~~~~~~~~~~~~
+ml_metadata/metadata_store/metadata_store.cc: In member function 'virtual absl::lts_20230802::Status ml_metadata::MetadataStore::PutExecutionType(const ml_metadata::PutExecutionTypeRequest&, ml_metadata::PutExecutionTypeResponse*)':
+ml_metadata/metadata_store/metadata_store.cc:828:32: warning: 'bool ml_metadata::PutExecutionTypeRequest::all_fields_match() const' is deprecated [-Wdeprecated-declarations]
+  828 |   if (!request.all_fields_match()) {
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~^~
+bazel-out/k8-opt/bin/ml_metadata/proto/metadata_store_service.pb.h:23577:13: note: declared here
+23577 | inline bool PutExecutionTypeRequest::all_fields_match() const {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~
+ml_metadata/metadata_store/metadata_store.cc: In member function 'virtual absl::lts_20230802::Status ml_metadata::MetadataStore::PutContextType(const ml_metadata::PutContextTypeRequest&, ml_metadata::PutContextTypeResponse*)':
+ml_metadata/metadata_store/metadata_store.cc:848:32: warning: 'bool ml_metadata::PutContextTypeRequest::all_fields_match() const' is deprecated [-Wdeprecated-declarations]
+  848 |   if (!request.all_fields_match()) {
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~^~
+bazel-out/k8-opt/bin/ml_metadata/proto/metadata_store_service.pb.h:25939:13: note: declared here
+25939 | inline bool PutContextTypeRequest::all_fields_match() const {
+      |             ^~~~~~~~~~~~~~~~~~~~~
+1705857025.841321994: src/main/tools/linux-sandbox-pid1.cc:507: wait returned pid=2, status=0x00
+1705857025.841366738: src/main/tools/linux-sandbox-pid1.cc:525: child exited normally with code 0
+1705857025.841635379: src/main/tools/linux-sandbox.cc:233: child exited normally with code 0

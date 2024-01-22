@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/common/libproto_helper.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/common/_objs/proto_helper/proto_helper.o

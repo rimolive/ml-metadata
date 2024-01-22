@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/libgrpc_channel_idle_filter.a
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_channel_idle_filter/channel_idle_filter.o

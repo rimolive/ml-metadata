@@ -1,0 +1,4 @@
+rcsD
+bazel-out/k8-opt/bin/ml_metadata/proto/libmetadata_store_service_proto.a
+bazel-out/k8-opt/bin/ml_metadata/proto/_objs/metadata_store_service_proto/metadata_store_service.pb.o
+bazel-out/k8-opt/bin/ml_metadata/proto/_objs/metadata_store_service_proto/metadata_store_service.grpc.pb.o

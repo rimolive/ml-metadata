@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/libfilter_fields_path_validator.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/_objs/filter_fields_path_validator/filter_fields_path_validator.o

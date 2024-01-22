@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/envoy_api/envoy/extensions/clusters/aggregate/v3/libpkg.upbdefs.a
+bazel-out/k8-opt/bin/external/envoy_api/envoy/extensions/clusters/aggregate/v3/_objs/pkg.upbdefs/cluster.upbdefs.o

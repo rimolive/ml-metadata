@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/ml_metadata/metadata_store/libquery_config_executor.a
+bazel-out/k8-opt/bin/ml_metadata/metadata_store/_objs/query_config_executor/query_config_executor.o

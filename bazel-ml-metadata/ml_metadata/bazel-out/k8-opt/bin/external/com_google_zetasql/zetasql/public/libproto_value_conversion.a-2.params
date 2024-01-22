@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/libproto_value_conversion.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/_objs/proto_value_conversion/proto_value_conversion.o

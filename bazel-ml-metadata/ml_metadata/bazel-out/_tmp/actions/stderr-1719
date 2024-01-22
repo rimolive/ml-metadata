@@ -1,0 +1,535 @@
+1705857053.081877957: src/main/tools/linux-sandbox.cc:152: calling pipe(2)...
+1705857053.081907511: src/main/tools/linux-sandbox.cc:171: calling clone(2)...
+1705857053.082139536: src/main/tools/linux-sandbox.cc:180: linux-sandbox-pid1 has PID 338591
+1705857053.082171147: src/main/tools/linux-sandbox-pid1.cc:650: Pid1Main started
+1705857053.082245470: src/main/tools/linux-sandbox.cc:197: done manipulating pipes
+1705857053.082322898: src/main/tools/linux-sandbox-pid1.cc:269: working dir: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3123/execroot/ml_metadata
+1705857053.082343814: src/main/tools/linux-sandbox-pid1.cc:301: writable: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3123/execroot/ml_metadata
+1705857053.082354152: src/main/tools/linux-sandbox-pid1.cc:301: writable: /tmp
+1705857053.082361844: src/main/tools/linux-sandbox-pid1.cc:301: writable: /dev/shm
+1705857053.082439172: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /
+1705857053.082446262: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev
+1705857053.082450809: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705857053.082455329: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/pts
+1705857053.082465244: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/hugepages
+1705857053.082472050: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/mqueue
+1705857053.082476266: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys
+1705857053.082480469: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/security
+1705857053.082487609: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/cgroup
+1705857053.082492587: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/pstore
+1705857053.082497194: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/firmware/efi/efivars
+1705857053.082523855: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/bpf
+1705857053.082528433: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/config
+1705857053.082533622: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/selinux
+1705857053.082538080: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/debug
+1705857053.082542485: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/tracing
+1705857053.082547351: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/fuse/connections
+1705857053.082552871: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc
+1705857053.082557207: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705857053.082564439: src/main/tools/linux-sandbox-pid1.cc:391: remount(nullptr, /proc/sys/fs/binfmt_misc, nullptr, 2101281, nullptr) failure (Operation not permitted) ignored
+1705857053.082571486: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705857053.082576118: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run
+1705857053.082580750: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000
+1705857053.082586496: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/gvfs
+1705857053.082615837: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/doc
+1705857053.082620593: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/media/rmartine/TOSHIBA EXT
+1705857053.082626920: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /home
+1705857053.082630531: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot
+1705857053.082634620: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot/efi
+1705857053.082639147: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705857053.082642876: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /var/lib/nfs/rpc_pipefs
+1705857053.082649618: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /mnt/WdMyCloud
+1705857053.082659630: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3123/execroot/ml_metadata
+1705857053.082675817: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3123/execroot/ml_metadata
+1705857053.082682450: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705857053.082686274: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705857053.082728472: src/main/tools/linux-sandbox-pid1.cc:460: calling fork...
+1705857053.082850450: src/main/tools/linux-sandbox-pid1.cc:490: child started with PID 2
+In file included from external/com_google_zetasql/zetasql/public/types/type_factory.h:35,
+                 from external/com_google_zetasql/zetasql/public/type.h:26,
+                 from external/com_google_zetasql/zetasql/public/value.h:38,
+                 from external/com_google_zetasql/zetasql/public/evaluator_table_iterator.h:26,
+                 from external/com_google_zetasql/zetasql/public/catalog.h:28,
+                 from external/com_google_zetasql/zetasql/public/cast.h:23,
+                 from external/com_google_zetasql/zetasql/public/cast.cc:17:
+external/com_google_zetasql/zetasql/public/types/proto_type.h: In member function 'absl::lts_20230802::Status zetasql::ProtoType::GetFieldTypeByTagNumber(int, zetasql::TypeFactory*, const zetasql::Type**, std::string*) const':
+external/com_google_zetasql/zetasql/public/types/proto_type.h:117:35: warning: 'absl::lts_20230802::Status zetasql::ProtoType::GetFieldTypeByTagNumber(int, zetasql::TypeFactory*, bool, const zetasql::Type**, std::string*) const' is deprecated: Use overload without 'use_obsolete_timestamp' argument. [-Wdeprecated-declarations]
+  117 |     return GetFieldTypeByTagNumber(
+      |            ~~~~~~~~~~~~~~~~~~~~~~~^
+  118 |         number, factory, /*use_obsolete_timestamp=*/false, type, name);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/proto_type.h:130:16: note: declared here
+  130 |   absl::Status GetFieldTypeByTagNumber(int number, TypeFactory* factory,
+      |                ^~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/proto_type.h: In member function 'absl::lts_20230802::Status zetasql::ProtoType::GetFieldTypeByName(const std::string&, zetasql::TypeFactory*, const zetasql::Type**, int*) const':
+external/com_google_zetasql/zetasql/public/types/proto_type.h:123:30: warning: 'absl::lts_20230802::Status zetasql::ProtoType::GetFieldTypeByName(const std::string&, zetasql::TypeFactory*, bool, const zetasql::Type**, int*) const' is deprecated: Use overload without 'use_obsolete_timestamp' argument. [-Wdeprecated-declarations]
+  123 |     return GetFieldTypeByName(name, factory,
+      |            ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+  124 |                               /*use_obsolete_timestamp=*/false, type, number);
+      |                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/proto_type.h:135:16: note: declared here
+  135 |   absl::Status GetFieldTypeByName(const std::string& name, TypeFactory* factory,
+      |                ^~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/proto_type.h: In static member function 'static absl::lts_20230802::Status zetasql::ProtoType::FieldDescriptorToTypeKindBase(bool, const google::protobuf::FieldDescriptor*, zetasql::TypeKind*)':
+external/com_google_zetasql/zetasql/public/types/proto_type.h:172:42: warning: 'static absl::lts_20230802::Status zetasql::ProtoType::GetTypeKindFromFieldDescriptor(const google::protobuf::FieldDescriptor*, bool, bool, zetasql::TypeKind*)' is deprecated: Use overload without 'use_obsolete_timestamp' argument. [-Wdeprecated-declarations]
+  172 |     return GetTypeKindFromFieldDescriptor(field, ignore_annotations,
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+  173 |                                           /*use_obsolete_timestamp=*/false,
+      |                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  174 |                                           kind);
+      |                                           ~~~~~
+external/com_google_zetasql/zetasql/public/types/proto_type.h:315:23: note: declared here
+  315 |   static absl::Status GetTypeKindFromFieldDescriptor(
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/proto_type.h: In static member function 'static absl::lts_20230802::Status zetasql::ProtoType::FieldDescriptorToTypeKindBase(const google::protobuf::FieldDescriptor*, bool, zetasql::TypeKind*)':
+external/com_google_zetasql/zetasql/public/types/proto_type.h:188:42: warning: 'static absl::lts_20230802::Status zetasql::ProtoType::GetTypeKindFromFieldDescriptor(const google::protobuf::FieldDescriptor*, bool, bool, zetasql::TypeKind*)' is deprecated: Use overload without 'use_obsolete_timestamp' argument. [-Wdeprecated-declarations]
+  188 |     return GetTypeKindFromFieldDescriptor(field,
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+  189 |                                           /*ignore_format_annotations=*/false,
+      |                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  190 |                                           use_obsolete_timestamp, kind);
+      |                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/proto_type.h:315:23: note: declared here
+  315 |   static absl::Status GetTypeKindFromFieldDescriptor(
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/type_factory.h: In member function 'absl::lts_20230802::Status zetasql::TypeFactory::MakeUnwrappedTypeFromProto(const google::protobuf::Descriptor*, const zetasql::Type**)':
+external/com_google_zetasql/zetasql/public/types/type_factory.h:272:38: warning: 'absl::lts_20230802::Status zetasql::TypeFactory::MakeUnwrappedTypeFromProto(const google::protobuf::Descriptor*, bool, const zetasql::Type**)' is deprecated: Obsolete timestamp types are deprecated [-Wdeprecated-declarations]
+  272 |     return MakeUnwrappedTypeFromProto(message, /*use_obsolete_timestamp=*/false,
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  273 |                                       result_type);
+      |                                       ~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/type_factory.h:278:16: note: declared here
+  278 |   absl::Status MakeUnwrappedTypeFromProto(const google::protobuf::Descriptor* message,
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/type_factory.h: In member function 'absl::lts_20230802::Status zetasql::TypeFactory::UnwrapTypeIfAnnotatedProto(const zetasql::Type*, const zetasql::Type**)':
+external/com_google_zetasql/zetasql/public/types/type_factory.h:286:38: warning: 'absl::lts_20230802::Status zetasql::TypeFactory::UnwrapTypeIfAnnotatedProto(const zetasql::Type*, bool, const zetasql::Type**)' is deprecated: Obsolete timestamp types are deprecated [-Wdeprecated-declarations]
+  286 |     return UnwrapTypeIfAnnotatedProto(
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+  287 |         input_type, /*use_obsolete_timestamp=*/false, result_type);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/types/type_factory.h:292:16: note: declared here
+  292 |   absl::Status UnwrapTypeIfAnnotatedProto(const Type* input_type,
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from external/com_google_zetasql/zetasql/public/value.h:1110:
+external/com_google_zetasql/zetasql/public/value_inl.h: In constructor 'constexpr zetasql::Value::Metadata::Metadata(zetasql::TypeKind, bool, bool, int32_t)':
+external/com_google_zetasql/zetasql/public/value_inl.h:788:11: warning: call to non-'constexpr' function 'zetasql::Value::Metadata::Content* zetasql::Value::Metadata::content()' [-Winvalid-constexpr]
+  788 |   *content() = Content(kind, is_null, preserves_order, value_extended_content);
+      |    ~~~~~~~^~
+external/com_google_zetasql/zetasql/public/value.h:962:14: note: 'zetasql::Value::Metadata::Content* zetasql::Value::Metadata::content()' declared here
+  962 |     Content* content();
+      |              ^~~~~~~
+external/com_google_zetasql/zetasql/public/value_inl.h: In function 'zetasql::Value zetasql::values::Struct(const zetasql::StructType*, absl::lts_20230802::Span<const zetasql::Value>)':
+external/com_google_zetasql/zetasql/public/value_inl.h:850:23: warning: 'static zetasql::Value zetasql::Value::Struct(const zetasql::StructType*, absl::lts_20230802::Span<const zetasql::Value>)' is deprecated: Please use MakeStruct() instead. [-Wdeprecated-declarations]
+  850 |   return Value::Struct(type, values);
+      |          ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/value.h:581:16: note: declared here
+  581 |   static Value Struct(const StructType* type, absl::Span<const Value> values) {
+      |                ^~~~~~
+external/com_google_zetasql/zetasql/public/value_inl.h: In function 'zetasql::Value zetasql::values::UnsafeStruct(const zetasql::StructType*, std::vector<zetasql::Value>&&)':
+external/com_google_zetasql/zetasql/public/value_inl.h:853:29: warning: 'static zetasql::Value zetasql::Value::UnsafeStruct(const zetasql::StructType*, std::vector<zetasql::Value>&&)' is deprecated: Please use MakeStructFromValidatedInputs() instead. [-Wdeprecated-declarations]
+  853 |   return Value::UnsafeStruct(type, std::move(values));
+      |          ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/value.h:592:16: note: declared here
+  592 |   static Value UnsafeStruct(const StructType* type,
+      |                ^~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/value_inl.h: In function 'zetasql::Value zetasql::values::EmptyArray(const zetasql::ArrayType*)':
+external/com_google_zetasql/zetasql/public/value_inl.h:865:22: warning: 'static zetasql::Value zetasql::Value::Array(const zetasql::ArrayType*, absl::lts_20230802::Span<const zetasql::Value>)' is deprecated: Please use MakeArray() instead. [-Wdeprecated-declarations]
+  865 |   return Value::Array(type, {});
+      |          ~~~~~~~~~~~~^~~~~~~~~~
+external/com_google_zetasql/zetasql/public/value.h:632:16: note: declared here
+  632 |   static Value Array(const ArrayType* array_type,
+      |                ^~~~~
+external/com_google_zetasql/zetasql/public/value_inl.h: In function 'zetasql::Value zetasql::values::Array(const zetasql::ArrayType*, absl::lts_20230802::Span<const zetasql::Value>)':
+external/com_google_zetasql/zetasql/public/value_inl.h:868:22: warning: 'static zetasql::Value zetasql::Value::Array(const zetasql::ArrayType*, absl::lts_20230802::Span<const zetasql::Value>)' is deprecated: Please use MakeArray() instead. [-Wdeprecated-declarations]
+  868 |   return Value::Array(type, values);
+      |          ~~~~~~~~~~~~^~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/value.h:632:16: note: declared here
+  632 |   static Value Array(const ArrayType* array_type,
+      |                ^~~~~
+external/com_google_zetasql/zetasql/public/value_inl.h: In function 'zetasql::Value zetasql::values::UnsafeArray(const zetasql::ArrayType*, std::vector<zetasql::Value>&&)':
+external/com_google_zetasql/zetasql/public/value_inl.h:871:28: warning: 'static zetasql::Value zetasql::Value::UnsafeArray(const zetasql::ArrayType*, std::vector<zetasql::Value>&&)' is deprecated: Please use MakeArrayFromValidatedInputs() instead. [-Wdeprecated-declarations]
+  871 |   return Value::UnsafeArray(type, std::move(values));
+      |          ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/value.h:644:16: note: declared here
+  644 |   static Value UnsafeArray(const ArrayType* array_type,
+      |                ^~~~~~~~~~~
+In file included from external/com_google_zetasql/zetasql/public/strings.h:23,
+                 from external/com_google_zetasql/zetasql/public/cast.cc:48:
+external/com_google_zetasql/zetasql/public/id_string.h: In member function 'const zetasql::IdString::Shared* zetasql::IdStringPool::MakeShared(absl::lts_20230802::string_view)':
+external/com_google_zetasql/zetasql/public/id_string.h:462:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::basic_string_view<char>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+  462 |     for (int i = 0; i < str.size(); ++i) {
+      |                     ~~^~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In member function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::CastContext::CastValue(const zetasql::Value&, const zetasql::Type*, const std::optional<std::__cxx11::basic_string<char> >&) const':
+external/com_google_zetasql/zetasql/public/cast.cc:1135:27: warning: 'static zetasql::Value zetasql::Value::Struct(const zetasql::StructType*, absl::lts_20230802::Span<const zetasql::Value>)' is deprecated: Please use MakeStruct() instead. [-Wdeprecated-declarations]
+ 1135 |       return Value::Struct(to_type->AsStruct(), casted_field_values);
+      |              ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/value.h:581:16: note: declared here
+  581 |   static Value Struct(const StructType* type, absl::Span<const Value> values) {
+      |                ^~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In member function 'virtual absl::lts_20230802::Status zetasql::{anonymous}::CastContextWithValidation::ValidateCoercion(const zetasql::Value&, const zetasql::Type*) const':
+external/com_google_zetasql/zetasql/public/cast.cc:1279:27: warning: 'bool zetasql::Coercer::CoercesTo(const zetasql::InputArgumentType&, const zetasql::Type*, bool, zetasql::SignatureMatchResult*) const' is deprecated: use CoercesTo(from_argument, to_type, is_explicit, result, extended_conversion) instead [-Wdeprecated-declarations]
+ 1279 |     if (!coercer.CoercesTo(InputArgumentType(from_value), to_type,
+      |          ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1280 |                            /*is_explicit=*/true, &result)) {
+      |                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from external/com_google_zetasql/zetasql/public/cast.cc:33:
+external/com_google_zetasql/zetasql/public/coercer.h:116:8: note: declared here
+  116 |   bool CoercesTo(const InputArgumentType& from_argument, const Type* to_type,
+      |        ^~~~~~~~~
+In file included from external/com_google_zetasql/zetasql/common/float_margin.h:26,
+                 from external/com_google_zetasql/zetasql/public/value.h:32:
+external/com_google_zetasql/zetasql/base/logging.h: In instantiation of 'std::string* zetasql_base::Check_EQImpl(const T1&, const T2&, const char*) [with T1 = long unsigned int; T2 = int; std::string = std::__cxx11::basic_string<char>]':
+external/com_google_zetasql/zetasql/public/numeric_value.h:1462:3:   required from here
+external/com_google_zetasql/zetasql/base/logging.h:186:32: warning: comparison of integer expressions of different signedness: 'const long unsigned int' and 'const int' [-Wsign-compare]
+  186 | DEFINE_CHECK_OP_IMPL(Check_EQ, ==)
+      |                                ^
+external/com_google_zetasql/zetasql/base/logging.h:174:12: note: in definition of macro 'DEFINE_CHECK_OP_IMPL'
+  174 |     if (v1 op v2) return nullptr;                                        \
+      |            ^~
+In file included from external/com_google_absl/absl/base/port.h:23,
+                 from external/com_google_absl/absl/strings/str_cat.h:100,
+                 from external/com_google_zetasql/zetasql/common/string_util.h:24,
+                 from external/com_google_zetasql/zetasql/common/float_margin.h:27:
+external/com_google_zetasql/zetasql/common/multiprecision_int_impl.h: In instantiation of 'void zetasql::multiprecision_int_impl::ShiftRight(Filler, Word*, int, uint) [with Filler = long unsigned int; Word = long unsigned int; uint = unsigned int]':
+external/com_google_zetasql/zetasql/common/multiprecision_int.h:321:42:   required from 'zetasql::FixedUint<kNumBitsPerWord, kNumWords>& zetasql::FixedUint<kNumBitsPerWord, kNumWords>::operator>>=(uint) [with int kNumBitsPerWord = 64; int kNumWords = 3; uint = unsigned int]'
+external/com_google_zetasql/zetasql/public/numeric_value.h:1467:23:   required from here
+external/com_google_zetasql/zetasql/common/multiprecision_int_impl.h:209:31: warning: comparison of integer expressions of different signedness: 'uint' {aka 'unsigned int'} and 'int' [-Wsign-compare]
+  209 |   if (ABSL_PREDICT_FALSE(bits >= num_words * kNumBitsPerWord)) {
+external/com_google_absl/absl/base/optimization.h:177:59: note: in definition of macro 'ABSL_PREDICT_FALSE'
+  177 | #define ABSL_PREDICT_FALSE(x) (__builtin_expect(false || (x), false))
+      |                                                           ^
+external/com_google_zetasql/zetasql/base/logging.h: In instantiation of 'std::string* zetasql_base::Check_GTImpl(const T1&, const T2&, const char*) [with T1 = unsigned int; T2 = int; std::string = std::__cxx11::basic_string<char>]':
+external/com_google_zetasql/zetasql/common/multiprecision_int_impl.h:197:3:   required from 'void zetasql::multiprecision_int_impl::ShiftRightFast(Word*, int, uint) [with LastWord = long unsigned int; Word = long unsigned int; uint = unsigned int]'
+external/com_google_zetasql/zetasql/common/multiprecision_int.h:317:54:   required from 'zetasql::FixedUint<kNumBitsPerWord, kNumWords>& zetasql::FixedUint<kNumBitsPerWord, kNumWords>::operator>>=(uint) [with int kNumBitsPerWord = 64; int kNumWords = 3; uint = unsigned int]'
+external/com_google_zetasql/zetasql/public/numeric_value.h:1467:23:   required from here
+external/com_google_zetasql/zetasql/base/logging.h:191:32: warning: comparison of integer expressions of different signedness: 'const unsigned int' and 'const int' [-Wsign-compare]
+  191 | DEFINE_CHECK_OP_IMPL(Check_GT, >)
+      |                                ^
+external/com_google_zetasql/zetasql/base/logging.h:174:12: note: in definition of macro 'DEFINE_CHECK_OP_IMPL'
+  174 |     if (v1 op v2) return nullptr;                                        \
+      |            ^~
+external/com_google_zetasql/zetasql/base/logging.h: In instantiation of 'std::string* zetasql_base::Check_LTImpl(const T1&, const T2&, const char*) [with T1 = unsigned int; T2 = int; std::string = std::__cxx11::basic_string<char>]':
+external/com_google_zetasql/zetasql/common/multiprecision_int_impl.h:198:3:   required from 'void zetasql::multiprecision_int_impl::ShiftRightFast(Word*, int, uint) [with LastWord = long unsigned int; Word = long unsigned int; uint = unsigned int]'
+external/com_google_zetasql/zetasql/common/multiprecision_int.h:317:54:   required from 'zetasql::FixedUint<kNumBitsPerWord, kNumWords>& zetasql::FixedUint<kNumBitsPerWord, kNumWords>::operator>>=(uint) [with int kNumBitsPerWord = 64; int kNumWords = 3; uint = unsigned int]'
+external/com_google_zetasql/zetasql/public/numeric_value.h:1467:23:   required from here
+external/com_google_zetasql/zetasql/base/logging.h:189:32: warning: comparison of integer expressions of different signedness: 'const unsigned int' and 'const int' [-Wsign-compare]
+  189 | DEFINE_CHECK_OP_IMPL(Check_LT, <)
+      |                                ^
+external/com_google_zetasql/zetasql/base/logging.h:174:12: note: in definition of macro 'DEFINE_CHECK_OP_IMPL'
+  174 |     if (v1 op v2) return nullptr;                                        \
+      |            ^~
+external/com_google_zetasql/zetasql/public/cast.cc: At global scope:
+external/com_google_zetasql/zetasql/public/cast.cc:303:14: warning: 'absl::lts_20230802::Status zetasql::{anonymous}::CheckLegacyRanges(int64_t, zetasql::functions::TimestampScale, const std::string&, const std::string&)' defined but not used [-Wunused-function]
+  303 | absl::Status CheckLegacyRanges(int64_t timestamp,
+      |              ^~~~~~~~~~~~~~~~~
+In constructor 'zetasql::Value::Value(uint64_t)',
+    inlined from 'static zetasql::Value zetasql::Value::Uint64(uint64_t)' at external/com_google_zetasql/zetasql/public/value_inl.h:257:56,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = long unsigned int]' at external/com_google_zetasql/zetasql/public/value.h:473:37,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericValueCast(const FromType&) [with FromType = int; ToType = long unsigned int]' at external/com_google_zetasql/zetasql/public/cast.cc:297:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:166:41: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  166 |     : metadata_(TypeKind::TYPE_UINT64), uint64_value_(value) {}
+      |                                         ^~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericValueCast(const FromType&) [with FromType = int; ToType = long unsigned int]':
+external/com_google_zetasql/zetasql/public/cast.cc:294:10: note: 'out' was declared here
+  294 |   ToType out;
+      |          ^~~
+In constructor 'zetasql::Value::Value(uint32_t)',
+    inlined from 'static zetasql::Value zetasql::Value::Uint32(uint32_t)' at external/com_google_zetasql/zetasql/public/value_inl.h:256:56,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = unsigned int]' at external/com_google_zetasql/zetasql/public/value.h:471:37,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericValueCast(const FromType&) [with FromType = int; ToType = unsigned int]' at external/com_google_zetasql/zetasql/public/cast.cc:297:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:163:41: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  163 |     : metadata_(TypeKind::TYPE_UINT32), uint32_value_(value) {}
+      |                                         ^~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericValueCast(const FromType&) [with FromType = int; ToType = unsigned int]':
+external/com_google_zetasql/zetasql/public/cast.cc:294:10: note: 'out' was declared here
+  294 |   ToType out;
+      |          ^~~
+In constructor 'zetasql::Value::Value(uint32_t)',
+    inlined from 'static zetasql::Value zetasql::Value::Uint32(uint32_t)' at external/com_google_zetasql/zetasql/public/value_inl.h:256:56,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = unsigned int]' at external/com_google_zetasql/zetasql/public/value.h:471:37,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = int; ToType = unsigned int]' at external/com_google_zetasql/zetasql/public/cast.cc:285:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:163:41: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  163 |     : metadata_(TypeKind::TYPE_UINT32), uint32_value_(value) {}
+      |                                         ^~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = int; ToType = unsigned int]':
+external/com_google_zetasql/zetasql/public/cast.cc:282:10: note: 'out' was declared here
+  282 |   ToType out;
+      |          ^~~
+In constructor 'zetasql::Value::Value(uint64_t)',
+    inlined from 'static zetasql::Value zetasql::Value::Uint64(uint64_t)' at external/com_google_zetasql/zetasql/public/value_inl.h:257:56,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = long unsigned int]' at external/com_google_zetasql/zetasql/public/value.h:473:37,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = int; ToType = long unsigned int]' at external/com_google_zetasql/zetasql/public/cast.cc:285:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:166:41: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  166 |     : metadata_(TypeKind::TYPE_UINT64), uint64_value_(value) {}
+      |                                         ^~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = int; ToType = long unsigned int]':
+external/com_google_zetasql/zetasql/public/cast.cc:282:10: note: 'out' was declared here
+  282 |   ToType out;
+      |          ^~~
+In constructor 'zetasql::Value::Value(int32_t)',
+    inlined from 'static zetasql::Value zetasql::Value::Int32(int32_t)' at external/com_google_zetasql/zetasql/public/value_inl.h:254:54,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = int]' at external/com_google_zetasql/zetasql/public/value.h:465:36,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = unsigned int; ToType = int]' at external/com_google_zetasql/zetasql/public/cast.cc:285:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:157:40: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  157 |     : metadata_(TypeKind::TYPE_INT32), int32_value_(value) {}
+      |                                        ^~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = unsigned int; ToType = int]':
+external/com_google_zetasql/zetasql/public/cast.cc:282:10: note: 'out' was declared here
+  282 |   ToType out;
+      |          ^~~
+In constructor 'zetasql::Value::Value(int32_t)',
+    inlined from 'static zetasql::Value zetasql::Value::Int32(int32_t)' at external/com_google_zetasql/zetasql/public/value_inl.h:254:54,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = int]' at external/com_google_zetasql/zetasql/public/value.h:465:36,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = long int; ToType = int]' at external/com_google_zetasql/zetasql/public/cast.cc:285:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:157:40: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  157 |     : metadata_(TypeKind::TYPE_INT32), int32_value_(value) {}
+      |                                        ^~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = long int; ToType = int]':
+external/com_google_zetasql/zetasql/public/cast.cc:282:10: note: 'out' was declared here
+  282 |   ToType out;
+      |          ^~~
+In constructor 'zetasql::Value::Value(uint64_t)',
+    inlined from 'static zetasql::Value zetasql::Value::Uint64(uint64_t)' at external/com_google_zetasql/zetasql/public/value_inl.h:257:56,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = long unsigned int]' at external/com_google_zetasql/zetasql/public/value.h:473:37,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = long int; ToType = long unsigned int]' at external/com_google_zetasql/zetasql/public/cast.cc:285:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:166:41: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  166 |     : metadata_(TypeKind::TYPE_UINT64), uint64_value_(value) {}
+      |                                         ^~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = long int; ToType = long unsigned int]':
+external/com_google_zetasql/zetasql/public/cast.cc:282:10: note: 'out' was declared here
+  282 |   ToType out;
+      |          ^~~
+In constructor 'zetasql::Value::Value(uint32_t)',
+    inlined from 'static zetasql::Value zetasql::Value::Uint32(uint32_t)' at external/com_google_zetasql/zetasql/public/value_inl.h:256:56,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = unsigned int]' at external/com_google_zetasql/zetasql/public/value.h:471:37,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = long int; ToType = unsigned int]' at external/com_google_zetasql/zetasql/public/cast.cc:285:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:163:41: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  163 |     : metadata_(TypeKind::TYPE_UINT32), uint32_value_(value) {}
+      |                                         ^~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = long int; ToType = unsigned int]':
+external/com_google_zetasql/zetasql/public/cast.cc:282:10: note: 'out' was declared here
+  282 |   ToType out;
+      |          ^~~
+In constructor 'zetasql::Value::Value(int32_t)',
+    inlined from 'static zetasql::Value zetasql::Value::Int32(int32_t)' at external/com_google_zetasql/zetasql/public/value_inl.h:254:54,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = int]' at external/com_google_zetasql/zetasql/public/value.h:465:36,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = float; ToType = int]' at external/com_google_zetasql/zetasql/public/cast.cc:285:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:157:40: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  157 |     : metadata_(TypeKind::TYPE_INT32), int32_value_(value) {}
+      |                                        ^~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = float; ToType = int]':
+external/com_google_zetasql/zetasql/public/cast.cc:282:10: note: 'out' was declared here
+  282 |   ToType out;
+      |          ^~~
+In constructor 'zetasql::Value::Value(int64_t)',
+    inlined from 'static zetasql::Value zetasql::Value::Int64(int64_t)' at external/com_google_zetasql/zetasql/public/value_inl.h:255:54,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = long int]' at external/com_google_zetasql/zetasql/public/value.h:467:36,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = float; ToType = long int]' at external/com_google_zetasql/zetasql/public/cast.cc:285:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:160:40: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  160 |     : metadata_(TypeKind::TYPE_INT64), int64_value_(value) {}
+      |                                        ^~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = float; ToType = long int]':
+external/com_google_zetasql/zetasql/public/cast.cc:282:10: note: 'out' was declared here
+  282 |   ToType out;
+      |          ^~~
+In constructor 'zetasql::Value::Value(uint32_t)',
+    inlined from 'static zetasql::Value zetasql::Value::Uint32(uint32_t)' at external/com_google_zetasql/zetasql/public/value_inl.h:256:56,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = unsigned int]' at external/com_google_zetasql/zetasql/public/value.h:471:37,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = float; ToType = unsigned int]' at external/com_google_zetasql/zetasql/public/cast.cc:285:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:163:41: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  163 |     : metadata_(TypeKind::TYPE_UINT32), uint32_value_(value) {}
+      |                                         ^~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = float; ToType = unsigned int]':
+external/com_google_zetasql/zetasql/public/cast.cc:282:10: note: 'out' was declared here
+  282 |   ToType out;
+      |          ^~~
+In constructor 'zetasql::Value::Value(uint64_t)',
+    inlined from 'static zetasql::Value zetasql::Value::Uint64(uint64_t)' at external/com_google_zetasql/zetasql/public/value_inl.h:257:56,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = long unsigned int]' at external/com_google_zetasql/zetasql/public/value.h:473:37,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = float; ToType = long unsigned int]' at external/com_google_zetasql/zetasql/public/cast.cc:285:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:166:41: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  166 |     : metadata_(TypeKind::TYPE_UINT64), uint64_value_(value) {}
+      |                                         ^~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = float; ToType = long unsigned int]':
+external/com_google_zetasql/zetasql/public/cast.cc:282:10: note: 'out' was declared here
+  282 |   ToType out;
+      |          ^~~
+In constructor 'zetasql::Value::Value(int32_t)',
+    inlined from 'static zetasql::Value zetasql::Value::Int32(int32_t)' at external/com_google_zetasql/zetasql/public/value_inl.h:254:54,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = int]' at external/com_google_zetasql/zetasql/public/value.h:465:36,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = double; ToType = int]' at external/com_google_zetasql/zetasql/public/cast.cc:285:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:157:40: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  157 |     : metadata_(TypeKind::TYPE_INT32), int32_value_(value) {}
+      |                                        ^~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = double; ToType = int]':
+external/com_google_zetasql/zetasql/public/cast.cc:282:10: note: 'out' was declared here
+  282 |   ToType out;
+      |          ^~~
+In constructor 'zetasql::Value::Value(int64_t)',
+    inlined from 'static zetasql::Value zetasql::Value::Int64(int64_t)' at external/com_google_zetasql/zetasql/public/value_inl.h:255:54,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = long int]' at external/com_google_zetasql/zetasql/public/value.h:467:36,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = double; ToType = long int]' at external/com_google_zetasql/zetasql/public/cast.cc:285:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:160:40: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  160 |     : metadata_(TypeKind::TYPE_INT64), int64_value_(value) {}
+      |                                        ^~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = double; ToType = long int]':
+external/com_google_zetasql/zetasql/public/cast.cc:282:10: note: 'out' was declared here
+  282 |   ToType out;
+      |          ^~~
+In constructor 'zetasql::Value::Value(uint32_t)',
+    inlined from 'static zetasql::Value zetasql::Value::Uint32(uint32_t)' at external/com_google_zetasql/zetasql/public/value_inl.h:256:56,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = unsigned int]' at external/com_google_zetasql/zetasql/public/value.h:471:37,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = double; ToType = unsigned int]' at external/com_google_zetasql/zetasql/public/cast.cc:285:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:163:41: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  163 |     : metadata_(TypeKind::TYPE_UINT32), uint32_value_(value) {}
+      |                                         ^~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = double; ToType = unsigned int]':
+external/com_google_zetasql/zetasql/public/cast.cc:282:10: note: 'out' was declared here
+  282 |   ToType out;
+      |          ^~~
+In constructor 'zetasql::Value::Value(uint64_t)',
+    inlined from 'static zetasql::Value zetasql::Value::Uint64(uint64_t)' at external/com_google_zetasql/zetasql/public/value_inl.h:257:56,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = long unsigned int]' at external/com_google_zetasql/zetasql/public/value.h:473:37,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = double; ToType = long unsigned int]' at external/com_google_zetasql/zetasql/public/cast.cc:285:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:166:41: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  166 |     : metadata_(TypeKind::TYPE_UINT64), uint64_value_(value) {}
+      |                                         ^~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = double; ToType = long unsigned int]':
+external/com_google_zetasql/zetasql/public/cast.cc:282:10: note: 'out' was declared here
+  282 |   ToType out;
+      |          ^~~
+In constructor 'zetasql::Value::Value(float)',
+    inlined from 'static zetasql::Value zetasql::Value::Float(float)' at external/com_google_zetasql/zetasql/public/value_inl.h:259:52,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = float]' at external/com_google_zetasql/zetasql/public/value.h:458:32,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = double; ToType = float]' at external/com_google_zetasql/zetasql/public/cast.cc:285:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:172:40: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  172 |     : metadata_(TypeKind::TYPE_FLOAT), float_value_(value) {}
+      |                                        ^~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = double; ToType = float]':
+external/com_google_zetasql/zetasql/public/cast.cc:282:10: note: 'out' was declared here
+  282 |   ToType out;
+      |          ^~~
+In constructor 'zetasql::Value::Value(int32_t)',
+    inlined from 'static zetasql::Value zetasql::Value::Int32(int32_t)' at external/com_google_zetasql/zetasql/public/value_inl.h:254:54,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = int]' at external/com_google_zetasql/zetasql/public/value.h:465:36,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = long unsigned int; ToType = int]' at external/com_google_zetasql/zetasql/public/cast.cc:285:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:157:40: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  157 |     : metadata_(TypeKind::TYPE_INT32), int32_value_(value) {}
+      |                                        ^~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = long unsigned int; ToType = int]':
+external/com_google_zetasql/zetasql/public/cast.cc:282:10: note: 'out' was declared here
+  282 |   ToType out;
+      |          ^~~
+In constructor 'zetasql::Value::Value(int64_t)',
+    inlined from 'static zetasql::Value zetasql::Value::Int64(int64_t)' at external/com_google_zetasql/zetasql/public/value_inl.h:255:54,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = long int]' at external/com_google_zetasql/zetasql/public/value.h:467:36,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = long unsigned int; ToType = long int]' at external/com_google_zetasql/zetasql/public/cast.cc:285:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:160:40: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  160 |     : metadata_(TypeKind::TYPE_INT64), int64_value_(value) {}
+      |                                        ^~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = long unsigned int; ToType = long int]':
+external/com_google_zetasql/zetasql/public/cast.cc:282:10: note: 'out' was declared here
+  282 |   ToType out;
+      |          ^~~
+In constructor 'zetasql::Value::Value(uint32_t)',
+    inlined from 'static zetasql::Value zetasql::Value::Uint32(uint32_t)' at external/com_google_zetasql/zetasql/public/value_inl.h:256:56,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = unsigned int]' at external/com_google_zetasql/zetasql/public/value.h:471:37,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = long unsigned int; ToType = unsigned int]' at external/com_google_zetasql/zetasql/public/cast.cc:285:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:163:41: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  163 |     : metadata_(TypeKind::TYPE_UINT32), uint32_value_(value) {}
+      |                                         ^~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = long unsigned int; ToType = unsigned int]':
+external/com_google_zetasql/zetasql/public/cast.cc:282:10: note: 'out' was declared here
+  282 |   ToType out;
+      |          ^~~
+In constructor 'zetasql::Value::Value(int32_t)',
+    inlined from 'static zetasql::Value zetasql::Value::Int32(int32_t)' at external/com_google_zetasql/zetasql/public/value_inl.h:254:54,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = int]' at external/com_google_zetasql/zetasql/public/value.h:465:36,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = zetasql::BigNumericValue; ToType = int]' at external/com_google_zetasql/zetasql/public/cast.cc:285:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:157:40: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  157 |     : metadata_(TypeKind::TYPE_INT32), int32_value_(value) {}
+      |                                        ^~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = zetasql::BigNumericValue; ToType = int]':
+external/com_google_zetasql/zetasql/public/cast.cc:282:10: note: 'out' was declared here
+  282 |   ToType out;
+      |          ^~~
+In constructor 'zetasql::Value::Value(int64_t)',
+    inlined from 'static zetasql::Value zetasql::Value::Int64(int64_t)' at external/com_google_zetasql/zetasql/public/value_inl.h:255:54,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = long int]' at external/com_google_zetasql/zetasql/public/value.h:467:36,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = zetasql::BigNumericValue; ToType = long int]' at external/com_google_zetasql/zetasql/public/cast.cc:285:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:160:40: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  160 |     : metadata_(TypeKind::TYPE_INT64), int64_value_(value) {}
+      |                                        ^~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = zetasql::BigNumericValue; ToType = long int]':
+external/com_google_zetasql/zetasql/public/cast.cc:282:10: note: 'out' was declared here
+  282 |   ToType out;
+      |          ^~~
+In constructor 'zetasql::Value::Value(uint32_t)',
+    inlined from 'static zetasql::Value zetasql::Value::Uint32(uint32_t)' at external/com_google_zetasql/zetasql/public/value_inl.h:256:56,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = unsigned int]' at external/com_google_zetasql/zetasql/public/value.h:471:37,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = zetasql::BigNumericValue; ToType = unsigned int]' at external/com_google_zetasql/zetasql/public/cast.cc:285:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:163:41: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  163 |     : metadata_(TypeKind::TYPE_UINT32), uint32_value_(value) {}
+      |                                         ^~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = zetasql::BigNumericValue; ToType = unsigned int]':
+external/com_google_zetasql/zetasql/public/cast.cc:282:10: note: 'out' was declared here
+  282 |   ToType out;
+      |          ^~~
+In constructor 'zetasql::Value::Value(uint64_t)',
+    inlined from 'static zetasql::Value zetasql::Value::Uint64(uint64_t)' at external/com_google_zetasql/zetasql/public/value_inl.h:257:56,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = long unsigned int]' at external/com_google_zetasql/zetasql/public/value.h:473:37,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = zetasql::BigNumericValue; ToType = long unsigned int]' at external/com_google_zetasql/zetasql/public/cast.cc:285:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:166:41: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  166 |     : metadata_(TypeKind::TYPE_UINT64), uint64_value_(value) {}
+      |                                         ^~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = zetasql::BigNumericValue; ToType = long unsigned int]':
+external/com_google_zetasql/zetasql/public/cast.cc:282:10: note: 'out' was declared here
+  282 |   ToType out;
+      |          ^~~
+In constructor 'zetasql::Value::Value(int32_t)',
+    inlined from 'static zetasql::Value zetasql::Value::Int32(int32_t)' at external/com_google_zetasql/zetasql/public/value_inl.h:254:54,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = int]' at external/com_google_zetasql/zetasql/public/value.h:465:36,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = zetasql::NumericValue; ToType = int]' at external/com_google_zetasql/zetasql/public/cast.cc:285:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:157:40: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  157 |     : metadata_(TypeKind::TYPE_INT32), int32_value_(value) {}
+      |                                        ^~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = zetasql::NumericValue; ToType = int]':
+external/com_google_zetasql/zetasql/public/cast.cc:282:10: note: 'out' was declared here
+  282 |   ToType out;
+      |          ^~~
+In constructor 'zetasql::Value::Value(int64_t)',
+    inlined from 'static zetasql::Value zetasql::Value::Int64(int64_t)' at external/com_google_zetasql/zetasql/public/value_inl.h:255:54,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = long int]' at external/com_google_zetasql/zetasql/public/value.h:467:36,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = zetasql::NumericValue; ToType = long int]' at external/com_google_zetasql/zetasql/public/cast.cc:285:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:160:40: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  160 |     : metadata_(TypeKind::TYPE_INT64), int64_value_(value) {}
+      |                                        ^~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = zetasql::NumericValue; ToType = long int]':
+external/com_google_zetasql/zetasql/public/cast.cc:282:10: note: 'out' was declared here
+  282 |   ToType out;
+      |          ^~~
+In constructor 'zetasql::Value::Value(uint32_t)',
+    inlined from 'static zetasql::Value zetasql::Value::Uint32(uint32_t)' at external/com_google_zetasql/zetasql/public/value_inl.h:256:56,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = unsigned int]' at external/com_google_zetasql/zetasql/public/value.h:471:37,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = zetasql::NumericValue; ToType = unsigned int]' at external/com_google_zetasql/zetasql/public/cast.cc:285:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:163:41: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  163 |     : metadata_(TypeKind::TYPE_UINT32), uint32_value_(value) {}
+      |                                         ^~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = zetasql::NumericValue; ToType = unsigned int]':
+external/com_google_zetasql/zetasql/public/cast.cc:282:10: note: 'out' was declared here
+  282 |   ToType out;
+      |          ^~~
+In constructor 'zetasql::Value::Value(uint64_t)',
+    inlined from 'static zetasql::Value zetasql::Value::Uint64(uint64_t)' at external/com_google_zetasql/zetasql/public/value_inl.h:257:56,
+    inlined from 'static zetasql::Value zetasql::Value::Make(T) [with T = long unsigned int]' at external/com_google_zetasql/zetasql/public/value.h:473:37,
+    inlined from 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = zetasql::NumericValue; ToType = long unsigned int]' at external/com_google_zetasql/zetasql/public/cast.cc:285:35:
+external/com_google_zetasql/zetasql/public/value_inl.h:166:41: warning: 'out' may be used uninitialized [-Wmaybe-uninitialized]
+  166 |     : metadata_(TypeKind::TYPE_UINT64), uint64_value_(value) {}
+      |                                         ^~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/public/cast.cc: In function 'absl::lts_20230802::StatusOr<zetasql::Value> zetasql::{anonymous}::NumericCast(const zetasql::Value&) [with FromType = zetasql::NumericValue; ToType = long unsigned int]':
+external/com_google_zetasql/zetasql/public/cast.cc:282:10: note: 'out' was declared here
+  282 |   ToType out;
+      |          ^~~
+1705857061.579188089: src/main/tools/linux-sandbox-pid1.cc:507: wait returned pid=2, status=0x00
+1705857061.579250051: src/main/tools/linux-sandbox-pid1.cc:525: child exited normally with code 0
+1705857061.579587138: src/main/tools/linux-sandbox.cc:233: child exited normally with code 0

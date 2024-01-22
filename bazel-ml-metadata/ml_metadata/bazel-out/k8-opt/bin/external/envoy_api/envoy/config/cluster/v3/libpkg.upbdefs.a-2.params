@@ -1,0 +1,6 @@
+rcsD
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/cluster/v3/libpkg.upbdefs.a
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/cluster/v3/_objs/pkg.upbdefs/circuit_breaker.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/cluster/v3/_objs/pkg.upbdefs/cluster.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/cluster/v3/_objs/pkg.upbdefs/filter.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/cluster/v3/_objs/pkg.upbdefs/outlier_detection.upbdefs.o

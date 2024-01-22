@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/upb/upbc/libcommon.a
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/upb/upbc/_objs/common/common.o

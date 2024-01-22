@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/functions/libcast_date_time.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/functions/_objs/cast_date_time/cast_date_time.o

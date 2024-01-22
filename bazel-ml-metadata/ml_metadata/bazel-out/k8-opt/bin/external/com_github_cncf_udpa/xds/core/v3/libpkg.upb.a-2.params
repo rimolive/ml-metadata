@@ -1,0 +1,9 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_github_cncf_udpa/xds/core/v3/libpkg.upb.a
+bazel-out/k8-opt/bin/external/com_github_cncf_udpa/xds/core/v3/_objs/pkg.upb/authority.upb.o
+bazel-out/k8-opt/bin/external/com_github_cncf_udpa/xds/core/v3/_objs/pkg.upb/collection_entry.upb.o
+bazel-out/k8-opt/bin/external/com_github_cncf_udpa/xds/core/v3/_objs/pkg.upb/context_params.upb.o
+bazel-out/k8-opt/bin/external/com_github_cncf_udpa/xds/core/v3/_objs/pkg.upb/extension.upb.o
+bazel-out/k8-opt/bin/external/com_github_cncf_udpa/xds/core/v3/_objs/pkg.upb/resource.upb.o
+bazel-out/k8-opt/bin/external/com_github_cncf_udpa/xds/core/v3/_objs/pkg.upb/resource_locator.upb.o
+bazel-out/k8-opt/bin/external/com_github_cncf_udpa/xds/core/v3/_objs/pkg.upb/resource_name.upb.o

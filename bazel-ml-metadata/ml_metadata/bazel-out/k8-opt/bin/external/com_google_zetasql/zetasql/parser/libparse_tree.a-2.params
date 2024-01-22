@@ -1,0 +1,4 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/parser/libparse_tree.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/parser/_objs/parse_tree/parse_tree.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/parser/_objs/parse_tree/parse_tree_errors.o

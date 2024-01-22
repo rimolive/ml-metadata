@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/resolved_ast/libvalidator.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/resolved_ast/_objs/validator/validator.o

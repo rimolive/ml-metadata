@@ -1,0 +1,4 @@
+rcsD
+bazel-out/k8-opt/bin/external/upb/libreflection.a
+bazel-out/k8-opt/bin/external/upb/_objs/reflection/def.o
+bazel-out/k8-opt/bin/external/upb/_objs/reflection/reflection.o

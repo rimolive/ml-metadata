@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_protobuf/libwrappers_proto.upbdefs.a
+bazel-out/k8-opt/bin/external/com_google_protobuf/_objs/wrappers_proto.upbdefs/wrappers.upbdefs.o

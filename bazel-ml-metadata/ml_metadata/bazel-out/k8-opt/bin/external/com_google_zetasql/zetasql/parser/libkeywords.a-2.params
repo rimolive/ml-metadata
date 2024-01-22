@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/parser/libkeywords.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/parser/_objs/keywords/keywords.o

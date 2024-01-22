@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/libhpack_encoder_table.a
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/hpack_encoder_table/hpack_encoder_table.o

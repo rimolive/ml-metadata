@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/libevent_engine_common.a
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/event_engine_common/resolved_address.o

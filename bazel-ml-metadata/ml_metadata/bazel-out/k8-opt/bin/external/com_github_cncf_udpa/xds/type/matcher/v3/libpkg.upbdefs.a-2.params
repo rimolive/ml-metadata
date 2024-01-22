@@ -1,0 +1,5 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_github_cncf_udpa/xds/type/matcher/v3/libpkg.upbdefs.a
+bazel-out/k8-opt/bin/external/com_github_cncf_udpa/xds/type/matcher/v3/_objs/pkg.upbdefs/matcher.upbdefs.o
+bazel-out/k8-opt/bin/external/com_github_cncf_udpa/xds/type/matcher/v3/_objs/pkg.upbdefs/regex.upbdefs.o
+bazel-out/k8-opt/bin/external/com_github_cncf_udpa/xds/type/matcher/v3/_objs/pkg.upbdefs/string.upbdefs.o

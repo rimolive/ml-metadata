@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/libchannel_creds_registry_init.a
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/channel_creds_registry_init/channel_creds_registry_init.o

@@ -1,0 +1,5 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/libgrpc_sockaddr.a
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_sockaddr/sockaddr.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_sockaddr/sockaddr_utils_posix.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_sockaddr/socket_utils_windows.o

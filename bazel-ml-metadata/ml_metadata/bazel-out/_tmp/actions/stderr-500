@@ -1,0 +1,65 @@
+1705851178.088730031: src/main/tools/linux-sandbox.cc:152: calling pipe(2)...
+1705851178.088779739: src/main/tools/linux-sandbox.cc:171: calling clone(2)...
+1705851178.089094109: src/main/tools/linux-sandbox.cc:180: linux-sandbox-pid1 has PID 328868
+1705851178.089130708: src/main/tools/linux-sandbox-pid1.cc:650: Pid1Main started
+1705851178.089232255: src/main/tools/linux-sandbox.cc:197: done manipulating pipes
+1705851178.089336677: src/main/tools/linux-sandbox-pid1.cc:269: working dir: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2436/execroot/ml_metadata
+1705851178.089366688: src/main/tools/linux-sandbox-pid1.cc:301: writable: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2436/execroot/ml_metadata
+1705851178.089379713: src/main/tools/linux-sandbox-pid1.cc:301: writable: /tmp
+1705851178.089388271: src/main/tools/linux-sandbox-pid1.cc:301: writable: /dev/shm
+1705851178.089474000: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /
+1705851178.089484762: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev
+1705851178.089491827: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705851178.089499079: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/pts
+1705851178.089505712: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/hugepages
+1705851178.089512067: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/mqueue
+1705851178.089518338: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys
+1705851178.089525071: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/security
+1705851178.089535811: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/cgroup
+1705851178.089544136: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/pstore
+1705851178.089551720: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/firmware/efi/efivars
+1705851178.089587318: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/bpf
+1705851178.089596164: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/config
+1705851178.089603776: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/selinux
+1705851178.089611036: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/debug
+1705851178.089618229: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/tracing
+1705851178.089625878: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/fuse/connections
+1705851178.089634468: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc
+1705851178.089641591: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705851178.089652185: src/main/tools/linux-sandbox-pid1.cc:391: remount(nullptr, /proc/sys/fs/binfmt_misc, nullptr, 2101281, nullptr) failure (Operation not permitted) ignored
+1705851178.089662064: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705851178.089669992: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run
+1705851178.089676888: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000
+1705851178.089685664: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/gvfs
+1705851178.089728761: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/doc
+1705851178.089737638: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/media/rmartine/TOSHIBA EXT
+1705851178.089746797: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /home
+1705851178.089753067: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot
+1705851178.089760050: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot/efi
+1705851178.089767666: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705851178.089773924: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /var/lib/nfs/rpc_pipefs
+1705851178.089785148: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /mnt/WdMyCloud
+1705851178.089801390: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2436/execroot/ml_metadata
+1705851178.089828910: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2436/execroot/ml_metadata
+1705851178.089840550: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705851178.089846885: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705851178.089913339: src/main/tools/linux-sandbox-pid1.cc:460: calling fork...
+1705851178.090094152: src/main/tools/linux-sandbox-pid1.cc:490: child started with PID 2
+In file included from external/com_github_grpc_grpc/src/core/lib/resource_quota/memory_quota.cc:24:
+external/com_github_grpc_grpc/src/core/lib/promise/loop.h:119:31: warning: attribute ignored in declaration of 'union grpc_core::promise_detail::Loop<F>::<unnamed>' [-Wattributes]
+  119 |   GPR_NO_UNIQUE_ADDRESS union { GPR_NO_UNIQUE_ADDRESS PromiseType promise_; };
+      |                               ^
+external/com_github_grpc_grpc/src/core/lib/promise/loop.h:119:31: note: attribute for 'union grpc_core::promise_detail::Loop<F>::<unnamed>' must follow the 'union' keyword
+In file included from external/com_github_grpc_grpc/src/core/lib/resource_quota/memory_quota.h:33,
+                 from external/com_github_grpc_grpc/src/core/lib/resource_quota/memory_quota.cc:17:
+external/com_github_grpc_grpc/src/core/lib/promise/activity.h: In instantiation of 'grpc_core::promise_detail::ActivityContexts<Contexts>::ScopedContext::ScopedContext(grpc_core::promise_detail::ActivityContexts<Contexts>*) [with Contexts = {}]':
+external/com_github_grpc_grpc/src/core/lib/promise/activity.h:471:19:   required from 'std::optional<typename grpc_core::promise_detail::PromiseFactory<void, F>::Promise::Result> grpc_core::promise_detail::PromiseActivity<F, WakeupScheduler, OnDone, Contexts>::Start(Factory) [with F = grpc_core::promise_detail::Loop<grpc_core::promise_detail::BasicSeq<grpc_core::promise_detail::SeqTraits, grpc_core::BasicMemoryQuota::Start()::<lambda()>, grpc_core::BasicMemoryQuota::Start()::<lambda()>, grpc_core::BasicMemoryQuota::Start()::<lambda(std::tuple<const char*, grpc_core::RefCountedPtr<grpc_core::ReclaimerQueue::Handle> >)>, grpc_core::BasicMemoryQuota::Start()::<lambda()> > >; WakeupScheduler = grpc_core::ExecCtxWakeupScheduler; OnDone = grpc_core::BasicMemoryQuota::Start()::<lambda(absl::lts_20230802::Status)>; Contexts = {}; typename grpc_core::promise_detail::PromiseFactory<void, F>::Promise::Result = absl::lts_20230802::Status; typename grpc_core::promise_detail::PromiseFactory<void, F>::Promise = grpc_core::promise_detail::PromiseLike<grpc_core::promise_detail::Loop<grpc_core::promise_detail::BasicSeq<grpc_core::promise_detail::SeqTraits, grpc_core::BasicMemoryQuota::Start()::<lambda()>, grpc_core::BasicMemoryQuota::Start()::<lambda()>, grpc_core::BasicMemoryQuota::Start()::<lambda(std::tuple<const char*, grpc_core::RefCountedPtr<grpc_core::ReclaimerQueue::Handle> >)>, grpc_core::BasicMemoryQuota::Start()::<lambda()> > > >; Factory = grpc_core::promise_detail::PromiseFactory<void, grpc_core::promise_detail::Loop<grpc_core::promise_detail::BasicSeq<grpc_core::promise_detail::SeqTraits, grpc_core::BasicMemoryQuota::Start()::<lambda()>, grpc_core::BasicMemoryQuota::Start()::<lambda()>, grpc_core::BasicMemoryQuota::Start()::<lambda(std::tuple<const char*, grpc_core::RefCountedPtr<grpc_core::ReclaimerQueue::Handle> >)>, grpc_core::BasicMemoryQuota::Start()::<lambda()> > > >]'
+external/com_github_grpc_grpc/src/core/lib/promise/activity.h:362:19:   required from 'grpc_core::promise_detail::PromiseActivity<F, WakeupScheduler, OnDone, Contexts>::PromiseActivity(F, WakeupScheduler, OnDone, Contexts&& ...) [with F = grpc_core::promise_detail::Loop<grpc_core::promise_detail::BasicSeq<grpc_core::promise_detail::SeqTraits, grpc_core::BasicMemoryQuota::Start()::<lambda()>, grpc_core::BasicMemoryQuota::Start()::<lambda()>, grpc_core::BasicMemoryQuota::Start()::<lambda(std::tuple<const char*, grpc_core::RefCountedPtr<grpc_core::ReclaimerQueue::Handle> >)>, grpc_core::BasicMemoryQuota::Start()::<lambda()> > >; WakeupScheduler = grpc_core::ExecCtxWakeupScheduler; OnDone = grpc_core::BasicMemoryQuota::Start()::<lambda(absl::lts_20230802::Status)>; Contexts = {}]'
+external/com_github_grpc_grpc/src/core/lib/promise/activity.h:532:7:   required from 'grpc_core::ActivityPtr grpc_core::MakeActivity(Factory, WakeupScheduler, OnDone, Contexts&& ...) [with Factory = promise_detail::Loop<promise_detail::BasicSeq<promise_detail::SeqTraits, BasicMemoryQuota::Start()::<lambda()>, BasicMemoryQuota::Start()::<lambda()>, BasicMemoryQuota::Start()::<lambda(std::tuple<const char*, RefCountedPtr<ReclaimerQueue::Handle> >)>, BasicMemoryQuota::Start()::<lambda()> > >; WakeupScheduler = ExecCtxWakeupScheduler; OnDone = BasicMemoryQuota::Start()::<lambda(absl::lts_20230802::Status)>; Contexts = {}; ActivityPtr = std::unique_ptr<Activity, OrphanableDelete>]'
+external/com_github_grpc_grpc/src/core/lib/resource_quota/memory_quota.cc:401:19:   required from here
+external/com_github_grpc_grpc/src/core/lib/promise/activity.h:221:46: warning: parameter 'contexts' set but not used [-Wunused-but-set-parameter]
+  221 |     explicit ScopedContext(ActivityContexts* contexts)
+      |                            ~~~~~~~~~~~~~~~~~~^~~~~~~~
+1705851180.733779156: src/main/tools/linux-sandbox-pid1.cc:507: wait returned pid=2, status=0x00
+1705851180.733789926: src/main/tools/linux-sandbox-pid1.cc:525: child exited normally with code 0
+1705851180.734023083: src/main/tools/linux-sandbox.cc:233: child exited normally with code 0

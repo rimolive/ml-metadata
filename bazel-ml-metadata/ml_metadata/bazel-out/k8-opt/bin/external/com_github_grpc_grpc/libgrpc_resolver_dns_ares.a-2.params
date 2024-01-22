@@ -1,0 +1,10 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/libgrpc_resolver_dns_ares.a
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_resolver_dns_ares/dns_resolver_ares.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_resolver_dns_ares/grpc_ares_ev_driver_event_engine.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_resolver_dns_ares/grpc_ares_ev_driver_posix.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_resolver_dns_ares/grpc_ares_ev_driver_windows.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_resolver_dns_ares/grpc_ares_wrapper.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_resolver_dns_ares/grpc_ares_wrapper_event_engine.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_resolver_dns_ares/grpc_ares_wrapper_posix.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_resolver_dns_ares/grpc_ares_wrapper_windows.o

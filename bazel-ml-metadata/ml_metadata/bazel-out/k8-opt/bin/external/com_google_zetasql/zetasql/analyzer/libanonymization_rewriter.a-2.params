@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/libanonymization_rewriter.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/_objs/anonymization_rewriter/anonymization_rewriter.o

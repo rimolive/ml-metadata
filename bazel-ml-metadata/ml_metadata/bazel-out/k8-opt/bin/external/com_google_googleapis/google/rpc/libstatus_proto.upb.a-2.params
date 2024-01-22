@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_googleapis/google/rpc/libstatus_proto.upb.a
+bazel-out/k8-opt/bin/external/com_google_googleapis/google/rpc/_objs/status_proto.upb/status.upb.o

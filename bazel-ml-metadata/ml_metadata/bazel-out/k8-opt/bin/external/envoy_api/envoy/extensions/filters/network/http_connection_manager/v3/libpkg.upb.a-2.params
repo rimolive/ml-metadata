@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/envoy_api/envoy/extensions/filters/network/http_connection_manager/v3/libpkg.upb.a
+bazel-out/k8-opt/bin/external/envoy_api/envoy/extensions/filters/network/http_connection_manager/v3/_objs/pkg.upb/http_connection_manager.upb.o

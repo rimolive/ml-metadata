@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/functions/libformat_max_output_width.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/functions/_objs/format_max_output_width/format_max_output_width.o

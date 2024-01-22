@@ -1,0 +1,12 @@
+rcsD
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/trace/v3/libpkg.upbdefs.a
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/trace/v3/_objs/pkg.upbdefs/datadog.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/trace/v3/_objs/pkg.upbdefs/dynamic_ot.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/trace/v3/_objs/pkg.upbdefs/http_tracer.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/trace/v3/_objs/pkg.upbdefs/lightstep.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/trace/v3/_objs/pkg.upbdefs/opencensus.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/trace/v3/_objs/pkg.upbdefs/service.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/trace/v3/_objs/pkg.upbdefs/skywalking.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/trace/v3/_objs/pkg.upbdefs/trace.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/trace/v3/_objs/pkg.upbdefs/xray.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/trace/v3/_objs/pkg.upbdefs/zipkin.upbdefs.o

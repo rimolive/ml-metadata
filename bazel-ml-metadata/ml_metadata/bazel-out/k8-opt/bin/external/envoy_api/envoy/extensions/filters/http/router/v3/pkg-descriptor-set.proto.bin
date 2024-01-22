@@ -1,0 +1,13 @@
+
+æ
+4envoy/extensions/filters/http/router/v3/router.proto'envoy.extensions.filters.http.router.v3)envoy/config/accesslog/v3/accesslog.protogoogle/protobuf/wrappers.protoudpa/annotations/status.proto!udpa/annotations/versioning.protovalidate/validate.proto"Ñ
+Router?
+dynamic_stats (2.google.protobuf.BoolValueRdynamicStats(
+start_child_span (RstartChildSpanG
+upstream_log (2$.envoy.config.accesslog.v3.AccessLogRupstreamLog4
+suppress_envoy_headers (RsuppressEnvoyHeaders«
+strict_check_headers (	Bî˙Bêíå"ârÜRx-envoy-upstream-rq-timeout-msR&x-envoy-upstream-rq-per-try-timeout-msRx-envoy-max-retriesRx-envoy-retry-grpc-onRx-envoy-retry-onRstrictCheckHeaders=
+respect_expected_rq_timeout (RrespectExpectedRqTimeoutU
+(suppress_grpc_request_failure_code_stats (R#suppressGrpcRequestFailureCodeStats:0ö≈à+
+)envoy.config.filter.http.router.v2.RouterBß
+5io.envoyproxy.envoy.extensions.filters.http.router.v3BRouterProtoPZWgithub.com/envoyproxy/go-control-plane/envoy/extensions/filters/http/router/v3;routerv3∫Ä»—bproto3

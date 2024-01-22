@@ -1,0 +1,9 @@
+rcsD
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_github_grpc_grpc/src/compiler/libgrpc_plugin_support.a
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_github_grpc_grpc/src/compiler/_objs/grpc_plugin_support/cpp_generator.o
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_github_grpc_grpc/src/compiler/_objs/grpc_plugin_support/csharp_generator.o
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_github_grpc_grpc/src/compiler/_objs/grpc_plugin_support/node_generator.o
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_github_grpc_grpc/src/compiler/_objs/grpc_plugin_support/objective_c_generator.o
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_github_grpc_grpc/src/compiler/_objs/grpc_plugin_support/php_generator.o
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_github_grpc_grpc/src/compiler/_objs/grpc_plugin_support/python_generator.o
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_github_grpc_grpc/src/compiler/_objs/grpc_plugin_support/ruby_generator.o

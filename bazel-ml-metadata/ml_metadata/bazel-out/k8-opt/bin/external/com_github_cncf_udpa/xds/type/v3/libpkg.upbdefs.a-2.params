@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_github_cncf_udpa/xds/type/v3/libpkg.upbdefs.a
+bazel-out/k8-opt/bin/external/com_github_cncf_udpa/xds/type/v3/_objs/pkg.upbdefs/typed_struct.upbdefs.o

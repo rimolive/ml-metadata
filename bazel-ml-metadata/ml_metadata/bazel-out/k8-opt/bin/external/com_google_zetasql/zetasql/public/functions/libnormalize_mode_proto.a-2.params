@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/functions/libnormalize_mode_proto.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/functions/_objs/normalize_mode_proto/normalize_mode.pb.o

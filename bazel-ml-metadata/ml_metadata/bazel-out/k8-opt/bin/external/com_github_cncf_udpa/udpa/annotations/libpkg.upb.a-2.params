@@ -1,0 +1,7 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_github_cncf_udpa/udpa/annotations/libpkg.upb.a
+bazel-out/k8-opt/bin/external/com_github_cncf_udpa/udpa/annotations/_objs/pkg.upb/migrate.upb.o
+bazel-out/k8-opt/bin/external/com_github_cncf_udpa/udpa/annotations/_objs/pkg.upb/security.upb.o
+bazel-out/k8-opt/bin/external/com_github_cncf_udpa/udpa/annotations/_objs/pkg.upb/sensitive.upb.o
+bazel-out/k8-opt/bin/external/com_github_cncf_udpa/udpa/annotations/_objs/pkg.upb/status.upb.o
+bazel-out/k8-opt/bin/external/com_github_cncf_udpa/udpa/annotations/_objs/pkg.upb/versioning.upb.o

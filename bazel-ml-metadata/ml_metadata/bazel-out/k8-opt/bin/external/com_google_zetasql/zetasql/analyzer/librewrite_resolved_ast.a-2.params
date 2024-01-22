@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/librewrite_resolved_ast.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/_objs/rewrite_resolved_ast/rewrite_resolved_ast.o

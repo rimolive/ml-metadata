@@ -1,0 +1,12 @@
+rcsD
+bazel-out/k8-opt/bin/external/envoy_api/envoy/admin/v3/libpkg.upb.a
+bazel-out/k8-opt/bin/external/envoy_api/envoy/admin/v3/_objs/pkg.upb/certs.upb.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/admin/v3/_objs/pkg.upb/clusters.upb.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/admin/v3/_objs/pkg.upb/config_dump.upb.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/admin/v3/_objs/pkg.upb/init_dump.upb.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/admin/v3/_objs/pkg.upb/listeners.upb.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/admin/v3/_objs/pkg.upb/memory.upb.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/admin/v3/_objs/pkg.upb/metrics.upb.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/admin/v3/_objs/pkg.upb/mutex_stats.upb.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/admin/v3/_objs/pkg.upb/server_info.upb.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/admin/v3/_objs/pkg.upb/tap.upb.o

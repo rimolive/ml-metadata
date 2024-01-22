@@ -1,0 +1,7 @@
+
+—
+xds/type/v3/typed_struct.protoxds.type.v3validate/validate.protogoogle/protobuf/struct.proto"W
+TypedStruct
+type_url (	RtypeUrl-
+value (2.google.protobuf.StructRvalueBP
+com.github.xds.type.v3BTypedStructProtoPZ"github.com/cncf/xds/go/xds/type/v3bproto3

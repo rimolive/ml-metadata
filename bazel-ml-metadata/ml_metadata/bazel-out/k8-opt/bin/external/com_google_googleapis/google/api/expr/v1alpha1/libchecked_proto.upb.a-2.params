@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_googleapis/google/api/expr/v1alpha1/libchecked_proto.upb.a
+bazel-out/k8-opt/bin/external/com_google_googleapis/google/api/expr/v1alpha1/_objs/checked_proto.upb/checked.upb.o

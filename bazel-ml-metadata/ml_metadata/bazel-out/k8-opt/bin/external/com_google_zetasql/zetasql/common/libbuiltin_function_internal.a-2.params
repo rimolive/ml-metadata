@@ -1,0 +1,5 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/common/libbuiltin_function_internal.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/common/_objs/builtin_function_internal/builtin_function_internal_1.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/common/_objs/builtin_function_internal/builtin_function_internal_2.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/common/_objs/builtin_function_internal/builtin_function_internal_3.o

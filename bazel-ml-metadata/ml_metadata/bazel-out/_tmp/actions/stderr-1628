@@ -1,0 +1,149 @@
+1705851763.339169116: src/main/tools/linux-sandbox.cc:152: calling pipe(2)...
+1705851763.339220031: src/main/tools/linux-sandbox.cc:171: calling clone(2)...
+1705851763.339557125: src/main/tools/linux-sandbox.cc:180: linux-sandbox-pid1 has PID 336956
+1705851763.339600628: src/main/tools/linux-sandbox-pid1.cc:650: Pid1Main started
+1705851763.339810022: src/main/tools/linux-sandbox.cc:197: done manipulating pipes
+1705851763.339925907: src/main/tools/linux-sandbox-pid1.cc:269: working dir: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3067/execroot/ml_metadata
+1705851763.339952675: src/main/tools/linux-sandbox-pid1.cc:301: writable: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3067/execroot/ml_metadata
+1705851763.339965563: src/main/tools/linux-sandbox-pid1.cc:301: writable: /tmp
+1705851763.339974778: src/main/tools/linux-sandbox-pid1.cc:301: writable: /dev/shm
+1705851763.340068942: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /
+1705851763.340079519: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev
+1705851763.340086732: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705851763.340094513: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/pts
+1705851763.340101886: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/hugepages
+1705851763.340109109: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/mqueue
+1705851763.340115529: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys
+1705851763.340122208: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/security
+1705851763.340133367: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/cgroup
+1705851763.340145400: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/pstore
+1705851763.340156025: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/firmware/efi/efivars
+1705851763.340203710: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/bpf
+1705851763.340213846: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/config
+1705851763.340224379: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/selinux
+1705851763.340242374: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/debug
+1705851763.340252445: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/tracing
+1705851763.340262527: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/fuse/connections
+1705851763.340272830: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc
+1705851763.340282276: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705851763.340294852: src/main/tools/linux-sandbox-pid1.cc:391: remount(nullptr, /proc/sys/fs/binfmt_misc, nullptr, 2101281, nullptr) failure (Operation not permitted) ignored
+1705851763.340307939: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705851763.340318559: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run
+1705851763.340329428: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000
+1705851763.340340976: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/gvfs
+1705851763.340399173: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/doc
+1705851763.340409198: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/media/rmartine/TOSHIBA EXT
+1705851763.340425305: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /home
+1705851763.340431562: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot
+1705851763.340438270: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot/efi
+1705851763.340445819: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705851763.340452110: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /var/lib/nfs/rpc_pipefs
+1705851763.340463785: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /mnt/WdMyCloud
+1705851763.340481266: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3067/execroot/ml_metadata
+1705851763.340509209: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/3067/execroot/ml_metadata
+1705851763.340520970: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705851763.340527359: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705851763.340593422: src/main/tools/linux-sandbox-pid1.cc:460: calling fork...
+1705851763.340766612: src/main/tools/linux-sandbox-pid1.cc:490: child started with PID 2
+In file included from external/com_google_zetasql/zetasql/parser/parse_tree.h:27,
+                 from external/com_google_zetasql/zetasql/parser/bison_parser.h:30,
+                 from external/com_google_zetasql/zetasql/parser/join_processor.h:22,
+                 from external/com_google_zetasql/zetasql/parser/join_processor.cc:17:
+external/com_google_zetasql/zetasql/parser/ast_node.h: In member function 'int zetasql::ASTNode::find_child_index(zetasql::ASTNodeKind) const':
+external/com_google_zetasql/zetasql/parser/ast_node.h:105:23: warning: comparison of integer expressions of different signedness: 'int' and 'absl::lts_20230802::InlinedVector<zetasql::ASTNode*, 4>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+  105 |     for (int i = 0; i < children_.size(); i++) {
+      |                     ~~^~~~~~~~~~~~~~~~~~
+In file included from bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/parser/parse_tree_generated.h:27,
+                 from external/com_google_zetasql/zetasql/parser/parse_tree.h:28:
+external/com_google_zetasql/zetasql/public/id_string.h: In member function 'const zetasql::IdString::Shared* zetasql::IdStringPool::MakeShared(absl::lts_20230802::string_view)':
+external/com_google_zetasql/zetasql/public/id_string.h:462:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::basic_string_view<char>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+  462 |     for (int i = 0; i < str.size(); ++i) {
+      |                     ~~^~~~~~~~~~~~
+In file included from external/com_google_zetasql/zetasql/parser/join_processor.cc:24:
+external/com_google_zetasql/zetasql/parser/bison_parser.y: In static member function 'static absl::lts_20230802::StatusOr<std::vector<zetasql::ASTNode*> > SeparatedIdentifierTmpNode::BuildPathParts(const zetasql_bison_parser::location&, PathParts, zetasql::parser::BisonParser*)':
+external/com_google_zetasql/zetasql/parser/bison_parser.y:153:23: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::vector<std::basic_string_view<char> > >::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+external/com_google_zetasql/zetasql/parser/bison_parser.y:161:25: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<std::basic_string_view<char> >::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+external/com_google_zetasql/zetasql/parser/bison_parser.h: In instantiation of 'T* zetasql::parser::BisonParser::CreateASTNode(const zetasql_bison_parser::location&) [with T = zetasql::ASTIdentifier]':
+external/com_google_zetasql/zetasql/parser/bison_parser.h:165:52:   required from here
+external/com_google_zetasql/zetasql/parser/bison_parser.h:126:17: warning: 'static void* zetasql_base::ArenaOnlyGladiator::operator new(size_t, int, T*) [with T = zetasql_base::UnsafeArena; size_t = long unsigned int]' is deprecated: use zetasql_base::NewInArena from base/arena_allocator.h instead [-Wdeprecated-declarations]
+  126 |     T* result = new (zetasql_base::AllocateInArena, arena_) T;
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from external/com_google_zetasql/zetasql/parser/bison_parser.h:25:
+external/com_google_zetasql/zetasql/base/arena_allocator.h:261:9: note: declared here
+  261 |   void* operator new(const size_t size, const int ignored, T* allocator) {
+      |         ^~~~~~~~
+external/com_google_zetasql/zetasql/parser/bison_parser.h:126:17: warning: 'static void zetasql_base::ArenaOnlyGladiator::operator delete(void*, int, T*) [with T = zetasql_base::UnsafeArena]' is deprecated: use zetasql_base::DeleteInArena from base/arena_allocator.h instead [-Wdeprecated-declarations]
+  126 |     T* result = new (zetasql_base::AllocateInArena, arena_) T;
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/base/arena_allocator.h:277:8: note: declared here
+  277 |   void operator delete(void* memory, const int ign, T* allocator) {}
+      |        ^~~~~~~~
+external/com_google_zetasql/zetasql/parser/bison_parser.h:126:17: warning: 'static void zetasql_base::ArenaOnlyGladiator::operator delete(void*, int, T*) [with T = zetasql_base::UnsafeArena]' is deprecated: use zetasql_base::DeleteInArena from base/arena_allocator.h instead [-Wdeprecated-declarations]
+  126 |     T* result = new (zetasql_base::AllocateInArena, arena_) T;
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/base/arena_allocator.h:277:8: note: declared here
+  277 |   void operator delete(void* memory, const int ign, T* allocator) {}
+      |        ^~~~~~~~
+external/com_google_zetasql/zetasql/parser/bison_parser.h: In instantiation of 'T* zetasql::parser::BisonParser::CreateASTNode(const zetasql_bison_parser::location&) [with T = zetasql::ASTLocation]':
+external/com_google_zetasql/zetasql/parser/bison_parser.h:172:43:   required from here
+external/com_google_zetasql/zetasql/parser/bison_parser.h:126:17: warning: 'static void* zetasql_base::ArenaOnlyGladiator::operator new(size_t, int, T*) [with T = zetasql_base::UnsafeArena; size_t = long unsigned int]' is deprecated: use zetasql_base::NewInArena from base/arena_allocator.h instead [-Wdeprecated-declarations]
+  126 |     T* result = new (zetasql_base::AllocateInArena, arena_) T;
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/base/arena_allocator.h:261:9: note: declared here
+  261 |   void* operator new(const size_t size, const int ignored, T* allocator) {
+      |         ^~~~~~~~
+external/com_google_zetasql/zetasql/parser/bison_parser.h:126:17: warning: 'static void zetasql_base::ArenaOnlyGladiator::operator delete(void*, int, T*) [with T = zetasql_base::UnsafeArena]' is deprecated: use zetasql_base::DeleteInArena from base/arena_allocator.h instead [-Wdeprecated-declarations]
+  126 |     T* result = new (zetasql_base::AllocateInArena, arena_) T;
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/base/arena_allocator.h:277:8: note: declared here
+  277 |   void operator delete(void* memory, const int ign, T* allocator) {}
+      |        ^~~~~~~~
+external/com_google_zetasql/zetasql/parser/bison_parser.h:126:17: warning: 'static void zetasql_base::ArenaOnlyGladiator::operator delete(void*, int, T*) [with T = zetasql_base::UnsafeArena]' is deprecated: use zetasql_base::DeleteInArena from base/arena_allocator.h instead [-Wdeprecated-declarations]
+  126 |     T* result = new (zetasql_base::AllocateInArena, arena_) T;
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/base/arena_allocator.h:277:8: note: declared here
+  277 |   void operator delete(void* memory, const int ign, T* allocator) {}
+      |        ^~~~~~~~
+external/com_google_zetasql/zetasql/parser/bison_parser.h: In instantiation of 'T* zetasql::parser::BisonParser::CreateASTNode(const zetasql_bison_parser::location&, absl::lts_20230802::Span<zetasql::ASTNode* const>) [with T = zetasql::ASTJoin]':
+external/com_google_zetasql/zetasql/parser/join_processor.cc:315:57:   required from here
+external/com_google_zetasql/zetasql/parser/bison_parser.h:139:17: warning: 'static void* zetasql_base::ArenaOnlyGladiator::operator new(size_t, int, T*) [with T = zetasql_base::UnsafeArena; size_t = long unsigned int]' is deprecated: use zetasql_base::NewInArena from base/arena_allocator.h instead [-Wdeprecated-declarations]
+  139 |     T* result = new (zetasql_base::AllocateInArena, arena_) T;
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/base/arena_allocator.h:261:9: note: declared here
+  261 |   void* operator new(const size_t size, const int ignored, T* allocator) {
+      |         ^~~~~~~~
+external/com_google_zetasql/zetasql/parser/bison_parser.h:139:17: warning: 'static void zetasql_base::ArenaOnlyGladiator::operator delete(void*, int, T*) [with T = zetasql_base::UnsafeArena]' is deprecated: use zetasql_base::DeleteInArena from base/arena_allocator.h instead [-Wdeprecated-declarations]
+  139 |     T* result = new (zetasql_base::AllocateInArena, arena_) T;
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/base/arena_allocator.h:277:8: note: declared here
+  277 |   void operator delete(void* memory, const int ign, T* allocator) {}
+      |        ^~~~~~~~
+external/com_google_zetasql/zetasql/parser/bison_parser.h:139:17: warning: 'static void zetasql_base::ArenaOnlyGladiator::operator delete(void*, int, T*) [with T = zetasql_base::UnsafeArena]' is deprecated: use zetasql_base::DeleteInArena from base/arena_allocator.h instead [-Wdeprecated-declarations]
+  139 |     T* result = new (zetasql_base::AllocateInArena, arena_) T;
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/base/arena_allocator.h:277:8: note: declared here
+  277 |   void operator delete(void* memory, const int ign, T* allocator) {}
+      |        ^~~~~~~~
+external/com_google_zetasql/zetasql/parser/bison_parser.h: In instantiation of 'T* zetasql::parser::BisonParser::CreateASTNode(const zetasql_bison_parser::location&, const zetasql_bison_parser::location&, absl::lts_20230802::Span<zetasql::ASTNode* const>) [with T = zetasql::ASTJoin]':
+external/com_google_zetasql/zetasql/parser/join_processor.cc:442:42:   required from here
+external/com_google_zetasql/zetasql/parser/bison_parser.h:154:17: warning: 'static void* zetasql_base::ArenaOnlyGladiator::operator new(size_t, int, T*) [with T = zetasql_base::UnsafeArena; size_t = long unsigned int]' is deprecated: use zetasql_base::NewInArena from base/arena_allocator.h instead [-Wdeprecated-declarations]
+  154 |     T* result = new (zetasql_base::AllocateInArena, arena_) T;
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/base/arena_allocator.h:261:9: note: declared here
+  261 |   void* operator new(const size_t size, const int ignored, T* allocator) {
+      |         ^~~~~~~~
+external/com_google_zetasql/zetasql/parser/bison_parser.h:154:17: warning: 'static void zetasql_base::ArenaOnlyGladiator::operator delete(void*, int, T*) [with T = zetasql_base::UnsafeArena]' is deprecated: use zetasql_base::DeleteInArena from base/arena_allocator.h instead [-Wdeprecated-declarations]
+  154 |     T* result = new (zetasql_base::AllocateInArena, arena_) T;
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/base/arena_allocator.h:277:8: note: declared here
+  277 |   void operator delete(void* memory, const int ign, T* allocator) {}
+      |        ^~~~~~~~
+external/com_google_zetasql/zetasql/parser/bison_parser.h:154:17: warning: 'static void zetasql_base::ArenaOnlyGladiator::operator delete(void*, int, T*) [with T = zetasql_base::UnsafeArena]' is deprecated: use zetasql_base::DeleteInArena from base/arena_allocator.h instead [-Wdeprecated-declarations]
+  154 |     T* result = new (zetasql_base::AllocateInArena, arena_) T;
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/com_google_zetasql/zetasql/base/arena_allocator.h:277:8: note: declared here
+  277 |   void operator delete(void* memory, const int ign, T* allocator) {}
+      |        ^~~~~~~~
+1705851768.812791240: src/main/tools/linux-sandbox-pid1.cc:507: wait returned pid=2, status=0x00
+1705851768.812802408: src/main/tools/linux-sandbox-pid1.cc:525: child exited normally with code 0
+1705851768.813001999: src/main/tools/linux-sandbox.cc:233: child exited normally with code 0

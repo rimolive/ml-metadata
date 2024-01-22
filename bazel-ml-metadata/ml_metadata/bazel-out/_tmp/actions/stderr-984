@@ -1,0 +1,88 @@
+1705851302.754723006: src/main/tools/linux-sandbox.cc:152: calling pipe(2)...
+1705851302.754754135: src/main/tools/linux-sandbox.cc:171: calling clone(2)...
+1705851302.754966226: src/main/tools/linux-sandbox.cc:180: linux-sandbox-pid1 has PID 330936
+1705851302.754994528: src/main/tools/linux-sandbox-pid1.cc:650: Pid1Main started
+1705851302.755145045: src/main/tools/linux-sandbox.cc:197: done manipulating pipes
+1705851302.755221483: src/main/tools/linux-sandbox-pid1.cc:269: working dir: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2697/execroot/ml_metadata
+1705851302.755245763: src/main/tools/linux-sandbox-pid1.cc:301: writable: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2697/execroot/ml_metadata
+1705851302.755254071: src/main/tools/linux-sandbox-pid1.cc:301: writable: /tmp
+1705851302.755260038: src/main/tools/linux-sandbox-pid1.cc:301: writable: /dev/shm
+1705851302.755322136: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /
+1705851302.755328374: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev
+1705851302.755332902: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705851302.755337644: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/pts
+1705851302.755342168: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/hugepages
+1705851302.755346811: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/mqueue
+1705851302.755350561: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys
+1705851302.755354739: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/security
+1705851302.755362321: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/cgroup
+1705851302.755367804: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/pstore
+1705851302.755372803: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/firmware/efi/efivars
+1705851302.755397984: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/bpf
+1705851302.755402431: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/config
+1705851302.755407358: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/selinux
+1705851302.755411759: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/debug
+1705851302.755416183: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/tracing
+1705851302.755420536: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/fuse/connections
+1705851302.755425633: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc
+1705851302.755429945: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705851302.755436819: src/main/tools/linux-sandbox-pid1.cc:391: remount(nullptr, /proc/sys/fs/binfmt_misc, nullptr, 2101281, nullptr) failure (Operation not permitted) ignored
+1705851302.755442909: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705851302.755447536: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run
+1705851302.755451833: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000
+1705851302.755457185: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/gvfs
+1705851302.755485366: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/doc
+1705851302.755490558: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/media/rmartine/TOSHIBA EXT
+1705851302.755496981: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /home
+1705851302.755500684: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot
+1705851302.755504541: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot/efi
+1705851302.755508882: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705851302.755512367: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /var/lib/nfs/rpc_pipefs
+1705851302.755518994: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /mnt/WdMyCloud
+1705851302.755528677: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2697/execroot/ml_metadata
+1705851302.755544464: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2697/execroot/ml_metadata
+1705851302.755551019: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705851302.755554742: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705851302.755595348: src/main/tools/linux-sandbox-pid1.cc:460: calling fork...
+1705851302.755729020: src/main/tools/linux-sandbox-pid1.cc:490: child started with PID 2
+In file included from external/com_github_grpc_grpc/src/core/lib/transport/transport.h:39,
+                 from external/com_github_grpc_grpc/src/core/ext/transport/chttp2/transport/chttp2_transport.h:27,
+                 from external/com_github_grpc_grpc/src/core/ext/transport/chttp2/transport/chttp2_transport.cc:19:
+external/com_github_grpc_grpc/src/core/lib/transport/metadata_batch.h: In static member function 'static std::string grpc_core::GrpcStreamNetworkState::DisplayValue(ValueType)':
+external/com_github_grpc_grpc/src/core/lib/transport/metadata_batch.h:528:3: warning: control reaches end of non-void function [-Wreturn-type]
+  528 |   }
+      |   ^
+external/com_github_grpc_grpc/src/core/ext/transport/chttp2/transport/chttp2_transport.cc: In function 'void close_from_api(grpc_chttp2_transport*, grpc_chttp2_stream*, grpc_error_handle)':
+external/com_github_grpc_grpc/src/core/ext/transport/chttp2/transport/chttp2_transport.cc:2360:10: warning: writing 8 bytes into a region of size 7 [-Wstringop-overflow=]
+ 2360 |     *p++ = 'p';
+      |     ~~~~~^~~~~
+In file included from external/com_github_grpc_grpc/include/grpc/impl/codegen/grpc_types.h:30,
+                 from external/com_github_grpc_grpc/include/grpc/impl/codegen/byte_buffer.h:26,
+                 from external/com_github_grpc_grpc/include/grpc/byte_buffer.h:24,
+                 from external/com_github_grpc_grpc/include/grpc/grpc.h:26,
+                 from external/com_github_grpc_grpc/src/core/lib/channel/channelz.h:31,
+                 from external/com_github_grpc_grpc/src/core/ext/transport/chttp2/transport/chttp2_transport.h:24:
+external/com_github_grpc_grpc/include/grpc/impl/codegen/slice.h:74:15: note: at offset 25 into destination object 'grpc_slice::grpc_slice_data::grpc_slice_inlined::bytes' of size 23
+   74 |       uint8_t bytes[GRPC_SLICE_INLINED_SIZE];
+      |               ^~~~~
+external/com_github_grpc_grpc/src/core/ext/transport/chttp2/transport/chttp2_transport.cc:2368:10: warning: writing 4 bytes into a region of size 0 [-Wstringop-overflow=]
+ 2368 |     *p++ = 'o';
+      |     ~~~~~^~~~~
+external/com_github_grpc_grpc/include/grpc/impl/codegen/slice.h:74:15: note: at offset 33 into destination object 'grpc_slice::grpc_slice_data::grpc_slice_inlined::bytes' of size 23
+   74 |       uint8_t bytes[GRPC_SLICE_INLINED_SIZE];
+      |               ^~~~~
+external/com_github_grpc_grpc/src/core/ext/transport/chttp2/transport/chttp2_transport.cc:2372:10: warning: writing 2 bytes into a region of size 0 [-Wstringop-overflow=]
+ 2372 |     *p++ = 'r';
+      |     ~~~~~^~~~~
+external/com_github_grpc_grpc/include/grpc/impl/codegen/slice.h:74:15: note: at offset 37 into destination object 'grpc_slice::grpc_slice_data::grpc_slice_inlined::bytes' of size 23
+   74 |       uint8_t bytes[GRPC_SLICE_INLINED_SIZE];
+      |               ^~~~~
+external/com_github_grpc_grpc/src/core/ext/transport/chttp2/transport/chttp2_transport.cc:2374:10: warning: writing 1 byte into a region of size 0 [-Wstringop-overflow=]
+ 2374 |     *p++ = 'c';
+      |     ~~~~~^~~~~
+external/com_github_grpc_grpc/include/grpc/impl/codegen/slice.h:74:15: note: at offset 30 into destination object 'grpc_slice::grpc_slice_data::grpc_slice_inlined::bytes' of size 23
+   74 |       uint8_t bytes[GRPC_SLICE_INLINED_SIZE];
+      |               ^~~~~
+1705851310.466700808: src/main/tools/linux-sandbox-pid1.cc:507: wait returned pid=2, status=0x00
+1705851310.466734046: src/main/tools/linux-sandbox-pid1.cc:525: child exited normally with code 0
+1705851310.467342693: src/main/tools/linux-sandbox.cc:233: child exited normally with code 0

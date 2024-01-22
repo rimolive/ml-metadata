@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/proto/libanon_output_with_report_proto.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/proto/_objs/anon_output_with_report_proto/anon_output_with_report.pb.o

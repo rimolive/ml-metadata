@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/common/libsimple_evaluator_table_iterator.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/common/_objs/simple_evaluator_table_iterator/simple_evaluator_table_iterator.o

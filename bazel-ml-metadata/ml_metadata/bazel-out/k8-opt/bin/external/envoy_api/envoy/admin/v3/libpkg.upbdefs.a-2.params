@@ -1,0 +1,12 @@
+rcsD
+bazel-out/k8-opt/bin/external/envoy_api/envoy/admin/v3/libpkg.upbdefs.a
+bazel-out/k8-opt/bin/external/envoy_api/envoy/admin/v3/_objs/pkg.upbdefs/certs.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/admin/v3/_objs/pkg.upbdefs/clusters.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/admin/v3/_objs/pkg.upbdefs/config_dump.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/admin/v3/_objs/pkg.upbdefs/init_dump.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/admin/v3/_objs/pkg.upbdefs/listeners.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/admin/v3/_objs/pkg.upbdefs/memory.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/admin/v3/_objs/pkg.upbdefs/metrics.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/admin/v3/_objs/pkg.upbdefs/mutex_stats.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/admin/v3/_objs/pkg.upbdefs/server_info.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/admin/v3/_objs/pkg.upbdefs/tap.upbdefs.o

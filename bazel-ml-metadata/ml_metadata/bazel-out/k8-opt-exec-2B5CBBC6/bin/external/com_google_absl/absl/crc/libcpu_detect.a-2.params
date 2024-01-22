@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_absl/absl/crc/libcpu_detect.a
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_absl/absl/crc/_objs/cpu_detect/cpu_detect.o

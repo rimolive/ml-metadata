@@ -1,0 +1,50 @@
+1705851370.063586461: src/main/tools/linux-sandbox.cc:152: calling pipe(2)...
+1705851370.063635497: src/main/tools/linux-sandbox.cc:171: calling clone(2)...
+1705851370.064065482: src/main/tools/linux-sandbox.cc:180: linux-sandbox-pid1 has PID 331794
+1705851370.064110954: src/main/tools/linux-sandbox-pid1.cc:650: Pid1Main started
+1705851370.064229014: src/main/tools/linux-sandbox.cc:197: done manipulating pipes
+1705851370.064361816: src/main/tools/linux-sandbox-pid1.cc:269: working dir: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2764/execroot/ml_metadata
+1705851370.064391300: src/main/tools/linux-sandbox-pid1.cc:301: writable: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2764/execroot/ml_metadata
+1705851370.064405807: src/main/tools/linux-sandbox-pid1.cc:301: writable: /tmp
+1705851370.064414734: src/main/tools/linux-sandbox-pid1.cc:301: writable: /dev/shm
+1705851370.064514082: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /
+1705851370.064527665: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev
+1705851370.064538170: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705851370.064548741: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/pts
+1705851370.064558618: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/hugepages
+1705851370.064568447: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/mqueue
+1705851370.064577360: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys
+1705851370.064586025: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/security
+1705851370.064601479: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/cgroup
+1705851370.064612548: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/pstore
+1705851370.064623451: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/firmware/efi/efivars
+1705851370.064671704: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/bpf
+1705851370.064684019: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/config
+1705851370.064695549: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/selinux
+1705851370.064706998: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/debug
+1705851370.064717541: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/tracing
+1705851370.064728247: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/fuse/connections
+1705851370.064741855: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc
+1705851370.064753654: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705851370.064768940: src/main/tools/linux-sandbox-pid1.cc:391: remount(nullptr, /proc/sys/fs/binfmt_misc, nullptr, 2101281, nullptr) failure (Operation not permitted) ignored
+1705851370.064786245: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705851370.064799805: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run
+1705851370.064811262: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000
+1705851370.064820584: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/gvfs
+1705851370.064870965: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/doc
+1705851370.064879936: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/media/rmartine/TOSHIBA EXT
+1705851370.064890125: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /home
+1705851370.064896572: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot
+1705851370.064903959: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot/efi
+1705851370.064912094: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705851370.064919020: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /var/lib/nfs/rpc_pipefs
+1705851370.064930997: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /mnt/WdMyCloud
+1705851370.064948938: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2764/execroot/ml_metadata
+1705851370.064979408: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2764/execroot/ml_metadata
+1705851370.064991428: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705851370.064998320: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705851370.065071538: src/main/tools/linux-sandbox-pid1.cc:460: calling fork...
+1705851370.065269252: src/main/tools/linux-sandbox-pid1.cc:490: child started with PID 2
+1705851371.270548402: src/main/tools/linux-sandbox-pid1.cc:507: wait returned pid=2, status=0x00
+1705851371.270571839: src/main/tools/linux-sandbox-pid1.cc:525: child exited normally with code 0
+1705851371.271079954: src/main/tools/linux-sandbox.cc:233: child exited normally with code 0

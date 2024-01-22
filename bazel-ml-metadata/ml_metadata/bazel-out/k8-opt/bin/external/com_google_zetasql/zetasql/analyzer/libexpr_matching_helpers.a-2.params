@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/libexpr_matching_helpers.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/_objs/expr_matching_helpers/expr_matching_helpers.o

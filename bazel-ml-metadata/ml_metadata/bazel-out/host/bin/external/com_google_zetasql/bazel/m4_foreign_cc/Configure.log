@@ -1,0 +1,1253 @@
+
+Bazel external C/C++ Rules. Building library m4
+
+Environment:______________
+BUILD_SCRIPT=bazel-out/host/bin/external/com_google_zetasql/bazel/m4_foreign_cc/build_script.sh
+EXT_BUILD_ROOT=/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata
+BUILD_LOG=bazel-out/host/bin/external/com_google_zetasql/bazel/m4_foreign_cc/Configure.log
+PWD=/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata
+BUILD_WRAPPER_SCRIPT=bazel-out/host/bin/external/com_google_zetasql/bazel/m4_foreign_cc/wrapper_build_script.sh
+TMPDIR=/tmp
+EXT_BUILD_DEPS=/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.ext_build_deps
+BUILD_TMPDIR=/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir
+SHLVL=2
+INSTALLDIR=/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4
+PATH=/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata:/home/rmartine/.cache/bazelisk/downloads/sha256/3d144b890b85d95fb13df941bfd010fc3628e9afaa4c85e7d1a002e4fd02b249/bin:/opt/powerview:/home/rmartine/.local/bin:/home/rmartine/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin
+_=/usr/bin/env
+__________________________
++ mkdir -p /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/m4
++ ARFLAGS=rcsD
++ AR_FLAGS=rcsD
++ ASFLAGS='-U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted'
++ CFLAGS='-U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted'
++ CXXFLAGS='-U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -std=c++0x -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -std=c++17'
++ LDFLAGS='-Wl,-no-as-needed -Wl,-z,relro,-z,now -B/usr/bin -pass-exit-codes -Wl,--gc-sections -lstdc++ -lm'
++ AR=/usr/bin/ar
++ CC=/usr/bin/gcc
++ CXX=/usr/bin/g++
++ RANLIB=:
++ CPPFLAGS=
++ /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/configure --prefix=/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/m4
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/rules_foreign_cc/toolchains/make/bin/make sets $(MAKE)... yes
+checking whether /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/rules_foreign_cc/toolchains/make/bin/make supports nested variables... yes
+checking whether /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/rules_foreign_cc/toolchains/make/bin/make supports nested variables... (cached) yes
+checking for gcc... /usr/bin/gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /usr/bin/gcc accepts -g... yes
+checking for /usr/bin/gcc option to accept ISO C89... none needed
+checking whether /usr/bin/gcc understands -c and -o together... yes
+checking for style of include used by /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/rules_foreign_cc/toolchains/make/bin/make... GNU
+checking dependency style of /usr/bin/gcc... gcc3
+checking how to run the C preprocessor... /usr/bin/gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for Minix Amsterdam compiler... no
+checking the archiver (/usr/bin/ar) interface... ar
+checking for ar... /usr/bin/ar
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for /usr/bin/gcc option to accept ISO C99... none needed
+checking for /usr/bin/gcc option to accept ISO Standard C... (cached) none needed
+configure: autobuild project... GNU M4
+configure: autobuild revision... 1.4.18
+configure: autobuild hostname... krypton
+configure: autobuild timestamp... 20240121T152914Z
+checking for unsigned long long int... yes
+checking for long long int... yes
+checking for unsigned long long int... (cached) yes
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking whether <wchar.h> uses 'inline' correctly... yes
+checking for btowc... yes
+checking for setrlimit... yes
+checking for sigaltstack... yes
+checking for canonicalize_file_name... yes
+checking for getcwd... yes
+checking for readlink... yes
+checking for realpath... yes
+checking for _set_invalid_parameter_handler... no
+checking for fcntl... yes
+checking for symlink... yes
+checking for mempcpy... yes
+checking for fpurge... no
+checking for __fpurge... yes
+checking for __freadahead... no
+checking for __freading... yes
+checking for getdtablesize... yes
+checking for getprogname... no
+checking for getexecname... no
+checking for gettimeofday... yes
+checking for lstat... yes
+checking for mbsinit... yes
+checking for mbrtowc... yes
+checking for mprotect... yes
+checking for mkstemp... yes
+checking for nl_langinfo... yes
+checking for pipe2... yes
+checking for isblank... yes
+checking for iswctype... yes
+checking for link... yes
+checking for secure_getenv... yes
+checking for getuid... yes
+checking for geteuid... yes
+checking for getgid... yes
+checking for getegid... yes
+checking for sigaction... yes
+checking for siginterrupt... yes
+checking for snprintf... yes
+checking for strndup... yes
+checking for pipe... yes
+checking for vasnprintf... no
+checking for wcrtomb... yes
+checking for iswcntrl... yes
+checking for newlocale... yes
+checking for setenv... yes
+checking for sleep... yes
+checking for strdup... yes
+checking for wctob... yes
+checking for nl_langinfo and CODESET... yes
+checking for a traditional french locale... fr_FR
+checking for ucontext.h... yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... yes
+checking for sys/socket.h... yes
+checking for stdio_ext.h... yes
+checking for sys/stat.h... (cached) yes
+checking for getopt.h... yes
+checking for sys/time.h... yes
+checking for langinfo.h... yes
+checking for limits.h... yes
+checking for xlocale.h... no
+checking for math.h... yes
+checking for sys/mman.h... yes
+checking for malloc.h... yes
+checking for sys/cdefs.h... yes
+checking for spawn.h... yes
+checking for wchar.h... yes
+checking for stdint.h... (cached) yes
+checking for sys/wait.h... yes
+checking for features.h... yes
+checking for wctype.h... yes
+checking for dirent.h... yes
+checking for inttypes.h... (cached) yes
+checking for working C stack overflow detection... no
+checking for ld used by /usr/bin/gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking for libsigsegv... no, consider installing GNU libsigsegv
+checking whether // is distinct from /... no
+checking whether realpath works... yes
+checking if environ is properly declared... yes
+checking whether the preprocessor supports include_next... yes
+checking whether system header files limit the line length... no
+checking for complete errno.h... yes
+checking whether strerror_r is declared... yes
+checking for strerror_r... yes
+checking whether strerror_r returns char *... yes
+checking for mode_t... yes
+checking for sig_atomic_t... yes
+checking for working fcntl.h... yes
+checking for pid_t... yes
+checking whether frexp() can be used without linking with libm... yes
+checking whether alarm is declared... yes
+checking whether long double and double are the same... no
+checking whether stdin defaults to large file offsets... yes
+checking whether fseeko is declared... yes
+checking for fseeko... yes
+checking whether fflush works on input streams... no
+checking whether stat file-mode macros are broken... no
+checking for nlink_t... yes
+checking whether ftello is declared... yes
+checking for ftello... yes
+checking whether ftello works... yes
+checking whether getdtablesize is declared... yes
+checking for getopt.h... (cached) yes
+checking for getopt_long_only... yes
+checking whether getopt is POSIX compatible... yes
+checking for working GNU getopt function... yes
+checking for working GNU getopt_long function... yes
+checking whether getenv is declared... yes
+checking for C/C++ restrict keyword... __restrict
+checking for struct timeval... yes
+checking for wide-enough struct timeval.tv_sec member... yes
+checking where to find the exponent in a 'double'... word 1 bit 20
+checking where to find the exponent in a 'float'... word 0 bit 23
+checking whether byte ordering is bigendian... no
+checking whether limits.h has ULLONG_WIDTH etc.... yes
+checking whether getc_unlocked is declared... yes
+checking whether we are using the GNU C Library >= 2.1 or uClibc... yes
+checking for wchar_t... yes
+checking for max_align_t... yes
+checking whether NULL can be used in arbitrary expressions... yes
+checking for multithread API to use... none
+checking whether lstat correctly handles trailing slash... yes
+checking for a sed that does not truncate output... /usr/bin/sed
+checking whether malloc, realloc, calloc are POSIX compliant... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for mbstate_t... yes
+checking for a traditional japanese locale... ja_JP
+checking for a transitional chinese locale... zh_CN.GB18030
+checking for a french Unicode locale... fr_FR.UTF-8
+checking for mmap... yes
+checking for MAP_ANONYMOUS... yes
+checking whether memchr works... yes
+checking whether <limits.h> defines MIN and MAX... no
+checking whether <sys/param.h> defines MIN and MAX... yes
+checking for promoted mode_t type... mode_t
+checking for library containing posix_spawn... none required
+checking for posix_spawn... yes
+checking whether posix_spawn works... yes
+checking whether posix_spawnattr_setschedpolicy is supported... yes
+checking whether posix_spawnattr_setschedparam is supported... yes
+checking for sigset_t... yes
+checking for SIGPIPE... yes
+checking for inline... inline
+checking for uid_t in sys/types.h... yes
+checking whether C symbols are prefixed with underscore at the linker level... no
+checking whether snprintf returns a byte count as in C99... yes
+checking whether snprintf is declared... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for wint_t... yes
+checking whether wint_t is too small... no
+checking whether stdint.h conforms to C99... yes
+checking whether stdint.h predates C++11... no
+checking whether stdint.h has UINTMAX_WIDTH etc.... yes
+checking whether strerror(0) succeeds... yes
+checking whether strndup is declared... yes
+checking whether strnlen is declared... yes
+checking whether strsignal is declared... yes
+checking whether sys_siglist is declared... no
+checking whether strstr works... yes
+checking whether ldexp() can be used without linking with libm... yes
+checking for struct timespec in <time.h>... yes
+checking whether clearerr_unlocked is declared... yes
+checking whether feof_unlocked is declared... yes
+checking whether ferror_unlocked is declared... yes
+checking whether fflush_unlocked is declared... yes
+checking whether fgets_unlocked is declared... yes
+checking whether fputc_unlocked is declared... yes
+checking whether fputs_unlocked is declared... yes
+checking whether fread_unlocked is declared... yes
+checking whether fwrite_unlocked is declared... yes
+checking whether getchar_unlocked is declared... yes
+checking whether putc_unlocked is declared... yes
+checking whether putchar_unlocked is declared... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for intmax_t... yes
+checking for snprintf... (cached) yes
+checking for strnlen... yes
+checking for wcslen... yes
+checking for wcsnlen... yes
+checking for mbrtowc... (cached) yes
+checking for wcrtomb... (cached) yes
+checking whether _snprintf is declared... no
+checking whether printf supports size specifiers as in C99... yes
+checking whether printf supports 'long double' arguments... yes
+checking whether printf supports infinite 'double' arguments... yes
+checking whether printf supports infinite 'long double' arguments... yes
+checking whether printf supports the 'a' and 'A' directives... yes
+checking whether printf supports the 'F' directive... yes
+checking whether printf supports the 'n' directive... yes
+checking whether printf supports the 'ls' directive... yes
+checking whether printf supports the grouping flag... yes
+checking whether printf supports the left-adjust flag correctly... yes
+checking whether printf supports the zero flag correctly... yes
+checking whether printf supports large precisions... yes
+checking whether printf survives out-of-memory conditions... yes
+checking whether to use C++... no
+checking whether ungetc works on arbitrary bytes... yes
+checking whether getcwd (NULL, 0) allocates memory for result... yes
+checking for getcwd with POSIX signature... yes
+checking for inttypes.h... (cached) yes
+checking whether the inttypes.h PRIxNN macros are broken... no
+checking for LC_MESSAGES... yes
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking whether setenv is declared... yes
+checking search.h usability... yes
+checking search.h presence... yes
+checking for search.h... yes
+checking for tsearch... yes
+checking whether strdup is declared... yes
+checking whether unsetenv is declared... yes
+checking for alloca as a compiler built-in... yes
+checking whether to enable assertions... yes
+checking whether btowc(0) is correct... yes
+checking whether btowc(EOF) is correct... yes
+checking for __builtin_expect... yes
+checking whether sigaltstack is declared... yes
+checking for stack_t... yes
+checking whether // is distinct from /... (cached) no
+checking whether dup2 works... yes
+checking for error_at_line... yes
+checking whether fflush works on input streams... (cached) no
+checking whether fcntl handles F_DUPFD correctly... yes
+checking whether fcntl understands F_DUPFD_CLOEXEC... needs runtime check
+checking whether fflush works on input streams... (cached) no
+checking whether conversion from 'int' to 'long double' works... yes
+checking whether fopen recognizes a trailing slash... yes
+checking for __fpending... yes
+checking whether __fpending is declared... yes
+checking whether fpurge is declared... no
+checking whether frexp works... yes
+checking whether frexpl is declared... yes
+checking whether frexpl() can be used without linking with libm... yes
+checking whether frexpl works... yes
+checking for fseeko... (cached) yes
+checking whether fflush works on input streams... (cached) no
+checking for _fseeki64... no
+checking for ftello... (cached) yes
+checking whether ftello works... (cached) yes
+checking whether getdtablesize works... yes
+checking whether program_invocation_name is declared... yes
+checking whether program_invocation_short_name is declared... yes
+checking whether __argv is declared... no
+checking whether gettimeofday clobbers localtime buffer... no
+checking for gettimeofday with POSIX signature... yes
+checking whether isnan(double) can be used without linking with libm... yes
+checking whether isnan(float) can be used without linking with libm... yes
+checking whether isnan(float) works... yes
+checking whether isnan(long double) can be used without linking with libm... yes
+checking whether isnanl works... yes
+checking whether langinfo.h defines CODESET... yes
+checking whether langinfo.h defines T_FMT_AMPM... yes
+checking whether langinfo.h defines ERA... yes
+checking whether langinfo.h defines YESEXPR... yes
+checking for libsigsegv... (cached) no, consider installing GNU libsigsegv
+checking whether locale.h conforms to POSIX:2001... yes
+checking whether struct lconv is properly defined... yes
+checking whether lseek detects pipes... yes
+checking whether NAN macro works... yes
+checking whether HUGE_VAL works... yes
+checking whether mbrtowc handles incomplete characters... yes
+checking whether mbrtowc works as well as mbtowc... yes
+checking whether mbrtowc handles a NULL pwc argument... yes
+checking whether mbrtowc handles a NULL string argument... yes
+checking whether mbrtowc has a correct return value... yes
+checking whether mbrtowc returns 0 when parsing a NUL character... yes
+checking whether mbrtowc works on empty input... yes
+checking whether the C locale is free of encoding errors... no
+checking whether mbrtowc handles incomplete characters... (cached) yes
+checking whether mbrtowc works as well as mbtowc... (cached) yes
+checking for mkdtemp... yes
+checking for working mkstemp... yes
+checking whether YESEXPR works... yes
+checking for obstacks that work with any size object... no
+checking whether open recognizes a trailing slash... yes
+checking whether posix_spawn_file_actions_addclose works... yes
+checking whether posix_spawn_file_actions_adddup2 works... yes
+checking whether posix_spawn_file_actions_addopen works... yes
+checking whether frexp works... (cached) yes
+checking whether ldexp can be used without linking with libm... (cached) yes
+checking whether frexpl() can be used without linking with libm... (cached) yes
+checking whether frexpl works... (cached) yes
+checking whether frexpl is declared... (cached) yes
+checking whether ldexpl() can be used without linking with libm... yes
+checking whether ldexpl works... yes
+checking whether ldexpl is declared... yes
+checking whether program_invocation_name is declared... (cached) yes
+checking whether program_invocation_short_name is declared... (cached) yes
+checking for raise... yes
+checking for sigprocmask... yes
+checking for rawmemchr... yes
+checking whether readlink signature is correct... yes
+checking whether readlink handles trailing slash correctly... yes
+checking for working re_compile_pattern... yes
+checking whether rename honors trailing slash on destination... yes
+checking whether rename honors trailing slash on source... yes
+checking whether rename manages hard links correctly... yes
+checking whether rename manages existing destinations correctly... yes
+checking whether rmdir works... yes
+checking for struct sigaction.sa_sigaction... yes
+checking for volatile sig_atomic_t... yes
+checking for sighandler_t... yes
+checking for signbit macro... yes
+checking for signbit compiler built-ins... yes
+checking for sigprocmask... (cached) yes
+checking for stdint.h... (cached) yes
+checking for SIZE_MAX... yes
+checking for snprintf... (cached) yes
+checking whether snprintf respects a size of 1... yes
+checking whether printf supports POSIX/XSI format strings with positions... yes
+checking for posix_spawnattr_t... yes
+checking for posix_spawn_file_actions_t... yes
+checking for ssize_t... yes
+checking whether stat handles trailing slashes on directories... yes
+checking whether stat handles trailing slashes on files... yes
+checking for va_copy... yes
+checking for max_align_t... (cached) yes
+checking whether NULL can be used in arbitrary expressions... (cached) yes
+checking which flavor of printf attribute matches inttypes macros... system
+checking for strchrnul... yes
+checking whether strchrnul works... yes
+checking for working strerror function... yes
+checking for working strndup... yes
+checking for working strnlen... yes
+checking for strsignal... yes
+checking whether strsignal always returns a string... yes
+checking whether strstr works in linear time... yes
+checking whether strstr works... (cached) yes
+checking whether strtod obeys C99... yes
+checking for nlink_t... (cached) yes
+checking for ptrdiff_t... yes
+checking for vasprintf... yes
+checking for vasprintf... (cached) yes
+checking for waitid... yes
+checking whether mbrtowc handles incomplete characters... (cached) yes
+checking whether mbrtowc works as well as mbtowc... (cached) yes
+checking whether wcrtomb return value is correct... yes
+checking whether iswcntrl works... yes
+checking for towlower... yes
+checking for wctype_t... yes
+checking for wctrans_t... yes
+checking for stdint.h... (cached) yes
+checking for a traditional french locale... (cached) fr_FR
+checking for a french Unicode locale... (cached) fr_FR.UTF-8
+checking for a traditional french locale... (cached) fr_FR
+checking for a turkish Unicode locale... tr_TR.UTF-8
+checking for closedir... yes
+checking for dirfd... yes
+checking whether dirfd is declared... yes
+checking whether dirfd is a macro... no
+checking whether dup works... yes
+checking whether fdopen sets errno... yes
+checking for flexible array member... yes
+checking for getpagesize... yes
+checking whether getpagesize is declared... yes
+checking whether INT32_MAX < INTMAX_MAX... yes
+checking whether INT64_MAX == LONG_MAX... yes
+checking whether UINT32_MAX < UINTMAX_MAX... yes
+checking whether UINT64_MAX == ULONG_MAX... yes
+checking where to find the exponent in a 'double'... (cached) word 1 bit 20
+checking where to find the exponent in a 'float'... (cached) word 0 bit 23
+checking where to find the exponent in a 'long double'... unknown
+checking whether link obeys POSIX... yes
+checking for setlocale... yes
+checking for uselocale... yes
+checking for getlocalename_l... no
+checking for a traditional french locale... (cached) fr_FR
+checking for a french Unicode locale... (cached) fr_FR.UTF-8
+checking for a traditional japanese locale... (cached) ja_JP
+checking for a transitional chinese locale... (cached) zh_CN.GB18030
+checking for a french Unicode locale... (cached) fr_FR.UTF-8
+checking for mmap... (cached) yes
+checking for MAP_ANONYMOUS... yes
+checking for mmap... (cached) yes
+checking for MAP_ANONYMOUS... yes
+checking for a traditional french locale... (cached) fr_FR
+checking for a french Unicode locale... (cached) fr_FR.UTF-8
+checking for opendir... yes
+checking for putenv compatible with GNU and SVID... yes
+checking for mmap... (cached) yes
+checking for MAP_ANONYMOUS... yes
+checking for mmap... (cached) yes
+checking for MAP_ANONYMOUS... yes
+checking for readdir... yes
+checking whether setenv validates arguments... yes
+checking for a traditional french locale... (cached) fr_FR
+checking for a french Unicode locale... (cached) fr_FR.UTF-8
+checking for a traditional japanese locale... (cached) ja_JP
+checking for a transitional chinese locale... (cached) zh_CN.GB18030
+checking whether sleep is declared... yes
+checking for working sleep... yes
+checking for working stdalign.h... yes
+checking for mmap... (cached) yes
+checking for MAP_ANONYMOUS... yes
+checking for mmap... (cached) yes
+checking for MAP_ANONYMOUS... yes
+checking whether symlink handles trailing slash correctly... yes
+checking for unsetenv... yes
+checking for unsetenv() return type... int
+checking whether unsetenv obeys POSIX... yes
+checking for a traditional french locale... (cached) fr_FR
+checking for a french Unicode locale... (cached) fr_FR.UTF-8
+checking for a traditional japanese locale... (cached) ja_JP
+checking for a transitional chinese locale... (cached) zh_CN.GB18030
+checking whether wctob works... yes
+checking whether wctob is declared... yes
+checking whether an open file can be renamed... yes
+checking if changeword is wanted... no
+checking which shell to use for syscmd... /bin/sh
+checking if malloc debugging is wanted... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating lib/Makefile
+config.status: creating src/Makefile
+config.status: creating tests/Makefile
+config.status: creating checks/Makefile
+config.status: creating examples/Makefile
+config.status: creating lib/config.h
+config.status: linking /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/GNUmakefile to GNUmakefile
+config.status: executing depfiles commands
+config.status: executing stamp-h commands
++ /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/rules_foreign_cc/toolchains/make/bin/make
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/rules_foreign_cc/toolchains/make/bin/make  all-recursive
+make[1]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir'
+Making all in .
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir'
+Making all in examples
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/examples'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/examples'
+Making all in lib
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/lib'
+  GEN      alloca.h
+  GEN      configmake.h
+  GEN      c++defs.h
+  GEN      arg-nonnull.h
+  GEN      warn-on-use.h
+  GEN      fcntl.h
+  GEN      langinfo.h
+  GEN      limits.h
+  GEN      locale.h
+  GEN      math.h
+  GEN      signal.h
+  GEN      unused-parameter.h
+  GEN      spawn.h
+  GEN      stdio.h
+  GEN      stdlib.h
+  GEN      string.h
+  GEN      sys/stat.h
+  GEN      sys/time.h
+  GEN      sys/types.h
+  GEN      sys/wait.h
+  GEN      time.h
+  GEN      unistd.h
+  GEN      wchar.h
+  GEN      wctype.h
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/rules_foreign_cc/toolchains/make/bin/make  all-am
+make[3]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/lib'
+  CC       gl_avltree_oset.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/gl_avltree_oset.c:18:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       binary-io.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/binary-io.c:1:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       c-ctype.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/c-ctype.c:1:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       c-stack.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/c-stack.c:36:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/c-stack.c:107:1: warning: 'die' defined but not used [-Wunused-function]
+  107 | die (int signo)
+      | ^~~
+  CC       c-strcasecmp.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/c-strcasecmp.c:17:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       c-strncasecmp.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/c-strncasecmp.c:17:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       clean-temp.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/clean-temp.c:20:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       cloexec.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/cloexec.c:20:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       close-stream.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/close-stream.c:18:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       closein.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/closein.c:18:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       closeout.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/closeout.c:19:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       dirname.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/dirname.c:19:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       basename.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/basename.c:19:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       dirname-lgpl.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/dirname-lgpl.c:19:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       basename-lgpl.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/basename-lgpl.c:19:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       stripslash.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/stripslash.c:19:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       execute.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/execute.c:19:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       exitfail.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/exitfail.c:18:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       fatal-signal.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/fatal-signal.c:19:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       fd-hook.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/fd-hook.c:18:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       fd-safer-flag.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/fd-safer-flag.c:21:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       dup-safer-flag.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/dup-safer-flag.c:21:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       filenamecat.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/filenamecat.c:20:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       filenamecat-lgpl.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/filenamecat-lgpl.c:20:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       fopen-safer.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/fopen-safer.c:20:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       freading.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/freading.c:17:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       getprogname.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/getprogname.c:17:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       hard-locale.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/hard-locale.c:19:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       gl_linkedhash_list.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/gl_linkedhash_list.c:18:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       gl_list.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/gl_list.c:1:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       localcharset.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/localcharset.c:20:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       glthread/lock.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/glthread/lock.c:21:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       malloca.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/malloca.c:19:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       math.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/math.c:1:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       memchr2.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/memchr2.c:24:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       gl_oset.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/gl_oset.c:1:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       pipe2.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/pipe2.c:17:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       pipe2-safer.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/pipe2-safer.c:19:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       printf-frexp.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/printf-frexp.c:18:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       printf-frexpl.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/printf-frexpl.c:17:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       progname.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/progname.c:19:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       quotearg.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/quotearg.c:27:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       sig-handler.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/sig-handler.c:1:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       spawn-pipe.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/spawn-pipe.c:19:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       mkstemp-safer.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/mkstemp-safer.c:20:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       tempname.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/tempname.c:21:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       glthread/threadlib.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/glthread/threadlib.c:19:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       glthread/tls.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/glthread/tls.c:19:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       tmpdir.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/tmpdir.c:20:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       unistd.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/unistd.c:1:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       dup-safer.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/dup-safer.c:20:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       fd-safer.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/fd-safer.c:20:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       pipe-safer.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/pipe-safer.c:19:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       verror.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/verror.c:19:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       version-etc.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/version-etc.c:19:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       version-etc-fsf.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/version-etc-fsf.c:19:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       wait-process.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/wait-process.c:19:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       wctype-h.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/wctype-h.c:2:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       xmalloc.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/xmalloc.c:18:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       xalloc-die.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/xalloc-die.c:19:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       gl_xlist.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/gl_xlist.c:1:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       xmalloca.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/xmalloca.c:18:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       gl_xoset.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/gl_xoset.c:1:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       xprintf.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/xprintf.c:17:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       xsize.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/xsize.c:1:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       xstrndup.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/xstrndup.c:18:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       xvasprintf.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/xvasprintf.c:17:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       xasprintf.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/xasprintf.c:18:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       asnprintf.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/asnprintf.c:17:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       fclose.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/fclose.c:17:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       fcntl.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/fcntl.c:20:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       fflush.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/fflush.c:19:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       fpurge.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/fpurge.c:17:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       freadahead.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/freadahead.c:17:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       fseek.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/fseek.c:17:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       fseeko.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/fseeko.c:17:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       mbrtowc.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/mbrtowc.c:18:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       obstack.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/obstack.c:23:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       printf-args.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/printf-args.c:24:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       printf-parse.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/printf-parse.c:31:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       vasnprintf.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/lib/vasnprintf.c:54:
+./config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  AR       libm4.a
+  GEN      charset.alias
+  GEN      ref-add.sed
+  GEN      ref-del.sed
+make[3]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/lib'
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/lib'
+Making all in src
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/src'
+  CC       m4.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/src/m4.h:26,
+                 from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/src/m4.c:22:
+../lib/config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/src/m4.c:146:1: warning: 'pure' attribute on function returning 'void' [-Wattributes]
+  146 | {
+      | ^
+  CC       builtin.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/src/m4.h:26,
+                 from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/src/builtin.c:25:
+../lib/config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       debug.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/src/m4.h:26,
+                 from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/src/debug.c:22:
+../lib/config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       eval.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/src/m4.h:26,
+                 from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/src/eval.c:27:
+../lib/config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       format.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/src/m4.h:26,
+                 from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/src/format.c:24:
+../lib/config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       freeze.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/src/m4.h:26,
+                 from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/src/freeze.c:24:
+../lib/config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       input.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/src/m4.h:26,
+                 from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/src/input.c:24:
+../lib/config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       macro.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/src/m4.h:26,
+                 from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/src/macro.c:25:
+../lib/config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       output.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/src/m4.h:26,
+                 from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/src/output.c:22:
+../lib/config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       path.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/src/m4.h:26,
+                 from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/src/path.c:25:
+../lib/config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CC       symtab.o
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/src/m4.h:26,
+                 from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/src/symtab.c:34:
+../lib/config.h:100: warning: "_FORTIFY_SOURCE" redefined
+  100 |    # define _FORTIFY_SOURCE 2
+      | 
+<command-line>: note: this is the location of the previous definition
+  CCLD     m4
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/src'
+Making all in doc
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/doc'
+Making all in checks
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/checks'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/checks'
+Making all in tests
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/tests'
+  GEN      c++defs.h
+  GEN      warn-on-use.h
+  GEN      ctype.h
+  GEN      arg-nonnull.h
+  GEN      dirent.h
+  GEN      inttypes.h
+  GEN      test-posix_spawn1.sh
+  GEN      test-posix_spawn2.sh
+  GEN      unused-parameter.h
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/rules_foreign_cc/toolchains/make/bin/make  all-recursive
+make[3]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/tests'
+Making all in .
+make[4]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/tests'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/tests'
+make[3]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/tests'
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/tests'
+make[1]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir'
++ /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/rules_foreign_cc/toolchains/make/bin/make install
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/rules_foreign_cc/toolchains/make/bin/make  install-recursive
+make[1]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir'
+Making install in .
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir'
+make[3]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir'
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir'
+Making install in examples
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/examples'
+make[3]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/examples'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/examples'
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/examples'
+Making install in lib
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/lib'
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/rules_foreign_cc/toolchains/make/bin/make  install-am
+make[3]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/lib'
+make[4]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/lib'
+if test yes = no; then \
+  case 'linux-gnu' in \
+    darwin[56]*) \
+      need_charset_alias=true ;; \
+    darwin* | cygwin* | mingw* | pw32* | cegcc*) \
+      need_charset_alias=false ;; \
+    *) \
+      need_charset_alias=true ;; \
+  esac ; \
+else \
+  need_charset_alias=false ; \
+fi ; \
+if $need_charset_alias; then \
+  /bin/sh /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/build-aux/install-sh -d /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/m4/lib ; \
+fi ; \
+if test -f /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/m4/lib/charset.alias; then \
+  sed -f ref-add.sed /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/m4/lib/charset.alias > /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/m4/lib/charset.tmp ; \
+  /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/m4/lib/charset.tmp /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/m4/lib/charset.alias ; \
+  rm -f /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/m4/lib/charset.tmp ; \
+else \
+  if $need_charset_alias; then \
+    sed -f ref-add.sed charset.alias > /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/m4/lib/charset.tmp ; \
+    /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/m4/lib/charset.tmp /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/m4/lib/charset.alias ; \
+    rm -f /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/m4/lib/charset.tmp ; \
+  fi ; \
+fi
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/lib'
+make[3]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/lib'
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/lib'
+Making install in src
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/src'
+make[3]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/src'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/m4/bin'
+  /usr/bin/install -c m4 '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/m4/bin'
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/src'
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/src'
+Making install in doc
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/doc'
+make[3]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/m4/share/info'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/doc/m4.info /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/doc/m4.info-1 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/doc/m4.info-2 '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/m4/share/info'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/m4/share/man/man1'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/external/m4/doc/m4.1 '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/m4/share/man/man1'
+make[3]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/doc'
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/doc'
+Making install in checks
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/checks'
+make[3]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/checks'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/checks'
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/checks'
+Making install in tests
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/tests'
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/rules_foreign_cc/toolchains/make/bin/make  install-recursive
+make[3]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/tests'
+Making install in .
+make[4]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/tests'
+make[5]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/tests'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/tests'
+make[4]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/tests'
+make[3]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/tests'
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir/tests'
+make[1]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2140/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4.build_tmpdir'
++ set +x

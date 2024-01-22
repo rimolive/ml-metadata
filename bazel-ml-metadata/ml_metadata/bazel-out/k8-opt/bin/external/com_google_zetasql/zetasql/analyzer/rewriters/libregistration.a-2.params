@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/rewriters/libregistration.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/rewriters/_objs/registration/registration.o

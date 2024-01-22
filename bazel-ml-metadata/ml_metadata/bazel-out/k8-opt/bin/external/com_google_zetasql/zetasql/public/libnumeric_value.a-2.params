@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/libnumeric_value.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/_objs/numeric_value/numeric_value.o

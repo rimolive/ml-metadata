@@ -1,0 +1,5 @@
+rcsD
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/route/v3/libpkg.upbdefs.a
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/route/v3/_objs/pkg.upbdefs/route.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/route/v3/_objs/pkg.upbdefs/route_components.upbdefs.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/route/v3/_objs/pkg.upbdefs/scoped_route.upbdefs.o

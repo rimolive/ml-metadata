@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/ml_metadata/metadata_store/libtransaction_executor.a
+bazel-out/k8-opt/bin/ml_metadata/metadata_store/_objs/transaction_executor/transaction_executor.o

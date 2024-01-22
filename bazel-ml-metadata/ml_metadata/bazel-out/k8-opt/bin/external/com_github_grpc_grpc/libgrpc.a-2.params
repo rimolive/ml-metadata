@@ -1,0 +1,5 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/libgrpc.a
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc/init.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc/grpc_plugin_registry.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc/grpc_plugin_registry_extra.o

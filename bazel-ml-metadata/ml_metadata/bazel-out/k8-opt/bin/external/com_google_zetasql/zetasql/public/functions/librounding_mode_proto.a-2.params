@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/functions/librounding_mode_proto.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/functions/_objs/rounding_mode_proto/rounding_mode.pb.o

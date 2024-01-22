@@ -1,0 +1,805 @@
+
+Bazel external C/C++ Rules. Building library flex
+
+Environment:______________
+M4=/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4/bin/m4
+BUILD_SCRIPT=bazel-out/host/bin/external/com_google_zetasql/bazel/flex_foreign_cc/build_script.sh
+EXT_BUILD_ROOT=/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata
+BUILD_LOG=bazel-out/host/bin/external/com_google_zetasql/bazel/flex_foreign_cc/Configure.log
+PWD=/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata
+BUILD_WRAPPER_SCRIPT=bazel-out/host/bin/external/com_google_zetasql/bazel/flex_foreign_cc/wrapper_build_script.sh
+TMPDIR=/tmp
+EXT_BUILD_DEPS=/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.ext_build_deps
+BUILD_TMPDIR=/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir
+SHLVL=2
+INSTALLDIR=/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex
+PATH=/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata:/home/rmartine/.cache/bazelisk/downloads/sha256/3d144b890b85d95fb13df941bfd010fc3628e9afaa4c85e7d1a002e4fd02b249/bin:/opt/powerview:/home/rmartine/.local/bin:/home/rmartine/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin
+_=/usr/bin/env
+__________________________
++ mkdir -p /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex
++ ARFLAGS=rcsD
++ AR_FLAGS=rcsD
++ ASFLAGS='-U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted'
++ CFLAGS='-U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted'
++ CXXFLAGS='-U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -std=c++0x -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -std=c++17'
++ LDFLAGS='-Wl,-no-as-needed -Wl,-z,relro,-z,now -B/usr/bin -pass-exit-codes -Wl,--gc-sections -lstdc++ -lm'
++ AR=/usr/bin/ar
++ CC=/usr/bin/gcc
++ CXX=/usr/bin/g++
++ RANLIB=:
++ CPPFLAGS=
++ /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/configure --prefix=/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for gcc... /usr/bin/gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /usr/bin/gcc accepts -g... yes
+checking for /usr/bin/gcc option to accept ISO C89... none needed
+checking whether /usr/bin/gcc understands -c and -o together... yes
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by /usr/bin/gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... :
+checking for gawk... gawk
+checking command to parse /usr/bin/nm -B output from /usr/bin/gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... /usr/bin/gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if /usr/bin/gcc supports -fno-rtti -fno-exceptions... no
+checking for /usr/bin/gcc option to produce PIC... -fPIC -DPIC
+checking if /usr/bin/gcc PIC flag -fPIC -DPIC works... yes
+checking if /usr/bin/gcc static flag -static works... no
+checking if /usr/bin/gcc supports -c -o file.o... yes
+checking if /usr/bin/gcc supports -c -o file.o... (cached) yes
+checking whether the /usr/bin/gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking whether /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/rules_foreign_cc/toolchains/make/bin/make sets $(MAKE)... yes
+checking for style of include used by /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/rules_foreign_cc/toolchains/make/bin/make... GNU
+checking whether /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/rules_foreign_cc/toolchains/make/bin/make supports nested variables... yes
+checking dependency style of /usr/bin/gcc... gcc3
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for ld used by GCC... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking for shared library run path origin... done
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for bison... bison -y
+checking for flex... no
+checking for lex... no
+checking for gcc... (cached) /usr/bin/gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether /usr/bin/gcc accepts -g... (cached) yes
+checking for /usr/bin/gcc option to accept ISO C89... (cached) none needed
+checking whether /usr/bin/gcc understands -c and -o together... (cached) yes
+checking for gcc... gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking how to run the C preprocessor... gcc -E
+checking whether we are using the GNU C++ compiler... yes
+checking whether /usr/bin/g++ accepts -g... yes
+checking how to run the C++ preprocessor... /usr/bin/g++ -E
+checking for ld used by /usr/bin/g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the /usr/bin/g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for /usr/bin/g++ option to produce PIC... -fPIC -DPIC
+checking if /usr/bin/g++ PIC flag -fPIC -DPIC works... yes
+checking if /usr/bin/g++ static flag -static works... no
+checking if /usr/bin/g++ supports -c -o file.o... yes
+checking if /usr/bin/g++ supports -c -o file.o... (cached) yes
+checking whether the /usr/bin/g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking dependency style of /usr/bin/g++... gcc3
+checking whether ln -s works... yes
+checking for gawk... (cached) gawk
+checking for help2man... ${top_srcdir}/build-aux/missing help2man
+configure: WARNING: help2man: program not found: building man page will not work
+checking for gtexi2dvi... no
+checking for texi2dvi... no
+configure: WARNING: texi2dvi: program not found: building pdf version of manual will not work
+checking for m4 that supports -P... /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/m4/bin/m4
+checking for indent... ${top_srcdir}/build-aux/missing indent
+checking if ${top_srcdir}/build-aux/missing indent is GNU indent... no
+configure: WARNING: ${top_srcdir}/build-aux/missing indent does not appear to be GNU indent; 'make indent' may not function properly
+checking regex.h usability... yes
+checking regex.h presence... yes
+checking for regex.h... yes
+checking for strings.h... (cached) yes
+checking for sys/stat.h... (cached) yes
+checking sys/wait.h usability... yes
+checking sys/wait.h presence... yes
+checking for sys/wait.h... yes
+checking for unistd.h... (cached) yes
+checking for inttypes.h... (cached) yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking for pthread_mutex_lock in -lpthread... yes
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for log10 in -lm... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for an ANSI C-conforming const... yes
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for pid_t... yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible realloc... yes
+checking for dup2... yes
+checking for memset... yes
+checking for regcomp... yes
+checking for strcasecmp... yes
+checking for strchr... yes
+checking for strdup... yes
+checking for strtol... yes
+checking for pow... yes
+checking for setlocale... yes
+checking for reallocarray... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating examples/Makefile
+config.status: creating examples/fastwc/Makefile
+config.status: creating examples/manual/Makefile
+config.status: creating po/Makefile.in
+config.status: creating src/Makefile
+config.status: creating tools/Makefile
+config.status: creating tests/Makefile
+config.status: creating src/config.h
+config.status: executing libtool commands
+config.status: executing depfiles commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
++ /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/rules_foreign_cc/toolchains/make/bin/make
+Making all in src
+make[1]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/src'
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/rules_foreign_cc/toolchains/make/bin/make  all-am
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/src'
+depbase=`echo libmain.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ../libtool  --tag=CC   --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"   -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT libmain.lo -MD -MP -MF $depbase.Tpo -c -o libmain.lo /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/libmain.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\" -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT libmain.lo -MD -MP -MF .deps/libmain.Tpo -c /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/libmain.c  -fPIC -DPIC -o .libs/libmain.o
+libtool: compile:  /usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\" -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT libmain.lo -MD -MP -MF .deps/libmain.Tpo -c /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/libmain.c -o libmain.o >/dev/null 2>&1
+depbase=`echo libyywrap.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ../libtool  --tag=CC   --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"   -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT libyywrap.lo -MD -MP -MF $depbase.Tpo -c -o libyywrap.lo /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/libyywrap.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\" -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT libyywrap.lo -MD -MP -MF .deps/libyywrap.Tpo -c /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/libyywrap.c  -fPIC -DPIC -o .libs/libyywrap.o
+libtool: compile:  /usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\" -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT libyywrap.lo -MD -MP -MF .deps/libyywrap.Tpo -c /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/libyywrap.c -o libyywrap.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=link /usr/bin/gcc  -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -version-info 2:0:0 -Wl,-no-as-needed -Wl,-z,relro,-z,now -B/usr/bin -pass-exit-codes -Wl,--gc-sections -lstdc++ -lm -o libfl.la -rpath /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/lib libmain.lo libyywrap.lo  -lm 
+libtool: link: /usr/bin/gcc -shared  -fPIC -DPIC  .libs/libmain.o .libs/libyywrap.o   -lstdc++ -lm  -fstack-protector -g0 -O2 -Wl,-no-as-needed -Wl,-z -Wl,relro -Wl,-z -Wl,now -Wl,--gc-sections   -Wl,-soname -Wl,libfl.so.2 -o .libs/libfl.so.2.0.0
+libtool: link: (cd ".libs" && rm -f "libfl.so.2" && ln -s "libfl.so.2.0.0" "libfl.so.2")
+libtool: link: (cd ".libs" && rm -f "libfl.so" && ln -s "libfl.so.2.0.0" "libfl.so")
+libtool: link: /usr/bin/ar rcsD .libs/libfl.a  libmain.o libyywrap.o
+libtool: link: : .libs/libfl.a
+libtool: link: ( cd ".libs" && rm -f "libfl.la" && ln -s "../libfl.la" "libfl.la" )
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT flex-buf.o -MD -MP -MF .deps/flex-buf.Tpo -c -o flex-buf.o `test -f 'buf.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`buf.c
+mv -f .deps/flex-buf.Tpo .deps/flex-buf.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT flex-ccl.o -MD -MP -MF .deps/flex-ccl.Tpo -c -o flex-ccl.o `test -f 'ccl.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`ccl.c
+mv -f .deps/flex-ccl.Tpo .deps/flex-ccl.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT flex-dfa.o -MD -MP -MF .deps/flex-dfa.Tpo -c -o flex-dfa.o `test -f 'dfa.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`dfa.c
+mv -f .deps/flex-dfa.Tpo .deps/flex-dfa.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT flex-ecs.o -MD -MP -MF .deps/flex-ecs.Tpo -c -o flex-ecs.o `test -f 'ecs.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`ecs.c
+mv -f .deps/flex-ecs.Tpo .deps/flex-ecs.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT flex-filter.o -MD -MP -MF .deps/flex-filter.Tpo -c -o flex-filter.o `test -f 'filter.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`filter.c
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/filter.c: In function 'filter_fix_linedirs':
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/filter.c:393:68: warning: '%s' directive output may be truncated writing up to 2047 bytes into a region of size between 493 and 503 [-Wformat-truncation=]
+  393 |                                 snprintf (buf, readsz, "#line %d \"%s\"\n",
+      |                                                                    ^~
+  394 |                                           lineno, filename);
+      |                                                   ~~~~~~~~          
+In file included from /usr/include/stdio.h:964,
+                 from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/flexdef.h:42,
+                 from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/filter.c:24:
+In function 'snprintf',
+    inlined from 'filter_fix_linedirs' at /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/filter.c:393:5:
+/usr/include/bits/stdio2.h:54:10: note: '__builtin_snprintf' output between 12 and 2069 bytes into a destination of size 512
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+mv -f .deps/flex-filter.Tpo .deps/flex-filter.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT flex-gen.o -MD -MP -MF .deps/flex-gen.Tpo -c -o flex-gen.o `test -f 'gen.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`gen.c
+mv -f .deps/flex-gen.Tpo .deps/flex-gen.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT flex-main.o -MD -MP -MF .deps/flex-main.Tpo -c -o flex-main.o `test -f 'main.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`main.c
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/main.c: In function 'check_options':
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/main.c:494:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  494 |     if (gen_line_dirs)
+      |     ^~
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/main.c:498:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  498 |         if (userdef_buf.elts)
+      |         ^~
+mv -f .deps/flex-main.Tpo .deps/flex-main.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT flex-misc.o -MD -MP -MF .deps/flex-misc.Tpo -c -o flex-misc.o `test -f 'misc.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`misc.c
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/misc.c: In function 'myesc':
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/misc.c:515:67: warning: pointer targets in passing argument 1 of 'strtoul' differ in signedness [-Wpointer-sign]
+  515 |                         esc_char = (unsigned char) strtoul (array + 1, NULL, 8);
+      |                                                             ~~~~~~^~~
+      |                                                                   |
+      |                                                                   unsigned char *
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/flexdef.h:43,
+                 from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/misc.c:33:
+/usr/include/stdlib.h:181:58: note: expected 'const char * restrict' but argument is of type 'unsigned char *'
+  181 | extern unsigned long int strtoul (const char *__restrict __nptr,
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/misc.c:537:67: warning: pointer targets in passing argument 1 of 'strtoul' differ in signedness [-Wpointer-sign]
+  537 |                         esc_char = (unsigned char) strtoul (array + 2, NULL, 16);
+      |                                                             ~~~~~~^~~
+      |                                                                   |
+      |                                                                   unsigned char *
+/usr/include/stdlib.h:181:58: note: expected 'const char * restrict' but argument is of type 'unsigned char *'
+  181 | extern unsigned long int strtoul (const char *__restrict __nptr,
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/misc.c: In function 'line_directive_out':
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/misc.c:369:57: warning: '%s' directive output may be truncated writing up to 2047 bytes into a region of size 2039 [-Wformat-truncation=]
+  369 |                 snprintf (directive, sizeof(directive), line_fmt, 0, filename);
+      |                                                         ^~~~~~~~     ~~~~~~~~
+In file included from /usr/include/stdio.h:964,
+                 from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/flexdef.h:42:
+In function 'snprintf',
+    inlined from 'line_directive_out' at /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/misc.c:369:3:
+/usr/include/bits/stdio2.h:54:10: note: '__builtin_snprintf' output between 12 and 2059 bytes into a destination of size 2048
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/misc.c: In function 'line_directive_out':
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/misc.c:367:57: warning: '%s' directive output may be truncated writing up to 2047 bytes into a region of size between 2029 and 2039 [-Wformat-truncation=]
+  367 |                 snprintf (directive, sizeof(directive), line_fmt, linenum, filename);
+      |                                                         ^~~~~~~~           ~~~~~~~~
+In function 'snprintf',
+    inlined from 'line_directive_out' at /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/misc.c:367:3:
+/usr/include/bits/stdio2.h:54:10: note: '__builtin_snprintf' output between 12 and 2069 bytes into a destination of size 2048
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+mv -f .deps/flex-misc.Tpo .deps/flex-misc.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT flex-nfa.o -MD -MP -MF .deps/flex-nfa.Tpo -c -o flex-nfa.o `test -f 'nfa.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`nfa.c
+mv -f .deps/flex-nfa.Tpo .deps/flex-nfa.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT flex-options.o -MD -MP -MF .deps/flex-options.Tpo -c -o flex-options.o `test -f 'options.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`options.c
+mv -f .deps/flex-options.Tpo .deps/flex-options.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT flex-parse.o -MD -MP -MF .deps/flex-parse.Tpo -c -o flex-parse.o `test -f 'parse.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`parse.c
+In function 'line_warning',
+    inlined from 'line_warning' at parse.y:1055:6,
+    inlined from 'lwarn' at parse.y:1029:2,
+    inlined from 'format_warn' at parse.y:1021:2:
+parse.y:1061:39: warning: '%s' directive output may be truncated writing up to 2047 bytes into a region of size 2039 [-Wformat-truncation=]
+......
+In file included from /usr/include/stdio.h:964,
+                 from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/flexdef.h:42,
+                 from parse.y:66:
+In function 'snprintf',
+    inlined from 'line_warning' at parse.y:1061:3,
+    inlined from 'line_warning' at parse.y:1055:6,
+    inlined from 'lwarn' at parse.y:1029:2,
+    inlined from 'format_warn' at parse.y:1021:2:
+/usr/include/bits/stdio2.h:54:10: note: '__builtin_snprintf' output between 10 and 2057 bytes into a destination of size 2048
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+In function 'line_warning',
+    inlined from 'line_warning' at parse.y:1055:6,
+    inlined from 'lwarn' at parse.y:1029:2,
+    inlined from 'yyparse' at parse.y:805:10:
+parse.y:1061:39: warning: '%s' directive output may be truncated writing up to 2047 bytes into a region of size 2039 [-Wformat-truncation=]
+In function 'snprintf',
+    inlined from 'line_warning' at parse.y:1061:3,
+    inlined from 'line_warning' at parse.y:1055:6,
+    inlined from 'lwarn' at parse.y:1029:2,
+    inlined from 'yyparse' at parse.y:805:10:
+/usr/include/bits/stdio2.h:54:10: note: '__builtin_snprintf' output between 10 and 2057 bytes into a destination of size 2048
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+parse.y: In function 'yyparse':
+parse.y:360:6: warning: '%s' directive output may be truncated writing up to 2047 bytes into a region of size 2021 [-Wformat-truncation=]
+In function 'snprintf',
+    inlined from 'format_pinpoint_message' at parse.y:1040:2,
+    inlined from 'yyparse' at parse.y:359:5:
+/usr/include/bits/stdio2.h:54:10: note: '__builtin_snprintf' output between 28 and 2075 bytes into a destination of size 2048
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+mv -f .deps/flex-parse.Tpo .deps/flex-parse.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT flex-regex.o -MD -MP -MF .deps/flex-regex.Tpo -c -o flex-regex.o `test -f 'regex.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`regex.c
+mv -f .deps/flex-regex.Tpo .deps/flex-regex.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT flex-scanflags.o -MD -MP -MF .deps/flex-scanflags.Tpo -c -o flex-scanflags.o `test -f 'scanflags.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`scanflags.c
+mv -f .deps/flex-scanflags.Tpo .deps/flex-scanflags.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT flex-scanopt.o -MD -MP -MF .deps/flex-scanopt.Tpo -c -o flex-scanopt.o `test -f 'scanopt.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`scanopt.c
+mv -f .deps/flex-scanopt.Tpo .deps/flex-scanopt.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT flex-skel.o -MD -MP -MF .deps/flex-skel.Tpo -c -o flex-skel.o `test -f 'skel.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`skel.c
+mv -f .deps/flex-skel.Tpo .deps/flex-skel.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT flex-sym.o -MD -MP -MF .deps/flex-sym.Tpo -c -o flex-sym.o `test -f 'sym.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`sym.c
+mv -f .deps/flex-sym.Tpo .deps/flex-sym.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT flex-tables.o -MD -MP -MF .deps/flex-tables.Tpo -c -o flex-tables.o `test -f 'tables.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`tables.c
+mv -f .deps/flex-tables.Tpo .deps/flex-tables.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT flex-tables_shared.o -MD -MP -MF .deps/flex-tables_shared.Tpo -c -o flex-tables_shared.o `test -f 'tables_shared.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`tables_shared.c
+mv -f .deps/flex-tables_shared.Tpo .deps/flex-tables_shared.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT flex-tblcmp.o -MD -MP -MF .deps/flex-tblcmp.Tpo -c -o flex-tblcmp.o `test -f 'tblcmp.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`tblcmp.c
+mv -f .deps/flex-tblcmp.Tpo .deps/flex-tblcmp.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT flex-yylex.o -MD -MP -MF .deps/flex-yylex.Tpo -c -o flex-yylex.o `test -f 'yylex.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`yylex.c
+mv -f .deps/flex-yylex.Tpo .deps/flex-yylex.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"   -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT stage1flex-scan.o -MD -MP -MF .deps/stage1flex-scan.Tpo -c -o stage1flex-scan.o `test -f 'scan.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`scan.c
+scan.l: In function 'flexscan':
+scan.l:77:2: warning: '__builtin_strncpy' specified bound 2048 equals destination size [-Wstringop-truncation]
+scan.l:786:1: note: in expansion of macro 'RETURNNAME'
+scan.l:699:4: warning: '__builtin_strncpy' specified bound 2048 equals destination size [-Wstringop-truncation]
+scan.l:641:4: warning: '__builtin_strncpy' specified bound 2048 equals destination size [-Wstringop-truncation]
+scan.l:464:4: warning: '__builtin_strncpy' specified bound 2048 equals destination size [-Wstringop-truncation]
+scan.l:322:4: warning: '__builtin_strncpy' specified bound 2048 equals destination size [-Wstringop-truncation]
+scan.l:77:2: warning: '__builtin_strncpy' specified bound 2048 equals destination size [-Wstringop-truncation]
+scan.l:223:1: note: in expansion of macro 'RETURNNAME'
+scan.l:211:4: warning: '__builtin_strncpy' specified bound 2048 equals destination size [-Wstringop-truncation]
+mv -f .deps/stage1flex-scan.Tpo .deps/stage1flex-scan.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"   -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT stage1flex-buf.o -MD -MP -MF .deps/stage1flex-buf.Tpo -c -o stage1flex-buf.o `test -f 'buf.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`buf.c
+mv -f .deps/stage1flex-buf.Tpo .deps/stage1flex-buf.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"   -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT stage1flex-ccl.o -MD -MP -MF .deps/stage1flex-ccl.Tpo -c -o stage1flex-ccl.o `test -f 'ccl.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`ccl.c
+mv -f .deps/stage1flex-ccl.Tpo .deps/stage1flex-ccl.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"   -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT stage1flex-dfa.o -MD -MP -MF .deps/stage1flex-dfa.Tpo -c -o stage1flex-dfa.o `test -f 'dfa.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`dfa.c
+mv -f .deps/stage1flex-dfa.Tpo .deps/stage1flex-dfa.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"   -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT stage1flex-ecs.o -MD -MP -MF .deps/stage1flex-ecs.Tpo -c -o stage1flex-ecs.o `test -f 'ecs.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`ecs.c
+mv -f .deps/stage1flex-ecs.Tpo .deps/stage1flex-ecs.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"   -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT stage1flex-filter.o -MD -MP -MF .deps/stage1flex-filter.Tpo -c -o stage1flex-filter.o `test -f 'filter.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`filter.c
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/filter.c: In function 'filter_fix_linedirs':
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/filter.c:393:68: warning: '%s' directive output may be truncated writing up to 2047 bytes into a region of size between 493 and 503 [-Wformat-truncation=]
+  393 |                                 snprintf (buf, readsz, "#line %d \"%s\"\n",
+      |                                                                    ^~
+  394 |                                           lineno, filename);
+      |                                                   ~~~~~~~~          
+In file included from /usr/include/stdio.h:964,
+                 from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/flexdef.h:42,
+                 from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/filter.c:24:
+In function 'snprintf',
+    inlined from 'filter_fix_linedirs' at /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/filter.c:393:5:
+/usr/include/bits/stdio2.h:54:10: note: '__builtin_snprintf' output between 12 and 2069 bytes into a destination of size 512
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+mv -f .deps/stage1flex-filter.Tpo .deps/stage1flex-filter.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"   -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT stage1flex-gen.o -MD -MP -MF .deps/stage1flex-gen.Tpo -c -o stage1flex-gen.o `test -f 'gen.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`gen.c
+mv -f .deps/stage1flex-gen.Tpo .deps/stage1flex-gen.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"   -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT stage1flex-main.o -MD -MP -MF .deps/stage1flex-main.Tpo -c -o stage1flex-main.o `test -f 'main.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`main.c
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/main.c: In function 'check_options':
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/main.c:494:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  494 |     if (gen_line_dirs)
+      |     ^~
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/main.c:498:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  498 |         if (userdef_buf.elts)
+      |         ^~
+mv -f .deps/stage1flex-main.Tpo .deps/stage1flex-main.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"   -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT stage1flex-misc.o -MD -MP -MF .deps/stage1flex-misc.Tpo -c -o stage1flex-misc.o `test -f 'misc.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`misc.c
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/misc.c: In function 'myesc':
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/misc.c:515:67: warning: pointer targets in passing argument 1 of 'strtoul' differ in signedness [-Wpointer-sign]
+  515 |                         esc_char = (unsigned char) strtoul (array + 1, NULL, 8);
+      |                                                             ~~~~~~^~~
+      |                                                                   |
+      |                                                                   unsigned char *
+In file included from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/flexdef.h:43,
+                 from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/misc.c:33:
+/usr/include/stdlib.h:181:58: note: expected 'const char * restrict' but argument is of type 'unsigned char *'
+  181 | extern unsigned long int strtoul (const char *__restrict __nptr,
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/misc.c:537:67: warning: pointer targets in passing argument 1 of 'strtoul' differ in signedness [-Wpointer-sign]
+  537 |                         esc_char = (unsigned char) strtoul (array + 2, NULL, 16);
+      |                                                             ~~~~~~^~~
+      |                                                                   |
+      |                                                                   unsigned char *
+/usr/include/stdlib.h:181:58: note: expected 'const char * restrict' but argument is of type 'unsigned char *'
+  181 | extern unsigned long int strtoul (const char *__restrict __nptr,
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/misc.c: In function 'line_directive_out':
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/misc.c:369:57: warning: '%s' directive output may be truncated writing up to 2047 bytes into a region of size 2039 [-Wformat-truncation=]
+  369 |                 snprintf (directive, sizeof(directive), line_fmt, 0, filename);
+      |                                                         ^~~~~~~~     ~~~~~~~~
+In file included from /usr/include/stdio.h:964,
+                 from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/flexdef.h:42:
+In function 'snprintf',
+    inlined from 'line_directive_out' at /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/misc.c:369:3:
+/usr/include/bits/stdio2.h:54:10: note: '__builtin_snprintf' output between 12 and 2059 bytes into a destination of size 2048
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/misc.c: In function 'line_directive_out':
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/misc.c:367:57: warning: '%s' directive output may be truncated writing up to 2047 bytes into a region of size between 2029 and 2039 [-Wformat-truncation=]
+  367 |                 snprintf (directive, sizeof(directive), line_fmt, linenum, filename);
+      |                                                         ^~~~~~~~           ~~~~~~~~
+In function 'snprintf',
+    inlined from 'line_directive_out' at /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/misc.c:367:3:
+/usr/include/bits/stdio2.h:54:10: note: '__builtin_snprintf' output between 12 and 2069 bytes into a destination of size 2048
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+mv -f .deps/stage1flex-misc.Tpo .deps/stage1flex-misc.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"   -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT stage1flex-nfa.o -MD -MP -MF .deps/stage1flex-nfa.Tpo -c -o stage1flex-nfa.o `test -f 'nfa.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`nfa.c
+mv -f .deps/stage1flex-nfa.Tpo .deps/stage1flex-nfa.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"   -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT stage1flex-options.o -MD -MP -MF .deps/stage1flex-options.Tpo -c -o stage1flex-options.o `test -f 'options.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`options.c
+mv -f .deps/stage1flex-options.Tpo .deps/stage1flex-options.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"   -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT stage1flex-parse.o -MD -MP -MF .deps/stage1flex-parse.Tpo -c -o stage1flex-parse.o `test -f 'parse.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`parse.c
+In function 'line_warning',
+    inlined from 'line_warning' at parse.y:1055:6,
+    inlined from 'lwarn' at parse.y:1029:2,
+    inlined from 'format_warn' at parse.y:1021:2:
+parse.y:1061:39: warning: '%s' directive output may be truncated writing up to 2047 bytes into a region of size 2039 [-Wformat-truncation=]
+......
+In file included from /usr/include/stdio.h:964,
+                 from /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/flexdef.h:42,
+                 from parse.y:66:
+In function 'snprintf',
+    inlined from 'line_warning' at parse.y:1061:3,
+    inlined from 'line_warning' at parse.y:1055:6,
+    inlined from 'lwarn' at parse.y:1029:2,
+    inlined from 'format_warn' at parse.y:1021:2:
+/usr/include/bits/stdio2.h:54:10: note: '__builtin_snprintf' output between 10 and 2057 bytes into a destination of size 2048
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+In function 'line_warning',
+    inlined from 'line_warning' at parse.y:1055:6,
+    inlined from 'lwarn' at parse.y:1029:2,
+    inlined from 'yyparse' at parse.y:805:10:
+parse.y:1061:39: warning: '%s' directive output may be truncated writing up to 2047 bytes into a region of size 2039 [-Wformat-truncation=]
+In function 'snprintf',
+    inlined from 'line_warning' at parse.y:1061:3,
+    inlined from 'line_warning' at parse.y:1055:6,
+    inlined from 'lwarn' at parse.y:1029:2,
+    inlined from 'yyparse' at parse.y:805:10:
+/usr/include/bits/stdio2.h:54:10: note: '__builtin_snprintf' output between 10 and 2057 bytes into a destination of size 2048
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+parse.y: In function 'yyparse':
+parse.y:360:6: warning: '%s' directive output may be truncated writing up to 2047 bytes into a region of size 2021 [-Wformat-truncation=]
+In function 'snprintf',
+    inlined from 'format_pinpoint_message' at parse.y:1040:2,
+    inlined from 'yyparse' at parse.y:359:5:
+/usr/include/bits/stdio2.h:54:10: note: '__builtin_snprintf' output between 28 and 2075 bytes into a destination of size 2048
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+mv -f .deps/stage1flex-parse.Tpo .deps/stage1flex-parse.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"   -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT stage1flex-regex.o -MD -MP -MF .deps/stage1flex-regex.Tpo -c -o stage1flex-regex.o `test -f 'regex.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`regex.c
+mv -f .deps/stage1flex-regex.Tpo .deps/stage1flex-regex.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"   -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT stage1flex-scanflags.o -MD -MP -MF .deps/stage1flex-scanflags.Tpo -c -o stage1flex-scanflags.o `test -f 'scanflags.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`scanflags.c
+mv -f .deps/stage1flex-scanflags.Tpo .deps/stage1flex-scanflags.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"   -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT stage1flex-scanopt.o -MD -MP -MF .deps/stage1flex-scanopt.Tpo -c -o stage1flex-scanopt.o `test -f 'scanopt.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`scanopt.c
+mv -f .deps/stage1flex-scanopt.Tpo .deps/stage1flex-scanopt.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"   -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT stage1flex-skel.o -MD -MP -MF .deps/stage1flex-skel.Tpo -c -o stage1flex-skel.o `test -f 'skel.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`skel.c
+mv -f .deps/stage1flex-skel.Tpo .deps/stage1flex-skel.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"   -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT stage1flex-sym.o -MD -MP -MF .deps/stage1flex-sym.Tpo -c -o stage1flex-sym.o `test -f 'sym.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`sym.c
+mv -f .deps/stage1flex-sym.Tpo .deps/stage1flex-sym.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"   -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT stage1flex-tables.o -MD -MP -MF .deps/stage1flex-tables.Tpo -c -o stage1flex-tables.o `test -f 'tables.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`tables.c
+mv -f .deps/stage1flex-tables.Tpo .deps/stage1flex-tables.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"   -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT stage1flex-tables_shared.o -MD -MP -MF .deps/stage1flex-tables_shared.Tpo -c -o stage1flex-tables_shared.o `test -f 'tables_shared.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`tables_shared.c
+mv -f .deps/stage1flex-tables_shared.Tpo .deps/stage1flex-tables_shared.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"   -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT stage1flex-tblcmp.o -MD -MP -MF .deps/stage1flex-tblcmp.Tpo -c -o stage1flex-tblcmp.o `test -f 'tblcmp.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`tblcmp.c
+mv -f .deps/stage1flex-tblcmp.Tpo .deps/stage1flex-tblcmp.Po
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"   -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT stage1flex-yylex.o -MD -MP -MF .deps/stage1flex-yylex.Tpo -c -o stage1flex-yylex.o `test -f 'yylex.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`yylex.c
+mv -f .deps/stage1flex-yylex.Tpo .deps/stage1flex-yylex.Po
+/bin/sh ../libtool  --tag=CC   --mode=link /usr/bin/gcc  -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted  -Wl,-no-as-needed -Wl,-z,relro,-z,now -B/usr/bin -pass-exit-codes -Wl,--gc-sections -lstdc++ -lm -o stage1flex stage1flex-scan.o stage1flex-buf.o stage1flex-ccl.o stage1flex-dfa.o stage1flex-ecs.o stage1flex-filter.o stage1flex-gen.o stage1flex-main.o stage1flex-misc.o stage1flex-nfa.o stage1flex-options.o stage1flex-parse.o stage1flex-regex.o stage1flex-scanflags.o stage1flex-scanopt.o stage1flex-skel.o stage1flex-sym.o stage1flex-tables.o stage1flex-tables_shared.o stage1flex-tblcmp.o stage1flex-yylex.o    -lm 
+libtool: link: /usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -Wl,-no-as-needed -Wl,-z -Wl,relro -Wl,-z -Wl,now -B/usr/bin -pass-exit-codes -Wl,--gc-sections -o stage1flex stage1flex-scan.o stage1flex-buf.o stage1flex-ccl.o stage1flex-dfa.o stage1flex-ecs.o stage1flex-filter.o stage1flex-gen.o stage1flex-main.o stage1flex-misc.o stage1flex-nfa.o stage1flex-options.o stage1flex-parse.o stage1flex-regex.o stage1flex-scanflags.o stage1flex-scanopt.o stage1flex-skel.o stage1flex-sym.o stage1flex-tables.o stage1flex-tables_shared.o stage1flex-tblcmp.o stage1flex-yylex.o  -lstdc++ -lm
+./stage1flex   -o stage1scan.c /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/scan.l
+/usr/bin/gcc -DHAVE_CONFIG_H -I. -I/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src  -DLOCALEDIR=\"/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale\"    -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -MT flex-stage1scan.o -MD -MP -MF .deps/flex-stage1scan.Tpo -c -o flex-stage1scan.o `test -f 'stage1scan.c' || echo '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/'`stage1scan.c
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/scan.l: In function 'flexscan':
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/scan.l:77:9: warning: '__builtin_strncpy' specified bound 2048 equals destination size [-Wstringop-truncation]
+   77 |         strncpy( nmstr, yytext, sizeof(nmstr) ); \
+      |         ^~~~~~~
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/scan.l:786:8: note: in expansion of macro 'RETURNNAME'
+  786 |         .               {
+      | ^       ~~~~~~~~~~~~~~~~~     
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/scan.l:699:24: warning: '__builtin_strncpy' specified bound 2048 equals destination size [-Wstringop-truncation]
+  699 |                          }
+      |                 ^       
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/scan.l:641:25: warning: '__builtin_strncpy' specified bound 2048 equals destination size [-Wstringop-truncation]
+  641 |                          }
+      |                         ^
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/scan.l:464:25: warning: '__builtin_strncpy' specified bound 2048 equals destination size [-Wstringop-truncation]
+  464 |                          }
+      |                         ^
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/scan.l:322:17: warning: '__builtin_strncpy' specified bound 2048 equals destination size [-Wstringop-truncation]
+  322 |                          }
+      |                 ^
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/scan.l:77:9: warning: '__builtin_strncpy' specified bound 2048 equals destination size [-Wstringop-truncation]
+   77 |         strncpy( nmstr, yytext, sizeof(nmstr) ); \
+      |         ^~~~~~~
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/scan.l:223:8: note: in expansion of macro 'RETURNNAME'
+  223 |         ^{OPTWS}{NL}    ++linenum; /* allows blank lines in section 1 */
+      | ^       ~~~~~~~~~
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/scan.l:211:25: warning: '__builtin_strncpy' specified bound 2048 equals destination size [-Wstringop-truncation]
+  211 |                          }
+      |                         ^
+mv -f .deps/flex-stage1scan.Tpo .deps/flex-stage1scan.Po
+/bin/sh ../libtool  --tag=CC   --mode=link /usr/bin/gcc   -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted  -Wl,-no-as-needed -Wl,-z,relro,-z,now -B/usr/bin -pass-exit-codes -Wl,--gc-sections -lstdc++ -lm -o flex flex-buf.o flex-ccl.o flex-dfa.o flex-ecs.o flex-filter.o flex-gen.o flex-main.o flex-misc.o flex-nfa.o flex-options.o flex-parse.o flex-regex.o flex-scanflags.o flex-scanopt.o flex-skel.o flex-sym.o flex-tables.o flex-tables_shared.o flex-tblcmp.o flex-yylex.o flex-stage1scan.o   -lm 
+libtool: link: /usr/bin/gcc -U_FORTIFY_SOURCE -fstack-protector -Wall -Wunused-but-set-parameter -Wno-free-nonheap-object -fno-omit-frame-pointer -g0 -O2 -D_FORTIFY_SOURCE=1 -DNDEBUG -ffunction-sections -fdata-sections -fno-canonical-system-headers -Wno-builtin-macro-redefined -D__DATE__=redacted -D__TIMESTAMP__=redacted -D__TIME__=redacted -Wl,-no-as-needed -Wl,-z -Wl,relro -Wl,-z -Wl,now -B/usr/bin -pass-exit-codes -Wl,--gc-sections -o flex flex-buf.o flex-ccl.o flex-dfa.o flex-ecs.o flex-filter.o flex-gen.o flex-main.o flex-misc.o flex-nfa.o flex-options.o flex-parse.o flex-regex.o flex-scanflags.o flex-scanopt.o flex-skel.o flex-sym.o flex-tables.o flex-tables_shared.o flex-tblcmp.o flex-yylex.o flex-stage1scan.o  -lstdc++ -lm
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/src'
+make[1]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/src'
+Making all in doc
+make[1]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/doc'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/doc'
+Making all in examples
+make[1]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/examples'
+Making all in manual
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/examples/manual'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/examples/manual'
+Making all in fastwc
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/examples/fastwc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/examples/fastwc'
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/examples'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/examples'
+make[1]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/examples'
+Making all in po
+make[1]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/po'
+make[1]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/po'
+Making all in tests
+make[1]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/tests'
+Makefile:2917: warning: ignoring prerequisites on suffix rule definition
+Makefile:2920: warning: ignoring prerequisites on suffix rule definition
+Makefile:2947: warning: ignoring prerequisites on suffix rule definition
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/tests'
+Making all in tools
+make[1]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/tools'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/tools'
+make[1]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir'
++ /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/rules_foreign_cc/toolchains/make/bin/make install
+Making install in src
+make[1]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/src'
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/src'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libfl.la '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/lib'
+libtool: install: /usr/bin/install -c .libs/libfl.so.2.0.0 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/lib/libfl.so.2.0.0
+libtool: install: (cd /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/lib && { ln -s -f libfl.so.2.0.0 libfl.so.2 || { rm -f libfl.so.2 && ln -s libfl.so.2.0.0 libfl.so.2; }; })
+libtool: install: (cd /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/lib && { ln -s -f libfl.so.2.0.0 libfl.so || { rm -f libfl.so && ln -s libfl.so.2.0.0 libfl.so; }; })
+libtool: install: /usr/bin/install -c .libs/libfl.lai /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/lib/libfl.la
+libtool: install: /usr/bin/install -c .libs/libfl.a /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/lib/libfl.a
+libtool: install: chmod 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/lib/libfl.a
+libtool: install: : /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/lib/libfl.a
+libtool: finish: PATH="/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.ext_build_deps/bin:/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata:/home/rmartine/.cache/bazelisk/downloads/sha256/3d144b890b85d95fb13df941bfd010fc3628e9afaa4c85e7d1a002e4fd02b249/bin:/opt/powerview:/home/rmartine/.local/bin:/home/rmartine/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.ext_build_deps/bin/toolchains:/sbin" ldconfig -n /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c flex '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/bin'
+libtool: install: /usr/bin/install -c flex /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/bin/flex
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/include'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/src/FlexLexer.h '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/include'
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/src'
+make[1]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/src'
+Making install in doc
+make[1]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/doc'
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/info'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/doc/flex.info /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/doc/flex.info-1 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/doc/flex.info-2 '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/info'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/man/man1'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/doc/flex.1 '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/man/man1'
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/doc'
+make[1]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/doc'
+Making install in examples
+make[1]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/examples'
+Making install in manual
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/examples/manual'
+make[3]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/examples/manual'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/examples/manual'
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/examples/manual'
+Making install in fastwc
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/examples/fastwc'
+make[3]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/examples/fastwc'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/examples/fastwc'
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/examples/fastwc'
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/examples'
+make[3]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/examples'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/examples'
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/examples'
+make[1]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/examples'
+Making install in po
+make[1]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/po'
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/po/ca.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale/ca/LC_MESSAGES/flex.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/po/da.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale/da/LC_MESSAGES/flex.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/po/de.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale/de/LC_MESSAGES/flex.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/po/en@quot.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale/en@quot/LC_MESSAGES/flex.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/po/en@boldquot.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale/en@boldquot/LC_MESSAGES/flex.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/po/eo.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale/eo/LC_MESSAGES/flex.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/po/es.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale/es/LC_MESSAGES/flex.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/po/fi.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale/fi/LC_MESSAGES/flex.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/po/fr.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale/fr/LC_MESSAGES/flex.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/po/ga.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale/ga/LC_MESSAGES/flex.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/po/hr.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale/hr/LC_MESSAGES/flex.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/po/ko.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale/ko/LC_MESSAGES/flex.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/po/nl.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale/nl/LC_MESSAGES/flex.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/po/pl.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale/pl/LC_MESSAGES/flex.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/po/pt_BR.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale/pt_BR/LC_MESSAGES/flex.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/po/ro.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale/ro/LC_MESSAGES/flex.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/po/ru.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale/ru/LC_MESSAGES/flex.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/po/sr.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale/sr/LC_MESSAGES/flex.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/po/sv.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale/sv/LC_MESSAGES/flex.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/po/tr.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale/tr/LC_MESSAGES/flex.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/po/vi.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale/vi/LC_MESSAGES/flex.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/po/zh_CN.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale/zh_CN/LC_MESSAGES/flex.mo
+installing /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/po/zh_TW.gmo as /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/locale/zh_TW/LC_MESSAGES/flex.mo
+if test "flex" = "gettext-tools"; then \
+  /usr/bin/mkdir -p /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/po/$file \
+		    /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/po'
+Making install in tests
+make[1]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/tests'
+Makefile:2917: warning: ignoring prerequisites on suffix rule definition
+Makefile:2920: warning: ignoring prerequisites on suffix rule definition
+Makefile:2947: warning: ignoring prerequisites on suffix rule definition
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/tests'
+Makefile:2917: warning: ignoring prerequisites on suffix rule definition
+Makefile:2920: warning: ignoring prerequisites on suffix rule definition
+Makefile:2947: warning: ignoring prerequisites on suffix rule definition
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/tests'
+make[1]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/tests'
+Making install in tools
+make[1]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/tools'
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/tools'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/tools'
+make[1]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/tools'
+make[1]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir'
+make[2]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir'
+/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/rules_foreign_cc/toolchains/make/bin/make  install-exec-hook
+make[3]: Entering directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir'
+cd /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/bin && \
+	ln -s -f flex flex++
+make[3]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir'
+ /usr/bin/mkdir -p '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/doc/flex'
+ /usr/bin/install -c -m 644 /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/AUTHORS /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/COPYING /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/NEWS /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/ONEWS /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/external/flex/README.md '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir/flex/share/doc/flex'
+make[2]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir'
+make[1]: Leaving directory '/home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2149/execroot/ml_metadata/bazel-out/host/bin/external/com_google_zetasql/bazel/flex.build_tmpdir'
++ set +x

@@ -1,0 +1,4 @@
+rcsD
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/metrics/v3/libpkg.upb.a
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/metrics/v3/_objs/pkg.upb/metrics_service.upb.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/metrics/v3/_objs/pkg.upb/stats.upb.o

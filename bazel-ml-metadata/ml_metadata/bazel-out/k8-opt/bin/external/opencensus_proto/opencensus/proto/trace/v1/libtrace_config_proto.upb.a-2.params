@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/opencensus_proto/opencensus/proto/trace/v1/libtrace_config_proto.upb.a
+bazel-out/k8-opt/bin/external/opencensus_proto/opencensus/proto/trace/v1/_objs/trace_config_proto.upb/trace_config.upb.o

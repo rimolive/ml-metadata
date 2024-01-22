@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/libchannel_stack_type.a
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/channel_stack_type/channel_stack_type.o

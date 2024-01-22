@@ -1,0 +1,4 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/resolved_ast/libsql_builder.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/resolved_ast/_objs/sql_builder/query_expression.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/resolved_ast/_objs/sql_builder/sql_builder.o

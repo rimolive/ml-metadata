@@ -1,0 +1,59 @@
+1705851276.231044859: src/main/tools/linux-sandbox.cc:152: calling pipe(2)...
+1705851276.231089135: src/main/tools/linux-sandbox.cc:171: calling clone(2)...
+1705851276.231466418: src/main/tools/linux-sandbox.cc:180: linux-sandbox-pid1 has PID 330498
+1705851276.231504114: src/main/tools/linux-sandbox-pid1.cc:650: Pid1Main started
+1705851276.231622419: src/main/tools/linux-sandbox.cc:197: done manipulating pipes
+1705851276.231740789: src/main/tools/linux-sandbox-pid1.cc:269: working dir: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2657/execroot/ml_metadata
+1705851276.231766996: src/main/tools/linux-sandbox-pid1.cc:301: writable: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2657/execroot/ml_metadata
+1705851276.231780316: src/main/tools/linux-sandbox-pid1.cc:301: writable: /tmp
+1705851276.231789541: src/main/tools/linux-sandbox-pid1.cc:301: writable: /dev/shm
+1705851276.231885020: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /
+1705851276.231895774: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev
+1705851276.231903659: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705851276.231912192: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/pts
+1705851276.231920012: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/hugepages
+1705851276.231928104: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /dev/mqueue
+1705851276.231934865: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys
+1705851276.231942396: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/security
+1705851276.231954338: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/cgroup
+1705851276.231962815: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/pstore
+1705851276.231970912: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/firmware/efi/efivars
+1705851276.232008789: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/bpf
+1705851276.232016646: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/config
+1705851276.232024852: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/selinux
+1705851276.232032740: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/debug
+1705851276.232040571: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/kernel/tracing
+1705851276.232048261: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /sys/fs/fuse/connections
+1705851276.232056827: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc
+1705851276.232064526: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705851276.232075074: src/main/tools/linux-sandbox-pid1.cc:391: remount(nullptr, /proc/sys/fs/binfmt_misc, nullptr, 2101281, nullptr) failure (Operation not permitted) ignored
+1705851276.232085930: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /proc/sys/fs/binfmt_misc
+1705851276.232094627: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run
+1705851276.232102394: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000
+1705851276.232111597: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/gvfs
+1705851276.232155789: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/user/1000/doc
+1705851276.232164340: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /run/media/rmartine/TOSHIBA EXT
+1705851276.232174233: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /home
+1705851276.232180574: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot
+1705851276.232187875: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /boot/efi
+1705851276.232195488: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705851276.232201835: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /var/lib/nfs/rpc_pipefs
+1705851276.232214093: src/main/tools/linux-sandbox-pid1.cc:371: remount ro: /mnt/WdMyCloud
+1705851276.232231689: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2657/execroot/ml_metadata
+1705851276.232277167: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/sandbox/linux-sandbox/2657/execroot/ml_metadata
+1705851276.232289887: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /tmp
+1705851276.232296825: src/main/tools/linux-sandbox-pid1.cc:371: remount rw: /dev/shm
+1705851276.232362043: src/main/tools/linux-sandbox-pid1.cc:460: calling fork...
+1705851276.232541784: src/main/tools/linux-sandbox-pid1.cc:490: child started with PID 2
+In member function 'grpc_core::{anonymous}::WeightedTargetLbConfig::ChildConfig& grpc_core::{anonymous}::WeightedTargetLbConfig::ChildConfig::operator=(grpc_core::{anonymous}::WeightedTargetLbConfig::ChildConfig&&)',
+    inlined from 'virtual grpc_core::RefCountedPtr<grpc_core::LoadBalancingPolicy::Config> grpc_core::{anonymous}::WeightedTargetLbFactory::ParseLoadBalancingConfig(const grpc_core::Json&, grpc_error**) const' at external/com_github_grpc_grpc/src/core/ext/filters/client_channel/lb_policy/weighted_target/weighted_target.cc:702:55:
+external/com_github_grpc_grpc/src/core/ext/filters/client_channel/lb_policy/weighted_target/weighted_target.cc:56:10: warning: 'child_config.grpc_core::{anonymous}::WeightedTargetLbConfig::ChildConfig::weight' may be used uninitialized [-Wmaybe-uninitialized]
+   56 |   struct ChildConfig {
+      |          ^~~~~~~~~~~
+external/com_github_grpc_grpc/src/core/ext/filters/client_channel/lb_policy/weighted_target/weighted_target.cc: In member function 'virtual grpc_core::RefCountedPtr<grpc_core::LoadBalancingPolicy::Config> grpc_core::{anonymous}::WeightedTargetLbFactory::ParseLoadBalancingConfig(const grpc_core::Json&, grpc_error**) const':
+external/com_github_grpc_grpc/src/core/ext/filters/client_channel/lb_policy/weighted_target/weighted_target.cc:695:45: note: 'child_config.grpc_core::{anonymous}::WeightedTargetLbConfig::ChildConfig::weight' was declared here
+  695 |         WeightedTargetLbConfig::ChildConfig child_config;
+      |                                             ^~~~~~~~~~~~
+1705851281.032045631: src/main/tools/linux-sandbox-pid1.cc:507: wait returned pid=2, status=0x00
+1705851281.032068375: src/main/tools/linux-sandbox-pid1.cc:525: child exited normally with code 0
+1705851281.032564893: src/main/tools/linux-sandbox.cc:233: child exited normally with code 0

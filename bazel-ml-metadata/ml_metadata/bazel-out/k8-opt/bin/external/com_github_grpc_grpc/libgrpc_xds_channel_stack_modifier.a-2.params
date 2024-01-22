@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/libgrpc_xds_channel_stack_modifier.a
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_xds_channel_stack_modifier/xds_channel_stack_modifier.o

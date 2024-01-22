@@ -1,0 +1,4 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/libjson.a
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/json/json_reader.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/json/json_writer.o

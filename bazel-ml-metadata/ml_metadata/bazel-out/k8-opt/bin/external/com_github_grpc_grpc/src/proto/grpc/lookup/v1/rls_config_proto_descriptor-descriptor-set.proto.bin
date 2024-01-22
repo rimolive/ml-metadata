@@ -1,0 +1,46 @@
+
+˜
+)src/proto/grpc/lookup/v1/rls_config.protogrpc.lookup.v1google/protobuf/duration.proto"\
+NameMatcher
+key (	Rkey
+names (	Rnames%
+required_match (RrequiredMatch"ð
+GrpcKeyBuilder9
+names (2#.grpc.lookup.v1.GrpcKeyBuilder.NameRnamesG
+
+extra_keys (2(.grpc.lookup.v1.GrpcKeyBuilder.ExtraKeysR	extraKeys5
+headers (2.grpc.lookup.v1.NameMatcherRheadersU
+constant_keys (20.grpc.lookup.v1.GrpcKeyBuilder.ConstantKeysEntryRconstantKeys8
+Name
+service (	Rservice
+method (	RmethodQ
+	ExtraKeys
+host (	Rhost
+service (	Rservice
+method (	Rmethod?
+ConstantKeysEntry
+key (	Rkey
+value (	Rvalue:8"ñ
+HttpKeyBuilder#
+host_patterns (	RhostPatterns#
+path_patterns (	RpathPatternsF
+query_parameters (2.grpc.lookup.v1.NameMatcherRqueryParameters5
+headers (2.grpc.lookup.v1.NameMatcherRheadersU
+constant_keys (20.grpc.lookup.v1.HttpKeyBuilder.ConstantKeysEntryRconstantKeys?
+ConstantKeysEntry
+key (	Rkey
+value (	Rvalue:8"¦
+RouteLookupConfigI
+http_keybuilders (2.grpc.lookup.v1.HttpKeyBuilderRhttpKeybuildersI
+grpc_keybuilders (2.grpc.lookup.v1.GrpcKeyBuilderRgrpcKeybuilders%
+lookup_service (	RlookupServiceO
+lookup_service_timeout (2.google.protobuf.DurationRlookupServiceTimeout2
+max_age (2.google.protobuf.DurationRmaxAge6
+	stale_age (2.google.protobuf.DurationRstaleAge(
+cache_size_bytes (RcacheSizeBytes#
+valid_targets (	RvalidTargets%
+default_target	 (	RdefaultTargetJ
+Rrequest_processing_strategy"p
+RouteLookupClusterSpecifierQ
+route_lookup_config (2!.grpc.lookup.v1.RouteLookupConfigRrouteLookupConfigBS
+io.grpc.lookup.v1BRlsConfigProtoPZ,google.golang.org/grpc/lookup/grpc_lookup_v1bproto3

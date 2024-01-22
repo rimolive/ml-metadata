@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_absl/absl/base/libthrow_delegate.a
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_absl/absl/base/_objs/throw_delegate/throw_delegate.o

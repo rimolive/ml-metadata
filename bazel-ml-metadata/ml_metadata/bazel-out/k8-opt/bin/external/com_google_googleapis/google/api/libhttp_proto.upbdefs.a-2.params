@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_googleapis/google/api/libhttp_proto.upbdefs.a
+bazel-out/k8-opt/bin/external/com_google_googleapis/google/api/_objs/http_proto.upbdefs/http.upbdefs.o

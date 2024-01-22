@@ -1,0 +1,12 @@
+
+¦
+#envoy/annotations/deprecation.protoenvoy.annotations google/protobuf/descriptor.proto:T
+disallowed_by_default.google.protobuf.FieldOptionsç­®Z (RdisallowedByDefault:_
+deprecated_at_minor_version.google.protobuf.FieldOptionsòè€K (	RdeprecatedAtMinorVersion:a
+disallowed_by_default_enum!.google.protobuf.EnumValueOptionsõÎ¶! (RdisallowedByDefaultEnum:l
+ deprecated_at_minor_version_enum!.google.protobuf.EnumValueOptionsÁ¾³V (	RdeprecatedAtMinorVersionEnumB:Z8github.com/envoyproxy/go-control-plane/envoy/annotationsbproto3
+¬
+ envoy/annotations/resource.protoenvoy.annotations google/protobuf/descriptor.proto"(
+ResourceAnnotation
+type (	Rtype:e
+resource.google.protobuf.ServiceOptionsÁä²~ (2%.envoy.annotations.ResourceAnnotationRresourceB:Z8github.com/envoyproxy/go-control-plane/envoy/annotationsbproto3

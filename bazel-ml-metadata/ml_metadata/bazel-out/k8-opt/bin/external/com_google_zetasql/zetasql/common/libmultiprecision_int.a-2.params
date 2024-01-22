@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/common/libmultiprecision_int.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/common/_objs/multiprecision_int/multiprecision_int_impl.o

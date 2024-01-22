@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/ml_metadata/query/libfilter_query_ast_resolver.a
+bazel-out/k8-opt/bin/ml_metadata/query/_objs/filter_query_ast_resolver/filter_query_ast_resolver.o

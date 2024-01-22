@@ -1,0 +1,7 @@
+rcsD
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/listener/v3/libpkg.upb.a
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/listener/v3/_objs/pkg.upb/api_listener.upb.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/listener/v3/_objs/pkg.upb/listener.upb.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/listener/v3/_objs/pkg.upb/listener_components.upb.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/listener/v3/_objs/pkg.upb/quic_config.upb.o
+bazel-out/k8-opt/bin/external/envoy_api/envoy/config/listener/v3/_objs/pkg.upb/udp_listener_config.upb.o

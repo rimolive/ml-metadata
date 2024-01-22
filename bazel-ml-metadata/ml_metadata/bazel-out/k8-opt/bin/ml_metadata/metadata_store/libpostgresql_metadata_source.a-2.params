@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/ml_metadata/metadata_store/libpostgresql_metadata_source.a
+bazel-out/k8-opt/bin/ml_metadata/metadata_store/_objs/postgresql_metadata_source/postgresql_metadata_source.o

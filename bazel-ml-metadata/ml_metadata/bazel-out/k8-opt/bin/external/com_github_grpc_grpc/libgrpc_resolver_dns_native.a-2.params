@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/libgrpc_resolver_dns_native.a
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/grpc_resolver_dns_native/dns_resolver.o

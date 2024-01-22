@@ -1,0 +1,16 @@
+rcsD
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_absl/absl/strings/libstrings.a
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_absl/absl/strings/_objs/strings/ascii.o
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_absl/absl/strings/_objs/strings/charconv.o
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_absl/absl/strings/_objs/strings/escaping.o
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_absl/absl/strings/_objs/strings/charconv_bigint.o
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_absl/absl/strings/_objs/strings/charconv_parse.o
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_absl/absl/strings/_objs/strings/damerau_levenshtein_distance.o
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_absl/absl/strings/_objs/strings/memutil.o
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_absl/absl/strings/_objs/strings/stringify_sink.o
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_absl/absl/strings/_objs/strings/match.o
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_absl/absl/strings/_objs/strings/numbers.o
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_absl/absl/strings/_objs/strings/str_cat.o
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_absl/absl/strings/_objs/strings/str_replace.o
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_absl/absl/strings/_objs/strings/str_split.o
+bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_absl/absl/strings/_objs/strings/substitute.o

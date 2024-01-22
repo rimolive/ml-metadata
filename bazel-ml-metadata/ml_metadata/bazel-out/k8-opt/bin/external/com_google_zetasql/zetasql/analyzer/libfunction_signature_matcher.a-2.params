@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/libfunction_signature_matcher.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/_objs/function_signature_matcher/function_signature_matcher.o

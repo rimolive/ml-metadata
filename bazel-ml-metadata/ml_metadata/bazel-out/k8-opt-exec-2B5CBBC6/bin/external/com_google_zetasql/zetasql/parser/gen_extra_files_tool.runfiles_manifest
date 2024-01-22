@@ -1,0 +1,14 @@
+__init__.py 
+bazel_tools/tools/python/py3wrapper.sh /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/bazel_tools/tools/python/py3wrapper.sh
+com_google_zetasql/__init__.py 
+com_google_zetasql/zetasql/__init__.py 
+com_google_zetasql/zetasql/parser/__init__.py 
+com_google_zetasql/zetasql/parser/gen_extra_files.py /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/external/com_google_zetasql/zetasql/parser/gen_extra_files.py
+com_google_zetasql/zetasql/parser/gen_extra_files_tool /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_zetasql/zetasql/parser/gen_extra_files_tool
+ml_metadata/external/__init__.py 
+ml_metadata/external/bazel_tools/tools/python/py3wrapper.sh /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/bazel_tools/tools/python/py3wrapper.sh
+ml_metadata/external/com_google_zetasql/__init__.py 
+ml_metadata/external/com_google_zetasql/zetasql/__init__.py 
+ml_metadata/external/com_google_zetasql/zetasql/parser/__init__.py 
+ml_metadata/external/com_google_zetasql/zetasql/parser/gen_extra_files.py /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/external/com_google_zetasql/zetasql/parser/gen_extra_files.py
+ml_metadata/external/com_google_zetasql/zetasql/parser/gen_extra_files_tool /home/rmartine/.cache/bazel/_bazel_rmartine/4e0fce1d7533a173497e9e40c7131c44/execroot/ml_metadata/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/com_google_zetasql/zetasql/parser/gen_extra_files_tool

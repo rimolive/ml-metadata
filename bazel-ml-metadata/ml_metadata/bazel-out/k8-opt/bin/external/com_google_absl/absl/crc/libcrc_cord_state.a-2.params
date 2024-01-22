@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_absl/absl/crc/libcrc_cord_state.a
+bazel-out/k8-opt/bin/external/com_google_absl/absl/crc/_objs/crc_cord_state/crc_cord_state.o

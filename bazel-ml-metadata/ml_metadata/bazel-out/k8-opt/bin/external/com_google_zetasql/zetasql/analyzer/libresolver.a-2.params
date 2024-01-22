@@ -1,0 +1,14 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/libresolver.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/_objs/resolver/analytic_function_resolver.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/_objs/resolver/column_cycle_detector.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/_objs/resolver/expr_resolver_helper.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/_objs/resolver/function_resolver.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/_objs/resolver/query_resolver_helper.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/_objs/resolver/recursive_queries.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/_objs/resolver/resolver.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/_objs/resolver/resolver_alter_stmt.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/_objs/resolver/resolver_dml.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/_objs/resolver/resolver_expr.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/_objs/resolver/resolver_query.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/_objs/resolver/resolver_stmt.o

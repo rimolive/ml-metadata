@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/libanalyzer_impl.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/analyzer/_objs/analyzer_impl/analyzer_impl.o

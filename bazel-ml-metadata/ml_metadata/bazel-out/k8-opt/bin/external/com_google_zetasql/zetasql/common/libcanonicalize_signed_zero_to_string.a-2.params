@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/common/libcanonicalize_signed_zero_to_string.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/common/_objs/canonicalize_signed_zero_to_string/canonicalize_signed_zero_to_string.o

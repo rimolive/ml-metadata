@@ -1,0 +1,10 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/libalts_util.a
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/alts_util/check_gcp_environment.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/alts_util/check_gcp_environment_linux.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/alts_util/check_gcp_environment_no_op.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/alts_util/check_gcp_environment_windows.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/alts_util/grpc_alts_credentials_client_options.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/alts_util/grpc_alts_credentials_options.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/alts_util/grpc_alts_credentials_server_options.o
+bazel-out/k8-opt/bin/external/com_github_grpc_grpc/_objs/alts_util/transport_security_common_api.o

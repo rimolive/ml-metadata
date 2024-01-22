@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/ml_metadata/metadata_store/liblist_operation_query_helper.a
+bazel-out/k8-opt/bin/ml_metadata/metadata_store/_objs/list_operation_query_helper/list_operation_query_helper.o

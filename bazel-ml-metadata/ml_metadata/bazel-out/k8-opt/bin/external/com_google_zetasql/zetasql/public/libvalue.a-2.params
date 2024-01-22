@@ -1,0 +1,4 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/libvalue.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/_objs/value/proto_util.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/public/_objs/value/value.o

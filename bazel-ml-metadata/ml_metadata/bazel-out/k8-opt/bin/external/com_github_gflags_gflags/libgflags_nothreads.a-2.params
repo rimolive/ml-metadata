@@ -1,0 +1,5 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_github_gflags_gflags/libgflags_nothreads.a
+bazel-out/k8-opt/bin/external/com_github_gflags_gflags/_objs/gflags_nothreads/gflags.o
+bazel-out/k8-opt/bin/external/com_github_gflags_gflags/_objs/gflags_nothreads/gflags_completions.o
+bazel-out/k8-opt/bin/external/com_github_gflags_gflags/_objs/gflags_nothreads/gflags_reporting.o

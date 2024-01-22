@@ -1,0 +1,5 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/parser/libbison_parser_generated_lib.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/parser/_objs/bison_parser_generated_lib/bison_parser.bison.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/parser/_objs/bison_parser_generated_lib/flex_tokenizer.flex.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/parser/_objs/bison_parser_generated_lib/join_processor.o

@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/resolved_ast/libresolved_node_kind_proto.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/resolved_ast/_objs/resolved_node_kind_proto/resolved_node_kind.pb.o

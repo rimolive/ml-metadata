@@ -1,0 +1,8 @@
+rcsD
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/resolved_ast/libresolved_ast.a
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/resolved_ast/_objs/resolved_ast/resolved_ast.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/resolved_ast/_objs/resolved_ast/resolved_ast_deep_copy_visitor.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/resolved_ast/_objs/resolved_ast/resolved_ast_helper.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/resolved_ast/_objs/resolved_ast/resolved_collation.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/resolved_ast/_objs/resolved_ast/resolved_column.o
+bazel-out/k8-opt/bin/external/com_google_zetasql/zetasql/resolved_ast/_objs/resolved_ast/resolved_node.o

@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/external/upb/libmini_table.a
+bazel-out/k8-opt/bin/external/upb/_objs/mini_table/mini_table.o
