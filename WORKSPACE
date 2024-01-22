@@ -43,17 +43,19 @@ rules_foreign_cc_dependencies()
 
 http_archive(
     name = "com_google_absl",
-    urls = ["https://github.com/abseil/abseil-cpp/archive/940c06c25d2953f44310b68eb8aab6114dba11fb.zip"],
-    strip_prefix = "abseil-cpp-940c06c25d2953f44310b68eb8aab6114dba11fb",
-    sha256 = "0e800799aa64d0b4d354f3ff317bbd5fbf42f3a522ab0456bb749fc8d3b67415",
+    sha256 = "59d2976af9d6ecf001a81a35749a6e551a335b949d34918cfade07737b9d93c5",
+    strip_prefix = "abseil-cpp-20230802.0",
+    urls = [
+        "https://github.com/abseil/abseil-cpp/archive/refs/tags/20230802.0.tar.gz"
+    ],
 )
 
 http_archive(
     name = "boringssl",
-    sha256 = "1188e29000013ed6517168600fc35a010d58c5d321846d6a6dfee74e4c788b45",
-    strip_prefix = "boringssl-7f634429a04abc48e2eb041c81c5235816c96514",
+    sha256 = "f69738ca17f1dd30ae3ddb1fa7519245044737d27c8a3defa7a94718d9dfd724",
+    strip_prefix = "boringssl-68dcc7f7b816e199c8f373ea0a2d6a4e1f526e2d",
     urls = [
-        "https://github.com/google/boringssl/archive/7f634429a04abc48e2eb041c81c5235816c96514.tar.gz",
+        "https://github.com/google/boringssl/archive/68dcc7f7b816e199c8f373ea0a2d6a4e1f526e2d.tar.gz",
     ],
 )
 
@@ -122,9 +124,9 @@ protobuf_deps()
 http_archive(
     name = "zlib",
     build_file = "@com_google_protobuf//:third_party/zlib.BUILD",
-    sha256 = "d8688496ea40fb61787500e863cc63c9afcbc524468cedeb478068924eb54932",
-    strip_prefix = "zlib-1.2.12",
-    urls = ["https://github.com/madler/zlib/archive/v1.2.12.tar.gz"],
+    sha256 = "ff0ba4c292013dbc27530b3a81e1f9a813cd39de01ca5e0f8bf355702efa593e",
+    strip_prefix = "zlib-1.3",
+    urls = ["https://zlib.net/zlib-1.3.tar.gz"],
 )
 
 http_archive(
